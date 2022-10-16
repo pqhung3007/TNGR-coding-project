@@ -19,6 +19,10 @@ Objects {
   ChildIds: 10005074784157121906
   ChildIds: 14982843161775482339
   ChildIds: 5910374783555803549
+  ChildIds: 1259590230096845021
+  ChildIds: 15284133250939641457
+  ChildIds: 12348510653817997164
+  ChildIds: 15836545660190416189
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -31,6 +35,226 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Folder {
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 15836545660190416189
+  Name: "Animated Neon Sign - Basketball Score"
+  Transform {
+    Location {
+      X: -250
+      Y: -150
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 15301588102099601118
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 12348510653817997164
+  Name: "UI Container"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Control {
+    RenderTransformPivot {
+      Anchor {
+        Value: "mc:euianchor:middlecenter"
+      }
+    }
+    Canvas {
+      ContentType {
+        Value: "mc:ecanvascontenttype:dynamic"
+      }
+      Opacity: 1
+      IsHUD: true
+      CanvasWorldSize {
+        X: 1024
+        Y: 1024
+      }
+      RedrawTime: 30
+      UseSafeZoneAdjustment: true
+    }
+    AnchorLayout {
+      SelfAnchor {
+        Anchor {
+          Value: "mc:euianchor:topleft"
+        }
+      }
+      TargetAnchor {
+        Anchor {
+          Value: "mc:euianchor:topleft"
+        }
+      }
+    }
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 15284133250939641457
+  Name: "Ball - Volleyball 01"
+  Transform {
+    Location {
+      X: 50
+      Y: 500
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 9396205968325791051
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 1259590230096845021
+  Name: "Ball - Soccer 01"
+  Transform {
+    Location {
+      X: 300
+      Y: 450
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 362233263333674445
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
