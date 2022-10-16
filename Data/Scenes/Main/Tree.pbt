@@ -23,6 +23,7 @@ Objects {
   ChildIds: 15284133250939641457
   ChildIds: 12348510653817997164
   ChildIds: 15836545660190416189
+  ChildIds: 14014149965663725938
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -40,6 +41,39 @@ Objects {
     Value: "mc:eproxyrelevance:critical"
   }
   IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 14014149965663725938
+  Name: "Craftsman House 01"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 6777927257701341868
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Craftsman House 01"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 400
+            Y: 50
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 4793369281785290478
+    }
+  }
 }
 Objects {
   Id: 15836545660190416189
