@@ -62,6 +62,33 @@ Assets {
   }
 }
 Assets {
+  Id: 5192154625567753900
+  Name: "Craftsman Wall 02 Window 3x"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_urb_sub_craftsman_wall_002_window3x"
+  }
+}
+Assets {
+  Id: 719427419333127896
+  Name: "Craftsman Wall 03"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_urb_sub_craftsman_wall_003"
+  }
+}
+Assets {
+  Id: 453487308539368474
+  Name: "Craftsman Wall 02"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_urb_sub_craftsman_wall_002"
+  }
+}
+Assets {
   Id: 362233263333674445
   Name: "Ball - Soccer 01"
   PlatformAssetType: 1
