@@ -62,6 +62,24 @@ Assets {
   }
 }
 Assets {
+  Id: 4870258382430590448
+  Name: "Humanoid 1 Rig"
+  PlatformAssetType: 25
+  PrimaryAsset {
+    AssetType: "SkeletonAssetRef"
+    AssetId: "npc_gal_wireframe_001_ref"
+  }
+}
+Assets {
+  Id: 874218822986883222
+  Name: "Humanoid 1 Cassidy"
+  PlatformAssetType: 26
+  PrimaryAsset {
+    AssetType: "SkinnedMeshAssetRef"
+    AssetId: "npc_human_gal_head_basic_001_ref"
+  }
+}
+Assets {
   Id: 362233263333674445
   Name: "Ball - Soccer 01"
   PlatformAssetType: 1

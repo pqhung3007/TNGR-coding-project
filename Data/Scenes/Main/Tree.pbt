@@ -23,7 +23,7 @@ Objects {
   ChildIds: 15284133250939641457
   ChildIds: 12348510653817997164
   ChildIds: 15836545660190416189
-  ChildIds: 14014149965663725938
+  ChildIds: 10077602413208748604
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -43,9 +43,16 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 14014149965663725938
-  Name: "Craftsman House 01"
+  Id: 10077602413208748604
+  Name: "Humanoid 1 Rig"
   Transform {
+    Location {
+      X: 1200
+      Y: 150
+      Z: 105
+    }
+    Rotation {
+    }
     Scale {
       X: 1
       Y: 1
@@ -53,27 +60,55 @@ Objects {
     }
   }
   ParentId: 4781671109827199097
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 6777927257701341868
-      value {
-        Overrides {
-          Name: "Name"
-          String: "Craftsman House 01"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: 400
-            Y: 50
-          }
-        }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 4870258382430590448
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    AnimatedMesh {
+      AnimationStance: "unarmed_idle_relaxed"
+      AnimationStancePlaybackRate: 1
+      AnimationStanceShouldLoop: true
+      AnimationPlaybackRateMultiplier: 1
+      PlayOnStartAnimation {
+        PlaybackRate: 1
+      }
+      SkinnedMeshes {
+        Id: 874218822986883222
+      }
+      SkinnedMeshes {
+        Id: 841534158063459245
+      }
+      SkinnedMeshes {
+        Id: 841534158063459245
+      }
+      SkinnedMeshes {
+        Id: 841534158063459245
       }
     }
-    TemplateAsset {
-      Id: 4793369281785290478
-    }
   }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
 }
 Objects {
   Id: 15836545660190416189
