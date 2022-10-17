@@ -17,17 +17,10 @@ Objects {
   ChildIds: 9086936746104183945
   ChildIds: 16813558807825262224
   ChildIds: 10005074784157121906
-  ChildIds: 14982843161775482339
-  ChildIds: 5910374783555803549
-  ChildIds: 1259590230096845021
-  ChildIds: 15284133250939641457
   ChildIds: 12348510653817997164
-  ChildIds: 15836545660190416189
-  ChildIds: 10077602413208748604
-  ChildIds: 14014149965663725938
-  ChildIds: 1879515200578445650
-  ChildIds: 11098517523471886231
-  ChildIds: 14554333914661986693
+  ChildIds: 15365133646579625573
+  ChildIds: 16040886457788399817
+  ChildIds: 9035363666129448383
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -47,17 +40,13 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 10077602413208748604
-  Name: "Humanoid 1 Rig"
-  Id: 14554333914661986693
-  Name: "Craftsman Wall 02"
+  Id: 9035363666129448383
+  Name: "Terrain"
   Transform {
     Location {
-      X: -1700
-      Y: 900
+      Z: -1300
     }
     Rotation {
-      Yaw: 90
     }
     Scale {
       X: 1
@@ -67,7 +56,7 @@ Objects {
   }
   ParentId: 4781671109827199097
   Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
+    Value: "mc:ecollisionsetting:forceon"
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
@@ -78,24 +67,14 @@ Objects {
   EditorIndicatorVisibility {
     Value: "mc:eindicatorvisibility:visiblewhenselected"
   }
-  CoreMesh {
-    MeshAsset {
-      Id: 453487308539368474
+  Terrain {
+    Material {
+      Id: 841534158063459245
     }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-      BoundsScale: 1
-    }
-  }
-  Relevance {
-    Value: "mc:eproxyrelevance:critical"
+    VoxelSize: 75
+    OctreeDepth: 5
+    GeneratorID: "DEPRECATED"
+    MaxLOD: 32
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
@@ -103,15 +82,12 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 11098517523471886231
-  Name: "Craftsman Wall 03"
+  Id: 16040886457788399817
+  Name: "Terrain"
   Transform {
     Location {
-      X: -900
-      Y: 900
     }
     Rotation {
-      Yaw: 180
     }
     Scale {
       X: 1
@@ -121,7 +97,7 @@ Objects {
   }
   ParentId: 4781671109827199097
   Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
+    Value: "mc:ecollisionsetting:forceoff"
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
@@ -132,24 +108,14 @@ Objects {
   EditorIndicatorVisibility {
     Value: "mc:eindicatorvisibility:visiblewhenselected"
   }
-  CoreMesh {
-    MeshAsset {
-      Id: 719427419333127896
+  Terrain {
+    Material {
+      Id: 9725022851346930845
     }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-      BoundsScale: 1
-    }
-  }
-  Relevance {
-    Value: "mc:eproxyrelevance:critical"
+    VoxelSize: 100
+    OctreeDepth: 5
+    GeneratorID: "DEPRECATED"
+    MaxLOD: 32
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
@@ -157,15 +123,9 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 1879515200578445650
-  Name: "Craftsman Wall 02 Window 3x"
+  Id: 15365133646579625573
+  Name: "Abandonded School Building - Core Survival Kit"
   Transform {
-    Location {
-      X: -1750
-      Y: 1700
-    }
-    Rotation {
-    }
     Scale {
       X: 1
       Y: 1
@@ -173,162 +133,28 @@ Objects {
     }
   }
   ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 5192154625567753900
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-      BoundsScale: 1
-    }
-  }
-  Relevance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  IsReplicationEnabledByDefault: true
-}
-Objects {
-  Id: 14014149965663725938
-  Name: "Craftsman House 01"
-  Transform {
-    Location {
-      X: 1200
-      Y: 150
-      Z: 105
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 4870258382430590448
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    AnimatedMesh {
-      AnimationStance: "unarmed_idle_relaxed"
-      AnimationStancePlaybackRate: 1
-      AnimationStanceShouldLoop: true
-      AnimationPlaybackRateMultiplier: 1
-      PlayOnStartAnimation {
-        PlaybackRate: 1
-      }
-      SkinnedMeshes {
-        Id: 874218822986883222
-      }
-      SkinnedMeshes {
-        Id: 841534158063459245
-      }
-      SkinnedMeshes {
-        Id: 841534158063459245
-      }
-      SkinnedMeshes {
-        Id: 841534158063459245
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 3000906292806675005
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Abandonded School Building - Core Survival Kit"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -1850
+            Y: -4100
+            Z: 50
+          }
+        }
       }
     }
-  }
-  Relevance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  IsReplicationEnabledByDefault: true
-}
-Objects {
-  Id: 15836545660190416189
-  Name: "Animated Neon Sign - Basketball Score"
-  Transform {
-    Location {
-      X: -250
-      Y: -150
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
+    TemplateAsset {
+      Id: 2941581270224953448
     }
   }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 15301588102099601118
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-      BoundsScale: 1
-    }
-  }
-  Relevance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  IsReplicationEnabledByDefault: true
 }
 Objects {
   Id: 12348510653817997164
@@ -388,216 +214,6 @@ Objects {
         }
       }
     }
-  }
-  IsReplicationEnabledByDefault: true
-}
-Objects {
-  Id: 15284133250939641457
-  Name: "Ball - Volleyball 01"
-  Transform {
-    Location {
-      X: 50
-      Y: 500
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 9396205968325791051
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-      BoundsScale: 1
-    }
-  }
-  Relevance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  IsReplicationEnabledByDefault: true
-}
-Objects {
-  Id: 1259590230096845021
-  Name: "Ball - Soccer 01"
-  Transform {
-    Location {
-      X: 300
-      Y: 450
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 362233263333674445
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-      BoundsScale: 1
-    }
-  }
-  Relevance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  IsReplicationEnabledByDefault: true
-}
-Objects {
-  Id: 5910374783555803549
-  Name: "Ball"
-  Transform {
-    Location {
-      X: 100
-      Y: 300
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 5904447790963745473
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-      BoundsScale: 1
-    }
-  }
-  Relevance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  IsReplicationEnabledByDefault: true
-}
-Objects {
-  Id: 14982843161775482339
-  Name: "Default Floor"
-  Transform {
-    Location {
-      X: -150
-      Z: -50
-    }
-    Rotation {
-    }
-    Scale {
-      X: 50
-      Y: 50
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  UnregisteredParameters {
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 12095835209017042614
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    InteractWithTriggers: true
-    StaticMesh {
-      Physics {
-      }
-      BoundsScale: 1
-    }
-  }
-  Relevance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
   }
   IsReplicationEnabledByDefault: true
 }
@@ -973,7 +589,9 @@ Objects {
   Name: "Spawn Point"
   Transform {
     Location {
-      Z: 115
+      X: 250
+      Y: -5200
+      Z: 817.124756
     }
     Rotation {
     }
