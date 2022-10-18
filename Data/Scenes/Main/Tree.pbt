@@ -17,6 +17,9 @@ Objects {
   ChildIds: 9086936746104183945
   ChildIds: 16813558807825262224
   ChildIds: 10005074784157121906
+  ChildIds: 17392201549360846976
+  ChildIds: 9910138703604929605
+  ChildIds: 6486658393631082521
   ChildIds: 12348510653817997164
   ChildIds: 15365133646579625573
   ChildIds: 16040886457788399817
@@ -216,6 +219,84 @@ Objects {
     }
   }
   IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 6486658393631082521
+  Name: "Sky Sci-fi 01"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 12743596547252287504
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Sky Sci-fi 01"
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 10141857677479619687
+    }
+  }
+}
+Objects {
+  Id: 9910138703604929605
+  Name: "Sky Nighttime 01"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 13664821734768608629
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Sky Nighttime 01"
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 6432226688243062101
+    }
+  }
+}
+Objects {
+  Id: 17392201549360846976
+  Name: "Sky Early Morning 01"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 51842692516367270
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Sky Early Morning 01"
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 11193280314612290359
+    }
+  }
 }
 Objects {
   Id: 10005074784157121906
