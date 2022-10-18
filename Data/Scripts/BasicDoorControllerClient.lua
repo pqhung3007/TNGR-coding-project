@@ -23,6 +23,7 @@ local CLOSE_SOUND = script:GetCustomProperty("CloseSound"):WaitForObject()
 -- Variable
 local previousRotation = 0.0
 
+
 -- float GetDoorRotation()
 -- Gives you the current rotation of the door
 function GetDoorRotation()

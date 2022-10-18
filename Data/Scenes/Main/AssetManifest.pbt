@@ -8,6 +8,15 @@ Assets {
   }
 }
 Assets {
+  Id: 16622348922627441717
+  Name: "Cabinet - Upper"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_urb_cabinet_001"
+  }
+}
+Assets {
   Id: 11515840070784317904
   Name: "Skylight"
   PlatformAssetType: 6
