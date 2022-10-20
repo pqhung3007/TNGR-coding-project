@@ -1,45 +1,27 @@
 Assets {
-  Id: 16910278292812118833
-  Name: "Sun Light"
-  PlatformAssetType: 6
-  PrimaryAsset {
-    AssetType: "BlueprintAssetRef"
-    AssetId: "CORESKY_SunLight"
-  }
-}
-Assets {
-  Id: 16622348922627441717
-  Name: "Cabinet - Upper"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_urb_cabinet_001"
-  }
-}
-Assets {
-  Id: 11515840070784317904
-  Name: "Skylight"
-  PlatformAssetType: 6
-  PrimaryAsset {
-    AssetType: "BlueprintAssetRef"
-    AssetId: "CORESKY_Skylight"
-  }
-}
-Assets {
-  Id: 9725022851346930845
-  Name: "Camouflage - Woodland"
+  Id: 9945527541184209781
+  Name: "Composite Triplanar Blend"
   PlatformAssetType: 2
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
-    AssetId: "camo_woodland_001"
+    AssetId: "mi_composite_triplanar_wa"
   }
 }
 Assets {
-  Id: 7887238662729938253
-  Name: "Sky Dome"
-  PlatformAssetType: 6
+  Id: 5549616407826269488
+  Name: "Whitebox Floor 01 4m x 4m"
+  PlatformAssetType: 1
   PrimaryAsset {
-    AssetType: "BlueprintAssetRef"
-    AssetId: "CORESKY_Sky"
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ts_gen_whitebox_floor_001_4x4"
+  }
+}
+Assets {
+  Id: 3331292712769646547
+  Name: "Racing Flag - Square - Edge"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_flags_racing_sqr_001_ref"
   }
 }
