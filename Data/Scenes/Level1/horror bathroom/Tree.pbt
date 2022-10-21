@@ -22,7 +22,7 @@ Objects {
     Overrides {
       Name: "ma:Building_Floor:id"
       AssetReference {
-        Id: 14491267291911834448
+        Id: 10206170809700598204
       }
     }
     Overrides {
@@ -98,7 +98,7 @@ Objects {
     Overrides {
       Name: "ma:Building_Floor:id"
       AssetReference {
-        Id: 14491267291911834448
+        Id: 10206170809700598204
       }
     }
     Overrides {
@@ -174,7 +174,7 @@ Objects {
     Overrides {
       Name: "ma:Building_Floor:id"
       AssetReference {
-        Id: 14491267291911834448
+        Id: 10206170809700598204
       }
     }
     Overrides {
@@ -252,7 +252,7 @@ Objects {
     Overrides {
       Name: "ma:Building_Floor:id"
       AssetReference {
-        Id: 14491267291911834448
+        Id: 10206170809700598204
       }
     }
   }
@@ -494,7 +494,7 @@ Objects {
     Overrides {
       Name: "ma:Building_Floor:id"
       AssetReference {
-        Id: 14491267291911834448
+        Id: 10206170809700598204
       }
     }
   }
@@ -559,7 +559,7 @@ Objects {
     Overrides {
       Name: "ma:Building_Floor:id"
       AssetReference {
-        Id: 14491267291911834448
+        Id: 10206170809700598204
       }
     }
   }
@@ -1295,8 +1295,8 @@ Objects {
     Intensity: 1.6730417
     Color {
       R: 1
-      G: 0.945894063
-      B: 0.57
+      G: 0.963576198
+      B: 0.75
       A: 1
     }
     VolumetricIntensity: 5
@@ -1364,8 +1364,8 @@ Objects {
     Intensity: 1.6730417
     Color {
       R: 1
-      G: 0.945894063
-      B: 0.57
+      G: 0.963576198
+      B: 0.75
       A: 1
     }
     VolumetricIntensity: 5
@@ -1433,8 +1433,8 @@ Objects {
     Intensity: 1.6730417
     Color {
       R: 1
-      G: 0.945894063
-      B: 0.57
+      G: 0.963576198
+      B: 0.75
       A: 1
     }
     VolumetricIntensity: 5
@@ -1499,8 +1499,8 @@ Objects {
       Name: "ma:Building_WallInner2:color"
       Color {
         R: 1
-        G: 1
-        B: 1
+        G: 0.800331116
+        B: 0.55
         A: 1
       }
     }
@@ -1586,8 +1586,8 @@ Objects {
       Name: "ma:Building_WallInner2:color"
       Color {
         R: 1
-        G: 1
-        B: 1
+        G: 0.800331116
+        B: 0.55
         A: 1
       }
     }
@@ -1673,8 +1673,8 @@ Objects {
       Name: "ma:Building_WallInner2:color"
       Color {
         R: 1
-        G: 1
-        B: 1
+        G: 0.800331116
+        B: 0.55
         A: 1
       }
     }
@@ -1760,8 +1760,8 @@ Objects {
       Name: "ma:Building_WallInner2:color"
       Color {
         R: 1
-        G: 1
-        B: 1
+        G: 0.800331116
+        B: 0.55
         A: 1
       }
     }
@@ -1846,8 +1846,8 @@ Objects {
       Name: "ma:Building_WallInner2:color"
       Color {
         R: 1
-        G: 1
-        B: 1
+        G: 0.800331116
+        B: 0.55
         A: 1
       }
     }
@@ -1931,8 +1931,8 @@ Objects {
       Name: "ma:Building_WallInner2:color"
       Color {
         R: 1
-        G: 1
-        B: 1
+        G: 0.800331116
+        B: 0.55
         A: 1
       }
     }
@@ -2015,8 +2015,8 @@ Objects {
       Name: "ma:Building_WallInner2:color"
       Color {
         R: 1
-        G: 1
-        B: 1
+        G: 0.800331116
+        B: 0.55
         A: 1
       }
     }
