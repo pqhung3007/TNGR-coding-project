@@ -4746,7 +4746,6 @@ ObjectSettings {
   ObjectStates {
     key: 10005074784157121906
     value {
-      IsHidden: true
     }
   }
   ObjectStates {
@@ -8501,7 +8500,7 @@ ObjectSettings {
     }
   }
 }
-LastSavedScene: "Level1"
+LastSavedScene: "nam4-Dung"
 PreviewDetailLevelPerScene {
   key: "Level1"
   value: 2
