@@ -53,15 +53,6 @@ Assets {
   }
 }
 Assets {
-  Id: 14491267291911834448
-  Name: "Vinyl Floor Square 01"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "mi_urb_vinyl_floor_001_uv_ref"
-  }
-}
-Assets {
   Id: 13920132568882324674
   Name: "Decal Rubble Concrete 01"
   PlatformAssetType: 14
@@ -77,6 +68,15 @@ Assets {
   PrimaryAsset {
     AssetType: "DecalBlueprintAssetRef"
     AssetId: "bp_decal_stain_round_001"
+  }
+}
+Assets {
+  Id: 10206170809700598204
+  Name: "Wallpaper Geometric 01"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_wallpaper_abstract_003_uv"
   }
 }
 Assets {
