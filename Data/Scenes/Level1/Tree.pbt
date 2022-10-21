@@ -19,7 +19,7 @@ Objects {
   ChildIds: 14982843161775482339
   ChildIds: 13522450900055713696
   ChildIds: 5973142006212069348
-  ChildIds: 4902619119981347240
+  ChildIds: 13516681107950879855
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -39,9 +39,13 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 4902619119981347240
+  Id: 13516681107950879855
   Name: "horror bathroom"
   Transform {
+    Location {
+      X: 1200
+      Y: -2850
+    }
     Scale {
       X: 1
       Y: 1
@@ -49,38 +53,30 @@ Objects {
     }
   }
   ParentId: 4781671109827199097
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 11645624050480278098
-      value {
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: 1600
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 17298929191427563122
-      value {
-        Overrides {
-          Name: "Name"
-          String: "horror bathroom"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: 1200
-            Y: -2850
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 9074572937374330637
-    }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
   }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "horror bathroom"
+  }
+  InstanceHistory {
+    SelfId: 13516681107950879855
+    SubobjectId: 17298929191427563122
+    InstanceId: 4902619119981347240
+    TemplateId: 9074572937374330637
+    WasRoot: true
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
 }
 Objects {
   Id: 5973142006212069348
