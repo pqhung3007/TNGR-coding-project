@@ -17,9 +17,9 @@ Objects {
   ChildIds: 9086936746104183945
   ChildIds: 16813558807825262224
   ChildIds: 14982843161775482339
-  ChildIds: 15856174743775030025
   ChildIds: 13522450900055713696
   ChildIds: 5973142006212069348
+  ChildIds: 4902619119981347240
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -37,6 +37,50 @@ Objects {
     Value: "mc:eproxyrelevance:critical"
   }
   IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 4902619119981347240
+  Name: "horror bathroom"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 11645624050480278098
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 1600
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 17298929191427563122
+      value {
+        Overrides {
+          Name: "Name"
+          String: "horror bathroom"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 1200
+            Y: -2850
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 9074572937374330637
+    }
+  }
 }
 Objects {
   Id: 5973142006212069348
@@ -103,46 +147,6 @@ Objects {
       Id: 12846573089607175645
     }
   }
-}
-Objects {
-  Id: 15856174743775030025
-  Name: "horror bathroom"
-  Transform {
-    Location {
-      X: 100
-      Y: 700
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Folder {
-    IsFilePartition: true
-    FilePartitionName: "horror bathroom"
-  }
-  InstanceHistory {
-    SelfId: 15856174743775030025
-    SubobjectId: 17298929191427563122
-    InstanceId: 5951495341963368089
-    TemplateId: 9074572937374330637
-    WasRoot: true
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  IsReplicationEnabledByDefault: true
 }
 Objects {
   Id: 14982843161775482339

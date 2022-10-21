@@ -8501,7 +8501,7 @@ ObjectSettings {
     }
   }
 }
-LastSavedScene: "Main"
+LastSavedScene: "Level1"
 PreviewDetailLevelPerScene {
   key: "Level1"
   value: 2

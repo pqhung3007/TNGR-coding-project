@@ -503,15 +503,6 @@ Assets {
   }
 }
 Assets {
-  Id: 8852870272463437374
-  Name: "Sci-fi Base Wall Interior 01 - Corner 01"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_ts_scf_base_wall_int_001_corner_01_ref"
-  }
-}
-Assets {
   Id: 8365771066679611572
   Name: "Electrical Arc Volume"
   PlatformAssetType: 8
