@@ -21,6 +21,7 @@ Objects {
   ChildIds: 4202908630384541403
   ChildIds: 9952501622225912460
   ChildIds: 3101147740319216198
+  ChildIds: 7176806400555550233
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -33,6 +34,42 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Folder {
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 7176806400555550233
+  Name: "Dat"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "Dat"
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
@@ -309,9 +346,9 @@ Objects {
   Name: "Spawn Point"
   Transform {
     Location {
-      X: 1075
-      Y: -6825
-      Z: 2175
+      X: -25
+      Y: -5825
+      Z: 1430.4668
     }
     Rotation {
     }

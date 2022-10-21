@@ -1292,11 +1292,11 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Light {
-    Intensity: 1.6730417
+    Intensity: 5.81276655
     Color {
       R: 1
-      G: 0.963576198
-      B: 0.75
+      G: 0.936953664
+      B: 0.659999967
       A: 1
     }
     VolumetricIntensity: 5
@@ -1361,11 +1361,11 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Light {
-    Intensity: 1.6730417
+    Intensity: 5.81276655
     Color {
       R: 1
-      G: 0.963576198
-      B: 0.75
+      G: 0.936953664
+      B: 0.659999967
       A: 1
     }
     VolumetricIntensity: 5
@@ -1430,11 +1430,11 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Light {
-    Intensity: 1.6730417
+    Intensity: 5.81276655
     Color {
       R: 1
-      G: 0.963576198
-      B: 0.75
+      G: 0.936953664
+      B: 0.659999967
       A: 1
     }
     VolumetricIntensity: 5
@@ -1492,7 +1492,7 @@ Objects {
     Overrides {
       Name: "ma:Building_WallInner2:id"
       AssetReference {
-        Id: 14542151644029877009
+        Id: 13382799537778644591
       }
     }
     Overrides {
@@ -1511,9 +1511,9 @@ Objects {
     Overrides {
       Name: "ma:Building_WallInner:color"
       Color {
-        R: 1
-        G: 1
-        B: 1
+        R: 0.749
+        G: 0.749
+        B: 0.749
         A: 1
       }
     }
@@ -1579,7 +1579,7 @@ Objects {
     Overrides {
       Name: "ma:Building_WallInner2:id"
       AssetReference {
-        Id: 14542151644029877009
+        Id: 13382799537778644591
       }
     }
     Overrides {
@@ -1598,9 +1598,9 @@ Objects {
     Overrides {
       Name: "ma:Building_WallInner:color"
       Color {
-        R: 1
-        G: 1
-        B: 1
+        R: 0.749
+        G: 0.749
+        B: 0.749
         A: 1
       }
     }
@@ -1666,7 +1666,7 @@ Objects {
     Overrides {
       Name: "ma:Building_WallInner2:id"
       AssetReference {
-        Id: 14542151644029877009
+        Id: 13382799537778644591
       }
     }
     Overrides {
@@ -1685,9 +1685,9 @@ Objects {
     Overrides {
       Name: "ma:Building_WallInner:color"
       Color {
-        R: 1
-        G: 1
-        B: 1
+        R: 0.749
+        G: 0.749
+        B: 0.749
         A: 1
       }
     }
@@ -1753,7 +1753,7 @@ Objects {
     Overrides {
       Name: "ma:Building_WallInner2:id"
       AssetReference {
-        Id: 14542151644029877009
+        Id: 13382799537778644591
       }
     }
     Overrides {
@@ -1772,9 +1772,9 @@ Objects {
     Overrides {
       Name: "ma:Building_WallInner:color"
       Color {
-        R: 1
-        G: 1
-        B: 1
+        R: 0.749
+        G: 0.749
+        B: 0.749
         A: 1
       }
     }
@@ -1839,7 +1839,7 @@ Objects {
     Overrides {
       Name: "ma:Building_WallInner2:id"
       AssetReference {
-        Id: 14542151644029877009
+        Id: 13382799537778644591
       }
     }
     Overrides {
@@ -1858,9 +1858,9 @@ Objects {
     Overrides {
       Name: "ma:Building_WallInner:color"
       Color {
-        R: 1
-        G: 1
-        B: 1
+        R: 0.749
+        G: 0.749
+        B: 0.749
         A: 1
       }
     }
@@ -1924,7 +1924,7 @@ Objects {
     Overrides {
       Name: "ma:Building_WallInner2:id"
       AssetReference {
-        Id: 14542151644029877009
+        Id: 13382799537778644591
       }
     }
     Overrides {
@@ -1943,9 +1943,9 @@ Objects {
     Overrides {
       Name: "ma:Building_WallInner:color"
       Color {
-        R: 1
-        G: 1
-        B: 1
+        R: 0.749
+        G: 0.749
+        B: 0.749
         A: 1
       }
     }
@@ -2008,7 +2008,7 @@ Objects {
     Overrides {
       Name: "ma:Building_WallInner2:id"
       AssetReference {
-        Id: 14542151644029877009
+        Id: 13382799537778644591
       }
     }
     Overrides {
@@ -2027,9 +2027,9 @@ Objects {
     Overrides {
       Name: "ma:Building_WallInner:color"
       Color {
-        R: 1
-        G: 1
-        B: 1
+        R: 0.749
+        G: 0.749
+        B: 0.749
         A: 1
       }
     }

@@ -35,15 +35,6 @@ Assets {
   }
 }
 Assets {
-  Id: 14542151644029877009
-  Name: "Ceramic Tile Rectangle 01"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "mi_ceramic_tile_rect_001"
-  }
-}
-Assets {
   Id: 14496299100101296819
   Name: "Craftsman Part - Wall 01"
   PlatformAssetType: 1
@@ -59,6 +50,15 @@ Assets {
   PrimaryAsset {
     AssetType: "DecalBlueprintAssetRef"
     AssetId: "bp_decal_mil_rubble_concrete_001_ref"
+  }
+}
+Assets {
+  Id: 13382799537778644591
+  Name: "Wood Frame Panel 01"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_wood_frame_001_uv_ref"
   }
 }
 Assets {

@@ -1,0 +1,67 @@
+MetaVersion: 1
+MarketplaceDetails {
+  Id: "ac76ae271c93468c8128dc164a9b433d"
+  OwnerAccountId: "6af43e387cae4c43b3ba70fc74ac6268"
+  OwnerName: "Elarelda"
+  Version: "1.0.0"
+}
+AssetIdsOriginalToNew {
+  key: 57199079364655702
+  value: 1503286345263572313
+}
+AssetIdsOriginalToNew {
+  key: 2564570442949198645
+  value: 11890246360956808940
+}
+AssetIdsOriginalToNew {
+  key: 2781251173244323228
+  value: 6803195442500220134
+}
+AssetIdsOriginalToNew {
+  key: 2962613037521198949
+  value: 8713794350897080925
+}
+AssetIdsOriginalToNew {
+  key: 4682812250030819082
+  value: 588945330501224588
+}
+AssetIdsOriginalToNew {
+  key: 5856429651633438801
+  value: 4030275142858042677
+}
+AssetIdsOriginalToNew {
+  key: 7957846202032853532
+  value: 10850472748876015065
+}
+AssetIdsOriginalToNew {
+  key: 11768858876049347896
+  value: 1266323391858590699
+}
+AssetIdsOriginalToNew {
+  key: 14335666177278323070
+  value: 12956543310191573125
+}
+AssetIdsOriginalToNew {
+  key: 14756400139239293537
+  value: 8620353560403657585
+}
+AssetIdsOriginalToNew {
+  key: 14935300470138263330
+  value: 13279840372954225083
+}
+AssetIdsOriginalToNew {
+  key: 15190929299423395447
+  value: 14291428632589801558
+}
+AssetIdsOriginalToNew {
+  key: 15214002539101761711
+  value: 4575902816046435377
+}
+AssetIdsOriginalToNew {
+  key: 15292386426645526353
+  value: 7247563462082604989
+}
+AssetIdsOriginalToNew {
+  key: 16638936355464385269
+  value: 10765156322150743891
+}
