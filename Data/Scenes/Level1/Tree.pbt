@@ -19,6 +19,7 @@ Objects {
   ChildIds: 10005074784157121906
   ChildIds: 14982843161775482339
   ChildIds: 13091760288983734146
+  ChildIds: 15856174743775030025
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -31,6 +32,46 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Folder {
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 15856174743775030025
+  Name: "horror bathroom"
+  Transform {
+    Location {
+      X: 100
+      Y: 700
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "horror bathroom"
+  }
+  InstanceHistory {
+    SelfId: 15856174743775030025
+    SubobjectId: 17298929191427563122
+    InstanceId: 5951495341963368089
+    TemplateId: 9074572937374330637
+    WasRoot: true
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
@@ -68,13 +109,15 @@ Objects {
   Name: "Default Floor"
   Transform {
     Location {
+      X: -2487.49951
+      Y: -2624.99951
       Z: -50
     }
     Rotation {
     }
     Scale {
-      X: 50
-      Y: 50
+      X: 159.250046
+      Y: 194.500046
       Z: 1
     }
   }

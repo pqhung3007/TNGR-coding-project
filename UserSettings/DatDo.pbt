@@ -50,12 +50,22 @@ ObjectSettings {
     }
   }
   ObjectStates {
+    key: 553752989487110111
+    value {
+    }
+  }
+  ObjectStates {
     key: 710219573563136524
     value {
     }
   }
   ObjectStates {
     key: 795048244850727257
+    value {
+    }
+  }
+  ObjectStates {
+    key: 835321055979670483
     value {
     }
   }
@@ -71,6 +81,11 @@ ObjectSettings {
   }
   ObjectStates {
     key: 919177175219607710
+    value {
+    }
+  }
+  ObjectStates {
+    key: 966511477340352013
     value {
     }
   }
@@ -126,6 +141,11 @@ ObjectSettings {
   }
   ObjectStates {
     key: 1791700874274051422
+    value {
+    }
+  }
+  ObjectStates {
+    key: 1802579866004090802
     value {
     }
   }
@@ -195,6 +215,11 @@ ObjectSettings {
     }
   }
   ObjectStates {
+    key: 2365667838518790679
+    value {
+    }
+  }
+  ObjectStates {
     key: 2436957242392859134
     value {
     }
@@ -235,12 +260,22 @@ ObjectSettings {
     }
   }
   ObjectStates {
+    key: 2921728579460220704
+    value {
+    }
+  }
+  ObjectStates {
     key: 2934531539904576024
     value {
     }
   }
   ObjectStates {
     key: 2976286635001123876
+    value {
+    }
+  }
+  ObjectStates {
+    key: 3035404368038284500
     value {
     }
   }
@@ -296,6 +331,11 @@ ObjectSettings {
   }
   ObjectStates {
     key: 3625297473573055005
+    value {
+    }
+  }
+  ObjectStates {
+    key: 3626734161736020787
     value {
     }
   }
@@ -400,6 +440,11 @@ ObjectSettings {
     }
   }
   ObjectStates {
+    key: 4894635120066465325
+    value {
+    }
+  }
+  ObjectStates {
     key: 4897038277447561918
     value {
     }
@@ -431,6 +476,11 @@ ObjectSettings {
     }
   }
   ObjectStates {
+    key: 5108537957718422626
+    value {
+    }
+  }
+  ObjectStates {
     key: 5119055585317419768
     value {
     }
@@ -447,6 +497,16 @@ ObjectSettings {
   }
   ObjectStates {
     key: 5199025088253028728
+    value {
+    }
+  }
+  ObjectStates {
+    key: 5275729315768701720
+    value {
+    }
+  }
+  ObjectStates {
+    key: 5301467913768202062
     value {
     }
   }
@@ -539,12 +599,22 @@ ObjectSettings {
     }
   }
   ObjectStates {
+    key: 6129300030743078360
+    value {
+    }
+  }
+  ObjectStates {
     key: 6288128721617939616
     value {
     }
   }
   ObjectStates {
     key: 6315370142133284475
+    value {
+    }
+  }
+  ObjectStates {
+    key: 6318120112186548406
     value {
     }
   }
@@ -575,6 +645,11 @@ ObjectSettings {
   }
   ObjectStates {
     key: 6894894647312385107
+    value {
+    }
+  }
+  ObjectStates {
+    key: 6963594333191368999
     value {
     }
   }
@@ -650,6 +725,11 @@ ObjectSettings {
   }
   ObjectStates {
     key: 7625786513121276569
+    value {
+    }
+  }
+  ObjectStates {
+    key: 7630958311797596013
     value {
     }
   }
@@ -734,7 +814,17 @@ ObjectSettings {
     }
   }
   ObjectStates {
+    key: 8755076231512556596
+    value {
+    }
+  }
+  ObjectStates {
     key: 8845801785189937889
+    value {
+    }
+  }
+  ObjectStates {
+    key: 8847096766057230528
     value {
     }
   }
@@ -838,6 +928,11 @@ ObjectSettings {
     value {
       IsLocked: true
       IsHidden: true
+    }
+  }
+  ObjectStates {
+    key: 10197213635555139369
+    value {
     }
   }
   ObjectStates {
@@ -991,6 +1086,11 @@ ObjectSettings {
     }
   }
   ObjectStates {
+    key: 11866999563457487151
+    value {
+    }
+  }
+  ObjectStates {
     key: 11891862087976906399
     value {
     }
@@ -1031,6 +1131,11 @@ ObjectSettings {
     }
   }
   ObjectStates {
+    key: 12591147408041883525
+    value {
+    }
+  }
+  ObjectStates {
     key: 12775149273086699075
     value {
     }
@@ -1045,6 +1150,11 @@ ObjectSettings {
     value {
       IsLocked: true
       IsHidden: true
+    }
+  }
+  ObjectStates {
+    key: 12870994120054176457
+    value {
     }
   }
   ObjectStates {
@@ -1074,6 +1184,11 @@ ObjectSettings {
   }
   ObjectStates {
     key: 13257461707071399609
+    value {
+    }
+  }
+  ObjectStates {
+    key: 13399215338055722988
     value {
     }
   }
@@ -1153,6 +1268,11 @@ ObjectSettings {
     }
   }
   ObjectStates {
+    key: 13780139748598227883
+    value {
+    }
+  }
+  ObjectStates {
     key: 13869139596820052835
     value {
     }
@@ -1163,7 +1283,17 @@ ObjectSettings {
     }
   }
   ObjectStates {
+    key: 13912531042301442136
+    value {
+    }
+  }
+  ObjectStates {
     key: 13924506731914992309
+    value {
+    }
+  }
+  ObjectStates {
+    key: 14069972478443640385
     value {
     }
   }
@@ -1273,6 +1403,11 @@ ObjectSettings {
     }
   }
   ObjectStates {
+    key: 15267476710909928754
+    value {
+    }
+  }
+  ObjectStates {
     key: 15314042900962121770
     value {
     }
@@ -1313,6 +1448,11 @@ ObjectSettings {
     }
   }
   ObjectStates {
+    key: 15856174743775030025
+    value {
+    }
+  }
+  ObjectStates {
     key: 15910124804919075952
     value {
     }
@@ -1322,6 +1462,11 @@ ObjectSettings {
     value {
       IsLocked: true
       IsHidden: true
+    }
+  }
+  ObjectStates {
+    key: 16288063532175759364
+    value {
     }
   }
   ObjectStates {
@@ -1425,6 +1570,11 @@ ObjectSettings {
     }
   }
   ObjectStates {
+    key: 17604822006218392116
+    value {
+    }
+  }
+  ObjectStates {
     key: 17652980906729620870
     value {
     }
@@ -1471,6 +1621,11 @@ ObjectSettings {
     }
   }
   ObjectStates {
+    key: 17963614841118690389
+    value {
+    }
+  }
+  ObjectStates {
     key: 17991293024384433751
     value {
     }
@@ -1511,6 +1666,11 @@ ObjectSettings {
     }
   }
   ObjectStates {
+    key: 18264009304123471652
+    value {
+    }
+  }
+  ObjectStates {
     key: 18346374658633008779
     value {
     }
@@ -1521,7 +1681,11 @@ ObjectSettings {
     }
   }
 }
-LastSavedScene: "Main"
+LastSavedScene: "Level1"
+PreviewDetailLevelPerScene {
+  key: "Level1"
+  value: 2
+}
 PreviewDetailLevelPerScene {
   key: "Main"
   value: 1
