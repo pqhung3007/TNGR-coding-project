@@ -21,6 +21,7 @@ Objects {
   ChildIds: 5973142006212069348
   ChildIds: 13516681107950879855
   ChildIds: 3005502271887988623
+  ChildIds: 9575761177890923949
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -33,6 +34,41 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Folder {
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 9575761177890923949
+  Name: "map"
+  Transform {
+    Location {
+      X: 1600
+      Y: -625
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "map"
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
@@ -151,7 +187,7 @@ Objects {
   }
   Folder {
     IsFilePartition: true
-    FilePartitionName: "map"
+    FilePartitionName: "map_1"
   }
   InstanceHistory {
     SelfId: 5973142006212069348
@@ -248,10 +284,12 @@ Objects {
   Name: "Spawn Point"
   Transform {
     Location {
-      Y: 1750
+      X: 2300
+      Y: -5750
       Z: 115
     }
     Rotation {
+      Yaw: 180
     }
     Scale {
       X: 1

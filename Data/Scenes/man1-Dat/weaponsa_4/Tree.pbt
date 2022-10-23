@@ -1,7 +1,7 @@
-Name: "weaponsa_3"
-RootId: 16085141785925917824
+Name: "weaponsa_4"
+RootId: 7959233878214578352
 Objects {
-  Id: 9908606907149758683
+  Id: 6415378578212345513
   Name: "Cabinet - Upper"
   Transform {
     Location {
@@ -18,7 +18,7 @@ Objects {
       Z: 2.25
     }
   }
-  ParentId: 16085141785925917824
+  ParentId: 7959233878214578352
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -51,6 +51,12 @@ Objects {
       BoundsScale: 1
     }
   }
+  InstanceHistory {
+    SelfId: 6415378578212345513
+    SubobjectId: 9891946056288975821
+    InstanceId: 16398007997991698516
+    TemplateId: 8713794350897080925
+  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -60,7 +66,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 15139656142041995361
+  Id: 13500102005979072193
   Name: "Cabinet - Upper"
   Transform {
     Location {
@@ -77,7 +83,7 @@ Objects {
       Z: 2.25
     }
   }
-  ParentId: 16085141785925917824
+  ParentId: 7959233878214578352
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -110,6 +116,12 @@ Objects {
       BoundsScale: 1
     }
   }
+  InstanceHistory {
+    SelfId: 13500102005979072193
+    SubobjectId: 7716565480285842341
+    InstanceId: 16398007997991698516
+    TemplateId: 8713794350897080925
+  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -119,7 +131,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 11680886838943459968
+  Id: 12032917340250468534
   Name: "Modern Weapon - Auto Rifle 01 (Prop)"
   Transform {
     Location {
@@ -135,22 +147,22 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 16085141785925917824
-  ChildIds: 16205547824072251779
-  ChildIds: 16253969313184135301
-  ChildIds: 8600948736011201586
-  ChildIds: 15431509918087928403
-  ChildIds: 3052416325135797581
-  ChildIds: 8730740839855997128
-  ChildIds: 17731528530202760733
-  ChildIds: 12196516039995363744
-  ChildIds: 9559822368329433836
-  ChildIds: 9160978375517990229
-  ChildIds: 16264630256648908869
-  ChildIds: 7038399397140696136
-  ChildIds: 17459682829874079625
-  ChildIds: 9791350331503775234
-  ChildIds: 2944290603238718324
+  ParentId: 7959233878214578352
+  ChildIds: 9549519658939203158
+  ChildIds: 10746871405235096735
+  ChildIds: 14776307460461155116
+  ChildIds: 17382491962747727591
+  ChildIds: 4150522857410276617
+  ChildIds: 683478570078185385
+  ChildIds: 3612543604516315997
+  ChildIds: 8776179680534324585
+  ChildIds: 16182328182758385460
+  ChildIds: 3285829938942006323
+  ChildIds: 5626609707873427972
+  ChildIds: 11152245559020735869
+  ChildIds: 10237649888271249911
+  ChildIds: 16623383395147923474
+  ChildIds: 12178956721952355942
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -165,13 +177,19 @@ Objects {
   Folder {
     IsGroup: true
   }
+  InstanceHistory {
+    SelfId: 12032917340250468534
+    SubobjectId: 8553112796895976914
+    InstanceId: 16398007997991698516
+    TemplateId: 8713794350897080925
+  }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 2944290603238718324
+  Id: 12178956721952355942
   Name: "Trigger - Rear"
   Transform {
     Location {
@@ -189,7 +207,7 @@ Objects {
       Z: 0.0530300215
     }
   }
-  ParentId: 11680886838943459968
+  ParentId: 12032917340250468534
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -231,6 +249,12 @@ Objects {
       BoundsScale: 1
     }
   }
+  InstanceHistory {
+    SelfId: 12178956721952355942
+    SubobjectId: 8740106751149480706
+    InstanceId: 16398007997991698516
+    TemplateId: 8713794350897080925
+  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -240,7 +264,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 9791350331503775234
+  Id: 16623383395147923474
   Name: "Modern Weapon Accessory - Rail 01"
   Transform {
     Location {
@@ -257,7 +281,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 11680886838943459968
+  ParentId: 12032917340250468534
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -284,6 +308,12 @@ Objects {
       BoundsScale: 1
     }
   }
+  InstanceHistory {
+    SelfId: 16623383395147923474
+    SubobjectId: 3962428024954695030
+    InstanceId: 16398007997991698516
+    TemplateId: 8713794350897080925
+  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -293,7 +323,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 17459682829874079625
+  Id: 10237649888271249911
   Name: "Modern Weapon Accessory - Rail 01"
   Transform {
     Location {
@@ -310,7 +340,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 11680886838943459968
+  ParentId: 12032917340250468534
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -337,6 +367,12 @@ Objects {
       BoundsScale: 1
     }
   }
+  InstanceHistory {
+    SelfId: 10237649888271249911
+    SubobjectId: 6799362314495122579
+    InstanceId: 16398007997991698516
+    TemplateId: 8713794350897080925
+  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -346,7 +382,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 7038399397140696136
+  Id: 11152245559020735869
   Name: "Modern Weapon - Grip 01"
   Transform {
     Location {
@@ -363,7 +399,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 11680886838943459968
+  ParentId: 12032917340250468534
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -390,6 +426,12 @@ Objects {
       BoundsScale: 1
     }
   }
+  InstanceHistory {
+    SelfId: 11152245559020735869
+    SubobjectId: 5371664518450159641
+    InstanceId: 16398007997991698516
+    TemplateId: 8713794350897080925
+  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -399,7 +441,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 16264630256648908869
+  Id: 5626609707873427972
   Name: "Modern Weapon - Magazine 01"
   Transform {
     Location {
@@ -416,7 +458,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 11680886838943459968
+  ParentId: 12032917340250468534
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -443,6 +485,12 @@ Objects {
       BoundsScale: 1
     }
   }
+  InstanceHistory {
+    SelfId: 5626609707873427972
+    SubobjectId: 11410709559281323872
+    InstanceId: 16398007997991698516
+    TemplateId: 8713794350897080925
+  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -452,7 +500,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 9160978375517990229
+  Id: 3285829938942006323
   Name: "Modern Weapon - Sight 01"
   Transform {
     Location {
@@ -468,7 +516,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 11680886838943459968
+  ParentId: 12032917340250468534
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -495,6 +543,12 @@ Objects {
       BoundsScale: 1
     }
   }
+  InstanceHistory {
+    SelfId: 3285829938942006323
+    SubobjectId: 18291049651612825943
+    InstanceId: 16398007997991698516
+    TemplateId: 8713794350897080925
+  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -504,7 +558,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 9559822368329433836
+  Id: 16182328182758385460
   Name: "Modern Weapon - Stock 01"
   Transform {
     Location {
@@ -520,7 +574,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 11680886838943459968
+  ParentId: 12032917340250468534
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -547,6 +601,12 @@ Objects {
       BoundsScale: 1
     }
   }
+  InstanceHistory {
+    SelfId: 16182328182758385460
+    SubobjectId: 3520809862626429520
+    InstanceId: 16398007997991698516
+    TemplateId: 8713794350897080925
+  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -556,7 +616,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 12196516039995363744
+  Id: 8776179680534324585
   Name: "Modern Weapon Accessory - Rail 01"
   Transform {
     Location {
@@ -572,7 +632,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 11680886838943459968
+  ParentId: 12032917340250468534
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -599,6 +659,12 @@ Objects {
       BoundsScale: 1
     }
   }
+  InstanceHistory {
+    SelfId: 8776179680534324585
+    SubobjectId: 12214888910558234637
+    InstanceId: 16398007997991698516
+    TemplateId: 8713794350897080925
+  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -608,7 +674,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 17731528530202760733
+  Id: 3612543604516315997
   Name: "Modern Weapon Accessory - Rail 02"
   Transform {
     Location {
@@ -624,7 +690,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 11680886838943459968
+  ParentId: 12032917340250468534
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -651,6 +717,12 @@ Objects {
       BoundsScale: 1
     }
   }
+  InstanceHistory {
+    SelfId: 3612543604516315997
+    SubobjectId: 16315720184727637561
+    InstanceId: 16398007997991698516
+    TemplateId: 8713794350897080925
+  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -660,7 +732,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 8730740839855997128
+  Id: 683478570078185385
   Name: "Modern Weapon - Gas Cylinder 01"
   Transform {
     Location {
@@ -676,7 +748,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 11680886838943459968
+  ParentId: 12032917340250468534
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -703,6 +775,12 @@ Objects {
       BoundsScale: 1
     }
   }
+  InstanceHistory {
+    SelfId: 683478570078185385
+    SubobjectId: 15650981186749811405
+    InstanceId: 16398007997991698516
+    TemplateId: 8713794350897080925
+  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -712,7 +790,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 3052416325135797581
+  Id: 4150522857410276617
   Name: "Modern Weapon - Barrel Tip 01"
   Transform {
     Location {
@@ -728,7 +806,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 11680886838943459968
+  ParentId: 12032917340250468534
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -755,6 +833,12 @@ Objects {
       BoundsScale: 1
     }
   }
+  InstanceHistory {
+    SelfId: 4150522857410276617
+    SubobjectId: 16849900077421248621
+    InstanceId: 16398007997991698516
+    TemplateId: 8713794350897080925
+  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -764,7 +848,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 15431509918087928403
+  Id: 17382491962747727591
   Name: "Modern Weapon - Body 01"
   Transform {
     Location {
@@ -780,7 +864,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 11680886838943459968
+  ParentId: 12032917340250468534
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -807,6 +891,12 @@ Objects {
       BoundsScale: 1
     }
   }
+  InstanceHistory {
+    SelfId: 17382491962747727591
+    SubobjectId: 2410626480715875203
+    InstanceId: 16398007997991698516
+    TemplateId: 8713794350897080925
+  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -816,7 +906,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 8600948736011201586
+  Id: 14776307460461155116
   Name: "Modern Weapon - Sight Forward 02"
   Transform {
     Location {
@@ -832,7 +922,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 11680886838943459968
+  ParentId: 12032917340250468534
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -859,6 +949,12 @@ Objects {
       BoundsScale: 1
     }
   }
+  InstanceHistory {
+    SelfId: 14776307460461155116
+    SubobjectId: 2107892485839437384
+    InstanceId: 16398007997991698516
+    TemplateId: 8713794350897080925
+  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -868,7 +964,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 16253969313184135301
+  Id: 10746871405235096735
   Name: "Modern Weapon Accessory - Rail 02"
   Transform {
     Location {
@@ -886,7 +982,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 11680886838943459968
+  ParentId: 12032917340250468534
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -913,6 +1009,12 @@ Objects {
       BoundsScale: 1
     }
   }
+  InstanceHistory {
+    SelfId: 10746871405235096735
+    SubobjectId: 5002319197033079291
+    InstanceId: 16398007997991698516
+    TemplateId: 8713794350897080925
+  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -922,7 +1024,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 16205547824072251779
+  Id: 9549519658939203158
   Name: "Modern Weapon - Sight Rear 01"
   Transform {
     Location {
@@ -938,7 +1040,7 @@ Objects {
       Z: 1.20455921
     }
   }
-  ParentId: 11680886838943459968
+  ParentId: 12032917340250468534
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -965,6 +1067,12 @@ Objects {
       BoundsScale: 1
     }
   }
+  InstanceHistory {
+    SelfId: 9549519658939203158
+    SubobjectId: 6109684695371305778
+    InstanceId: 16398007997991698516
+    TemplateId: 8713794350897080925
+  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -974,7 +1082,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 5017272357522979398
+  Id: 9361344293650631412
   Name: "Modern Weapon - Auto Rifle 01 (Prop)"
   Transform {
     Location {
@@ -989,22 +1097,22 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 16085141785925917824
-  ChildIds: 3761278206451635056
-  ChildIds: 6912098022365566943
-  ChildIds: 17765082048421569375
-  ChildIds: 11956759596204023046
-  ChildIds: 6707121403263203931
-  ChildIds: 5578317756129071024
-  ChildIds: 11762365031381180363
-  ChildIds: 11513547506868353999
-  ChildIds: 3882448949352005418
-  ChildIds: 6455654876245528988
-  ChildIds: 9512651314415935133
-  ChildIds: 2914098296264328545
-  ChildIds: 208033500832455465
-  ChildIds: 12076085229936384536
-  ChildIds: 6005017042131816575
+  ParentId: 7959233878214578352
+  ChildIds: 187530127979306613
+  ChildIds: 4762628511049761814
+  ChildIds: 904519191913171163
+  ChildIds: 11207557173023923574
+  ChildIds: 946129615572396774
+  ChildIds: 5331376968827929011
+  ChildIds: 1805773310181796626
+  ChildIds: 34052247373600033
+  ChildIds: 8635360721703666624
+  ChildIds: 4915013062404233040
+  ChildIds: 12538295679617872797
+  ChildIds: 11032326296143298484
+  ChildIds: 6292670663728442928
+  ChildIds: 11444031666048225994
+  ChildIds: 600343885843387747
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -1019,13 +1127,19 @@ Objects {
   Folder {
     IsGroup: true
   }
+  InstanceHistory {
+    SelfId: 9361344293650631412
+    SubobjectId: 5883228737528162192
+    InstanceId: 16398007997991698516
+    TemplateId: 8713794350897080925
+  }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 6005017042131816575
+  Id: 600343885843387747
   Name: "Trigger - Rear"
   Transform {
     Location {
@@ -1043,7 +1157,7 @@ Objects {
       Z: 0.0530300215
     }
   }
-  ParentId: 5017272357522979398
+  ParentId: 9361344293650631412
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -1085,6 +1199,12 @@ Objects {
       BoundsScale: 1
     }
   }
+  InstanceHistory {
+    SelfId: 600343885843387747
+    SubobjectId: 15572209193880696839
+    InstanceId: 16398007997991698516
+    TemplateId: 8713794350897080925
+  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -1094,7 +1214,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 12076085229936384536
+  Id: 11444031666048225994
   Name: "Modern Weapon Accessory - Rail 01"
   Transform {
     Location {
@@ -1111,7 +1231,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5017272357522979398
+  ParentId: 9361344293650631412
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -1138,6 +1258,12 @@ Objects {
       BoundsScale: 1
     }
   }
+  InstanceHistory {
+    SelfId: 11444031666048225994
+    SubobjectId: 5664998908576743342
+    InstanceId: 16398007997991698516
+    TemplateId: 8713794350897080925
+  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -1147,7 +1273,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 208033500832455465
+  Id: 6292670663728442928
   Name: "Modern Weapon Accessory - Rail 01"
   Transform {
     Location {
@@ -1164,7 +1290,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5017272357522979398
+  ParentId: 9361344293650631412
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -1191,6 +1317,12 @@ Objects {
       BoundsScale: 1
     }
   }
+  InstanceHistory {
+    SelfId: 6292670663728442928
+    SubobjectId: 9735461829699650388
+    InstanceId: 16398007997991698516
+    TemplateId: 8713794350897080925
+  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -1200,7 +1332,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 2914098296264328545
+  Id: 11032326296143298484
   Name: "Modern Weapon - Grip 01"
   Transform {
     Location {
@@ -1217,7 +1349,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5017272357522979398
+  ParentId: 9361344293650631412
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -1244,6 +1376,12 @@ Objects {
       BoundsScale: 1
     }
   }
+  InstanceHistory {
+    SelfId: 11032326296143298484
+    SubobjectId: 5284395838465053392
+    InstanceId: 16398007997991698516
+    TemplateId: 8713794350897080925
+  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -1253,7 +1391,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 9512651314415935133
+  Id: 12538295679617872797
   Name: "Modern Weapon - Magazine 01"
   Transform {
     Location {
@@ -1270,7 +1408,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5017272357522979398
+  ParentId: 9361344293650631412
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -1297,6 +1435,12 @@ Objects {
       BoundsScale: 1
     }
   }
+  InstanceHistory {
+    SelfId: 12538295679617872797
+    SubobjectId: 9101696960030662393
+    InstanceId: 16398007997991698516
+    TemplateId: 8713794350897080925
+  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -1306,7 +1450,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 6455654876245528988
+  Id: 4915013062404233040
   Name: "Modern Weapon - Sight 01"
   Transform {
     Location {
@@ -1322,7 +1466,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5017272357522979398
+  ParentId: 9361344293650631412
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -1349,6 +1493,12 @@ Objects {
       BoundsScale: 1
     }
   }
+  InstanceHistory {
+    SelfId: 4915013062404233040
+    SubobjectId: 10699112362999495220
+    InstanceId: 16398007997991698516
+    TemplateId: 8713794350897080925
+  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -1358,7 +1508,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 3882448949352005418
+  Id: 8635360721703666624
   Name: "Modern Weapon - Stock 01"
   Transform {
     Location {
@@ -1374,7 +1524,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5017272357522979398
+  ParentId: 9361344293650631412
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -1401,6 +1551,12 @@ Objects {
       BoundsScale: 1
     }
   }
+  InstanceHistory {
+    SelfId: 8635360721703666624
+    SubobjectId: 12076884570584346276
+    InstanceId: 16398007997991698516
+    TemplateId: 8713794350897080925
+  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -1410,7 +1566,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 11513547506868353999
+  Id: 34052247373600033
   Name: "Modern Weapon Accessory - Rail 01"
   Transform {
     Location {
@@ -1426,7 +1582,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5017272357522979398
+  ParentId: 9361344293650631412
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -1453,6 +1609,12 @@ Objects {
       BoundsScale: 1
     }
   }
+  InstanceHistory {
+    SelfId: 34052247373600033
+    SubobjectId: 15003665202687293509
+    InstanceId: 16398007997991698516
+    TemplateId: 8713794350897080925
+  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -1462,7 +1624,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 11762365031381180363
+  Id: 1805773310181796626
   Name: "Modern Weapon Accessory - Rail 02"
   Transform {
     Location {
@@ -1478,7 +1640,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5017272357522979398
+  ParentId: 9361344293650631412
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -1505,6 +1667,12 @@ Objects {
       BoundsScale: 1
     }
   }
+  InstanceHistory {
+    SelfId: 1805773310181796626
+    SubobjectId: 14501631580743992950
+    InstanceId: 16398007997991698516
+    TemplateId: 8713794350897080925
+  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -1514,7 +1682,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 5578317756129071024
+  Id: 5331376968827929011
   Name: "Modern Weapon - Gas Cylinder 01"
   Transform {
     Location {
@@ -1530,7 +1698,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5017272357522979398
+  ParentId: 9361344293650631412
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -1557,6 +1725,12 @@ Objects {
       BoundsScale: 1
     }
   }
+  InstanceHistory {
+    SelfId: 5331376968827929011
+    SubobjectId: 11075366675814640855
+    InstanceId: 16398007997991698516
+    TemplateId: 8713794350897080925
+  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -1566,7 +1740,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 6707121403263203931
+  Id: 946129615572396774
   Name: "Modern Weapon - Barrel Tip 01"
   Transform {
     Location {
@@ -1582,7 +1756,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5017272357522979398
+  ParentId: 9361344293650631412
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -1609,6 +1783,12 @@ Objects {
       BoundsScale: 1
     }
   }
+  InstanceHistory {
+    SelfId: 946129615572396774
+    SubobjectId: 15955712020699547522
+    InstanceId: 16398007997991698516
+    TemplateId: 8713794350897080925
+  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -1618,7 +1798,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 11956759596204023046
+  Id: 11207557173023923574
   Name: "Modern Weapon - Body 01"
   Transform {
     Location {
@@ -1634,7 +1814,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5017272357522979398
+  ParentId: 9361344293650631412
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -1661,6 +1841,12 @@ Objects {
       BoundsScale: 1
     }
   }
+  InstanceHistory {
+    SelfId: 11207557173023923574
+    SubobjectId: 5460189632080228370
+    InstanceId: 16398007997991698516
+    TemplateId: 8713794350897080925
+  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -1670,7 +1856,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 17765082048421569375
+  Id: 904519191913171163
   Name: "Modern Weapon - Sight Forward 02"
   Transform {
     Location {
@@ -1686,7 +1872,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5017272357522979398
+  ParentId: 9361344293650631412
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -1713,6 +1899,12 @@ Objects {
       BoundsScale: 1
     }
   }
+  InstanceHistory {
+    SelfId: 904519191913171163
+    SubobjectId: 15907346366210467263
+    InstanceId: 16398007997991698516
+    TemplateId: 8713794350897080925
+  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -1722,7 +1914,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 6912098022365566943
+  Id: 4762628511049761814
   Name: "Modern Weapon Accessory - Rail 02"
   Transform {
     Location {
@@ -1740,7 +1932,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5017272357522979398
+  ParentId: 9361344293650631412
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -1767,6 +1959,12 @@ Objects {
       BoundsScale: 1
     }
   }
+  InstanceHistory {
+    SelfId: 4762628511049761814
+    SubobjectId: 10544898363916396914
+    InstanceId: 16398007997991698516
+    TemplateId: 8713794350897080925
+  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -1776,7 +1974,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 3761278206451635056
+  Id: 187530127979306613
   Name: "Modern Weapon - Sight Rear 01"
   Transform {
     Location {
@@ -1792,7 +1990,7 @@ Objects {
       Z: 1.20455921
     }
   }
-  ParentId: 5017272357522979398
+  ParentId: 9361344293650631412
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -1819,6 +2017,12 @@ Objects {
       BoundsScale: 1
     }
   }
+  InstanceHistory {
+    SelfId: 187530127979306613
+    SubobjectId: 15192187441528353553
+    InstanceId: 16398007997991698516
+    TemplateId: 8713794350897080925
+  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -1828,7 +2032,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 13329053194027161756
+  Id: 7417758046561050611
   Name: "Modern Weapon - Auto Rifle 01 (Prop)"
   Transform {
     Location {
@@ -1843,22 +2047,22 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 16085141785925917824
-  ChildIds: 642727600568364496
-  ChildIds: 13450807203297015375
-  ChildIds: 12192400590271098552
-  ChildIds: 7017172629087333061
-  ChildIds: 5052853562806768255
-  ChildIds: 4577741823058914718
-  ChildIds: 1091918907855041
-  ChildIds: 3788425180016741579
-  ChildIds: 13214983248674912947
-  ChildIds: 3365312720841003006
-  ChildIds: 3995501747806258591
-  ChildIds: 11314946454094145150
-  ChildIds: 1056775078579300868
-  ChildIds: 2676179376642248094
-  ChildIds: 199348088469059185
+  ParentId: 7959233878214578352
+  ChildIds: 12748318803432976120
+  ChildIds: 4906341493672699592
+  ChildIds: 8520630830108802376
+  ChildIds: 7581109194576294520
+  ChildIds: 4282151365965722370
+  ChildIds: 2891939662841318571
+  ChildIds: 24099859184094709
+  ChildIds: 12969488382031522680
+  ChildIds: 7367094854866707133
+  ChildIds: 13765028577098701645
+  ChildIds: 18340356008389450532
+  ChildIds: 1956204342577485164
+  ChildIds: 16582691442295479968
+  ChildIds: 14969927769890061738
+  ChildIds: 17745717795618167943
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -1873,13 +2077,19 @@ Objects {
   Folder {
     IsGroup: true
   }
+  InstanceHistory {
+    SelfId: 7417758046561050611
+    SubobjectId: 13168081041438569111
+    InstanceId: 16398007997991698516
+    TemplateId: 8713794350897080925
+  }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 199348088469059185
+  Id: 17745717795618167943
   Name: "Trigger - Rear"
   Transform {
     Location {
@@ -1897,7 +2107,7 @@ Objects {
       Z: 0.0530300215
     }
   }
-  ParentId: 13329053194027161756
+  ParentId: 7417758046561050611
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -1939,6 +2149,12 @@ Objects {
       BoundsScale: 1
     }
   }
+  InstanceHistory {
+    SelfId: 17745717795618167943
+    SubobjectId: 2741060517538263523
+    InstanceId: 16398007997991698516
+    TemplateId: 8713794350897080925
+  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -1948,7 +2164,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 2676179376642248094
+  Id: 14969927769890061738
   Name: "Modern Weapon Accessory - Rail 01"
   Transform {
     Location {
@@ -1965,7 +2181,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13329053194027161756
+  ParentId: 7417758046561050611
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -1992,6 +2208,12 @@ Objects {
       BoundsScale: 1
     }
   }
+  InstanceHistory {
+    SelfId: 14969927769890061738
+    SubobjectId: 2301512767319576782
+    InstanceId: 16398007997991698516
+    TemplateId: 8713794350897080925
+  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -2001,7 +2223,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 1056775078579300868
+  Id: 16582691442295479968
   Name: "Modern Weapon Accessory - Rail 01"
   Transform {
     Location {
@@ -2018,7 +2240,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13329053194027161756
+  ParentId: 7417758046561050611
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -2045,6 +2267,12 @@ Objects {
       BoundsScale: 1
     }
   }
+  InstanceHistory {
+    SelfId: 16582691442295479968
+    SubobjectId: 3922299198115935172
+    InstanceId: 16398007997991698516
+    TemplateId: 8713794350897080925
+  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -2054,7 +2282,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 11314946454094145150
+  Id: 1956204342577485164
   Name: "Modern Weapon - Grip 01"
   Transform {
     Location {
@@ -2071,7 +2299,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13329053194027161756
+  ParentId: 7417758046561050611
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -2098,6 +2326,12 @@ Objects {
       BoundsScale: 1
     }
   }
+  InstanceHistory {
+    SelfId: 1956204342577485164
+    SubobjectId: 14657691939767924744
+    InstanceId: 16398007997991698516
+    TemplateId: 8713794350897080925
+  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -2107,7 +2341,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 3995501747806258591
+  Id: 18340356008389450532
   Name: "Modern Weapon - Magazine 01"
   Transform {
     Location {
@@ -2124,7 +2358,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13329053194027161756
+  ParentId: 7417758046561050611
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -2151,6 +2385,12 @@ Objects {
       BoundsScale: 1
     }
   }
+  InstanceHistory {
+    SelfId: 18340356008389450532
+    SubobjectId: 3371305831266022976
+    InstanceId: 16398007997991698516
+    TemplateId: 8713794350897080925
+  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -2160,7 +2400,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 3365312720841003006
+  Id: 13765028577098701645
   Name: "Modern Weapon - Sight 01"
   Transform {
     Location {
@@ -2176,7 +2416,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13329053194027161756
+  ParentId: 7417758046561050611
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -2203,6 +2443,12 @@ Objects {
       BoundsScale: 1
     }
   }
+  InstanceHistory {
+    SelfId: 13765028577098701645
+    SubobjectId: 8018787622199555625
+    InstanceId: 16398007997991698516
+    TemplateId: 8713794350897080925
+  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -2212,7 +2458,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 13214983248674912947
+  Id: 7367094854866707133
   Name: "Modern Weapon - Stock 01"
   Transform {
     Location {
@@ -2228,7 +2474,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13329053194027161756
+  ParentId: 7417758046561050611
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -2255,6 +2501,12 @@ Objects {
       BoundsScale: 1
     }
   }
+  InstanceHistory {
+    SelfId: 7367094854866707133
+    SubobjectId: 13146691105605111769
+    InstanceId: 16398007997991698516
+    TemplateId: 8713794350897080925
+  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -2264,7 +2516,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 3788425180016741579
+  Id: 12969488382031522680
   Name: "Modern Weapon Accessory - Rail 01"
   Transform {
     Location {
@@ -2280,7 +2532,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13329053194027161756
+  ParentId: 7417758046561050611
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -2307,6 +2559,12 @@ Objects {
       BoundsScale: 1
     }
   }
+  InstanceHistory {
+    SelfId: 12969488382031522680
+    SubobjectId: 7184262453500970524
+    InstanceId: 16398007997991698516
+    TemplateId: 8713794350897080925
+  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -2316,7 +2574,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 1091918907855041
+  Id: 24099859184094709
   Name: "Modern Weapon Accessory - Rail 02"
   Transform {
     Location {
@@ -2332,7 +2590,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13329053194027161756
+  ParentId: 7417758046561050611
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -2359,6 +2617,12 @@ Objects {
       BoundsScale: 1
     }
   }
+  InstanceHistory {
+    SelfId: 24099859184094709
+    SubobjectId: 14995542985928564881
+    InstanceId: 16398007997991698516
+    TemplateId: 8713794350897080925
+  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -2368,7 +2632,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 4577741823058914718
+  Id: 2891939662841318571
   Name: "Modern Weapon - Gas Cylinder 01"
   Transform {
     Location {
@@ -2384,7 +2648,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13329053194027161756
+  ParentId: 7417758046561050611
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -2411,6 +2675,12 @@ Objects {
       BoundsScale: 1
     }
   }
+  InstanceHistory {
+    SelfId: 2891939662841318571
+    SubobjectId: 17901099995089887695
+    InstanceId: 16398007997991698516
+    TemplateId: 8713794350897080925
+  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -2420,7 +2690,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 5052853562806768255
+  Id: 4282151365965722370
   Name: "Modern Weapon - Barrel Tip 01"
   Transform {
     Location {
@@ -2436,7 +2706,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13329053194027161756
+  ParentId: 7417758046561050611
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -2463,6 +2733,12 @@ Objects {
       BoundsScale: 1
     }
   }
+  InstanceHistory {
+    SelfId: 4282151365965722370
+    SubobjectId: 16943106595515424358
+    InstanceId: 16398007997991698516
+    TemplateId: 8713794350897080925
+  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -2472,7 +2748,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 7017172629087333061
+  Id: 7581109194576294520
   Name: "Modern Weapon - Body 01"
   Transform {
     Location {
@@ -2488,7 +2764,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13329053194027161756
+  ParentId: 7417758046561050611
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -2515,6 +2791,12 @@ Objects {
       BoundsScale: 1
     }
   }
+  InstanceHistory {
+    SelfId: 7581109194576294520
+    SubobjectId: 13365209186694831900
+    InstanceId: 16398007997991698516
+    TemplateId: 8713794350897080925
+  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -2524,7 +2806,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 12192400590271098552
+  Id: 8520630830108802376
   Name: "Modern Weapon - Sight Forward 02"
   Transform {
     Location {
@@ -2540,7 +2822,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13329053194027161756
+  ParentId: 7417758046561050611
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -2567,6 +2849,12 @@ Objects {
       BoundsScale: 1
     }
   }
+  InstanceHistory {
+    SelfId: 8520630830108802376
+    SubobjectId: 11993117471821336620
+    InstanceId: 16398007997991698516
+    TemplateId: 8713794350897080925
+  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -2576,7 +2864,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 13450807203297015375
+  Id: 4906341493672699592
   Name: "Modern Weapon Accessory - Rail 02"
   Transform {
     Location {
@@ -2594,7 +2882,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13329053194027161756
+  ParentId: 7417758046561050611
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -2621,6 +2909,12 @@ Objects {
       BoundsScale: 1
     }
   }
+  InstanceHistory {
+    SelfId: 4906341493672699592
+    SubobjectId: 10689737656646994860
+    InstanceId: 16398007997991698516
+    TemplateId: 8713794350897080925
+  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -2630,7 +2924,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 642727600568364496
+  Id: 12748318803432976120
   Name: "Modern Weapon - Sight Rear 01"
   Transform {
     Location {
@@ -2646,7 +2940,7 @@ Objects {
       Z: 1.20455921
     }
   }
-  ParentId: 13329053194027161756
+  ParentId: 7417758046561050611
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -2673,6 +2967,12 @@ Objects {
       BoundsScale: 1
     }
   }
+  InstanceHistory {
+    SelfId: 12748318803432976120
+    SubobjectId: 6963796736273761180
+    InstanceId: 16398007997991698516
+    TemplateId: 8713794350897080925
+  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -2682,7 +2982,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 5996440742648645218
+  Id: 15566087339085804886
   Name: "Modern Weapon - Pistol 01 (Prop)"
   Transform {
     Location {
@@ -2696,15 +2996,15 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 16085141785925917824
-  ChildIds: 6041662959103242898
-  ChildIds: 10927602699414263276
-  ChildIds: 11732427079027782879
-  ChildIds: 2561031317392560322
-  ChildIds: 15318184648547517548
-  ChildIds: 8141360905983527491
-  ChildIds: 2494316543877704410
-  ChildIds: 114100246077853120
+  ParentId: 7959233878214578352
+  ChildIds: 12534601277758297310
+  ChildIds: 16201769966257950893
+  ChildIds: 12158347892486907634
+  ChildIds: 1911451023708591770
+  ChildIds: 6650557904676879580
+  ChildIds: 8703310504422274865
+  ChildIds: 12909418861376407778
+  ChildIds: 12216183641851181452
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -2719,13 +3019,19 @@ Objects {
   Folder {
     IsGroup: true
   }
+  InstanceHistory {
+    SelfId: 15566087339085804886
+    SubobjectId: 597458824722077746
+    InstanceId: 16398007997991698516
+    TemplateId: 8713794350897080925
+  }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 114100246077853120
+  Id: 12216183641851181452
   Name: "Modern Weapon - Sight Rear 01"
   Transform {
     Location {
@@ -2740,7 +3046,7 @@ Objects {
       Z: 0.900000036
     }
   }
-  ParentId: 5996440742648645218
+  ParentId: 15566087339085804886
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -2767,6 +3073,12 @@ Objects {
       BoundsScale: 1
     }
   }
+  InstanceHistory {
+    SelfId: 12216183641851181452
+    SubobjectId: 8775222198536983784
+    InstanceId: 16398007997991698516
+    TemplateId: 8713794350897080925
+  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -2776,7 +3088,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 2494316543877704410
+  Id: 12909418861376407778
   Name: "Modern Weapon - Sight Forward 01"
   Transform {
     Location {
@@ -2791,7 +3103,7 @@ Objects {
       Z: 0.900000036
     }
   }
-  ParentId: 5996440742648645218
+  ParentId: 15566087339085804886
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -2818,6 +3130,12 @@ Objects {
       BoundsScale: 1
     }
   }
+  InstanceHistory {
+    SelfId: 12909418861376407778
+    SubobjectId: 7163037167915165062
+    InstanceId: 16398007997991698516
+    TemplateId: 8713794350897080925
+  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -2827,7 +3145,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 8141360905983527491
+  Id: 8703310504422274865
   Name: "Modern Weapon - Sight 02"
   Transform {
     Location {
@@ -2842,7 +3160,7 @@ Objects {
       Z: 0.900000036
     }
   }
-  ParentId: 5996440742648645218
+  ParentId: 15566087339085804886
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -2869,6 +3187,12 @@ Objects {
       BoundsScale: 1
     }
   }
+  InstanceHistory {
+    SelfId: 8703310504422274865
+    SubobjectId: 12143708585415842389
+    InstanceId: 16398007997991698516
+    TemplateId: 8713794350897080925
+  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -2878,7 +3202,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 15318184648547517548
+  Id: 6650557904676879580
   Name: "Modern Weapon - Magazine 04"
   Transform {
     Location {
@@ -2894,7 +3218,7 @@ Objects {
       Z: 0.900000036
     }
   }
-  ParentId: 5996440742648645218
+  ParentId: 15566087339085804886
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -2921,6 +3245,12 @@ Objects {
       BoundsScale: 1
     }
   }
+  InstanceHistory {
+    SelfId: 6650557904676879580
+    SubobjectId: 10089408389768483256
+    InstanceId: 16398007997991698516
+    TemplateId: 8713794350897080925
+  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -2930,7 +3260,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 2561031317392560322
+  Id: 1911451023708591770
   Name: "Modern Weapon - Grip 04"
   Transform {
     Location {
@@ -2946,7 +3276,7 @@ Objects {
       Z: 0.900000036
     }
   }
-  ParentId: 5996440742648645218
+  ParentId: 15566087339085804886
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -2973,6 +3303,12 @@ Objects {
       BoundsScale: 1
     }
   }
+  InstanceHistory {
+    SelfId: 1911451023708591770
+    SubobjectId: 14612376220749560830
+    InstanceId: 16398007997991698516
+    TemplateId: 8713794350897080925
+  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -2982,7 +3318,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 11732427079027782879
+  Id: 12158347892486907634
   Name: "Trigger - Rear"
   Transform {
     Location {
@@ -2998,7 +3334,7 @@ Objects {
       Z: 0.05
     }
   }
-  ParentId: 5996440742648645218
+  ParentId: 15566087339085804886
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -3040,6 +3376,12 @@ Objects {
       BoundsScale: 1
     }
   }
+  InstanceHistory {
+    SelfId: 12158347892486907634
+    SubobjectId: 8715697459727977366
+    InstanceId: 16398007997991698516
+    TemplateId: 8713794350897080925
+  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -3049,7 +3391,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 10927602699414263276
+  Id: 16201769966257950893
   Name: "Modern Weapon - Slide 01"
   Transform {
     Location {
@@ -3064,7 +3406,7 @@ Objects {
       Z: 0.900000036
     }
   }
-  ParentId: 5996440742648645218
+  ParentId: 15566087339085804886
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -3091,6 +3433,12 @@ Objects {
       BoundsScale: 1
     }
   }
+  InstanceHistory {
+    SelfId: 16201769966257950893
+    SubobjectId: 3501407583845268937
+    InstanceId: 16398007997991698516
+    TemplateId: 8713794350897080925
+  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -3100,7 +3448,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 6041662959103242898
+  Id: 12534601277758297310
   Name: "Modern Weapon Accessory - Laser 01"
   Transform {
     Location {
@@ -3115,7 +3463,7 @@ Objects {
       Z: 0.900000036
     }
   }
-  ParentId: 5996440742648645218
+  ParentId: 15566087339085804886
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -3142,6 +3490,12 @@ Objects {
       BoundsScale: 1
     }
   }
+  InstanceHistory {
+    SelfId: 12534601277758297310
+    SubobjectId: 9060284945601247674
+    InstanceId: 16398007997991698516
+    TemplateId: 8713794350897080925
+  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -3151,7 +3505,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 4941244431763145182
+  Id: 8084192886411733049
   Name: "Modern Weapon - Pistol 01 (Prop)"
   Transform {
     Location {
@@ -3167,15 +3521,15 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 16085141785925917824
-  ChildIds: 7842989076880859974
-  ChildIds: 8635094989711157467
-  ChildIds: 17331747694723630660
-  ChildIds: 8387060516253263878
-  ChildIds: 6572179207173446180
-  ChildIds: 5802750962803955741
-  ChildIds: 13714783416020591514
-  ChildIds: 12940695285973017578
+  ParentId: 7959233878214578352
+  ChildIds: 6653039787328071177
+  ChildIds: 10279750295028405393
+  ChildIds: 17071471166628056139
+  ChildIds: 12041642624398938453
+  ChildIds: 52536554679983313
+  ChildIds: 4505854715701621555
+  ChildIds: 4570924222030296556
+  ChildIds: 266149895805110062
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -3190,13 +3544,19 @@ Objects {
   Folder {
     IsGroup: true
   }
+  InstanceHistory {
+    SelfId: 8084192886411733049
+    SubobjectId: 11565123780663493981
+    InstanceId: 16398007997991698516
+    TemplateId: 8713794350897080925
+  }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 12940695285973017578
+  Id: 266149895805110062
   Name: "Modern Weapon - Sight Rear 01"
   Transform {
     Location {
@@ -3211,7 +3571,7 @@ Objects {
       Z: 0.900000036
     }
   }
-  ParentId: 4941244431763145182
+  ParentId: 8084192886411733049
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -3238,6 +3598,12 @@ Objects {
       BoundsScale: 1
     }
   }
+  InstanceHistory {
+    SelfId: 266149895805110062
+    SubobjectId: 15275873208187349578
+    InstanceId: 16398007997991698516
+    TemplateId: 8713794350897080925
+  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -3247,7 +3613,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 13714783416020591514
+  Id: 4570924222030296556
   Name: "Modern Weapon - Sight Forward 01"
   Transform {
     Location {
@@ -3262,7 +3628,7 @@ Objects {
       Z: 0.900000036
     }
   }
-  ParentId: 4941244431763145182
+  ParentId: 8084192886411733049
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -3289,6 +3655,12 @@ Objects {
       BoundsScale: 1
     }
   }
+  InstanceHistory {
+    SelfId: 4570924222030296556
+    SubobjectId: 17230894255925975176
+    InstanceId: 16398007997991698516
+    TemplateId: 8713794350897080925
+  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -3298,7 +3670,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 5802750962803955741
+  Id: 4505854715701621555
   Name: "Modern Weapon - Sight 02"
   Transform {
     Location {
@@ -3313,7 +3685,7 @@ Objects {
       Z: 0.900000036
     }
   }
-  ParentId: 4941244431763145182
+  ParentId: 8084192886411733049
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -3340,6 +3712,12 @@ Objects {
       BoundsScale: 1
     }
   }
+  InstanceHistory {
+    SelfId: 4505854715701621555
+    SubobjectId: 17205794196241817175
+    InstanceId: 16398007997991698516
+    TemplateId: 8713794350897080925
+  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -3349,7 +3727,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 6572179207173446180
+  Id: 52536554679983313
   Name: "Modern Weapon - Magazine 04"
   Transform {
     Location {
@@ -3365,7 +3743,7 @@ Objects {
       Z: 0.900000036
     }
   }
-  ParentId: 4941244431763145182
+  ParentId: 8084192886411733049
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -3392,6 +3770,12 @@ Objects {
       BoundsScale: 1
     }
   }
+  InstanceHistory {
+    SelfId: 52536554679983313
+    SubobjectId: 15057193693192466869
+    InstanceId: 16398007997991698516
+    TemplateId: 8713794350897080925
+  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -3401,7 +3785,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 8387060516253263878
+  Id: 12041642624398938453
   Name: "Modern Weapon - Grip 04"
   Transform {
     Location {
@@ -3417,7 +3801,7 @@ Objects {
       Z: 0.900000036
     }
   }
-  ParentId: 4941244431763145182
+  ParentId: 8084192886411733049
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -3444,6 +3828,12 @@ Objects {
       BoundsScale: 1
     }
   }
+  InstanceHistory {
+    SelfId: 12041642624398938453
+    SubobjectId: 8598429960003206193
+    InstanceId: 16398007997991698516
+    TemplateId: 8713794350897080925
+  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -3453,7 +3843,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 17331747694723630660
+  Id: 17071471166628056139
   Name: "Trigger - Rear"
   Transform {
     Location {
@@ -3469,7 +3859,7 @@ Objects {
       Z: 0.05
     }
   }
-  ParentId: 4941244431763145182
+  ParentId: 8084192886411733049
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -3511,6 +3901,12 @@ Objects {
       BoundsScale: 1
     }
   }
+  InstanceHistory {
+    SelfId: 17071471166628056139
+    SubobjectId: 4369983432015552815
+    InstanceId: 16398007997991698516
+    TemplateId: 8713794350897080925
+  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -3520,7 +3916,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 8635094989711157467
+  Id: 10279750295028405393
   Name: "Modern Weapon - Slide 01"
   Transform {
     Location {
@@ -3535,7 +3931,7 @@ Objects {
       Z: 0.900000036
     }
   }
-  ParentId: 4941244431763145182
+  ParentId: 8084192886411733049
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -3562,6 +3958,12 @@ Objects {
       BoundsScale: 1
     }
   }
+  InstanceHistory {
+    SelfId: 10279750295028405393
+    SubobjectId: 6838225897484712437
+    InstanceId: 16398007997991698516
+    TemplateId: 8713794350897080925
+  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -3571,7 +3973,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 7842989076880859974
+  Id: 6653039787328071177
   Name: "Modern Weapon Accessory - Laser 01"
   Transform {
     Location {
@@ -3586,7 +3988,7 @@ Objects {
       Z: 0.900000036
     }
   }
-  ParentId: 4941244431763145182
+  ParentId: 8084192886411733049
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -3613,6 +4015,12 @@ Objects {
       BoundsScale: 1
     }
   }
+  InstanceHistory {
+    SelfId: 6653039787328071177
+    SubobjectId: 10095689631693245293
+    InstanceId: 16398007997991698516
+    TemplateId: 8713794350897080925
+  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -3622,7 +4030,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 10332533780059915339
+  Id: 18289735037942750935
   Name: "Modern Weapon - Pistol 01 (Prop)"
   Transform {
     Location {
@@ -3637,15 +4045,15 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 16085141785925917824
-  ChildIds: 8756100848113868181
-  ChildIds: 9334947870684323341
-  ChildIds: 7371535441032791655
-  ChildIds: 10801378279796120052
-  ChildIds: 3108485996019101717
-  ChildIds: 2159890810868522451
-  ChildIds: 1973001654978755280
-  ChildIds: 17920511984101553044
+  ParentId: 7959233878214578352
+  ChildIds: 4397669960334720579
+  ChildIds: 16717340504474740819
+  ChildIds: 13297403241217703209
+  ChildIds: 4555822308944171995
+  ChildIds: 14416686309380453863
+  ChildIds: 14671651124358703751
+  ChildIds: 15060650948133577482
+  ChildIds: 7556936827809683610
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -3660,13 +4068,19 @@ Objects {
   Folder {
     IsGroup: true
   }
+  InstanceHistory {
+    SelfId: 18289735037942750935
+    SubobjectId: 3286907864735986611
+    InstanceId: 16398007997991698516
+    TemplateId: 8713794350897080925
+  }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 17920511984101553044
+  Id: 7556936827809683610
   Name: "Modern Weapon - Sight Rear 01"
   Transform {
     Location {
@@ -3681,7 +4095,7 @@ Objects {
       Z: 0.900000036
     }
   }
-  ParentId: 10332533780059915339
+  ParentId: 18289735037942750935
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -3708,6 +4122,12 @@ Objects {
       BoundsScale: 1
     }
   }
+  InstanceHistory {
+    SelfId: 7556936827809683610
+    SubobjectId: 13299378555536848382
+    InstanceId: 16398007997991698516
+    TemplateId: 8713794350897080925
+  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -3717,7 +4137,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 1973001654978755280
+  Id: 15060650948133577482
   Name: "Modern Weapon - Sight Forward 01"
   Transform {
     Location {
@@ -3732,7 +4152,7 @@ Objects {
       Z: 0.900000036
     }
   }
-  ParentId: 10332533780059915339
+  ParentId: 18289735037942750935
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -3759,6 +4179,12 @@ Objects {
       BoundsScale: 1
     }
   }
+  InstanceHistory {
+    SelfId: 15060650948133577482
+    SubobjectId: 93852572988182126
+    InstanceId: 16398007997991698516
+    TemplateId: 8713794350897080925
+  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -3768,7 +4194,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 2159890810868522451
+  Id: 14671651124358703751
   Name: "Modern Weapon - Sight 02"
   Transform {
     Location {
@@ -3783,7 +4209,7 @@ Objects {
       Z: 0.900000036
     }
   }
-  ParentId: 10332533780059915339
+  ParentId: 18289735037942750935
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -3810,6 +4236,12 @@ Objects {
       BoundsScale: 1
     }
   }
+  InstanceHistory {
+    SelfId: 14671651124358703751
+    SubobjectId: 2005065703699056611
+    InstanceId: 16398007997991698516
+    TemplateId: 8713794350897080925
+  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -3819,7 +4251,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 3108485996019101717
+  Id: 14416686309380453863
   Name: "Modern Weapon - Magazine 04"
   Transform {
     Location {
@@ -3835,7 +4267,7 @@ Objects {
       Z: 0.900000036
     }
   }
-  ParentId: 10332533780059915339
+  ParentId: 18289735037942750935
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -3862,6 +4294,12 @@ Objects {
       BoundsScale: 1
     }
   }
+  InstanceHistory {
+    SelfId: 14416686309380453863
+    SubobjectId: 1755589684153194627
+    InstanceId: 16398007997991698516
+    TemplateId: 8713794350897080925
+  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -3871,7 +4309,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 10801378279796120052
+  Id: 4555822308944171995
   Name: "Modern Weapon - Grip 04"
   Transform {
     Location {
@@ -3887,7 +4325,7 @@ Objects {
       Z: 0.900000036
     }
   }
-  ParentId: 10332533780059915339
+  ParentId: 18289735037942750935
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -3914,6 +4352,12 @@ Objects {
       BoundsScale: 1
     }
   }
+  InstanceHistory {
+    SelfId: 4555822308944171995
+    SubobjectId: 17255199012487413439
+    InstanceId: 16398007997991698516
+    TemplateId: 8713794350897080925
+  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -3923,7 +4367,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 7371535441032791655
+  Id: 13297403241217703209
   Name: "Trigger - Rear"
   Transform {
     Location {
@@ -3939,7 +4383,7 @@ Objects {
       Z: 0.05
     }
   }
-  ParentId: 10332533780059915339
+  ParentId: 18289735037942750935
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -3981,6 +4425,12 @@ Objects {
       BoundsScale: 1
     }
   }
+  InstanceHistory {
+    SelfId: 13297403241217703209
+    SubobjectId: 7549895133445607501
+    InstanceId: 16398007997991698516
+    TemplateId: 8713794350897080925
+  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -3990,7 +4440,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 9334947870684323341
+  Id: 16717340504474740819
   Name: "Modern Weapon - Slide 01"
   Transform {
     Location {
@@ -4005,7 +4455,7 @@ Objects {
       Z: 0.900000036
     }
   }
-  ParentId: 10332533780059915339
+  ParentId: 18289735037942750935
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -4032,6 +4482,12 @@ Objects {
       BoundsScale: 1
     }
   }
+  InstanceHistory {
+    SelfId: 16717340504474740819
+    SubobjectId: 4012897248179782967
+    InstanceId: 16398007997991698516
+    TemplateId: 8713794350897080925
+  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -4041,7 +4497,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 8756100848113868181
+  Id: 4397669960334720579
   Name: "Modern Weapon Accessory - Laser 01"
   Transform {
     Location {
@@ -4056,7 +4512,7 @@ Objects {
       Z: 0.900000036
     }
   }
-  ParentId: 10332533780059915339
+  ParentId: 18289735037942750935
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -4083,6 +4539,12 @@ Objects {
       BoundsScale: 1
     }
   }
+  InstanceHistory {
+    SelfId: 4397669960334720579
+    SubobjectId: 17098173080221078311
+    InstanceId: 16398007997991698516
+    TemplateId: 8713794350897080925
+  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -4092,7 +4554,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 13609529183519884332
+  Id: 6722127696388444801
   Name: "Modern Weapon - Pistol 01 (Prop)"
   Transform {
     Location {
@@ -4106,15 +4568,15 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 16085141785925917824
-  ChildIds: 4575888017205244180
-  ChildIds: 10671920645641863952
-  ChildIds: 1612732421447872379
-  ChildIds: 2565291729211673344
-  ChildIds: 3418531986661131344
-  ChildIds: 2283632909737453419
-  ChildIds: 7807325023035973490
-  ChildIds: 8167724906533663791
+  ParentId: 7959233878214578352
+  ChildIds: 13090116661496255453
+  ChildIds: 12595064356984833662
+  ChildIds: 9442171439739187583
+  ChildIds: 3591178492178320977
+  ChildIds: 3048074627629929035
+  ChildIds: 7887356355603218995
+  ChildIds: 8805294938139192923
+  ChildIds: 10431775430907234661
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -4129,13 +4591,19 @@ Objects {
   Folder {
     IsGroup: true
   }
+  InstanceHistory {
+    SelfId: 6722127696388444801
+    SubobjectId: 10161963346046042085
+    InstanceId: 16398007997991698516
+    TemplateId: 8713794350897080925
+  }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 8167724906533663791
+  Id: 10431775430907234661
   Name: "Modern Weapon - Sight Rear 01"
   Transform {
     Location {
@@ -4150,7 +4618,7 @@ Objects {
       Z: 0.900000036
     }
   }
-  ParentId: 13609529183519884332
+  ParentId: 6722127696388444801
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -4177,6 +4645,12 @@ Objects {
       BoundsScale: 1
     }
   }
+  InstanceHistory {
+    SelfId: 10431775430907234661
+    SubobjectId: 4650630895912281089
+    InstanceId: 16398007997991698516
+    TemplateId: 8713794350897080925
+  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -4186,7 +4660,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 7807325023035973490
+  Id: 8805294938139192923
   Name: "Modern Weapon - Sight Forward 01"
   Transform {
     Location {
@@ -4201,7 +4675,7 @@ Objects {
       Z: 0.900000036
     }
   }
-  ParentId: 13609529183519884332
+  ParentId: 6722127696388444801
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -4228,6 +4702,12 @@ Objects {
       BoundsScale: 1
     }
   }
+  InstanceHistory {
+    SelfId: 8805294938139192923
+    SubobjectId: 12285240671044207423
+    InstanceId: 16398007997991698516
+    TemplateId: 8713794350897080925
+  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -4237,7 +4717,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 2283632909737453419
+  Id: 7887356355603218995
   Name: "Modern Weapon - Sight 02"
   Transform {
     Location {
@@ -4252,7 +4732,7 @@ Objects {
       Z: 0.900000036
     }
   }
-  ParentId: 13609529183519884332
+  ParentId: 6722127696388444801
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -4279,6 +4759,12 @@ Objects {
       BoundsScale: 1
     }
   }
+  InstanceHistory {
+    SelfId: 7887356355603218995
+    SubobjectId: 13635426901139337047
+    InstanceId: 16398007997991698516
+    TemplateId: 8713794350897080925
+  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -4288,7 +4774,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 3418531986661131344
+  Id: 3048074627629929035
   Name: "Modern Weapon - Magazine 04"
   Transform {
     Location {
@@ -4304,7 +4790,7 @@ Objects {
       Z: 0.900000036
     }
   }
-  ParentId: 13609529183519884332
+  ParentId: 6722127696388444801
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -4331,6 +4817,12 @@ Objects {
       BoundsScale: 1
     }
   }
+  InstanceHistory {
+    SelfId: 3048074627629929035
+    SubobjectId: 18015436369392975663
+    InstanceId: 16398007997991698516
+    TemplateId: 8713794350897080925
+  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -4340,7 +4832,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 2565291729211673344
+  Id: 3591178492178320977
   Name: "Modern Weapon - Grip 04"
   Transform {
     Location {
@@ -4356,7 +4848,7 @@ Objects {
       Z: 0.900000036
     }
   }
-  ParentId: 13609529183519884332
+  ParentId: 6722127696388444801
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -4383,6 +4875,12 @@ Objects {
       BoundsScale: 1
     }
   }
+  InstanceHistory {
+    SelfId: 3591178492178320977
+    SubobjectId: 16256074474466485045
+    InstanceId: 16398007997991698516
+    TemplateId: 8713794350897080925
+  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -4392,7 +4890,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 1612732421447872379
+  Id: 9442171439739187583
   Name: "Trigger - Rear"
   Transform {
     Location {
@@ -4408,7 +4906,7 @@ Objects {
       Z: 0.05
     }
   }
-  ParentId: 13609529183519884332
+  ParentId: 6722127696388444801
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -4450,6 +4948,12 @@ Objects {
       BoundsScale: 1
     }
   }
+  InstanceHistory {
+    SelfId: 9442171439739187583
+    SubobjectId: 6000506304738581531
+    InstanceId: 16398007997991698516
+    TemplateId: 8713794350897080925
+  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -4459,7 +4963,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 10671920645641863952
+  Id: 12595064356984833662
   Name: "Modern Weapon - Slide 01"
   Transform {
     Location {
@@ -4474,7 +4978,7 @@ Objects {
       Z: 0.900000036
     }
   }
-  ParentId: 13609529183519884332
+  ParentId: 6722127696388444801
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -4501,6 +5005,12 @@ Objects {
       BoundsScale: 1
     }
   }
+  InstanceHistory {
+    SelfId: 12595064356984833662
+    SubobjectId: 9116948218961373978
+    InstanceId: 16398007997991698516
+    TemplateId: 8713794350897080925
+  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -4510,7 +5020,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 4575888017205244180
+  Id: 13090116661496255453
   Name: "Modern Weapon Accessory - Laser 01"
   Transform {
     Location {
@@ -4525,7 +5035,7 @@ Objects {
       Z: 0.900000036
     }
   }
-  ParentId: 13609529183519884332
+  ParentId: 6722127696388444801
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -4552,6 +5062,12 @@ Objects {
       BoundsScale: 1
     }
   }
+  InstanceHistory {
+    SelfId: 13090116661496255453
+    SubobjectId: 7342608929634483897
+    InstanceId: 16398007997991698516
+    TemplateId: 8713794350897080925
+  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -4561,7 +5077,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 16905635433970596221
+  Id: 5374921422068059073
   Name: "Modern Weapon - Sniper Rifle 01 (Prop)"
   Transform {
     Location {
@@ -4576,15 +5092,15 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 16085141785925917824
-  ChildIds: 6083820866398616933
-  ChildIds: 14104203962947511100
-  ChildIds: 7472906945148555321
-  ChildIds: 4444843608653812579
-  ChildIds: 16347118372218369111
-  ChildIds: 13272394178757515153
-  ChildIds: 15731752521883738232
-  ChildIds: 16963788527563303045
+  ParentId: 7959233878214578352
+  ChildIds: 3584476581497833778
+  ChildIds: 17790488963984187450
+  ChildIds: 15618576618581349531
+  ChildIds: 9282444166644020305
+  ChildIds: 2253220924187215018
+  ChildIds: 2759850742026050019
+  ChildIds: 18403738463378557697
+  ChildIds: 10764339505047545278
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -4599,13 +5115,19 @@ Objects {
   Folder {
     IsGroup: true
   }
+  InstanceHistory {
+    SelfId: 5374921422068059073
+    SubobjectId: 11157895515353409189
+    InstanceId: 16398007997991698516
+    TemplateId: 8713794350897080925
+  }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 16963788527563303045
+  Id: 10764339505047545278
   Name: "Modern Weapon - Magazine 03"
   Transform {
     Location {
@@ -4620,7 +5142,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 16905635433970596221
+  ParentId: 5374921422068059073
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -4647,6 +5169,12 @@ Objects {
       BoundsScale: 1
     }
   }
+  InstanceHistory {
+    SelfId: 10764339505047545278
+    SubobjectId: 4984884366565001434
+    InstanceId: 16398007997991698516
+    TemplateId: 8713794350897080925
+  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -4656,7 +5184,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 15731752521883738232
+  Id: 18403738463378557697
   Name: "Modern Weapon - Stock 02"
   Transform {
     Location {
@@ -4671,7 +5199,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 16905635433970596221
+  ParentId: 5374921422068059073
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -4698,6 +5226,12 @@ Objects {
       BoundsScale: 1
     }
   }
+  InstanceHistory {
+    SelfId: 18403738463378557697
+    SubobjectId: 3398096713277122149
+    InstanceId: 16398007997991698516
+    TemplateId: 8713794350897080925
+  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -4707,7 +5241,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 13272394178757515153
+  Id: 2759850742026050019
   Name: "Modern Weapon - Scope 01"
   Transform {
     Location {
@@ -4722,7 +5256,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 16905635433970596221
+  ParentId: 5374921422068059073
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -4749,6 +5283,12 @@ Objects {
       BoundsScale: 1
     }
   }
+  InstanceHistory {
+    SelfId: 2759850742026050019
+    SubobjectId: 17727212618979931271
+    InstanceId: 16398007997991698516
+    TemplateId: 8713794350897080925
+  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -4758,7 +5298,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 16347118372218369111
+  Id: 2253220924187215018
   Name: "Modern Weapon - Body 02"
   Transform {
     Location {
@@ -4773,7 +5313,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 16905635433970596221
+  ParentId: 5374921422068059073
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -4800,6 +5340,12 @@ Objects {
       BoundsScale: 1
     }
   }
+  InstanceHistory {
+    SelfId: 2253220924187215018
+    SubobjectId: 14918820462937598414
+    InstanceId: 16398007997991698516
+    TemplateId: 8713794350897080925
+  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -4809,7 +5355,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 4444843608653812579
+  Id: 9282444166644020305
   Name: "Modern Weapon - Barrel Tip 02"
   Transform {
     Location {
@@ -4824,7 +5370,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 16905635433970596221
+  ParentId: 5374921422068059073
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -4851,6 +5397,12 @@ Objects {
       BoundsScale: 1
     }
   }
+  InstanceHistory {
+    SelfId: 9282444166644020305
+    SubobjectId: 5809253875104340277
+    InstanceId: 16398007997991698516
+    TemplateId: 8713794350897080925
+  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -4860,7 +5412,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 7472906945148555321
+  Id: 15618576618581349531
   Name: "Barrel"
   Transform {
     Location {
@@ -4876,7 +5428,7 @@ Objects {
       Z: 0.32738325
     }
   }
-  ParentId: 16905635433970596221
+  ParentId: 5374921422068059073
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -4918,6 +5470,12 @@ Objects {
       BoundsScale: 1
     }
   }
+  InstanceHistory {
+    SelfId: 15618576618581349531
+    SubobjectId: 616734746207205887
+    InstanceId: 16398007997991698516
+    TemplateId: 8713794350897080925
+  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -4927,7 +5485,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 14104203962947511100
+  Id: 17790488963984187450
   Name: "Trigger - Rear"
   Transform {
     Location {
@@ -4945,7 +5503,7 @@ Objects {
       Z: 0.0497292951
     }
   }
-  ParentId: 16905635433970596221
+  ParentId: 5374921422068059073
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -4986,6 +5544,12 @@ Objects {
       BoundsScale: 1
     }
   }
+  InstanceHistory {
+    SelfId: 17790488963984187450
+    SubobjectId: 2786535338902392158
+    InstanceId: 16398007997991698516
+    TemplateId: 8713794350897080925
+  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -4995,7 +5559,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 6083820866398616933
+  Id: 3584476581497833778
   Name: "Modern Weapon - Grip 03"
   Transform {
     Location {
@@ -5010,7 +5574,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 16905635433970596221
+  ParentId: 5374921422068059073
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -5037,6 +5601,12 @@ Objects {
       BoundsScale: 1
     }
   }
+  InstanceHistory {
+    SelfId: 3584476581497833778
+    SubobjectId: 16281038362351232086
+    InstanceId: 16398007997991698516
+    TemplateId: 8713794350897080925
+  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -5046,7 +5616,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 695084475111262937
+  Id: 16600089313113521936
   Name: "Modern Weapon - Sniper Rifle 01 (Prop)"
   Transform {
     Location {
@@ -5061,15 +5631,15 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 16085141785925917824
-  ChildIds: 8947411954780634579
-  ChildIds: 158333637531649270
-  ChildIds: 5325447460150552322
-  ChildIds: 3131597108405525730
-  ChildIds: 13891530403173084939
-  ChildIds: 18151647424880379310
-  ChildIds: 14578900912298176487
-  ChildIds: 11630813169632995467
+  ParentId: 7959233878214578352
+  ChildIds: 8664249077134309633
+  ChildIds: 17776332612864323505
+  ChildIds: 2808343186993286092
+  ChildIds: 18084941247323219592
+  ChildIds: 5586226143924489347
+  ChildIds: 14994693389791756106
+  ChildIds: 16401665221706200133
+  ChildIds: 1139116499092520360
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -5084,13 +5654,19 @@ Objects {
   Folder {
     IsGroup: true
   }
+  InstanceHistory {
+    SelfId: 16600089313113521936
+    SubobjectId: 3895645647674724980
+    InstanceId: 16398007997991698516
+    TemplateId: 8713794350897080925
+  }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 11630813169632995467
+  Id: 1139116499092520360
   Name: "Modern Weapon - Magazine 03"
   Transform {
     Location {
@@ -5105,7 +5681,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 695084475111262937
+  ParentId: 16600089313113521936
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -5132,6 +5708,12 @@ Objects {
       BoundsScale: 1
     }
   }
+  InstanceHistory {
+    SelfId: 1139116499092520360
+    SubobjectId: 16105351926432092364
+    InstanceId: 16398007997991698516
+    TemplateId: 8713794350897080925
+  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -5141,7 +5723,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 14578900912298176487
+  Id: 16401665221706200133
   Name: "Modern Weapon - Stock 02"
   Transform {
     Location {
@@ -5156,7 +5738,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 695084475111262937
+  ParentId: 16600089313113521936
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -5183,6 +5765,12 @@ Objects {
       BoundsScale: 1
     }
   }
+  InstanceHistory {
+    SelfId: 16401665221706200133
+    SubobjectId: 3733813714583574817
+    InstanceId: 16398007997991698516
+    TemplateId: 8713794350897080925
+  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -5192,7 +5780,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 18151647424880379310
+  Id: 14994693389791756106
   Name: "Modern Weapon - Scope 01"
   Transform {
     Location {
@@ -5207,7 +5795,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 695084475111262937
+  ParentId: 16600089313113521936
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -5234,6 +5822,12 @@ Objects {
       BoundsScale: 1
     }
   }
+  InstanceHistory {
+    SelfId: 14994693389791756106
+    SubobjectId: 24939559586239022
+    InstanceId: 16398007997991698516
+    TemplateId: 8713794350897080925
+  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -5243,7 +5837,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 13891530403173084939
+  Id: 5586226143924489347
   Name: "Modern Weapon - Body 02"
   Transform {
     Location {
@@ -5258,7 +5852,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 695084475111262937
+  ParentId: 16600089313113521936
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -5285,6 +5879,12 @@ Objects {
       BoundsScale: 1
     }
   }
+  InstanceHistory {
+    SelfId: 5586226143924489347
+    SubobjectId: 11369622308962427367
+    InstanceId: 16398007997991698516
+    TemplateId: 8713794350897080925
+  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -5294,7 +5894,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 3131597108405525730
+  Id: 18084941247323219592
   Name: "Modern Weapon - Barrel Tip 02"
   Transform {
     Location {
@@ -5309,7 +5909,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 695084475111262937
+  ParentId: 16600089313113521936
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -5336,6 +5936,12 @@ Objects {
       BoundsScale: 1
     }
   }
+  InstanceHistory {
+    SelfId: 18084941247323219592
+    SubobjectId: 3077610475497966572
+    InstanceId: 16398007997991698516
+    TemplateId: 8713794350897080925
+  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -5345,7 +5951,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 5325447460150552322
+  Id: 2808343186993286092
   Name: "Barrel"
   Transform {
     Location {
@@ -5361,7 +5967,7 @@ Objects {
       Z: 0.32738325
     }
   }
-  ParentId: 695084475111262937
+  ParentId: 16600089313113521936
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -5403,6 +6009,12 @@ Objects {
       BoundsScale: 1
     }
   }
+  InstanceHistory {
+    SelfId: 2808343186993286092
+    SubobjectId: 17777534478538696360
+    InstanceId: 16398007997991698516
+    TemplateId: 8713794350897080925
+  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -5412,7 +6024,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 158333637531649270
+  Id: 17776332612864323505
   Name: "Trigger - Rear"
   Transform {
     Location {
@@ -5430,7 +6042,7 @@ Objects {
       Z: 0.0497292951
     }
   }
-  ParentId: 695084475111262937
+  ParentId: 16600089313113521936
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -5471,6 +6083,12 @@ Objects {
       BoundsScale: 1
     }
   }
+  InstanceHistory {
+    SelfId: 17776332612864323505
+    SubobjectId: 2809533687927489237
+    InstanceId: 16398007997991698516
+    TemplateId: 8713794350897080925
+  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -5480,7 +6098,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 8947411954780634579
+  Id: 8664249077134309633
   Name: "Modern Weapon - Grip 03"
   Transform {
     Location {
@@ -5495,7 +6113,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 695084475111262937
+  ParentId: 16600089313113521936
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -5522,6 +6140,12 @@ Objects {
       BoundsScale: 1
     }
   }
+  InstanceHistory {
+    SelfId: 8664249077134309633
+    SubobjectId: 12138002494836560997
+    InstanceId: 16398007997991698516
+    TemplateId: 8713794350897080925
+  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -5531,7 +6155,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 5779962261704841859
+  Id: 12563126592015928298
   Name: "Modern Weapon - Grenade Launcher 01 (Prop)"
   Transform {
     Location {
@@ -5547,20 +6171,20 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 16085141785925917824
-  ChildIds: 12298243008440851979
-  ChildIds: 5324934618078985017
-  ChildIds: 14318074255708503706
-  ChildIds: 8082194467832056243
-  ChildIds: 10189815803075505398
-  ChildIds: 7337679646950052001
-  ChildIds: 7818126337858825500
-  ChildIds: 15948156877181079277
-  ChildIds: 11006033198966110595
-  ChildIds: 2637345294359755444
-  ChildIds: 11425765111595765556
-  ChildIds: 6068670715935787464
-  ChildIds: 2418878940263201998
+  ParentId: 7959233878214578352
+  ChildIds: 17701600069863254154
+  ChildIds: 1975036764796159612
+  ChildIds: 17990191342092178122
+  ChildIds: 8069462140091251198
+  ChildIds: 4524617559683589599
+  ChildIds: 16348337441341492466
+  ChildIds: 14109259628342825232
+  ChildIds: 14724010167125750841
+  ChildIds: 5629152509694816848
+  ChildIds: 16969353356669856722
+  ChildIds: 12033856920915017957
+  ChildIds: 1633132009420683472
+  ChildIds: 1483258068207644910
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -5575,13 +6199,19 @@ Objects {
   Folder {
     IsGroup: true
   }
+  InstanceHistory {
+    SelfId: 12563126592015928298
+    SubobjectId: 9085573845251712654
+    InstanceId: 16398007997991698516
+    TemplateId: 8713794350897080925
+  }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 2418878940263201998
+  Id: 1483258068207644910
   Name: "Trigger"
   Transform {
     Location {
@@ -5598,7 +6228,7 @@ Objects {
       Z: 0.0530300401
     }
   }
-  ParentId: 5779962261704841859
+  ParentId: 12563126592015928298
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -5639,6 +6269,12 @@ Objects {
       BoundsScale: 1
     }
   }
+  InstanceHistory {
+    SelfId: 1483258068207644910
+    SubobjectId: 14184886432999333258
+    InstanceId: 16398007997991698516
+    TemplateId: 8713794350897080925
+  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -5648,7 +6284,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 6068670715935787464
+  Id: 1633132009420683472
   Name: "Modern Weapon - Foregrip 02"
   Transform {
     Location {
@@ -5666,7 +6302,7 @@ Objects {
       Z: 0.803149641
     }
   }
-  ParentId: 5779962261704841859
+  ParentId: 12563126592015928298
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -5693,6 +6329,12 @@ Objects {
       BoundsScale: 1
     }
   }
+  InstanceHistory {
+    SelfId: 1633132009420683472
+    SubobjectId: 14331945759770383796
+    InstanceId: 16398007997991698516
+    TemplateId: 8713794350897080925
+  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -5702,7 +6344,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 11425765111595765556
+  Id: 12033856920915017957
   Name: "Modern Weapon - Body 04"
   Transform {
     Location {
@@ -5717,7 +6359,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5779962261704841859
+  ParentId: 12563126592015928298
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -5744,6 +6386,12 @@ Objects {
       BoundsScale: 1
     }
   }
+  InstanceHistory {
+    SelfId: 12033856920915017957
+    SubobjectId: 8597258749978439041
+    InstanceId: 16398007997991698516
+    TemplateId: 8713794350897080925
+  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -5753,7 +6401,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 2637345294359755444
+  Id: 16969353356669856722
   Name: "Modern Weapon - Disc 01"
   Transform {
     Location {
@@ -5769,7 +6417,7 @@ Objects {
       Z: 1.04184115
     }
   }
-  ParentId: 5779962261704841859
+  ParentId: 12563126592015928298
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -5796,6 +6444,12 @@ Objects {
       BoundsScale: 1
     }
   }
+  InstanceHistory {
+    SelfId: 16969353356669856722
+    SubobjectId: 4264909588269287094
+    InstanceId: 16398007997991698516
+    TemplateId: 8713794350897080925
+  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -5805,7 +6459,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 11006033198966110595
+  Id: 5629152509694816848
   Name: "Modern Weapon - Disc 01"
   Transform {
     Location {
@@ -5820,7 +6474,7 @@ Objects {
       Z: 1.04184115
     }
   }
-  ParentId: 5779962261704841859
+  ParentId: 12563126592015928298
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -5847,6 +6501,12 @@ Objects {
       BoundsScale: 1
     }
   }
+  InstanceHistory {
+    SelfId: 5629152509694816848
+    SubobjectId: 11408044702550384436
+    InstanceId: 16398007997991698516
+    TemplateId: 8713794350897080925
+  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -5856,7 +6516,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 15948156877181079277
+  Id: 14724010167125750841
   Name: "Modern Weapon - Foregrip 02"
   Transform {
     Location {
@@ -5871,7 +6531,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5779962261704841859
+  ParentId: 12563126592015928298
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -5898,6 +6558,12 @@ Objects {
       BoundsScale: 1
     }
   }
+  InstanceHistory {
+    SelfId: 14724010167125750841
+    SubobjectId: 2024774201173629277
+    InstanceId: 16398007997991698516
+    TemplateId: 8713794350897080925
+  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -5907,7 +6573,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 7818126337858825500
+  Id: 14109259628342825232
   Name: "Modern Weapon - Grip 02"
   Transform {
     Location {
@@ -5923,7 +6589,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5779962261704841859
+  ParentId: 12563126592015928298
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -5950,6 +6616,12 @@ Objects {
       BoundsScale: 1
     }
   }
+  InstanceHistory {
+    SelfId: 14109259628342825232
+    SubobjectId: 1405519682574957684
+    InstanceId: 16398007997991698516
+    TemplateId: 8713794350897080925
+  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -5959,7 +6631,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 7337679646950052001
+  Id: 16348337441341492466
   Name: "Modern Weapon Barrel 01"
   Transform {
     Location {
@@ -5974,7 +6646,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5779962261704841859
+  ParentId: 12563126592015928298
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -6001,6 +6673,12 @@ Objects {
       BoundsScale: 1
     }
   }
+  InstanceHistory {
+    SelfId: 16348337441341492466
+    SubobjectId: 3652338061728129430
+    InstanceId: 16398007997991698516
+    TemplateId: 8713794350897080925
+  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -6010,7 +6688,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 10189815803075505398
+  Id: 4524617559683589599
   Name: "Modern Weapon - Magazine 02"
   Transform {
     Location {
@@ -6025,7 +6703,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5779962261704841859
+  ParentId: 12563126592015928298
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -6052,6 +6730,12 @@ Objects {
       BoundsScale: 1
     }
   }
+  InstanceHistory {
+    SelfId: 4524617559683589599
+    SubobjectId: 17187402927463860411
+    InstanceId: 16398007997991698516
+    TemplateId: 8713794350897080925
+  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -6061,7 +6745,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 8082194467832056243
+  Id: 8069462140091251198
   Name: "Modern Weapon - Stock 01"
   Transform {
     Location {
@@ -6076,7 +6760,7 @@ Objects {
       Z: 1.68109238
     }
   }
-  ParentId: 5779962261704841859
+  ParentId: 12563126592015928298
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -6103,6 +6787,12 @@ Objects {
       BoundsScale: 1
     }
   }
+  InstanceHistory {
+    SelfId: 8069462140091251198
+    SubobjectId: 13813451848218793114
+    InstanceId: 16398007997991698516
+    TemplateId: 8713794350897080925
+  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -6112,7 +6802,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 14318074255708503706
+  Id: 17990191342092178122
   Name: "Modern Weapon - Scope 02"
   Transform {
     Location {
@@ -6127,7 +6817,7 @@ Objects {
       Z: 0.88162154
     }
   }
-  ParentId: 5779962261704841859
+  ParentId: 12563126592015928298
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -6154,6 +6844,12 @@ Objects {
       BoundsScale: 1
     }
   }
+  InstanceHistory {
+    SelfId: 17990191342092178122
+    SubobjectId: 3019311574380134318
+    InstanceId: 16398007997991698516
+    TemplateId: 8713794350897080925
+  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -6163,7 +6859,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 5324934618078985017
+  Id: 1975036764796159612
   Name: "Modern Weapon - Grip 02"
   Transform {
     Location {
@@ -6178,7 +6874,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5779962261704841859
+  ParentId: 12563126592015928298
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -6205,6 +6901,12 @@ Objects {
       BoundsScale: 1
     }
   }
+  InstanceHistory {
+    SelfId: 1975036764796159612
+    SubobjectId: 14638947487056030488
+    InstanceId: 16398007997991698516
+    TemplateId: 8713794350897080925
+  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -6214,7 +6916,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 12298243008440851979
+  Id: 17701600069863254154
   Name: "Trigger"
   Transform {
     Location {
@@ -6231,7 +6933,7 @@ Objects {
       Z: 0.0530300401
     }
   }
-  ParentId: 5779962261704841859
+  ParentId: 12563126592015928298
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -6272,6 +6974,12 @@ Objects {
       BoundsScale: 1
     }
   }
+  InstanceHistory {
+    SelfId: 17701600069863254154
+    SubobjectId: 2731423472133326318
+    InstanceId: 16398007997991698516
+    TemplateId: 8713794350897080925
+  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -6281,7 +6989,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 16632754936945727412
+  Id: 4836881192235847828
   Name: "Modern Weapon - Grenade Launcher 01 (Prop)"
   Transform {
     Location {
@@ -6296,20 +7004,20 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 16085141785925917824
-  ChildIds: 3377835480384149792
-  ChildIds: 2000266574195857913
-  ChildIds: 15513595109446881393
-  ChildIds: 6714940693387072036
-  ChildIds: 2794088820989933685
-  ChildIds: 4562009662704589580
-  ChildIds: 7401734893426588863
-  ChildIds: 2232967892926948990
-  ChildIds: 3023706570913571927
-  ChildIds: 10886031956421963475
-  ChildIds: 961116949214096210
-  ChildIds: 7844788525028960480
-  ChildIds: 2148696966829311846
+  ParentId: 7959233878214578352
+  ChildIds: 15128731134378801435
+  ChildIds: 5797508756088608625
+  ChildIds: 7512029043556867528
+  ChildIds: 7448890853856177580
+  ChildIds: 15821736714335515522
+  ChildIds: 2063597011850458922
+  ChildIds: 13413632063657564437
+  ChildIds: 9227457452772872369
+  ChildIds: 2278193846048299894
+  ChildIds: 10886461190062948142
+  ChildIds: 4321123469901118171
+  ChildIds: 9893072772648020303
+  ChildIds: 12850743656390434019
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -6324,13 +7032,19 @@ Objects {
   Folder {
     IsGroup: true
   }
+  InstanceHistory {
+    SelfId: 4836881192235847828
+    SubobjectId: 10623795282307792368
+    InstanceId: 16398007997991698516
+    TemplateId: 8713794350897080925
+  }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 2148696966829311846
+  Id: 12850743656390434019
   Name: "Trigger"
   Transform {
     Location {
@@ -6347,7 +7061,7 @@ Objects {
       Z: 0.0530300401
     }
   }
-  ParentId: 16632754936945727412
+  ParentId: 4836881192235847828
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -6388,6 +7102,12 @@ Objects {
       BoundsScale: 1
     }
   }
+  InstanceHistory {
+    SelfId: 12850743656390434019
+    SubobjectId: 7068473351447048583
+    InstanceId: 16398007997991698516
+    TemplateId: 8713794350897080925
+  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -6397,7 +7117,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 7844788525028960480
+  Id: 9893072772648020303
   Name: "Modern Weapon - Foregrip 02"
   Transform {
     Location {
@@ -6415,7 +7135,7 @@ Objects {
       Z: 0.803149641
     }
   }
-  ParentId: 16632754936945727412
+  ParentId: 4836881192235847828
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -6442,6 +7162,12 @@ Objects {
       BoundsScale: 1
     }
   }
+  InstanceHistory {
+    SelfId: 9893072772648020303
+    SubobjectId: 6414252944985113643
+    InstanceId: 16398007997991698516
+    TemplateId: 8713794350897080925
+  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -6451,7 +7177,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 961116949214096210
+  Id: 4321123469901118171
   Name: "Modern Weapon - Body 04"
   Transform {
     Location {
@@ -6466,7 +7192,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 16632754936945727412
+  ParentId: 4836881192235847828
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -6493,6 +7219,12 @@ Objects {
       BoundsScale: 1
     }
   }
+  InstanceHistory {
+    SelfId: 4321123469901118171
+    SubobjectId: 16985597239757789119
+    InstanceId: 16398007997991698516
+    TemplateId: 8713794350897080925
+  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -6502,7 +7234,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 10886031956421963475
+  Id: 10886461190062948142
   Name: "Modern Weapon - Disc 01"
   Transform {
     Location {
@@ -6518,7 +7250,7 @@ Objects {
       Z: 1.04184115
     }
   }
-  ParentId: 16632754936945727412
+  ParentId: 4836881192235847828
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -6545,6 +7277,12 @@ Objects {
       BoundsScale: 1
     }
   }
+  InstanceHistory {
+    SelfId: 10886461190062948142
+    SubobjectId: 5141767794510418506
+    InstanceId: 16398007997991698516
+    TemplateId: 8713794350897080925
+  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -6554,7 +7292,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 3023706570913571927
+  Id: 2278193846048299894
   Name: "Modern Weapon - Disc 01"
   Transform {
     Location {
@@ -6569,7 +7307,7 @@ Objects {
       Z: 1.04184115
     }
   }
-  ParentId: 16632754936945727412
+  ParentId: 4836881192235847828
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -6596,6 +7334,12 @@ Objects {
       BoundsScale: 1
     }
   }
+  InstanceHistory {
+    SelfId: 2278193846048299894
+    SubobjectId: 14975178424503629330
+    InstanceId: 16398007997991698516
+    TemplateId: 8713794350897080925
+  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -6605,7 +7349,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 2232967892926948990
+  Id: 9227457452772872369
   Name: "Modern Weapon - Foregrip 02"
   Transform {
     Location {
@@ -6620,7 +7364,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 16632754936945727412
+  ParentId: 4836881192235847828
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -6647,6 +7391,12 @@ Objects {
       BoundsScale: 1
     }
   }
+  InstanceHistory {
+    SelfId: 9227457452772872369
+    SubobjectId: 5783118896087154133
+    InstanceId: 16398007997991698516
+    TemplateId: 8713794350897080925
+  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -6656,7 +7406,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 7401734893426588863
+  Id: 13413632063657564437
   Name: "Modern Weapon - Grip 02"
   Transform {
     Location {
@@ -6672,7 +7422,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 16632754936945727412
+  ParentId: 4836881192235847828
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -6699,6 +7449,12 @@ Objects {
       BoundsScale: 1
     }
   }
+  InstanceHistory {
+    SelfId: 13413632063657564437
+    SubobjectId: 7667812810088789105
+    InstanceId: 16398007997991698516
+    TemplateId: 8713794350897080925
+  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -6708,7 +7464,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 4562009662704589580
+  Id: 2063597011850458922
   Name: "Modern Weapon Barrel 01"
   Transform {
     Location {
@@ -6723,7 +7479,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 16632754936945727412
+  ParentId: 4836881192235847828
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -6750,6 +7506,12 @@ Objects {
       BoundsScale: 1
     }
   }
+  InstanceHistory {
+    SelfId: 2063597011850458922
+    SubobjectId: 14766211192937912910
+    InstanceId: 16398007997991698516
+    TemplateId: 8713794350897080925
+  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -6759,7 +7521,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 2794088820989933685
+  Id: 15821736714335515522
   Name: "Modern Weapon - Magazine 02"
   Transform {
     Location {
@@ -6774,7 +7536,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 16632754936945727412
+  ParentId: 4836881192235847828
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -6801,6 +7563,12 @@ Objects {
       BoundsScale: 1
     }
   }
+  InstanceHistory {
+    SelfId: 15821736714335515522
+    SubobjectId: 854938331604590310
+    InstanceId: 16398007997991698516
+    TemplateId: 8713794350897080925
+  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -6810,7 +7578,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 6714940693387072036
+  Id: 7448890853856177580
   Name: "Modern Weapon - Stock 01"
   Transform {
     Location {
@@ -6825,7 +7593,7 @@ Objects {
       Z: 1.68109238
     }
   }
-  ParentId: 16632754936945727412
+  ParentId: 4836881192235847828
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -6852,6 +7620,12 @@ Objects {
       BoundsScale: 1
     }
   }
+  InstanceHistory {
+    SelfId: 7448890853856177580
+    SubobjectId: 13191191265381810376
+    InstanceId: 16398007997991698516
+    TemplateId: 8713794350897080925
+  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -6861,7 +7635,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 15513595109446881393
+  Id: 7512029043556867528
   Name: "Modern Weapon - Scope 02"
   Transform {
     Location {
@@ -6876,7 +7650,7 @@ Objects {
       Z: 0.88162154
     }
   }
-  ParentId: 16632754936945727412
+  ParentId: 4836881192235847828
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -6903,6 +7677,12 @@ Objects {
       BoundsScale: 1
     }
   }
+  InstanceHistory {
+    SelfId: 7512029043556867528
+    SubobjectId: 13262914852005785772
+    InstanceId: 16398007997991698516
+    TemplateId: 8713794350897080925
+  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -6912,7 +7692,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 2000266574195857913
+  Id: 5797508756088608625
   Name: "Modern Weapon - Grip 02"
   Transform {
     Location {
@@ -6927,7 +7707,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 16632754936945727412
+  ParentId: 4836881192235847828
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -6954,6 +7734,12 @@ Objects {
       BoundsScale: 1
     }
   }
+  InstanceHistory {
+    SelfId: 5797508756088608625
+    SubobjectId: 9240158468368874005
+    InstanceId: 16398007997991698516
+    TemplateId: 8713794350897080925
+  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -6963,7 +7749,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 3377835480384149792
+  Id: 15128731134378801435
   Name: "Trigger"
   Transform {
     Location {
@@ -6980,7 +7766,7 @@ Objects {
       Z: 0.0530300401
     }
   }
-  ParentId: 16632754936945727412
+  ParentId: 4836881192235847828
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -7021,6 +7807,12 @@ Objects {
       BoundsScale: 1
     }
   }
+  InstanceHistory {
+    SelfId: 15128731134378801435
+    SubobjectId: 124777644571694207
+    InstanceId: 16398007997991698516
+    TemplateId: 8713794350897080925
+  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -7030,7 +7822,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 208152054587849730
+  Id: 10738295931772814421
   Name: "Modern Weapon - Auto Rifle 01 (Prop)"
   Transform {
     Location {
@@ -7045,22 +7837,22 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 16085141785925917824
-  ChildIds: 8334097567776751965
-  ChildIds: 2475543113606199647
-  ChildIds: 2987457306315205190
-  ChildIds: 13297319034708968578
-  ChildIds: 15973541980819614410
-  ChildIds: 17498852587036199957
-  ChildIds: 11931484977983067890
-  ChildIds: 12009354215494935078
-  ChildIds: 13744360824237501744
-  ChildIds: 4888477282348171781
-  ChildIds: 17409960126257309038
-  ChildIds: 17006946436928359753
-  ChildIds: 6633970498921707479
-  ChildIds: 9879996540462455655
-  ChildIds: 17200348051799095484
+  ParentId: 7959233878214578352
+  ChildIds: 4686505133147497236
+  ChildIds: 14950829816963515873
+  ChildIds: 5185795950804856958
+  ChildIds: 15567494787986858205
+  ChildIds: 10354865310668356963
+  ChildIds: 13901873961775010666
+  ChildIds: 9775779744328484432
+  ChildIds: 13195856465755385438
+  ChildIds: 1908126227501457320
+  ChildIds: 6083947206264474591
+  ChildIds: 16900101126770158517
+  ChildIds: 12386070523970762003
+  ChildIds: 5186735672911023320
+  ChildIds: 2688372673121532623
+  ChildIds: 10033069073284122041
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -7075,13 +7867,19 @@ Objects {
   Folder {
     IsGroup: true
   }
+  InstanceHistory {
+    SelfId: 10738295931772814421
+    SubobjectId: 4992617411397429553
+    InstanceId: 16398007997991698516
+    TemplateId: 8713794350897080925
+  }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 17200348051799095484
+  Id: 10033069073284122041
   Name: "Trigger - Rear"
   Transform {
     Location {
@@ -7099,7 +7897,7 @@ Objects {
       Z: 0.0530300215
     }
   }
-  ParentId: 208152054587849730
+  ParentId: 10738295931772814421
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -7141,6 +7939,12 @@ Objects {
       BoundsScale: 1
     }
   }
+  InstanceHistory {
+    SelfId: 10033069073284122041
+    SubobjectId: 6589856415448279261
+    InstanceId: 16398007997991698516
+    TemplateId: 8713794350897080925
+  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -7150,7 +7954,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 9879996540462455655
+  Id: 2688372673121532623
   Name: "Modern Weapon Accessory - Rail 01"
   Transform {
     Location {
@@ -7167,7 +7971,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 208152054587849730
+  ParentId: 10738295931772814421
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -7194,6 +7998,12 @@ Objects {
       BoundsScale: 1
     }
   }
+  InstanceHistory {
+    SelfId: 2688372673121532623
+    SubobjectId: 17654186299274811307
+    InstanceId: 16398007997991698516
+    TemplateId: 8713794350897080925
+  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -7203,7 +8013,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 6633970498921707479
+  Id: 5186735672911023320
   Name: "Modern Weapon Accessory - Rail 01"
   Transform {
     Location {
@@ -7220,7 +8030,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 208152054587849730
+  ParentId: 10738295931772814421
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -7247,6 +8057,12 @@ Objects {
       BoundsScale: 1
     }
   }
+  InstanceHistory {
+    SelfId: 5186735672911023320
+    SubobjectId: 10931851245411115452
+    InstanceId: 16398007997991698516
+    TemplateId: 8713794350897080925
+  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -7256,7 +8072,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 17006946436928359753
+  Id: 12386070523970762003
   Name: "Modern Weapon - Grip 01"
   Transform {
     Location {
@@ -7273,7 +8089,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 208152054587849730
+  ParentId: 10738295931772814421
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -7300,6 +8116,12 @@ Objects {
       BoundsScale: 1
     }
   }
+  InstanceHistory {
+    SelfId: 12386070523970762003
+    SubobjectId: 8911332632234023031
+    InstanceId: 16398007997991698516
+    TemplateId: 8713794350897080925
+  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -7309,7 +8131,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 17409960126257309038
+  Id: 16900101126770158517
   Name: "Modern Weapon - Magazine 01"
   Transform {
     Location {
@@ -7326,7 +8148,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 208152054587849730
+  ParentId: 10738295931772814421
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -7353,6 +8175,12 @@ Objects {
       BoundsScale: 1
     }
   }
+  InstanceHistory {
+    SelfId: 16900101126770158517
+    SubobjectId: 4235204697788581585
+    InstanceId: 16398007997991698516
+    TemplateId: 8713794350897080925
+  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -7362,7 +8190,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 4888477282348171781
+  Id: 6083947206264474591
   Name: "Modern Weapon - Sight 01"
   Transform {
     Location {
@@ -7378,7 +8206,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 208152054587849730
+  ParentId: 10738295931772814421
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -7405,6 +8233,12 @@ Objects {
       BoundsScale: 1
     }
   }
+  InstanceHistory {
+    SelfId: 6083947206264474591
+    SubobjectId: 9521108700850202299
+    InstanceId: 16398007997991698516
+    TemplateId: 8713794350897080925
+  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -7414,7 +8248,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 13744360824237501744
+  Id: 1908126227501457320
   Name: "Modern Weapon - Stock 01"
   Transform {
     Location {
@@ -7430,7 +8264,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 208152054587849730
+  ParentId: 10738295931772814421
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -7457,6 +8291,12 @@ Objects {
       BoundsScale: 1
     }
   }
+  InstanceHistory {
+    SelfId: 1908126227501457320
+    SubobjectId: 14570348645343163084
+    InstanceId: 16398007997991698516
+    TemplateId: 8713794350897080925
+  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -7466,7 +8306,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 12009354215494935078
+  Id: 13195856465755385438
   Name: "Modern Weapon Accessory - Rail 01"
   Transform {
     Location {
@@ -7482,7 +8322,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 208152054587849730
+  ParentId: 10738295931772814421
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -7509,6 +8349,12 @@ Objects {
       BoundsScale: 1
     }
   }
+  InstanceHistory {
+    SelfId: 13195856465755385438
+    SubobjectId: 7452993246046012218
+    InstanceId: 16398007997991698516
+    TemplateId: 8713794350897080925
+  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -7518,7 +8364,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 11931484977983067890
+  Id: 9775779744328484432
   Name: "Modern Weapon Accessory - Rail 02"
   Transform {
     Location {
@@ -7534,7 +8380,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 208152054587849730
+  ParentId: 10738295931772814421
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -7561,6 +8407,12 @@ Objects {
       BoundsScale: 1
     }
   }
+  InstanceHistory {
+    SelfId: 9775779744328484432
+    SubobjectId: 6333692437616782132
+    InstanceId: 16398007997991698516
+    TemplateId: 8713794350897080925
+  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -7570,7 +8422,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 17498852587036199957
+  Id: 13901873961775010666
   Name: "Modern Weapon - Gas Cylinder 01"
   Transform {
     Location {
@@ -7586,7 +8438,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 208152054587849730
+  ParentId: 10738295931772814421
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -7613,6 +8465,12 @@ Objects {
       BoundsScale: 1
     }
   }
+  InstanceHistory {
+    SelfId: 13901873961775010666
+    SubobjectId: 1198556607484231182
+    InstanceId: 16398007997991698516
+    TemplateId: 8713794350897080925
+  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -7622,7 +8480,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 15973541980819614410
+  Id: 10354865310668356963
   Name: "Modern Weapon - Barrel Tip 01"
   Transform {
     Location {
@@ -7638,7 +8496,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 208152054587849730
+  ParentId: 10738295931772814421
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -7665,6 +8523,12 @@ Objects {
       BoundsScale: 1
     }
   }
+  InstanceHistory {
+    SelfId: 10354865310668356963
+    SubobjectId: 6916578464824266759
+    InstanceId: 16398007997991698516
+    TemplateId: 8713794350897080925
+  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -7674,7 +8538,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 13297319034708968578
+  Id: 15567494787986858205
   Name: "Modern Weapon - Body 01"
   Transform {
     Location {
@@ -7690,7 +8554,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 208152054587849730
+  ParentId: 10738295931772814421
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -7717,6 +8581,12 @@ Objects {
       BoundsScale: 1
     }
   }
+  InstanceHistory {
+    SelfId: 15567494787986858205
+    SubobjectId: 596052208901082553
+    InstanceId: 16398007997991698516
+    TemplateId: 8713794350897080925
+  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -7726,7 +8596,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 2987457306315205190
+  Id: 5185795950804856958
   Name: "Modern Weapon - Sight Forward 02"
   Transform {
     Location {
@@ -7742,7 +8612,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 208152054587849730
+  ParentId: 10738295931772814421
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -7769,6 +8639,12 @@ Objects {
       BoundsScale: 1
     }
   }
+  InstanceHistory {
+    SelfId: 5185795950804856958
+    SubobjectId: 10932740596417207578
+    InstanceId: 16398007997991698516
+    TemplateId: 8713794350897080925
+  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -7778,7 +8654,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 2475543113606199647
+  Id: 14950829816963515873
   Name: "Modern Weapon Accessory - Rail 02"
   Transform {
     Location {
@@ -7796,7 +8672,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 208152054587849730
+  ParentId: 10738295931772814421
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -7823,6 +8699,12 @@ Objects {
       BoundsScale: 1
     }
   }
+  InstanceHistory {
+    SelfId: 14950829816963515873
+    SubobjectId: 2248216323072764037
+    InstanceId: 16398007997991698516
+    TemplateId: 8713794350897080925
+  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -7832,7 +8714,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 8334097567776751965
+  Id: 4686505133147497236
   Name: "Modern Weapon - Sight Rear 01"
   Transform {
     Location {
@@ -7848,7 +8730,7 @@ Objects {
       Z: 1.20455921
     }
   }
-  ParentId: 208152054587849730
+  ParentId: 10738295931772814421
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -7874,6 +8756,12 @@ Objects {
       }
       BoundsScale: 1
     }
+  }
+  InstanceHistory {
+    SelfId: 4686505133147497236
+    SubobjectId: 10468212448343903856
+    InstanceId: 16398007997991698516
+    TemplateId: 8713794350897080925
   }
   Relevance {
     Value: "mc:eproxyrelevance:critical"

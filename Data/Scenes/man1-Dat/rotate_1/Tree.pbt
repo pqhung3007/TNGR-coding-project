@@ -1,7 +1,7 @@
 Name: "rotate_1"
-RootId: 1514338127235338058
+RootId: 3697174812793279991
 Objects {
-  Id: 6709408159397761366
+  Id: 7215951032603687864
   Name: "Scifi CockPit Control Yoke"
   Transform {
     Location {
@@ -17,8 +17,8 @@ Objects {
       Z: 3.75000024
     }
   }
-  ParentId: 1514338127235338058
-  ChildIds: 12517459247100778353
+  ParentId: 3697174812793279991
+  ChildIds: 8991505126227363569
   UnregisteredParameters {
     Overrides {
       Name: "cs:RotationVector"
@@ -52,12 +52,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 6709408159397761366
-    SubobjectId: 10183724493702413362
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -67,7 +61,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 12517459247100778353
+  Id: 8991505126227363569
   Name: "GearSpin"
   Transform {
     Location {
@@ -84,7 +78,7 @@ Objects {
       Z: 0.266666651
     }
   }
-  ParentId: 6709408159397761366
+  ParentId: 7215951032603687864
   WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -100,19 +94,13 @@ Objects {
       Id: 1266323391858590699
     }
   }
-  InstanceHistory {
-    SelfId: 12517459247100778353
-    SubobjectId: 9077482827742689813
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 11161121079878524658
+  Id: 17044618262432821977
   Name: "Scifi CockPit Control Yoke"
   Transform {
     Location {
@@ -126,8 +114,8 @@ Objects {
       Z: 3.75000024
     }
   }
-  ParentId: 1514338127235338058
-  ChildIds: 2492472708261223698
+  ParentId: 3697174812793279991
+  ChildIds: 7376253023834577824
   UnregisteredParameters {
     Overrides {
       Name: "cs:RotationVector"
@@ -161,12 +149,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 11161121079878524658
-    SubobjectId: 5380398749918557078
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -176,7 +158,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 2492472708261223698
+  Id: 7376253023834577824
   Name: "GearSpin"
   Transform {
     Location {
@@ -189,7 +171,7 @@ Objects {
       Z: 0.266666651
     }
   }
-  ParentId: 11161121079878524658
+  ParentId: 17044618262432821977
   WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -204,12 +186,6 @@ Objects {
     ScriptAsset {
       Id: 1266323391858590699
     }
-  }
-  InstanceHistory {
-    SelfId: 2492472708261223698
-    SubobjectId: 17498818730020663414
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"

@@ -1,33 +1,31 @@
-Name: "rotate"
-RootId: 10488681572501476850
+Name: "Military Radio Set Template_1"
+RootId: 4757987438584723440
 Objects {
-  Id: 6215562123305146595
-  Name: "Scifi CockPit Control Yoke"
+  Id: 15628342691947336939
+  Name: "Military Radio Small"
   Transform {
     Location {
-      Z: 250
+      X: 17
+      Z: 58
     }
     Rotation {
-      Yaw: -90
-      Roll: -179.999985
+      Yaw: 89.9999924
     }
     Scale {
-      X: 3.75000024
-      Y: 3.75000024
-      Z: 3.75000024
+      X: 1
+      Y: 1
+      Z: 1
     }
   }
-  ParentId: 10488681572501476850
-  ChildIds: 3301420976792269088
+  ParentId: 4757987438584723440
   UnregisteredParameters {
     Overrides {
-      Name: "cs:RotationVector"
-      Vector {
-        Z: 6
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 10765156322150743891
       }
     }
   }
-  WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -39,7 +37,7 @@ Objects {
   }
   CoreMesh {
     MeshAsset {
-      Id: 5607204438265284916
+      Id: 1662843858717705930
     }
     Teams {
       IsTeamCollisionEnabled: true
@@ -52,6 +50,12 @@ Objects {
       BoundsScale: 1
     }
   }
+  InstanceHistory {
+    SelfId: 15628342691947336939
+    SubobjectId: 624952190796478863
+    InstanceId: 16398007997991698516
+    TemplateId: 8713794350897080925
+  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -61,70 +65,29 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 3301420976792269088
-  Name: "GearSpin"
-  Transform {
-    Location {
-      Y: -1.27156536e-05
-      Z: 53.3332977
-    }
-    Rotation {
-      Yaw: -1.02452814e-05
-      Roll: 179.999985
-    }
-    Scale {
-      X: 0.266666651
-      Y: 0.266666651
-      Z: 0.266666651
-    }
-  }
-  ParentId: 6215562123305146595
-  WantsNetworking: true
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Script {
-    ScriptAsset {
-      Id: 1266323391858590699
-    }
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  IsReplicationEnabledByDefault: true
-}
-Objects {
-  Id: 16616953485234883583
-  Name: "Scifi CockPit Control Yoke"
+  Id: 16716077627660342247
+  Name: "Military Radio Tray"
   Transform {
     Location {
     }
     Rotation {
-      Yaw: -89.9999924
+      Yaw: 89.9999924
     }
     Scale {
-      X: 3.75000024
-      Y: 3.75000024
-      Z: 3.75000024
+      X: 1
+      Y: 1
+      Z: 1
     }
   }
-  ParentId: 10488681572501476850
-  ChildIds: 1056853351463448660
+  ParentId: 4757987438584723440
   UnregisteredParameters {
     Overrides {
-      Name: "cs:RotationVector"
-      Vector {
-        Z: 6
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 10765156322150743891
       }
     }
   }
-  WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -136,7 +99,7 @@ Objects {
   }
   CoreMesh {
     MeshAsset {
-      Id: 5607204438265284916
+      Id: 15729223555630295767
     }
     Teams {
       IsTeamCollisionEnabled: true
@@ -149,6 +112,12 @@ Objects {
       BoundsScale: 1
     }
   }
+  InstanceHistory {
+    SelfId: 16716077627660342247
+    SubobjectId: 4013886346184490627
+    InstanceId: 16398007997991698516
+    TemplateId: 8713794350897080925
+  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -158,21 +127,22 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 1056853351463448660
-  Name: "GearSpin"
+  Id: 5285523525960913601
+  Name: "Military Radio Large"
   Transform {
     Location {
+      Z: 8
     }
     Rotation {
+      Yaw: 89.9999924
     }
     Scale {
-      X: 0.266666651
-      Y: 0.266666651
-      Z: 0.266666651
+      X: 1
+      Y: 1
+      Z: 1
     }
   }
-  ParentId: 16616953485234883583
-  WantsNetworking: true
+  ParentId: 4757987438584723440
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -180,12 +150,31 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
+    Value: "mc:ecollisionsetting:forceon"
   }
-  Script {
-    ScriptAsset {
-      Id: 1266323391858590699
+  CoreMesh {
+    MeshAsset {
+      Id: 12249096810997307758
     }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+      }
+      BoundsScale: 1
+    }
+  }
+  InstanceHistory {
+    SelfId: 5285523525960913601
+    SubobjectId: 11031202182732955557
+    InstanceId: 16398007997991698516
+    TemplateId: 8713794350897080925
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"

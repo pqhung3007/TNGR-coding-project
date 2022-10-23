@@ -1,7 +1,7 @@
 Name: "Military Radio Set Template"
-RootId: 4757987438584723440
+RootId: 12090498666984253076
 Objects {
-  Id: 15628342691947336939
+  Id: 16337057875518038342
   Name: "Military Radio Small"
   Transform {
     Location {
@@ -17,7 +17,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 4757987438584723440
+  ParentId: 12090498666984253076
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -50,12 +50,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 15628342691947336939
-    SubobjectId: 624952190796478863
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -65,7 +59,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 16716077627660342247
+  Id: 15427433000298895491
   Name: "Military Radio Tray"
   Transform {
     Location {
@@ -79,7 +73,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 4757987438584723440
+  ParentId: 12090498666984253076
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -112,12 +106,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 16716077627660342247
-    SubobjectId: 4013886346184490627
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -127,7 +115,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 5285523525960913601
+  Id: 1432571437559361093
   Name: "Military Radio Large"
   Transform {
     Location {
@@ -142,7 +130,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 4757987438584723440
+  ParentId: 12090498666984253076
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -166,12 +154,6 @@ Objects {
       }
       BoundsScale: 1
     }
-  }
-  InstanceHistory {
-    SelfId: 5285523525960913601
-    SubobjectId: 11031202182732955557
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
   }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
