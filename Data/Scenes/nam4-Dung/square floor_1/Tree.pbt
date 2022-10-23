@@ -1,7 +1,2212 @@
-Name: "square floor"
-RootId: 14526971674320547280
+Name: "square floor_1"
+RootId: 17910184742199376823
 Objects {
-  Id: 11619835746538661099
+  Id: 9567204027691913412
+  Name: "Sci-fi Base Wall Interior 01 Half"
+  Transform {
+    Location {
+      X: -2500
+      Y: 500
+      Z: 47.2357178
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1.25
+      Y: 1.25
+      Z: 1
+    }
+  }
+  ParentId: 17910184742199376823
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 12502684501118640964
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 2339506951419633447
+  Name: "Sci-fi Base Wall Interior 01 Half"
+  Transform {
+    Location {
+      X: 1500
+      Y: 500
+      Z: 47.2357178
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1.25
+      Y: 1.25
+      Z: 1
+    }
+  }
+  ParentId: 17910184742199376823
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 12502684501118640964
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 15176020081317108310
+  Name: "Sci-fi Base Wall Interior 01 Half"
+  Transform {
+    Location {
+      X: 2000
+      Y: 500
+      Z: 47.2357178
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1.25
+      Y: 1.25
+      Z: 1
+    }
+  }
+  ParentId: 17910184742199376823
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 12502684501118640964
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 4373727049159468680
+  Name: "Sci-fi Base Wall Interior 01 Half"
+  Transform {
+    Location {
+      X: -1500
+      Y: 2000
+      Z: 47.2357178
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1.25
+      Y: 1.25
+      Z: 1
+    }
+  }
+  ParentId: 17910184742199376823
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 12502684501118640964
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 205857774960527559
+  Name: "Sci-fi Base Wall Interior 01 Half"
+  Transform {
+    Location {
+      X: -1000
+      Y: 2000
+      Z: 47.2357178
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1.25
+      Y: 1.25
+      Z: 1
+    }
+  }
+  ParentId: 17910184742199376823
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 12502684501118640964
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 14601645094526818427
+  Name: "Sci-fi Base Wall Interior 01 Half"
+  Transform {
+    Location {
+      X: -500
+      Y: 2000
+      Z: 47.2357178
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1.25
+      Y: 1.25
+      Z: 1
+    }
+  }
+  ParentId: 17910184742199376823
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 12502684501118640964
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 11481069058274147731
+  Name: "Sci-fi Base Wall Interior 01 Half"
+  Transform {
+    Location {
+      Y: 2000
+      Z: 47.2357178
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1.25
+      Y: 1.25
+      Z: 1
+    }
+  }
+  ParentId: 17910184742199376823
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 12502684501118640964
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 3242352414497129428
+  Name: "Sci-fi Base Wall Interior 01 Half"
+  Transform {
+    Location {
+      X: -2000
+      Y: 1500
+      Z: 47.2357178
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1.25
+      Y: 1.25
+      Z: 1
+    }
+  }
+  ParentId: 17910184742199376823
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 12502684501118640964
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 13315304742587868715
+  Name: "Sci-fi Base Wall Interior 01 Half"
+  Transform {
+    Location {
+      Y: 1500
+      Z: 47.2357178
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1.25
+      Y: 1.25
+      Z: 1
+    }
+  }
+  ParentId: 17910184742199376823
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 12502684501118640964
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 5204609513377215907
+  Name: "Sci-fi Base Wall Interior 01 Half"
+  Transform {
+    Location {
+      X: -2000
+      Y: 1000
+      Z: 47.2357178
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1.25
+      Y: 1.25
+      Z: 1
+    }
+  }
+  ParentId: 17910184742199376823
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 12502684501118640964
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 15885194268312018181
+  Name: "Sci-fi Base Wall Interior 01 Half"
+  Transform {
+    Location {
+      X: -1500
+      Y: 1000
+      Z: 47.2357178
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1.25
+      Y: 1.25
+      Z: 1
+    }
+  }
+  ParentId: 17910184742199376823
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 12502684501118640964
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 3549494129795975079
+  Name: "Sci-fi Base Wall Interior 01 Half"
+  Transform {
+    Location {
+      X: -500
+      Y: 1000
+      Z: 47.2357178
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1.25
+      Y: 1.25
+      Z: 1
+    }
+  }
+  ParentId: 17910184742199376823
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 12502684501118640964
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 16140432595418649941
+  Name: "Sci-fi Base Wall Interior 01 Half"
+  Transform {
+    Location {
+      Y: 1000
+      Z: 47.2357178
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1.25
+      Y: 1.25
+      Z: 1
+    }
+  }
+  ParentId: 17910184742199376823
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 12502684501118640964
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 12389030852526421693
+  Name: "Sci-fi Base Wall Interior 01 Half"
+  Transform {
+    Location {
+      X: 500
+      Y: 1000
+      Z: 47.2357178
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1.25
+      Y: 1.25
+      Z: 1
+    }
+  }
+  ParentId: 17910184742199376823
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 12502684501118640964
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 2145290922427540129
+  Name: "Sci-fi Base Wall Interior 01 Half"
+  Transform {
+    Location {
+      X: 1000
+      Y: 1000
+      Z: 47.2357178
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1.25
+      Y: 1.25
+      Z: 1
+    }
+  }
+  ParentId: 17910184742199376823
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 12502684501118640964
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 3133419260733036150
+  Name: "Sci-fi Base Wall Interior 01 Half"
+  Transform {
+    Location {
+      X: 1500
+      Y: 1000
+      Z: 47.2357178
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1.25
+      Y: 1.25
+      Z: 1
+    }
+  }
+  ParentId: 17910184742199376823
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 12502684501118640964
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 17522745223834692808
+  Name: "Sci-fi Base Wall Interior 01 Half"
+  Transform {
+    Location {
+      X: -2000
+      Z: 47.2357178
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1.25
+      Y: 1.25
+      Z: 1
+    }
+  }
+  ParentId: 17910184742199376823
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 12502684501118640964
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 11698441770263369128
+  Name: "Sci-fi Base Wall Interior 01 Half"
+  Transform {
+    Location {
+      X: -1000
+      Z: 47.2357178
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1.25
+      Y: 1.25
+      Z: 1
+    }
+  }
+  ParentId: 17910184742199376823
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 12502684501118640964
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 5556940549729957851
+  Name: "Sci-fi Base Wall Interior 01 Half"
+  Transform {
+    Location {
+      X: -500
+      Z: 47.2357178
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1.25
+      Y: 1.25
+      Z: 1
+    }
+  }
+  ParentId: 17910184742199376823
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 12502684501118640964
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 4062208117147854475
+  Name: "Sci-fi Base Wall Interior 01 Half"
+  Transform {
+    Location {
+      X: 1000
+      Z: 47.2357178
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1.25
+      Y: 1.25
+      Z: 1
+    }
+  }
+  ParentId: 17910184742199376823
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 12502684501118640964
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 8696657174996533103
+  Name: "Sci-fi Base Wall Interior 01 Half"
+  Transform {
+    Location {
+      X: 2000
+      Z: 47.2357178
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1.25
+      Y: 1.25
+      Z: 1
+    }
+  }
+  ParentId: 17910184742199376823
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 12502684501118640964
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 4959830432465068980
+  Name: "Sci-fi Base Wall Interior 01 Half"
+  Transform {
+    Location {
+      X: -500
+      Y: -500
+      Z: 47.2357178
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1.25
+      Y: 1.25
+      Z: 1
+    }
+  }
+  ParentId: 17910184742199376823
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 12502684501118640964
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 8223100811676397459
+  Name: "Sci-fi Base Wall Interior 01 Half"
+  Transform {
+    Location {
+      X: 1500
+      Y: -500
+      Z: 47.2357178
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1.25
+      Y: 1.25
+      Z: 1
+    }
+  }
+  ParentId: 17910184742199376823
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 12502684501118640964
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 233949742857731764
+  Name: "Sci-fi Base Wall Interior 01 Half"
+  Transform {
+    Location {
+      Y: -500
+      Z: 47.2357178
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1.25
+      Y: 1.25
+      Z: 1
+    }
+  }
+  ParentId: 17910184742199376823
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 12502684501118640964
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 1776893154793015577
+  Name: "Sci-fi Base Wall Interior 01 Half"
+  Transform {
+    Location {
+      X: 2000
+      Y: -1000
+      Z: 47.2357178
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1.25
+      Y: 1.25
+      Z: 1
+    }
+  }
+  ParentId: 17910184742199376823
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 12502684501118640964
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 18243809718045776908
+  Name: "Sci-fi Base Wall Interior 01 Half"
+  Transform {
+    Location {
+      X: 1500
+      Y: -1000
+      Z: 47.2357178
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1.25
+      Y: 1.25
+      Z: 1
+    }
+  }
+  ParentId: 17910184742199376823
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 12502684501118640964
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 752264613968275013
+  Name: "Sci-fi Base Wall Interior 01 Half"
+  Transform {
+    Location {
+      X: 1000
+      Y: -1000
+      Z: 47.2357178
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1.25
+      Y: 1.25
+      Z: 1
+    }
+  }
+  ParentId: 17910184742199376823
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 12502684501118640964
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 6049274627895381982
+  Name: "Sci-fi Base Wall Interior 01 Half"
+  Transform {
+    Location {
+      X: 500
+      Y: -1000
+      Z: 47.2357178
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1.25
+      Y: 1.25
+      Z: 1
+    }
+  }
+  ParentId: 17910184742199376823
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 12502684501118640964
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 16902839250497533937
+  Name: "Sci-fi Base Wall Interior 01 Half"
+  Transform {
+    Location {
+      X: -500
+      Y: -1000
+      Z: 47.2357178
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1.25
+      Y: 1.25
+      Z: 1
+    }
+  }
+  ParentId: 17910184742199376823
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 12502684501118640964
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 9962918794033305212
+  Name: "Sci-fi Base Wall Interior 01 Half"
+  Transform {
+    Location {
+      X: -1000
+      Y: -1000
+      Z: 47.2357178
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1.25
+      Y: 1.25
+      Z: 1
+    }
+  }
+  ParentId: 17910184742199376823
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 12502684501118640964
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 3055081057941437974
+  Name: "Sci-fi Base Wall Interior 01 Half"
+  Transform {
+    Location {
+      X: -2000
+      Y: -1000
+      Z: 47.2357178
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1.25
+      Y: 1.25
+      Z: 1
+    }
+  }
+  ParentId: 17910184742199376823
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 12502684501118640964
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 7886383799462348749
+  Name: "Sci-fi Base Wall Interior 01 Half"
+  Transform {
+    Location {
+      X: -2500
+      Y: -1000
+      Z: 47.2357178
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1.25
+      Y: 1.25
+      Z: 1
+    }
+  }
+  ParentId: 17910184742199376823
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 12502684501118640964
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 8977777359851003985
+  Name: "Sci-fi Base Wall Interior 01 Half"
+  Transform {
+    Location {
+      X: 500
+      Y: -1500
+      Z: 47.2357178
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1.25
+      Y: 1.25
+      Z: 1
+    }
+  }
+  ParentId: 17910184742199376823
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 12502684501118640964
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 18096255506741470095
+  Name: "Sci-fi Base Wall Interior 01 Half"
+  Transform {
+    Location {
+      X: 1500
+      Y: -1500
+      Z: 47.2357178
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1.25
+      Y: 1.25
+      Z: 1
+    }
+  }
+  ParentId: 17910184742199376823
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 12502684501118640964
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 10990554021008211826
+  Name: "Sci-fi Base Wall Interior 01 Half"
+  Transform {
+    Location {
+      X: -1500
+      Y: -1500
+      Z: 47.2357178
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1.25
+      Y: 1.25
+      Z: 1
+    }
+  }
+  ParentId: 17910184742199376823
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 12502684501118640964
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 9417962871981456801
+  Name: "Sci-fi Base Wall Interior 01 Half"
+  Transform {
+    Location {
+      X: -2000
+      Y: -1500
+      Z: 47.2357178
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1.25
+      Y: 1.25
+      Z: 1
+    }
+  }
+  ParentId: 17910184742199376823
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 12502684501118640964
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 2178809889506888846
+  Name: "Sci-fi Base Wall Interior 01 Half"
+  Transform {
+    Location {
+      X: 1000
+      Y: -2000
+      Z: 47.2357178
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1.25
+      Y: 1.25
+      Z: 1
+    }
+  }
+  ParentId: 17910184742199376823
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 12502684501118640964
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 7473262567393322425
+  Name: "Sci-fi Base Wall Interior 01 Half"
+  Transform {
+    Location {
+      X: 1500
+      Y: -2000
+      Z: 47.2357178
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1.25
+      Y: 1.25
+      Z: 1
+    }
+  }
+  ParentId: 17910184742199376823
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 12502684501118640964
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 4018997494425990415
+  Name: "Sci-fi Base Wall Interior 01 Half"
+  Transform {
+    Location {
+      X: -1000
+      Y: -2000
+      Z: 47.2357178
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1.25
+      Y: 1.25
+      Z: 1
+    }
+  }
+  ParentId: 17910184742199376823
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 12502684501118640964
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 13218887388534591456
+  Name: "Sci-fi Base Wall Interior 01 Half"
+  Transform {
+    Location {
+      X: -2000
+      Y: -2000
+      Z: 47.2357178
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1.25
+      Y: 1.25
+      Z: 1
+    }
+  }
+  ParentId: 17910184742199376823
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 12502684501118640964
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 12102588424693950941
+  Name: "Sci-fi Base Wall Interior 01 Half"
+  Transform {
+    Location {
+      X: 2000
+      Z: 50
+    }
+    Rotation {
+      Yaw: -90
+    }
+    Scale {
+      X: 1.25
+      Y: 1.25
+      Z: 1
+    }
+  }
+  ParentId: 17910184742199376823
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 12502684501118640964
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 4828772651647395792
   Name: "Sci-fi Base Wall Interior 01 Half"
   Transform {
     Location {
@@ -18,7 +2223,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14526971674320547280
+  ParentId: 17910184742199376823
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -56,231 +2261,11 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 8287993477220085790
+  Id: 18253613701580582927
   Name: "Sci-fi Base Wall Interior 01 Half"
   Transform {
     Location {
       X: 2000
-      Y: 1000
-      Z: 50
-    }
-    Rotation {
-      Yaw: -90
-    }
-    Scale {
-      X: 1.25
-      Y: 1.25
-      Z: 1
-    }
-  }
-  ParentId: 14526971674320547280
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 12502684501118640964
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-      BoundsScale: 1
-    }
-  }
-  Relevance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  IsReplicationEnabledByDefault: true
-}
-Objects {
-  Id: 10604401085123509977
-  Name: "Sci-fi Base Wall Interior 01 Half"
-  Transform {
-    Location {
-      X: 2000
-      Y: -500
-      Z: 50
-    }
-    Rotation {
-      Yaw: -90
-    }
-    Scale {
-      X: 1.25
-      Y: 1.25
-      Z: 1
-    }
-  }
-  ParentId: 14526971674320547280
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 12502684501118640964
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-      BoundsScale: 1
-    }
-  }
-  Relevance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  IsReplicationEnabledByDefault: true
-}
-Objects {
-  Id: 351956457113967191
-  Name: "Sci-fi Base Wall Interior 01 Half"
-  Transform {
-    Location {
-      X: 2000
-      Y: -1500
-      Z: 50
-    }
-    Rotation {
-      Yaw: -90
-    }
-    Scale {
-      X: 1.25
-      Y: 1.25
-      Z: 1
-    }
-  }
-  ParentId: 14526971674320547280
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 12502684501118640964
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-      BoundsScale: 1
-    }
-  }
-  Relevance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  IsReplicationEnabledByDefault: true
-}
-Objects {
-  Id: 13573050835897047951
-  Name: "Sci-fi Base Wall Interior 01 Half"
-  Transform {
-    Location {
-      X: 2000
-      Y: -2000
-      Z: 50
-    }
-    Rotation {
-      Yaw: -90
-    }
-    Scale {
-      X: 1.25
-      Y: 1.25
-      Z: 1
-    }
-  }
-  ParentId: 14526971674320547280
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 12502684501118640964
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-      BoundsScale: 1
-    }
-  }
-  Relevance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  IsReplicationEnabledByDefault: true
-}
-Objects {
-  Id: 5136825503440515192
-  Name: "Sci-fi Base Wall Interior 01 Half"
-  Transform {
-    Location {
-      X: 1500
       Y: 2000
       Z: 50
     }
@@ -293,7 +2278,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14526971674320547280
+  ParentId: 17910184742199376823
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -331,395 +2316,11 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 5195847074683714774
+  Id: 158172524900860782
   Name: "Sci-fi Base Wall Interior 01 Half"
   Transform {
     Location {
       X: 1500
-      Y: 500
-      Z: 50
-    }
-    Rotation {
-      Yaw: -90
-    }
-    Scale {
-      X: 1.25
-      Y: 1.25
-      Z: 1
-    }
-  }
-  ParentId: 14526971674320547280
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 12502684501118640964
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-      BoundsScale: 1
-    }
-  }
-  Relevance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  IsReplicationEnabledByDefault: true
-}
-Objects {
-  Id: 12610881378287625486
-  Name: "Sci-fi Base Wall Interior 01 Half"
-  Transform {
-    Location {
-      X: 1500
-      Z: 50
-    }
-    Rotation {
-      Yaw: -90
-    }
-    Scale {
-      X: 1.25
-      Y: 1.25
-      Z: 1
-    }
-  }
-  ParentId: 14526971674320547280
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 12502684501118640964
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-      BoundsScale: 1
-    }
-  }
-  Relevance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  IsReplicationEnabledByDefault: true
-}
-Objects {
-  Id: 13409753868369116775
-  Name: "Sci-fi Base Wall Interior 01 Half"
-  Transform {
-    Location {
-      X: 1500
-      Y: -2000
-      Z: 50
-    }
-    Rotation {
-      Yaw: -90
-    }
-    Scale {
-      X: 1.25
-      Y: 1.25
-      Z: 1
-    }
-  }
-  ParentId: 14526971674320547280
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 12502684501118640964
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-      BoundsScale: 1
-    }
-  }
-  Relevance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  IsReplicationEnabledByDefault: true
-}
-Objects {
-  Id: 3686075976803268692
-  Name: "Sci-fi Base Wall Interior 01 Half"
-  Transform {
-    Location {
-      X: 1000
-      Y: 1000
-      Z: 50
-    }
-    Rotation {
-      Yaw: -90
-    }
-    Scale {
-      X: 1.25
-      Y: 1.25
-      Z: 1
-    }
-  }
-  ParentId: 14526971674320547280
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 12502684501118640964
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-      BoundsScale: 1
-    }
-  }
-  Relevance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  IsReplicationEnabledByDefault: true
-}
-Objects {
-  Id: 845986773497669706
-  Name: "Sci-fi Base Wall Interior 01 Half"
-  Transform {
-    Location {
-      X: 1000
-      Y: -500
-      Z: 50
-    }
-    Rotation {
-      Yaw: -90
-    }
-    Scale {
-      X: 1.25
-      Y: 1.25
-      Z: 1
-    }
-  }
-  ParentId: 14526971674320547280
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 12502684501118640964
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-      BoundsScale: 1
-    }
-  }
-  Relevance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  IsReplicationEnabledByDefault: true
-}
-Objects {
-  Id: 3438715060364634071
-  Name: "Sci-fi Base Wall Interior 01 Half"
-  Transform {
-    Location {
-      X: 1000
-      Y: -1500
-      Z: 50
-    }
-    Rotation {
-      Yaw: -90
-    }
-    Scale {
-      X: 1.25
-      Y: 1.25
-      Z: 1
-    }
-  }
-  ParentId: 14526971674320547280
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 12502684501118640964
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-      BoundsScale: 1
-    }
-  }
-  Relevance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  IsReplicationEnabledByDefault: true
-}
-Objects {
-  Id: 15806463760259897231
-  Name: "Sci-fi Base Wall Interior 01 Half"
-  Transform {
-    Location {
-      X: 500
-      Y: 2000
-      Z: 50
-    }
-    Rotation {
-      Yaw: -90
-    }
-    Scale {
-      X: 1.25
-      Y: 1.25
-      Z: 1
-    }
-  }
-  ParentId: 14526971674320547280
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 12502684501118640964
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-      BoundsScale: 1
-    }
-  }
-  Relevance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  IsReplicationEnabledByDefault: true
-}
-Objects {
-  Id: 15312369684790584798
-  Name: "Sci-fi Base Wall Interior 01 Half"
-  Transform {
-    Location {
-      X: 500
       Y: 1500
       Z: 50
     }
@@ -732,7 +2333,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14526971674320547280
+  ParentId: 17910184742199376823
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -770,12 +2371,12 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 5237551772644956282
+  Id: 7655852874878552043
   Name: "Sci-fi Base Wall Interior 01 Half"
   Transform {
     Location {
-      X: 500
-      Y: -500
+      X: 1500
+      Y: 2000
       Z: 50
     }
     Rotation {
@@ -787,7 +2388,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14526971674320547280
+  ParentId: 17910184742199376823
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -825,11 +2426,11 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 5068981742519741471
+  Id: 8836755806115634319
   Name: "Sci-fi Base Wall Interior 01 Half"
   Transform {
     Location {
-      X: 500
+      X: 1500
       Y: -1000
       Z: 50
     }
@@ -842,7 +2443,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14526971674320547280
+  ParentId: 17910184742199376823
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -880,1591 +2481,15 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 16668894754055168063
-  Name: "Sci-fi Base Wall Interior 01 Half"
-  Transform {
-    Location {
-      X: 500
-      Y: -2000
-      Z: 50
-    }
-    Rotation {
-      Yaw: -90
-    }
-    Scale {
-      X: 1.25
-      Y: 1.25
-      Z: 1
-    }
-  }
-  ParentId: 14526971674320547280
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 12502684501118640964
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-      BoundsScale: 1
-    }
-  }
-  Relevance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  IsReplicationEnabledByDefault: true
-}
-Objects {
-  Id: 1533888464453561500
-  Name: "Sci-fi Base Wall Interior 01 Half"
-  Transform {
-    Location {
-      Y: 1000
-      Z: 50
-    }
-    Rotation {
-      Yaw: -90
-    }
-    Scale {
-      X: 1.25
-      Y: 1.25
-      Z: 1
-    }
-  }
-  ParentId: 14526971674320547280
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 12502684501118640964
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-      BoundsScale: 1
-    }
-  }
-  Relevance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  IsReplicationEnabledByDefault: true
-}
-Objects {
-  Id: 4561939197904226894
-  Name: "Sci-fi Base Wall Interior 01 Half"
-  Transform {
-    Location {
-      Z: 50
-    }
-    Rotation {
-      Yaw: -90
-    }
-    Scale {
-      X: 1.25
-      Y: 1.25
-      Z: 1
-    }
-  }
-  ParentId: 14526971674320547280
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 12502684501118640964
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-      BoundsScale: 1
-    }
-  }
-  Relevance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  IsReplicationEnabledByDefault: true
-}
-Objects {
-  Id: 7448252732335665766
-  Name: "Sci-fi Base Wall Interior 01 Half"
-  Transform {
-    Location {
-      Y: -1500
-      Z: 50
-    }
-    Rotation {
-      Yaw: -90
-    }
-    Scale {
-      X: 1.25
-      Y: 1.25
-      Z: 1
-    }
-  }
-  ParentId: 14526971674320547280
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 12502684501118640964
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-      BoundsScale: 1
-    }
-  }
-  Relevance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  IsReplicationEnabledByDefault: true
-}
-Objects {
-  Id: 15970346849296095940
-  Name: "Sci-fi Base Wall Interior 01 Half"
-  Transform {
-    Location {
-      X: -500
-      Y: 1500
-      Z: 50
-    }
-    Rotation {
-      Yaw: -90
-    }
-    Scale {
-      X: 1.25
-      Y: 1.25
-      Z: 1
-    }
-  }
-  ParentId: 14526971674320547280
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 12502684501118640964
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-      BoundsScale: 1
-    }
-  }
-  Relevance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  IsReplicationEnabledByDefault: true
-}
-Objects {
-  Id: 3930926821022611333
-  Name: "Sci-fi Base Wall Interior 01 Half"
-  Transform {
-    Location {
-      X: -500
-      Y: 500
-      Z: 50
-    }
-    Rotation {
-      Yaw: -90
-    }
-    Scale {
-      X: 1.25
-      Y: 1.25
-      Z: 1
-    }
-  }
-  ParentId: 14526971674320547280
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 12502684501118640964
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-      BoundsScale: 1
-    }
-  }
-  Relevance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  IsReplicationEnabledByDefault: true
-}
-Objects {
-  Id: 4032438224677131711
-  Name: "Sci-fi Base Wall Interior 01 Half"
-  Transform {
-    Location {
-      X: -500
-      Z: 50
-    }
-    Rotation {
-      Yaw: -90
-    }
-    Scale {
-      X: 1.25
-      Y: 1.25
-      Z: 1
-    }
-  }
-  ParentId: 14526971674320547280
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 12502684501118640964
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-      BoundsScale: 1
-    }
-  }
-  Relevance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  IsReplicationEnabledByDefault: true
-}
-Objects {
-  Id: 412159567010970095
-  Name: "Sci-fi Base Wall Interior 01 Half"
-  Transform {
-    Location {
-      X: -500
-      Y: -500
-      Z: 50
-    }
-    Rotation {
-      Yaw: -90
-    }
-    Scale {
-      X: 1.25
-      Y: 1.25
-      Z: 1
-    }
-  }
-  ParentId: 14526971674320547280
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 12502684501118640964
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-      BoundsScale: 1
-    }
-  }
-  Relevance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  IsReplicationEnabledByDefault: true
-}
-Objects {
-  Id: 14813710412697500140
-  Name: "Sci-fi Base Wall Interior 01 Half"
-  Transform {
-    Location {
-      X: -500
-      Y: -1000
-      Z: 50
-    }
-    Rotation {
-      Yaw: -90
-    }
-    Scale {
-      X: 1.25
-      Y: 1.25
-      Z: 1
-    }
-  }
-  ParentId: 14526971674320547280
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 12502684501118640964
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-      BoundsScale: 1
-    }
-  }
-  Relevance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  IsReplicationEnabledByDefault: true
-}
-Objects {
-  Id: 602476090133788365
-  Name: "Sci-fi Base Wall Interior 01 Half"
-  Transform {
-    Location {
-      X: -500
-      Y: -1500
-      Z: 50
-    }
-    Rotation {
-      Yaw: -90
-    }
-    Scale {
-      X: 1.25
-      Y: 1.25
-      Z: 1
-    }
-  }
-  ParentId: 14526971674320547280
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 12502684501118640964
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-      BoundsScale: 1
-    }
-  }
-  Relevance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  IsReplicationEnabledByDefault: true
-}
-Objects {
-  Id: 7486895046877873348
-  Name: "Sci-fi Base Wall Interior 01 Half"
-  Transform {
-    Location {
-      X: -500
-      Y: -2000
-      Z: 50
-    }
-    Rotation {
-      Yaw: -90
-    }
-    Scale {
-      X: 1.25
-      Y: 1.25
-      Z: 1
-    }
-  }
-  ParentId: 14526971674320547280
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 12502684501118640964
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-      BoundsScale: 1
-    }
-  }
-  Relevance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  IsReplicationEnabledByDefault: true
-}
-Objects {
-  Id: 4011876454457886938
-  Name: "Sci-fi Base Wall Interior 01 Half"
-  Transform {
-    Location {
-      X: -1000
-      Y: 500
-      Z: 50
-    }
-    Rotation {
-      Yaw: -90
-    }
-    Scale {
-      X: 1.25
-      Y: 1.25
-      Z: 1
-    }
-  }
-  ParentId: 14526971674320547280
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 12502684501118640964
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-      BoundsScale: 1
-    }
-  }
-  Relevance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  IsReplicationEnabledByDefault: true
-}
-Objects {
-  Id: 2621230506175275834
-  Name: "Sci-fi Base Wall Interior 01 Half"
-  Transform {
-    Location {
-      X: -1000
-      Y: -500
-      Z: 50
-    }
-    Rotation {
-      Yaw: -90
-    }
-    Scale {
-      X: 1.25
-      Y: 1.25
-      Z: 1
-    }
-  }
-  ParentId: 14526971674320547280
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 12502684501118640964
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-      BoundsScale: 1
-    }
-  }
-  Relevance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  IsReplicationEnabledByDefault: true
-}
-Objects {
-  Id: 4564414276121255755
-  Name: "Sci-fi Base Wall Interior 01 Half"
-  Transform {
-    Location {
-      X: -1000
-      Y: -1500
-      Z: 50
-    }
-    Rotation {
-      Yaw: -90
-    }
-    Scale {
-      X: 1.25
-      Y: 1.25
-      Z: 1
-    }
-  }
-  ParentId: 14526971674320547280
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 12502684501118640964
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-      BoundsScale: 1
-    }
-  }
-  Relevance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  IsReplicationEnabledByDefault: true
-}
-Objects {
-  Id: 7999623007601447151
-  Name: "Sci-fi Base Wall Interior 01 Half"
-  Transform {
-    Location {
-      X: -1500
-      Y: 2000
-      Z: 50
-    }
-    Rotation {
-      Yaw: -90
-    }
-    Scale {
-      X: 1.25
-      Y: 1.25
-      Z: 1
-    }
-  }
-  ParentId: 14526971674320547280
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 12502684501118640964
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-      BoundsScale: 1
-    }
-  }
-  Relevance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  IsReplicationEnabledByDefault: true
-}
-Objects {
-  Id: 955249033926826035
-  Name: "Sci-fi Base Wall Interior 01 Half"
-  Transform {
-    Location {
-      X: -1500
-      Y: 1000
-      Z: 50
-    }
-    Rotation {
-      Yaw: -90
-    }
-    Scale {
-      X: 1.25
-      Y: 1.25
-      Z: 1
-    }
-  }
-  ParentId: 14526971674320547280
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 12502684501118640964
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-      BoundsScale: 1
-    }
-  }
-  Relevance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  IsReplicationEnabledByDefault: true
-}
-Objects {
-  Id: 9202221216228546093
-  Name: "Sci-fi Base Wall Interior 01 Half"
-  Transform {
-    Location {
-      X: -1500
-      Y: -1000
-      Z: 50
-    }
-    Rotation {
-      Yaw: -90
-    }
-    Scale {
-      X: 1.25
-      Y: 1.25
-      Z: 1
-    }
-  }
-  ParentId: 14526971674320547280
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 12502684501118640964
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-      BoundsScale: 1
-    }
-  }
-  Relevance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  IsReplicationEnabledByDefault: true
-}
-Objects {
-  Id: 8090983199956845219
-  Name: "Sci-fi Base Wall Interior 01 Half"
-  Transform {
-    Location {
-      X: -2000
-      Y: 2000
-      Z: 50
-    }
-    Rotation {
-      Yaw: -90
-    }
-    Scale {
-      X: 1.25
-      Y: 1.25
-      Z: 1
-    }
-  }
-  ParentId: 14526971674320547280
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 12502684501118640964
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-      BoundsScale: 1
-    }
-  }
-  Relevance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  IsReplicationEnabledByDefault: true
-}
-Objects {
-  Id: 10645696181952504363
-  Name: "Sci-fi Base Wall Interior 01 Half"
-  Transform {
-    Location {
-      X: -2000
-      Y: 1500
-      Z: 50
-    }
-    Rotation {
-      Yaw: -90
-    }
-    Scale {
-      X: 1.25
-      Y: 1.25
-      Z: 1
-    }
-  }
-  ParentId: 14526971674320547280
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 12502684501118640964
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-      BoundsScale: 1
-    }
-  }
-  Relevance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  IsReplicationEnabledByDefault: true
-}
-Objects {
-  Id: 2072243677369915498
-  Name: "Sci-fi Base Wall Interior 01 Half"
-  Transform {
-    Location {
-      X: -2000
-      Y: 1000
-      Z: 50
-    }
-    Rotation {
-      Yaw: -90
-    }
-    Scale {
-      X: 1.25
-      Y: 1.25
-      Z: 1
-    }
-  }
-  ParentId: 14526971674320547280
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 12502684501118640964
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-      BoundsScale: 1
-    }
-  }
-  Relevance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  IsReplicationEnabledByDefault: true
-}
-Objects {
-  Id: 2610846497253207883
-  Name: "Sci-fi Base Wall Interior 01 Half"
-  Transform {
-    Location {
-      X: -2000
-      Z: 50
-    }
-    Rotation {
-      Yaw: -90
-    }
-    Scale {
-      X: 1.25
-      Y: 1.25
-      Z: 1
-    }
-  }
-  ParentId: 14526971674320547280
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 12502684501118640964
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-      BoundsScale: 1
-    }
-  }
-  Relevance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  IsReplicationEnabledByDefault: true
-}
-Objects {
-  Id: 4181254913056521996
-  Name: "Sci-fi Base Wall Interior 01 Half"
-  Transform {
-    Location {
-      X: -2000
-      Y: -500
-      Z: 50
-    }
-    Rotation {
-      Yaw: -90
-    }
-    Scale {
-      X: 1.25
-      Y: 1.25
-      Z: 1
-    }
-  }
-  ParentId: 14526971674320547280
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 12502684501118640964
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-      BoundsScale: 1
-    }
-  }
-  Relevance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  IsReplicationEnabledByDefault: true
-}
-Objects {
-  Id: 6616273697040356448
-  Name: "Sci-fi Base Wall Interior 01 Half"
-  Transform {
-    Location {
-      Y: 500
-      Z: 47.2357178
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1.25
-      Y: 1.25
-      Z: 1
-    }
-  }
-  ParentId: 14526971674320547280
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 12502684501118640964
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-      BoundsScale: 1
-    }
-  }
-  Relevance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  IsReplicationEnabledByDefault: true
-}
-Objects {
-  Id: 10376377174146148381
-  Name: "Sci-fi Base Floor 03 4m"
-  Transform {
-    Location {
-      X: 1000
-      Y: 500
-      Z: 49.9998169
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1.25
-      Y: 1.25
-      Z: 1
-    }
-  }
-  ParentId: 14526971674320547280
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Building_Floor:id"
-      AssetReference {
-        Id: 11651912733691789859
-      }
-    }
-    Overrides {
-      Name: "ma:Building_Floor:color"
-      Color {
-        A: 1
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 8380401260161462649
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-      BoundsScale: 1
-    }
-  }
-  Relevance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  IsReplicationEnabledByDefault: true
-}
-Objects {
-  Id: 1123738998031626495
-  Name: "Sci-fi Base Floor 03 4m"
-  Transform {
-    Location {
-      Y: -500
-      Z: 49.9998169
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1.25
-      Y: 1.25
-      Z: 1
-    }
-  }
-  ParentId: 14526971674320547280
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Building_Floor:id"
-      AssetReference {
-        Id: 11651912733691789859
-      }
-    }
-    Overrides {
-      Name: "ma:Building_Floor:color"
-      Color {
-        A: 1
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 8380401260161462649
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-      BoundsScale: 1
-    }
-  }
-  Relevance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  IsReplicationEnabledByDefault: true
-}
-Objects {
-  Id: 14080699808441617482
-  Name: "Start conor"
-  Transform {
-    Location {
-      X: -2500
-      Y: -2000
-      Z: 49.9998169
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1.25
-      Y: 1.25
-      Z: 1
-    }
-  }
-  ParentId: 14526971674320547280
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Building_Floor:id"
-      AssetReference {
-        Id: 12541919055417117269
-      }
-    }
-    Overrides {
-      Name: "ma:Building_Floor:color"
-      Color {
-        A: 1
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 8380401260161462649
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-      BoundsScale: 1
-    }
-  }
-  Relevance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  IsReplicationEnabledByDefault: true
-}
-Objects {
-  Id: 17198824675767136373
-  Name: "Sci-fi Base Floor 03 4m"
-  Transform {
-    Location {
-      X: -500
-      Y: -500
-      Z: 49.9998169
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1.25
-      Y: 1.25
-      Z: 1
-    }
-  }
-  ParentId: 14526971674320547280
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Building_Floor:id"
-      AssetReference {
-        Id: 11651912733691789859
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 8380401260161462649
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-      BoundsScale: 1
-    }
-  }
-  Relevance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  IsReplicationEnabledByDefault: true
-}
-Objects {
-  Id: 8585564329764846119
-  Name: "Sci-fi Base Wall Interior 01 Half"
-  Transform {
-    Location {
-      X: 1500
-      Y: 1500
-      Z: 47.2357178
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1.25
-      Y: 1.25
-      Z: 1
-    }
-  }
-  ParentId: 14526971674320547280
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 12502684501118640964
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-      BoundsScale: 1
-    }
-  }
-  Relevance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  IsReplicationEnabledByDefault: true
-}
-Objects {
-  Id: 4449013743481871956
+  Id: 12854362510069769098
   Name: "Sci-fi Base Wall Interior 01 Half"
   Transform {
     Location {
       X: 1000
-      Y: 1500
-      Z: 47.2357178
+      Z: 50
     }
     Rotation {
+      Yaw: -90
     }
     Scale {
       X: 1.25
@@ -2472,7 +2497,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14526971674320547280
+  ParentId: 17910184742199376823
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -2510,123 +2535,16 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 8562615632198581471
+  Id: 5949228795408550362
   Name: "Sci-fi Base Wall Interior 01 Half"
   Transform {
     Location {
       X: 1000
-      Y: -500
-      Z: 47.2357178
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1.25
-      Y: 1.25
-      Z: 1
-    }
-  }
-  ParentId: 14526971674320547280
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 12502684501118640964
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-      BoundsScale: 1
-    }
-  }
-  Relevance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  IsReplicationEnabledByDefault: true
-}
-Objects {
-  Id: 9919864568815510892
-  Name: "Sci-fi Base Wall Interior 01 Half"
-  Transform {
-    Location {
-      X: 500
-      Y: 2000
-      Z: 47.2357178
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1.25
-      Y: 1.25
-      Z: 1
-    }
-  }
-  ParentId: 14526971674320547280
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 12502684501118640964
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-      BoundsScale: 1
-    }
-  }
-  Relevance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  IsReplicationEnabledByDefault: true
-}
-Objects {
-  Id: 1996064938589240083
-  Name: "Sci-fi Base Wall Interior 01 Half"
-  Transform {
-    Location {
-      X: 500
       Y: 500
-      Z: 47.2357178
+      Z: 50
     }
     Rotation {
+      Yaw: -90
     }
     Scale {
       X: 1.25
@@ -2634,7 +2552,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14526971674320547280
+  ParentId: 17910184742199376823
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -2672,511 +2590,16 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 4696402520040748454
+  Id: 14399420805312699395
   Name: "Sci-fi Base Wall Interior 01 Half"
-  Transform {
-    Location {
-      X: 500
-      Z: 47.2357178
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1.25
-      Y: 1.25
-      Z: 1
-    }
-  }
-  ParentId: 14526971674320547280
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 12502684501118640964
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-      BoundsScale: 1
-    }
-  }
-  Relevance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  IsReplicationEnabledByDefault: true
-}
-Objects {
-  Id: 10842388923121645692
-  Name: "Sci-fi Base Wall Interior 01 Half"
-  Transform {
-    Location {
-      Z: 47.2357178
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1.25
-      Y: 1.25
-      Z: 1
-    }
-  }
-  ParentId: 14526971674320547280
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 12502684501118640964
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-      BoundsScale: 1
-    }
-  }
-  Relevance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  IsReplicationEnabledByDefault: true
-}
-Objects {
-  Id: 3532072869263460861
-  Name: "Sci-fi Base Wall Interior 01 Half"
-  Transform {
-    Location {
-      Y: -1500
-      Z: 47.2357178
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1.25
-      Y: 1.25
-      Z: 1
-    }
-  }
-  ParentId: 14526971674320547280
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 12502684501118640964
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-      BoundsScale: 1
-    }
-  }
-  Relevance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  IsReplicationEnabledByDefault: true
-}
-Objects {
-  Id: 11441189986998886081
-  Name: "Sci-fi Base Wall Interior 01 Half"
-  Transform {
-    Location {
-      X: -1000
-      Y: 1500
-      Z: 47.2357178
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1.25
-      Y: 1.25
-      Z: 1
-    }
-  }
-  ParentId: 14526971674320547280
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 12502684501118640964
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-      BoundsScale: 1
-    }
-  }
-  Relevance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  IsReplicationEnabledByDefault: true
-}
-Objects {
-  Id: 319177268097591485
-  Name: "Sci-fi Base Wall Interior 01 Half"
-  Transform {
-    Location {
-      X: -1500
-      Z: 47.2357178
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1.25
-      Y: 1.25
-      Z: 1
-    }
-  }
-  ParentId: 14526971674320547280
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 12502684501118640964
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-      BoundsScale: 1
-    }
-  }
-  Relevance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  IsReplicationEnabledByDefault: true
-}
-Objects {
-  Id: 14013468101414443410
-  Name: "Sci-fi Base Wall Interior 01 Half"
-  Transform {
-    Location {
-      X: -1500
-      Y: -500
-      Z: 47.2357178
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1.25
-      Y: 1.25
-      Z: 1
-    }
-  }
-  ParentId: 14526971674320547280
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 12502684501118640964
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-      BoundsScale: 1
-    }
-  }
-  Relevance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  IsReplicationEnabledByDefault: true
-}
-Objects {
-  Id: 8978776783166185884
-  Name: "Sci-fi Base Wall Interior 01 Half"
-  Transform {
-    Location {
-      X: -1500
-      Y: -1500
-      Z: 47.2357178
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1.25
-      Y: 1.25
-      Z: 1
-    }
-  }
-  ParentId: 14526971674320547280
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 12502684501118640964
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-      BoundsScale: 1
-    }
-  }
-  Relevance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  IsReplicationEnabledByDefault: true
-}
-Objects {
-  Id: 13589765053512121151
-  Name: "Sci-fi Base Floor 03 4m"
   Transform {
     Location {
       X: 1000
-      Z: 49.9998169
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1.25
-      Y: 1.25
-      Z: 1
-    }
-  }
-  ParentId: 14526971674320547280
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Building_Floor:id"
-      AssetReference {
-        Id: 11651912733691789859
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 8380401260161462649
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-      BoundsScale: 1
-    }
-  }
-  Relevance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  IsReplicationEnabledByDefault: true
-}
-Objects {
-  Id: 7621301485319376666
-  Name: "Sci-fi Base Floor 03 4m"
-  Transform {
-    Location {
-      X: 500
-      Y: -499.665527
-      Z: 49.9998169
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1.25
-      Y: 1.25
-      Z: 1
-    }
-  }
-  ParentId: 14526971674320547280
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Building_Floor:id"
-      AssetReference {
-        Id: 11651912733691789859
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 8380401260161462649
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-      BoundsScale: 1
-    }
-  }
-  Relevance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  IsReplicationEnabledByDefault: true
-}
-Objects {
-  Id: 8287461149356411510
-  Name: "Sci-fi Base Floor 03 4m"
-  Transform {
-    Location {
-      X: 500
       Y: 1000
-      Z: 49.9998169
+      Z: 50
     }
     Rotation {
+      Yaw: -90
     }
     Scale {
       X: 1.25
@@ -3184,21 +2607,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14526971674320547280
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Building_Floor:id"
-      AssetReference {
-        Id: 11651912733691789859
-      }
-    }
-    Overrides {
-      Name: "ma:Building_Floor:color"
-      Color {
-        A: 1
-      }
-    }
-  }
+  ParentId: 17910184742199376823
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -3213,7 +2622,7 @@ Objects {
   }
   CoreMesh {
     MeshAsset {
-      Id: 8380401260161462649
+      Id: 12502684501118640964
     }
     Teams {
       IsTeamCollisionEnabled: true
@@ -3236,403 +2645,16 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 145784709589547787
-  Name: "Sci-fi Base Floor 03 4m"
-  Transform {
-    Location {
-      Y: 1000
-      Z: 49.9998169
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1.25
-      Y: 1.25
-      Z: 1
-    }
-  }
-  ParentId: 14526971674320547280
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Building_Floor:id"
-      AssetReference {
-        Id: 11651912733691789859
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 8380401260161462649
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-      BoundsScale: 1
-    }
-  }
-  Relevance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  IsReplicationEnabledByDefault: true
-}
-Objects {
-  Id: 13744133783248885101
-  Name: "Sci-fi Base Floor 03 4m"
-  Transform {
-    Location {
-      X: -500
-      Y: 1000
-      Z: 49.9998169
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1.25
-      Y: 1.25
-      Z: 1
-    }
-  }
-  ParentId: 14526971674320547280
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Building_Floor:id"
-      AssetReference {
-        Id: 11651912733691789859
-      }
-    }
-    Overrides {
-      Name: "ma:Building_Floor:color"
-      Color {
-        A: 1
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 8380401260161462649
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-      BoundsScale: 1
-    }
-  }
-  Relevance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  IsReplicationEnabledByDefault: true
-}
-Objects {
-  Id: 7772510033098460184
-  Name: "Sci-fi Base Floor 03 4m"
-  Transform {
-    Location {
-      X: -1000
-      Y: 1000
-      Z: 49.9998169
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1.25
-      Y: 1.25
-      Z: 1
-    }
-  }
-  ParentId: 14526971674320547280
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Building_Floor:id"
-      AssetReference {
-        Id: 11651912733691789859
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 8380401260161462649
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-      BoundsScale: 1
-    }
-  }
-  Relevance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  IsReplicationEnabledByDefault: true
-}
-Objects {
-  Id: 16141076335900449405
-  Name: "Sci-fi Base Floor 03 4m"
-  Transform {
-    Location {
-      X: -1000
-      Y: -500
-      Z: 49.9998169
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1.25
-      Y: 1.25
-      Z: 1
-    }
-  }
-  ParentId: 14526971674320547280
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Building_Floor:id"
-      AssetReference {
-        Id: 11651912733691789859
-      }
-    }
-    Overrides {
-      Name: "ma:Building_Floor:color"
-      Color {
-        A: 1
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 8380401260161462649
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-      BoundsScale: 1
-    }
-  }
-  Relevance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  IsReplicationEnabledByDefault: true
-}
-Objects {
-  Id: 10901801437029848366
-  Name: "Sci-fi Base Floor 03 4m"
-  Transform {
-    Location {
-      X: -1500
-      Z: 49.9998169
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1.25
-      Y: 1.25
-      Z: 1
-    }
-  }
-  ParentId: 14526971674320547280
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Building_Floor:id"
-      AssetReference {
-        Id: 11651912733691789859
-      }
-    }
-    Overrides {
-      Name: "ma:Building_Floor:color"
-      Color {
-        A: 1
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 8380401260161462649
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-      BoundsScale: 1
-    }
-  }
-  Relevance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  IsReplicationEnabledByDefault: true
-}
-Objects {
-  Id: 8018783733807586521
-  Name: "Sci-fi Base Floor 03 4m"
-  Transform {
-    Location {
-      X: -1500
-      Y: 500
-      Z: 49.9998169
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1.25
-      Y: 1.25
-      Z: 1
-    }
-  }
-  ParentId: 14526971674320547280
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Building_Floor:id"
-      AssetReference {
-        Id: 11651912733691789859
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 8380401260161462649
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-      BoundsScale: 1
-    }
-  }
-  Relevance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  IsReplicationEnabledByDefault: true
-}
-Objects {
-  Id: 14110402272593955975
+  Id: 52963120206282083
   Name: "Sci-fi Base Wall Interior 01 Half"
   Transform {
     Location {
-      X: 2000
+      X: 1000
       Y: 2500
-      Z: 47.2357178
+      Z: 50
     }
     Rotation {
+      Yaw: -90
     }
     Scale {
       X: 1.25
@@ -3640,7 +2662,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14526971674320547280
+  ParentId: 17910184742199376823
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -3678,176 +2700,16 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 3331275509009837907
+  Id: 16659608988536490183
   Name: "Sci-fi Base Wall Interior 01 Half"
   Transform {
     Location {
-      X: -2500
-      Y: -2500
-      Z: 47.2357178
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1.25
-      Y: 1.25
-      Z: 1
-    }
-  }
-  ParentId: 14526971674320547280
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 12502684501118640964
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-      BoundsScale: 1
-    }
-  }
-  Relevance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  IsReplicationEnabledByDefault: true
-}
-Objects {
-  Id: 2137742967453037956
-  Name: "Sci-fi Base Wall Interior 01 Half"
-  Transform {
-    Location {
-      X: -2500
-      Z: 47.2357178
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1.25
-      Y: 1.25
-      Z: 1
-    }
-  }
-  ParentId: 14526971674320547280
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 12502684501118640964
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-      BoundsScale: 1
-    }
-  }
-  Relevance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  IsReplicationEnabledByDefault: true
-}
-Objects {
-  Id: 3676041765531689463
-  Name: "Sci-fi Base Wall Interior 01 Half"
-  Transform {
-    Location {
-      X: 2000
-      Y: 1500
-      Z: 47.2357178
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1.25
-      Y: 1.25
-      Z: 1
-    }
-  }
-  ParentId: 14526971674320547280
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 12502684501118640964
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-      BoundsScale: 1
-    }
-  }
-  Relevance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  IsReplicationEnabledByDefault: true
-}
-Objects {
-  Id: 9497660624436327162
-  Name: "Sci-fi Base Wall Interior 01 Half"
-  Transform {
-    Location {
-      X: -1500
+      X: 1000
       Y: 2000
-      Z: 47.2357178
+      Z: 50
     }
     Rotation {
+      Yaw: -90
     }
     Scale {
       X: 1.25
@@ -3855,7 +2717,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14526971674320547280
+  ParentId: 17910184742199376823
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -3893,15 +2755,16 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 1485312512744353349
+  Id: 7263011643782826547
   Name: "Sci-fi Base Wall Interior 01 Half"
   Transform {
     Location {
-      X: -1000
-      Y: 2000
-      Z: 47.2357178
+      X: 1000
+      Y: -1500
+      Z: 50
     }
     Rotation {
+      Yaw: -90
     }
     Scale {
       X: 1.25
@@ -3909,7 +2772,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14526971674320547280
+  ParentId: 17910184742199376823
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -3947,338 +2810,16 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 9949884571352276695
-  Name: "Sci-fi Base Wall Interior 01 Half"
-  Transform {
-    Location {
-      X: -500
-      Y: 2000
-      Z: 47.2357178
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1.25
-      Y: 1.25
-      Z: 1
-    }
-  }
-  ParentId: 14526971674320547280
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 12502684501118640964
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-      BoundsScale: 1
-    }
-  }
-  Relevance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  IsReplicationEnabledByDefault: true
-}
-Objects {
-  Id: 8776494279114902299
-  Name: "Sci-fi Base Wall Interior 01 Half"
-  Transform {
-    Location {
-      Y: 2000
-      Z: 47.2357178
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1.25
-      Y: 1.25
-      Z: 1
-    }
-  }
-  ParentId: 14526971674320547280
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 12502684501118640964
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-      BoundsScale: 1
-    }
-  }
-  Relevance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  IsReplicationEnabledByDefault: true
-}
-Objects {
-  Id: 1386049294404831377
-  Name: "Sci-fi Base Wall Interior 01 Half"
-  Transform {
-    Location {
-      X: -2000
-      Y: 2000
-      Z: 47.2357178
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1.25
-      Y: 1.25
-      Z: 1
-    }
-  }
-  ParentId: 14526971674320547280
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 12502684501118640964
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-      BoundsScale: 1
-    }
-  }
-  Relevance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  IsReplicationEnabledByDefault: true
-}
-Objects {
-  Id: 1278622063745021578
-  Name: "Sci-fi Base Wall Interior 01 Half"
-  Transform {
-    Location {
-      X: -2000
-      Y: 500
-      Z: 47.2357178
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1.25
-      Y: 1.25
-      Z: 1
-    }
-  }
-  ParentId: 14526971674320547280
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 12502684501118640964
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-      BoundsScale: 1
-    }
-  }
-  Relevance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  IsReplicationEnabledByDefault: true
-}
-Objects {
-  Id: 17286230251590644911
-  Name: "Sci-fi Base Wall Interior 01 Half"
-  Transform {
-    Location {
-      X: -1500
-      Y: 1000
-      Z: 47.2357178
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1.25
-      Y: 1.25
-      Z: 1
-    }
-  }
-  ParentId: 14526971674320547280
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 12502684501118640964
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-      BoundsScale: 1
-    }
-  }
-  Relevance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  IsReplicationEnabledByDefault: true
-}
-Objects {
-  Id: 1917781143079883056
-  Name: "Sci-fi Base Wall Interior 01 Half"
-  Transform {
-    Location {
-      X: -500
-      Y: 1500
-      Z: 47.2357178
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1.25
-      Y: 1.25
-      Z: 1
-    }
-  }
-  ParentId: 14526971674320547280
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 12502684501118640964
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-      BoundsScale: 1
-    }
-  }
-  Relevance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  IsReplicationEnabledByDefault: true
-}
-Objects {
-  Id: 16670817462212796939
+  Id: 11658055935502713095
   Name: "Sci-fi Base Wall Interior 01 Half"
   Transform {
     Location {
       X: 500
-      Y: 1000
-      Z: 47.2357178
+      Y: 2000
+      Z: 50
     }
     Rotation {
+      Yaw: -90
     }
     Scale {
       X: 1.25
@@ -4286,7 +2827,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14526971674320547280
+  ParentId: 17910184742199376823
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -4324,230 +2865,16 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 1483690400091643630
+  Id: 5197883295844476074
   Name: "Sci-fi Base Wall Interior 01 Half"
   Transform {
     Location {
-      X: 1000
-      Y: 1000
-      Z: 47.2357178
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1.25
-      Y: 1.25
-      Z: 1
-    }
-  }
-  ParentId: 14526971674320547280
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 12502684501118640964
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-      BoundsScale: 1
-    }
-  }
-  Relevance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  IsReplicationEnabledByDefault: true
-}
-Objects {
-  Id: 4296806158585842839
-  Name: "Sci-fi Base Wall Interior 01 Half"
-  Transform {
-    Location {
-      X: 1500
-      Y: 1000
-      Z: 47.2357178
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1.25
-      Y: 1.25
-      Z: 1
-    }
-  }
-  ParentId: 14526971674320547280
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 12502684501118640964
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-      BoundsScale: 1
-    }
-  }
-  Relevance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  IsReplicationEnabledByDefault: true
-}
-Objects {
-  Id: 2920173230196087963
-  Name: "Sci-fi Base Wall Interior 01 Half"
-  Transform {
-    Location {
-      X: -2000
-      Z: 47.2357178
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1.25
-      Y: 1.25
-      Z: 1
-    }
-  }
-  ParentId: 14526971674320547280
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 12502684501118640964
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-      BoundsScale: 1
-    }
-  }
-  Relevance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  IsReplicationEnabledByDefault: true
-}
-Objects {
-  Id: 17151779225591629363
-  Name: "Sci-fi Base Wall Interior 01 Half"
-  Transform {
-    Location {
-      X: -1000
-      Y: 1000
-      Z: 47.2357178
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1.25
-      Y: 1.25
-      Z: 1
-    }
-  }
-  ParentId: 14526971674320547280
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 12502684501118640964
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-      BoundsScale: 1
-    }
-  }
-  Relevance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  IsReplicationEnabledByDefault: true
-}
-Objects {
-  Id: 12908682013009863421
-  Name: "Sci-fi Base Wall Interior 01 Half"
-  Transform {
-    Location {
-      X: -500
+      X: 500
       Y: 500
-      Z: 47.2357178
+      Z: 50
     }
     Rotation {
+      Yaw: -90
     }
     Scale {
       X: 1.25
@@ -4555,7 +2882,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14526971674320547280
+  ParentId: 17910184742199376823
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -4593,14 +2920,15 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 7355215243673549276
+  Id: 905976907037338810
   Name: "Sci-fi Base Wall Interior 01 Half"
   Transform {
     Location {
-      X: 1000
-      Z: 47.2357178
+      X: 500
+      Z: 50
     }
     Rotation {
+      Yaw: -90
     }
     Scale {
       X: 1.25
@@ -4608,7 +2936,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14526971674320547280
+  ParentId: 17910184742199376823
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -4646,15 +2974,16 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 3608890988908545305
+  Id: 17847120227935434136
   Name: "Sci-fi Base Wall Interior 01 Half"
   Transform {
     Location {
-      X: 2000
+      X: 500
       Y: -500
-      Z: 47.2357178
+      Z: 50
     }
     Rotation {
+      Yaw: -90
     }
     Scale {
       X: 1.25
@@ -4662,7 +2991,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14526971674320547280
+  ParentId: 17910184742199376823
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -4700,391 +3029,16 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 12107812530911822535
-  Name: "Sci-fi Base Wall Interior 01 Half"
-  Transform {
-    Location {
-      X: 1500
-      Z: 47.2357178
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1.25
-      Y: 1.25
-      Z: 1
-    }
-  }
-  ParentId: 14526971674320547280
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 12502684501118640964
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-      BoundsScale: 1
-    }
-  }
-  Relevance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  IsReplicationEnabledByDefault: true
-}
-Objects {
-  Id: 17016113447775976298
-  Name: "Sci-fi Base Wall Interior 01 Half"
-  Transform {
-    Location {
-      Y: -500
-      Z: 47.2357178
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1.25
-      Y: 1.25
-      Z: 1
-    }
-  }
-  ParentId: 14526971674320547280
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 12502684501118640964
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-      BoundsScale: 1
-    }
-  }
-  Relevance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  IsReplicationEnabledByDefault: true
-}
-Objects {
-  Id: 5571158507432204994
-  Name: "Sci-fi Base Wall Interior 01 Half"
-  Transform {
-    Location {
-      X: 1500
-      Y: -1000
-      Z: 47.2357178
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1.25
-      Y: 1.25
-      Z: 1
-    }
-  }
-  ParentId: 14526971674320547280
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 12502684501118640964
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-      BoundsScale: 1
-    }
-  }
-  Relevance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  IsReplicationEnabledByDefault: true
-}
-Objects {
-  Id: 12949744069896508685
-  Name: "Sci-fi Base Wall Interior 01 Half"
-  Transform {
-    Location {
-      X: -500
-      Y: -1000
-      Z: 47.2357178
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1.25
-      Y: 1.25
-      Z: 1
-    }
-  }
-  ParentId: 14526971674320547280
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 12502684501118640964
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-      BoundsScale: 1
-    }
-  }
-  Relevance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  IsReplicationEnabledByDefault: true
-}
-Objects {
-  Id: 13556932160868469271
-  Name: "Sci-fi Base Wall Interior 01 Half"
-  Transform {
-    Location {
-      X: -1000
-      Y: -500
-      Z: 47.2357178
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1.25
-      Y: 1.25
-      Z: 1
-    }
-  }
-  ParentId: 14526971674320547280
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 12502684501118640964
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-      BoundsScale: 1
-    }
-  }
-  Relevance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  IsReplicationEnabledByDefault: true
-}
-Objects {
-  Id: 9805699010657379649
-  Name: "Sci-fi Base Wall Interior 01 Half"
-  Transform {
-    Location {
-      X: -2000
-      Y: -1000
-      Z: 47.2357178
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1.25
-      Y: 1.25
-      Z: 1
-    }
-  }
-  ParentId: 14526971674320547280
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 12502684501118640964
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-      BoundsScale: 1
-    }
-  }
-  Relevance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  IsReplicationEnabledByDefault: true
-}
-Objects {
-  Id: 10094422292394215218
-  Name: "Sci-fi Base Wall Interior 01 Half"
-  Transform {
-    Location {
-      X: -2500
-      Y: -1500
-      Z: 47.2357178
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1.25
-      Y: 1.25
-      Z: 1
-    }
-  }
-  ParentId: 14526971674320547280
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 12502684501118640964
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-      BoundsScale: 1
-    }
-  }
-  Relevance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  IsReplicationEnabledByDefault: true
-}
-Objects {
-  Id: 7899688531067068047
+  Id: 7184144929365691412
   Name: "Sci-fi Base Wall Interior 01 Half"
   Transform {
     Location {
       X: 500
       Y: -1500
-      Z: 47.2357178
+      Z: 50
     }
     Rotation {
+      Yaw: -90
     }
     Scale {
       X: 1.25
@@ -5092,7 +3046,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14526971674320547280
+  ParentId: 17910184742199376823
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -5130,15 +3084,16 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 13559706643206348061
+  Id: 6923124357282697993
   Name: "Sci-fi Base Wall Interior 01 Half"
   Transform {
     Location {
-      X: 1500
-      Y: -1500
-      Z: 47.2357178
+      X: 500
+      Y: -2000
+      Z: 50
     }
     Rotation {
+      Yaw: -90
     }
     Scale {
       X: 1.25
@@ -5146,7 +3101,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14526971674320547280
+  ParentId: 17910184742199376823
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -5184,15 +3139,781 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 893880317412666028
+  Id: 8869558218110828437
+  Name: "Sci-fi Base Wall Interior 01 Half"
+  Transform {
+    Location {
+      Y: 500
+      Z: 50
+    }
+    Rotation {
+      Yaw: -90
+    }
+    Scale {
+      X: 1.25
+      Y: 1.25
+      Z: 1
+    }
+  }
+  ParentId: 17910184742199376823
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 12502684501118640964
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 7429003993017715893
+  Name: "Sci-fi Base Wall Interior 01 Half"
+  Transform {
+    Location {
+      Y: -1000
+      Z: 50
+    }
+    Rotation {
+      Yaw: -90
+    }
+    Scale {
+      X: 1.25
+      Y: 1.25
+      Z: 1
+    }
+  }
+  ParentId: 17910184742199376823
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 12502684501118640964
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 11279625709672960601
+  Name: "Sci-fi Base Wall Interior 01 Half"
+  Transform {
+    Location {
+      Y: -1500
+      Z: 50
+    }
+    Rotation {
+      Yaw: -90
+    }
+    Scale {
+      X: 1.25
+      Y: 1.25
+      Z: 1
+    }
+  }
+  ParentId: 17910184742199376823
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 12502684501118640964
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 10130113501465926908
+  Name: "Sci-fi Base Wall Interior 01 Half"
+  Transform {
+    Location {
+      X: -500
+      Y: 1000
+      Z: 50
+    }
+    Rotation {
+      Yaw: -90
+    }
+    Scale {
+      X: 1.25
+      Y: 1.25
+      Z: 1
+    }
+  }
+  ParentId: 17910184742199376823
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 12502684501118640964
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 3763734070172716729
+  Name: "Sci-fi Base Wall Interior 01 Half"
+  Transform {
+    Location {
+      X: -500
+      Y: 1500
+      Z: 50
+    }
+    Rotation {
+      Yaw: -90
+    }
+    Scale {
+      X: 1.25
+      Y: 1.25
+      Z: 1
+    }
+  }
+  ParentId: 17910184742199376823
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 12502684501118640964
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 16325511987598104525
+  Name: "Sci-fi Base Wall Interior 01 Half"
+  Transform {
+    Location {
+      X: -500
+      Y: 2000
+      Z: 50
+    }
+    Rotation {
+      Yaw: -90
+    }
+    Scale {
+      X: 1.25
+      Y: 1.25
+      Z: 1
+    }
+  }
+  ParentId: 17910184742199376823
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 12502684501118640964
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 7228474967443055426
+  Name: "Sci-fi Base Wall Interior 01 Half"
+  Transform {
+    Location {
+      X: -500
+      Y: -1500
+      Z: 50
+    }
+    Rotation {
+      Yaw: -90
+    }
+    Scale {
+      X: 1.25
+      Y: 1.25
+      Z: 1
+    }
+  }
+  ParentId: 17910184742199376823
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 12502684501118640964
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 5662543797682730151
+  Name: "Sci-fi Base Wall Interior 01 Half"
+  Transform {
+    Location {
+      X: -1000
+      Y: 1500
+      Z: 50
+    }
+    Rotation {
+      Yaw: -90
+    }
+    Scale {
+      X: 1.25
+      Y: 1.25
+      Z: 1
+    }
+  }
+  ParentId: 17910184742199376823
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 12502684501118640964
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 10950407368142987946
+  Name: "Sci-fi Base Wall Interior 01 Half"
+  Transform {
+    Location {
+      X: -1000
+      Y: 1000
+      Z: 50
+    }
+    Rotation {
+      Yaw: -90
+    }
+    Scale {
+      X: 1.25
+      Y: 1.25
+      Z: 1
+    }
+  }
+  ParentId: 17910184742199376823
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 12502684501118640964
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 17197098701706314828
+  Name: "Sci-fi Base Wall Interior 01 Half"
+  Transform {
+    Location {
+      X: -1000
+      Y: 500
+      Z: 50
+    }
+    Rotation {
+      Yaw: -90
+    }
+    Scale {
+      X: 1.25
+      Y: 1.25
+      Z: 1
+    }
+  }
+  ParentId: 17910184742199376823
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 12502684501118640964
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 15443269961944479249
+  Name: "Sci-fi Base Wall Interior 01 Half"
+  Transform {
+    Location {
+      X: -1000
+      Z: 50
+    }
+    Rotation {
+      Yaw: -90
+    }
+    Scale {
+      X: 1.25
+      Y: 1.25
+      Z: 1
+    }
+  }
+  ParentId: 17910184742199376823
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 12502684501118640964
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 3423103591012094219
+  Name: "Sci-fi Base Wall Interior 01 Half"
+  Transform {
+    Location {
+      X: -1000
+      Y: -500
+      Z: 50
+    }
+    Rotation {
+      Yaw: -90
+    }
+    Scale {
+      X: 1.25
+      Y: 1.25
+      Z: 1
+    }
+  }
+  ParentId: 17910184742199376823
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 12502684501118640964
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 124915939649383559
+  Name: "Sci-fi Base Wall Interior 01 Half"
+  Transform {
+    Location {
+      X: -1000
+      Y: -1000
+      Z: 50
+    }
+    Rotation {
+      Yaw: -90
+    }
+    Scale {
+      X: 1.25
+      Y: 1.25
+      Z: 1
+    }
+  }
+  ParentId: 17910184742199376823
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 12502684501118640964
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 12737426585627397660
+  Name: "Sci-fi Base Wall Interior 01 Half"
+  Transform {
+    Location {
+      X: -1000
+      Y: -2000
+      Z: 50
+    }
+    Rotation {
+      Yaw: -90
+    }
+    Scale {
+      X: 1.25
+      Y: 1.25
+      Z: 1
+    }
+  }
+  ParentId: 17910184742199376823
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 12502684501118640964
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 10439844159521238153
   Name: "Sci-fi Base Wall Interior 01 Half"
   Transform {
     Location {
       X: -1500
-      Y: -2000
-      Z: 47.2357178
+      Y: 2000
     }
     Rotation {
+      Yaw: -90
     }
     Scale {
       X: 1.25
@@ -5200,7 +3921,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14526971674320547280
+  ParentId: 17910184742199376823
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -5238,15 +3959,16 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 10821122636779212542
+  Id: 6132589956071848412
   Name: "Sci-fi Base Wall Interior 01 Half"
   Transform {
     Location {
-      X: 1000
-      Y: -1500
-      Z: 47.2357178
+      X: -1500
+      Y: 1000
+      Z: 50
     }
     Rotation {
+      Yaw: -90
     }
     Scale {
       X: 1.25
@@ -5254,7 +3976,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14526971674320547280
+  ParentId: 17910184742199376823
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -5292,15 +4014,125 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 15084057923569811930
+  Id: 13685458942680467018
+  Name: "Sci-fi Base Wall Interior 01 Half"
+  Transform {
+    Location {
+      X: -1500
+      Y: 500
+      Z: 50
+    }
+    Rotation {
+      Yaw: -90
+    }
+    Scale {
+      X: 1.25
+      Y: 1.25
+      Z: 1
+    }
+  }
+  ParentId: 17910184742199376823
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 12502684501118640964
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 7987923170280867226
+  Name: "Sci-fi Base Wall Interior 01 Half"
+  Transform {
+    Location {
+      X: -1415.70532
+      Y: -500
+      Z: 50
+    }
+    Rotation {
+      Yaw: -90
+    }
+    Scale {
+      X: 1.25
+      Y: 1.25
+      Z: 1
+    }
+  }
+  ParentId: 17910184742199376823
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 12502684501118640964
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 10019256995077999374
   Name: "Sci-fi Base Wall Interior 01 Half"
   Transform {
     Location {
       X: -2000
-      Y: -2000
-      Z: 47.2357178
+      Y: 2000
     }
     Rotation {
+      Yaw: -90
     }
     Scale {
       X: 1.25
@@ -5308,7 +4140,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14526971674320547280
+  ParentId: 17910184742199376823
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -5346,7 +4178,115 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 9939597301564242605
+  Id: 1384472384950124172
+  Name: "Sci-fi Base Wall Interior 01 Half"
+  Transform {
+    Location {
+      X: -2000
+    }
+    Rotation {
+      Yaw: -90
+    }
+    Scale {
+      X: 1.25
+      Y: 1.25
+      Z: 1
+    }
+  }
+  ParentId: 17910184742199376823
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 12502684501118640964
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 4361436263789791427
+  Name: "Sci-fi Base Wall Interior 01 Half"
+  Transform {
+    Location {
+      X: -2000
+      Y: -1500
+      Z: 50
+    }
+    Rotation {
+      Yaw: -90
+    }
+    Scale {
+      X: 1.25
+      Y: 1.25
+      Z: 1
+    }
+  }
+  ParentId: 17910184742199376823
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 12502684501118640964
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 4141346921207005464
   Name: "Sci-fi Base Wall Interior 01 Half"
   Transform {
     Location {
@@ -5363,7 +4303,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14526971674320547280
+  ParentId: 17910184742199376823
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -5401,7 +4341,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 4734217869499286798
+  Id: 12128099535418764904
   Name: "Sci-fi Base Wall Interior 01 Half"
   Transform {
     Location {
@@ -5418,7 +4358,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14526971674320547280
+  ParentId: 17910184742199376823
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -5456,7 +4396,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 10408121758786848469
+  Id: 5227873383889488575
   Name: "Sci-fi Base Wall Interior 01 Half"
   Transform {
     Location {
@@ -5473,7 +4413,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14526971674320547280
+  ParentId: 17910184742199376823
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -5511,7 +4451,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 11340383138813988495
+  Id: 8966820341626687903
   Name: "Sci-fi Base Wall Interior 01 Half"
   Transform {
     Location {
@@ -5528,7 +4468,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14526971674320547280
+  ParentId: 17910184742199376823
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -5566,7 +4506,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 16653923467698639774
+  Id: 4718869817296617719
   Name: "Sci-fi Base Wall Interior 01 Half"
   Transform {
     Location {
@@ -5583,7 +4523,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14526971674320547280
+  ParentId: 17910184742199376823
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -5621,7 +4561,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 11860643049390189297
+  Id: 11532648397972618568
   Name: "Sci-fi Base Wall Interior 01 Half"
   Transform {
     Location {
@@ -5637,7 +4577,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14526971674320547280
+  ParentId: 17910184742199376823
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -5675,7 +4615,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 14910189668192393713
+  Id: 12943385844156931198
   Name: "Sci-fi Base Wall Interior 01 Half"
   Transform {
     Location {
@@ -5692,7 +4632,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14526971674320547280
+  ParentId: 17910184742199376823
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -5730,7 +4670,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 3718965112397294287
+  Id: 11926169896742656576
   Name: "Sci-fi Base Wall Interior 01 Half"
   Transform {
     Location {
@@ -5747,7 +4687,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14526971674320547280
+  ParentId: 17910184742199376823
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -5785,7 +4725,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 3426269263371900332
+  Id: 16772597808898054989
   Name: "Sci-fi Base Wall Interior 01 Half"
   Transform {
     Location {
@@ -5802,7 +4742,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14526971674320547280
+  ParentId: 17910184742199376823
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -5840,7 +4780,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 5420286119250570331
+  Id: 332857029328074929
   Name: "Sci-fi Base Wall Interior 01 Half"
   Transform {
     Location {
@@ -5857,7 +4797,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14526971674320547280
+  ParentId: 17910184742199376823
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -5895,7 +4835,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 101358186531259871
+  Id: 17529629399411543102
   Name: "Sci-fi Base Wall Interior 01 Half"
   Transform {
     Location {
@@ -5912,7 +4852,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14526971674320547280
+  ParentId: 17910184742199376823
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -5950,7 +4890,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 5822106510925955184
+  Id: 12446592881555064935
   Name: "Sci-fi Base Wall Interior 01 Half"
   Transform {
     Location {
@@ -5967,7 +4907,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14526971674320547280
+  ParentId: 17910184742199376823
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -6005,7 +4945,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 10348853666522998736
+  Id: 14682249859567746931
   Name: "Sci-fi Base Wall Interior 01 Half"
   Transform {
     Location {
@@ -6022,7 +4962,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14526971674320547280
+  ParentId: 17910184742199376823
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -6060,7 +5000,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 9549704204506864199
+  Id: 15729704067352200157
   Name: "Sci-fi Base Wall Interior 01 Half"
   Transform {
     Location {
@@ -6077,7 +5017,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14526971674320547280
+  ParentId: 17910184742199376823
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -6115,7 +5055,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 16643026189753617902
+  Id: 4258233163157964165
   Name: "Sci-fi Base Wall Interior 01 Half"
   Transform {
     Location {
@@ -6132,7 +5072,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14526971674320547280
+  ParentId: 17910184742199376823
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -6170,7 +5110,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 12633873142639303759
+  Id: 4098741745960743877
   Name: "Sci-fi Base Wall Interior 01 Half"
   Transform {
     Location {
@@ -6186,7 +5126,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14526971674320547280
+  ParentId: 17910184742199376823
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -6224,7 +5164,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 15269055806629215862
+  Id: 12900202929294001011
   Name: "Sci-fi Base Wall Interior 01 Half"
   Transform {
     Location {
@@ -6241,7 +5181,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14526971674320547280
+  ParentId: 17910184742199376823
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -6279,7 +5219,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 14869917476258418176
+  Id: 2459519049492184976
   Name: "Sci-fi Base Wall Interior 01 Half"
   Transform {
     Location {
@@ -6296,7 +5236,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14526971674320547280
+  ParentId: 17910184742199376823
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -6334,7 +5274,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 10399124505274648959
+  Id: 16286434538259617052
   Name: "Sci-fi Base Wall Interior 01 Half"
   Transform {
     Location {
@@ -6350,7 +5290,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14526971674320547280
+  ParentId: 17910184742199376823
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -6388,7 +5328,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 16879680102189635123
+  Id: 17521988047743932131
   Name: "Sci-fi Base Wall Interior 01 Half"
   Transform {
     Location {
@@ -6404,7 +5344,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14526971674320547280
+  ParentId: 17910184742199376823
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -6442,7 +5382,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 8836071379494499988
+  Id: 17498855601241355607
   Name: "Sci-fi Base Wall Interior 01 Half"
   Transform {
     Location {
@@ -6458,7 +5398,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14526971674320547280
+  ParentId: 17910184742199376823
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -6496,7 +5436,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 3533647352974862837
+  Id: 18134735306969079582
   Name: "Sci-fi Base Wall Interior 01 Half"
   Transform {
     Location {
@@ -6511,7 +5451,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14526971674320547280
+  ParentId: 17910184742199376823
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -6549,7 +5489,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 10605875073366596530
+  Id: 5682794055815928461
   Name: "Sci-fi Base Wall Interior 01 Half"
   Transform {
     Location {
@@ -6565,7 +5505,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14526971674320547280
+  ParentId: 17910184742199376823
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -6603,7 +5543,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 16111010175238976001
+  Id: 18070080320531173371
   Name: "Sci-fi Base Wall Interior 01 Half"
   Transform {
     Location {
@@ -6619,7 +5559,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14526971674320547280
+  ParentId: 17910184742199376823
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -6657,7 +5597,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 4414993054542321050
+  Id: 11302515688735007506
   Name: "Sci-fi Base Wall Interior 01 Half"
   Transform {
     Location {
@@ -6673,7 +5613,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14526971674320547280
+  ParentId: 17910184742199376823
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -6711,7 +5651,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 3731521486656387419
+  Id: 10477240790319677723
   Name: "Sci-fi Base Wall Interior 01 Half"
   Transform {
     Location {
@@ -6727,7 +5667,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14526971674320547280
+  ParentId: 17910184742199376823
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -6765,7 +5705,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 2898283819633171701
+  Id: 12214883846388203030
   Name: "Sci-fi Base Wall Interior 01 Half"
   Transform {
     Location {
@@ -6781,7 +5721,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14526971674320547280
+  ParentId: 17910184742199376823
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -6819,7 +5759,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 678214593392202920
+  Id: 9761424227599589522
   Name: "Sci-fi Base Wall Interior 01 Half"
   Transform {
     Location {
@@ -6835,7 +5775,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14526971674320547280
+  ParentId: 17910184742199376823
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -6873,7 +5813,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 9263526683822695170
+  Id: 1407803034836930162
   Name: "Sci-fi Base Wall Interior 01 Half"
   Transform {
     Location {
@@ -6889,7 +5829,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14526971674320547280
+  ParentId: 17910184742199376823
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -6927,7 +5867,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 9410994788342654170
+  Id: 5981816619875509586
   Name: "Sci-fi Base Wall Interior 01 Half"
   Transform {
     Location {
@@ -6943,7 +5883,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14526971674320547280
+  ParentId: 17910184742199376823
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -6981,7 +5921,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 10722118186103855049
+  Id: 7494205644599443030
   Name: "Sci-fi Base Wall Interior 01 Half"
   Transform {
     Location {
@@ -6997,7 +5937,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14526971674320547280
+  ParentId: 17910184742199376823
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -7035,7 +5975,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 11395817197525680335
+  Id: 8742779108556179185
   Name: "Sci-fi Base Wall Interior 01 Half"
   Transform {
     Location {
@@ -7051,7 +5991,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14526971674320547280
+  ParentId: 17910184742199376823
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -7089,7 +6029,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 7986351496787220175
+  Id: 5595555200204946429
   Name: "Sci-fi Base Wall Interior 01 Half"
   Transform {
     Location {
@@ -7105,7 +6045,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14526971674320547280
+  ParentId: 17910184742199376823
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -7143,7 +6083,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 660058748281902732
+  Id: 292360750582230184
   Name: "Sci-fi Base Wall Interior 01 Half"
   Transform {
     Location {
@@ -7159,7 +6099,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14526971674320547280
+  ParentId: 17910184742199376823
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -7197,7 +6137,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 5998298548038293107
+  Id: 627077816355201396
   Name: "Sci-fi Base Wall Interior 01 Half"
   Transform {
     Location {
@@ -7212,7 +6152,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14526971674320547280
+  ParentId: 17910184742199376823
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -7250,7 +6190,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 14994083413540133689
+  Id: 13314130814302293426
   Name: "Sci-fi Base Wall Interior 01 Half"
   Transform {
     Location {
@@ -7266,7 +6206,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14526971674320547280
+  ParentId: 17910184742199376823
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -7304,7 +6244,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 12521273086793038915
+  Id: 17392154201821545122
   Name: "Sci-fi Base Floor 03 4m"
   Transform {
     Location {
@@ -7320,7 +6260,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14526971674320547280
+  ParentId: 17910184742199376823
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_Floor:id"
@@ -7366,7 +6306,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 14975878944006291381
+  Id: 7739476285018503482
   Name: "Sci-fi Base Floor 03 4m"
   Transform {
     Location {
@@ -7382,21 +6322,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14526971674320547280
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Building_Floor:id"
-      AssetReference {
-        Id: 11651912733691789859
-      }
-    }
-    Overrides {
-      Name: "ma:Building_Floor:color"
-      Color {
-        A: 1
-      }
-    }
-  }
+  ParentId: 17910184742199376823
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -7434,7 +6360,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 11167559302242349505
+  Id: 15577235430866348588
   Name: "Sci-fi Base Floor 03 4m"
   Transform {
     Location {
@@ -7450,15 +6376,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14526971674320547280
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Building_Floor:id"
-      AssetReference {
-        Id: 11651912733691789859
-      }
-    }
-  }
+  ParentId: 17910184742199376823
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -7496,7 +6414,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 15088458713136188221
+  Id: 3298696430091719954
   Name: "Sci-fi Base Floor 03 4m"
   Transform {
     Location {
@@ -7512,21 +6430,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14526971674320547280
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Building_Floor:id"
-      AssetReference {
-        Id: 11651912733691789859
-      }
-    }
-    Overrides {
-      Name: "ma:Building_Floor:color"
-      Color {
-        A: 1
-      }
-    }
-  }
+  ParentId: 17910184742199376823
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -7564,7 +6468,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 8317905353839582013
+  Id: 800431629271474439
   Name: "Sci-fi Base Floor 03 4m"
   Transform {
     Location {
@@ -7579,15 +6483,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14526971674320547280
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Building_Floor:id"
-      AssetReference {
-        Id: 11651912733691789859
-      }
-    }
-  }
+  ParentId: 17910184742199376823
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -7625,7 +6521,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 5168210773460147901
+  Id: 3885651877773054101
   Name: "Sci-fi Base Floor 03 4m"
   Transform {
     Location {
@@ -7641,21 +6537,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14526971674320547280
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Building_Floor:id"
-      AssetReference {
-        Id: 11651912733691789859
-      }
-    }
-    Overrides {
-      Name: "ma:Building_Floor:color"
-      Color {
-        A: 1
-      }
-    }
-  }
+  ParentId: 17910184742199376823
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -7693,7 +6575,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 18417034840695928070
+  Id: 12539990004907563605
   Name: "Sci-fi Base Floor 03 4m"
   Transform {
     Location {
@@ -7709,15 +6591,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14526971674320547280
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Building_Floor:id"
-      AssetReference {
-        Id: 11651912733691789859
-      }
-    }
-  }
+  ParentId: 17910184742199376823
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -7755,7 +6629,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 3594065798880261944
+  Id: 8412477358420014888
   Name: "Sci-fi Base Floor 03 4m"
   Transform {
     Location {
@@ -7771,21 +6645,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14526971674320547280
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Building_Floor:id"
-      AssetReference {
-        Id: 11651912733691789859
-      }
-    }
-    Overrides {
-      Name: "ma:Building_Floor:color"
-      Color {
-        A: 1
-      }
-    }
-  }
+  ParentId: 17910184742199376823
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -7823,7 +6683,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 1150374485562823911
+  Id: 17826472271432277888
   Name: "Sci-fi Base Floor 03 4m"
   Transform {
     Location {
@@ -7839,15 +6699,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14526971674320547280
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Building_Floor:id"
-      AssetReference {
-        Id: 11651912733691789859
-      }
-    }
-  }
+  ParentId: 17910184742199376823
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -7885,7 +6737,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 15083089274258582034
+  Id: 16952313801288708063
   Name: "END conor"
   Transform {
     Location {
@@ -7901,7 +6753,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14526971674320547280
+  ParentId: 17910184742199376823
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_Floor:id"
@@ -7953,7 +6805,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 12823978279770865265
+  Id: 9570098510837751229
   Name: "Sci-fi Base Floor 03 4m"
   Transform {
     Location {
@@ -7969,21 +6821,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14526971674320547280
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Building_Floor:id"
-      AssetReference {
-        Id: 11651912733691789859
-      }
-    }
-    Overrides {
-      Name: "ma:Building_Floor:color"
-      Color {
-        A: 1
-      }
-    }
-  }
+  ParentId: 17910184742199376823
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -8021,7 +6859,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 261082689177654408
+  Id: 17831840438775416241
   Name: "Sci-fi Base Floor 03 4m"
   Transform {
     Location {
@@ -8037,15 +6875,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14526971674320547280
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Building_Floor:id"
-      AssetReference {
-        Id: 11651912733691789859
-      }
-    }
-  }
+  ParentId: 17910184742199376823
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -8083,7 +6913,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 10479524908758563493
+  Id: 14141722076358283419
   Name: "Sci-fi Base Floor 03 4m"
   Transform {
     Location {
@@ -8099,21 +6929,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14526971674320547280
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Building_Floor:id"
-      AssetReference {
-        Id: 11651912733691789859
-      }
-    }
-    Overrides {
-      Name: "ma:Building_Floor:color"
-      Color {
-        A: 1
-      }
-    }
-  }
+  ParentId: 17910184742199376823
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -8151,7 +6967,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 15672088592470807196
+  Id: 2041472052703206437
   Name: "Sci-fi Base Floor 03 4m"
   Transform {
     Location {
@@ -8167,15 +6983,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14526971674320547280
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Building_Floor:id"
-      AssetReference {
-        Id: 11651912733691789859
-      }
-    }
-  }
+  ParentId: 17910184742199376823
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -8213,7 +7021,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 5363020141635369151
+  Id: 674129690965362519
   Name: "Sci-fi Base Floor 03 4m"
   Transform {
     Location {
@@ -8228,21 +7036,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14526971674320547280
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Building_Floor:id"
-      AssetReference {
-        Id: 11651912733691789859
-      }
-    }
-    Overrides {
-      Name: "ma:Building_Floor:color"
-      Color {
-        A: 1
-      }
-    }
-  }
+  ParentId: 17910184742199376823
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -8280,7 +7074,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 10900868822231751744
+  Id: 5546894699722883037
   Name: "Sci-fi Base Floor 03 4m"
   Transform {
     Location {
@@ -8296,15 +7090,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14526971674320547280
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Building_Floor:id"
-      AssetReference {
-        Id: 11651912733691789859
-      }
-    }
-  }
+  ParentId: 17910184742199376823
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -8342,7 +7128,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 4447599964482450371
+  Id: 4040194596907519096
   Name: "Sci-fi Base Floor 03 4m"
   Transform {
     Location {
@@ -8358,21 +7144,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14526971674320547280
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Building_Floor:id"
-      AssetReference {
-        Id: 11651912733691789859
-      }
-    }
-    Overrides {
-      Name: "ma:Building_Floor:color"
-      Color {
-        A: 1
-      }
-    }
-  }
+  ParentId: 17910184742199376823
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -8410,7 +7182,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 16750898815452186627
+  Id: 13423004785449802191
   Name: "Sci-fi Base Floor 03 4m"
   Transform {
     Location {
@@ -8426,15 +7198,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14526971674320547280
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Building_Floor:id"
-      AssetReference {
-        Id: 11651912733691789859
-      }
-    }
-  }
+  ParentId: 17910184742199376823
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -8472,7 +7236,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 1744148179746259874
+  Id: 11992825728323037267
   Name: "Sci-fi Base Floor 03 4m"
   Transform {
     Location {
@@ -8488,21 +7252,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14526971674320547280
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Building_Floor:id"
-      AssetReference {
-        Id: 11651912733691789859
-      }
-    }
-    Overrides {
-      Name: "ma:Building_Floor:color"
-      Color {
-        A: 1
-      }
-    }
-  }
+  ParentId: 17910184742199376823
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -8540,7 +7290,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 9680119974929435436
+  Id: 14902558489367315060
   Name: "Sci-fi Base Floor 03 4m"
   Transform {
     Location {
@@ -8556,15 +7306,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14526971674320547280
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Building_Floor:id"
-      AssetReference {
-        Id: 11651912733691789859
-      }
-    }
-  }
+  ParentId: 17910184742199376823
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -8602,7 +7344,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 11506419585431109452
+  Id: 18062332405715261014
   Name: "Sci-fi Base Floor 03 4m"
   Transform {
     Location {
@@ -8618,15 +7360,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14526971674320547280
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Building_Floor:id"
-      AssetReference {
-        Id: 11651912733691789859
-      }
-    }
-  }
+  ParentId: 17910184742199376823
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -8664,7 +7398,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 2200946156969638736
+  Id: 7343650015362334134
   Name: "Sci-fi Base Floor 03 4m"
   Transform {
     Location {
@@ -8680,21 +7414,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14526971674320547280
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Building_Floor:id"
-      AssetReference {
-        Id: 11651912733691789859
-      }
-    }
-    Overrides {
-      Name: "ma:Building_Floor:color"
-      Color {
-        A: 1
-      }
-    }
-  }
+  ParentId: 17910184742199376823
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -8732,7 +7452,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 17494346689481611641
+  Id: 13777376621298699827
   Name: "Sci-fi Base Floor 03 4m"
   Transform {
     Location {
@@ -8748,15 +7468,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14526971674320547280
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Building_Floor:id"
-      AssetReference {
-        Id: 11651912733691789859
-      }
-    }
-  }
+  ParentId: 17910184742199376823
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -8794,7 +7506,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 9857777848491400818
+  Id: 8789947712067616256
   Name: "Sci-fi Base Floor 03 4m"
   Transform {
     Location {
@@ -8810,17 +7522,73 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14526971674320547280
+  ParentId: 17910184742199376823
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 8380401260161462649
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 2687045382014953219
+  Name: "Sci-fi Base Floor 03 4m"
+  Transform {
+    Location {
+      X: 1000
+      Z: 49.9998169
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1.25
+      Y: 1.25
+      Z: 1
+    }
+  }
+  ParentId: 17910184742199376823
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_Floor:id"
       AssetReference {
-        Id: 11651912733691789859
+        Id: 14491267291911834448
       }
     }
     Overrides {
       Name: "ma:Building_Floor:color"
       Color {
+        R: 1
+        G: 0.0180004835
+        B: 0.0180000067
         A: 1
       }
     }
@@ -8862,7 +7630,78 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 6940906927196399458
+  Id: 4108703968433832658
+  Name: "Sci-fi Base Floor 03 4m"
+  Transform {
+    Location {
+      X: 1000
+      Y: 500
+      Z: 49.9998169
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1.25
+      Y: 1.25
+      Z: 1
+    }
+  }
+  ParentId: 17910184742199376823
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Building_Floor:id"
+      AssetReference {
+        Id: 14491267291911834448
+      }
+    }
+    Overrides {
+      Name: "ma:Building_Floor:color"
+      Color {
+        R: 1
+        G: 0.0180004835
+        B: 0.0180000067
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 8380401260161462649
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 17369180341219631570
   Name: "Sci-fi Base Floor 03 4m"
   Transform {
     Location {
@@ -8878,15 +7717,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14526971674320547280
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Building_Floor:id"
-      AssetReference {
-        Id: 11651912733691789859
-      }
-    }
-  }
+  ParentId: 17910184742199376823
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -8924,7 +7755,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 3436633383275534089
+  Id: 3219796050818483299
   Name: "Sci-fi Base Floor 03 4m"
   Transform {
     Location {
@@ -8940,21 +7771,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14526971674320547280
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Building_Floor:id"
-      AssetReference {
-        Id: 11651912733691789859
-      }
-    }
-    Overrides {
-      Name: "ma:Building_Floor:color"
-      Color {
-        A: 1
-      }
-    }
-  }
+  ParentId: 17910184742199376823
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -8992,7 +7809,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 8827564382769321169
+  Id: 4857129178704667910
   Name: "Sci-fi Base Floor 03 4m"
   Transform {
     Location {
@@ -9008,15 +7825,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14526971674320547280
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Building_Floor:id"
-      AssetReference {
-        Id: 11651912733691789859
-      }
-    }
-  }
+  ParentId: 17910184742199376823
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -9054,7 +7863,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 1742622820402200209
+  Id: 5564753877294104094
   Name: "Sci-fi Base Floor 03 4m"
   Transform {
     Location {
@@ -9070,21 +7879,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14526971674320547280
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Building_Floor:id"
-      AssetReference {
-        Id: 11651912733691789859
-      }
-    }
-    Overrides {
-      Name: "ma:Building_Floor:color"
-      Color {
-        A: 1
-      }
-    }
-  }
+  ParentId: 17910184742199376823
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -9122,7 +7917,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 3311030526937842905
+  Id: 12959463767917054015
   Name: "Sci-fi Base Floor 03 4m"
   Transform {
     Location {
@@ -9138,21 +7933,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14526971674320547280
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Building_Floor:id"
-      AssetReference {
-        Id: 11651912733691789859
-      }
-    }
-    Overrides {
-      Name: "ma:Building_Floor:color"
-      Color {
-        A: 1
-      }
-    }
-  }
+  ParentId: 17910184742199376823
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -9190,7 +7971,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 16853961952095436234
+  Id: 16031838678934080794
   Name: "Sci-fi Base Floor 03 4m"
   Transform {
     Location {
@@ -9206,15 +7987,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14526971674320547280
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Building_Floor:id"
-      AssetReference {
-        Id: 11651912733691789859
-      }
-    }
-  }
+  ParentId: 17910184742199376823
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -9252,7 +8025,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 10379266257409704889
+  Id: 11340661311966419997
   Name: "Sci-fi Base Floor 03 4m"
   Transform {
     Location {
@@ -9268,17 +8041,74 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14526971674320547280
+  ParentId: 17910184742199376823
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 8380401260161462649
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 15524938403550939081
+  Name: "Sci-fi Base Floor 03 4m"
+  Transform {
+    Location {
+      X: 500
+      Y: -500
+      Z: 49.9998169
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1.25
+      Y: 1.25
+      Z: 1
+    }
+  }
+  ParentId: 17910184742199376823
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_Floor:id"
       AssetReference {
-        Id: 11651912733691789859
+        Id: 14491267291911834448
       }
     }
     Overrides {
       Name: "ma:Building_Floor:color"
       Color {
+        R: 1
+        G: 0.0180004835
+        B: 0.0180000067
         A: 1
       }
     }
@@ -9320,7 +8150,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 355467527963747652
+  Id: 6688119906034981642
   Name: "Sci-fi Base Floor 03 4m"
   Transform {
     Location {
@@ -9335,21 +8165,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14526971674320547280
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Building_Floor:id"
-      AssetReference {
-        Id: 11651912733691789859
-      }
-    }
-    Overrides {
-      Name: "ma:Building_Floor:color"
-      Color {
-        A: 1
-      }
-    }
-  }
+  ParentId: 17910184742199376823
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -9387,7 +8203,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 4791945682865607088
+  Id: 13142054142957251309
   Name: "Sci-fi Base Floor 03 4m"
   Transform {
     Location {
@@ -9403,15 +8219,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14526971674320547280
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Building_Floor:id"
-      AssetReference {
-        Id: 11651912733691789859
-      }
-    }
-  }
+  ParentId: 17910184742199376823
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -9449,12 +8257,12 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 13415283570302181517
+  Id: 6143898015301693627
   Name: "Sci-fi Base Floor 03 4m"
   Transform {
     Location {
       X: 500
-      Y: 1500
+      Y: 1000
       Z: 49.9998169
     }
     Rotation {
@@ -9465,79 +8273,20 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14526971674320547280
+  ParentId: 17910184742199376823
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_Floor:id"
       AssetReference {
-        Id: 11651912733691789859
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 8380401260161462649
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-      BoundsScale: 1
-    }
-  }
-  Relevance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  IsReplicationEnabledByDefault: true
-}
-Objects {
-  Id: 6775275590677762745
-  Name: "Sci-fi Base Floor 03 4m"
-  Transform {
-    Location {
-      X: 500
-      Y: 2000
-      Z: 49.9998169
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1.25
-      Y: 1.25
-      Z: 1
-    }
-  }
-  ParentId: 14526971674320547280
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Building_Floor:id"
-      AssetReference {
-        Id: 11651912733691789859
+        Id: 14491267291911834448
       }
     }
     Overrides {
       Name: "ma:Building_Floor:color"
       Color {
+        R: 1
+        G: 0.0180004835
+        B: 0.0180000067
         A: 1
       }
     }
@@ -9579,12 +8328,12 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 580396822914686725
+  Id: 14439556699949079565
   Name: "Sci-fi Base Floor 03 4m"
   Transform {
     Location {
       X: 500
-      Y: 2500
+      Y: 1500
       Z: 49.9998169
     }
     Rotation {
@@ -9595,15 +8344,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14526971674320547280
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Building_Floor:id"
-      AssetReference {
-        Id: 11651912733691789859
-      }
-    }
-  }
+  ParentId: 17910184742199376823
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -9641,7 +8382,115 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 6731598964943675548
+  Id: 9833448985222087782
+  Name: "Sci-fi Base Floor 03 4m"
+  Transform {
+    Location {
+      X: 500
+      Y: 2000
+      Z: 49.9998169
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1.25
+      Y: 1.25
+      Z: 1
+    }
+  }
+  ParentId: 17910184742199376823
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 8380401260161462649
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 3899263401622225140
+  Name: "Sci-fi Base Floor 03 4m"
+  Transform {
+    Location {
+      X: 500
+      Y: 2500
+      Z: 49.9998169
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1.25
+      Y: 1.25
+      Z: 1
+    }
+  }
+  ParentId: 17910184742199376823
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 8380401260161462649
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 6191980172611349910
   Name: "Sci-fi Base Floor 03 4m"
   Transform {
     Location {
@@ -9656,15 +8505,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14526971674320547280
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Building_Floor:id"
-      AssetReference {
-        Id: 11651912733691789859
-      }
-    }
-  }
+  ParentId: 17910184742199376823
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -9702,7 +8543,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 386217302911900551
+  Id: 16885953058003039013
   Name: "Sci-fi Base Floor 03 4m"
   Transform {
     Location {
@@ -9717,21 +8558,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14526971674320547280
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Building_Floor:id"
-      AssetReference {
-        Id: 11651912733691789859
-      }
-    }
-    Overrides {
-      Name: "ma:Building_Floor:color"
-      Color {
-        A: 1
-      }
-    }
-  }
+  ParentId: 17910184742199376823
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -9769,7 +8596,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 3174609062528018113
+  Id: 13993384847425872275
   Name: "Sci-fi Base Floor 03 4m"
   Transform {
     Location {
@@ -9784,12 +8611,74 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14526971674320547280
+  ParentId: 17910184742199376823
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 8380401260161462649
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 5357624919202283842
+  Name: "Sci-fi Base Floor 03 4m"
+  Transform {
+    Location {
+      Y: -500
+      Z: 49.9998169
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1.25
+      Y: 1.25
+      Z: 1
+    }
+  }
+  ParentId: 17910184742199376823
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_Floor:id"
       AssetReference {
-        Id: 11651912733691789859
+        Id: 14491267291911834448
+      }
+    }
+    Overrides {
+      Name: "ma:Building_Floor:color"
+      Color {
+        R: 1
+        G: 0.0180004835
+        B: 0.0180000067
+        A: 1
       }
     }
   }
@@ -9830,7 +8719,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 3840841598957878655
+  Id: 9168881512281604505
   Name: "Sci-fi Base Floor 03 4m"
   Transform {
     Location {
@@ -9844,15 +8733,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14526971674320547280
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Building_Floor:id"
-      AssetReference {
-        Id: 11651912733691789859
-      }
-    }
-  }
+  ParentId: 17910184742199376823
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -9890,7 +8771,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 11529322749882675299
+  Id: 363447169995211647
   Name: "Sci-fi Base Floor 03 4m"
   Transform {
     Location {
@@ -9905,17 +8786,73 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14526971674320547280
+  ParentId: 17910184742199376823
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 8380401260161462649
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 17434708170048308503
+  Name: "Sci-fi Base Floor 03 4m"
+  Transform {
+    Location {
+      Y: 1000
+      Z: 49.9998169
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1.25
+      Y: 1.25
+      Z: 1
+    }
+  }
+  ParentId: 17910184742199376823
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_Floor:id"
       AssetReference {
-        Id: 11651912733691789859
+        Id: 14491267291911834448
       }
     }
     Overrides {
       Name: "ma:Building_Floor:color"
       Color {
+        R: 1
+        G: 0.0180004835
+        B: 0.0180000067
         A: 1
       }
     }
@@ -9957,7 +8894,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 15775287164101061076
+  Id: 18145586856158242701
   Name: "Sci-fi Base Floor 03 4m"
   Transform {
     Location {
@@ -9972,21 +8909,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14526971674320547280
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Building_Floor:id"
-      AssetReference {
-        Id: 11651912733691789859
-      }
-    }
-    Overrides {
-      Name: "ma:Building_Floor:color"
-      Color {
-        A: 1
-      }
-    }
-  }
+  ParentId: 17910184742199376823
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -10024,7 +8947,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 15266776070517272448
+  Id: 6281991151957599414
   Name: "Sci-fi Base Floor 03 4m"
   Transform {
     Location {
@@ -10039,15 +8962,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14526971674320547280
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Building_Floor:id"
-      AssetReference {
-        Id: 11651912733691789859
-      }
-    }
-  }
+  ParentId: 17910184742199376823
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -10085,7 +9000,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 1704835483549117286
+  Id: 2528053247817277144
   Name: "Sci-fi Base Floor 03 4m"
   Transform {
     Location {
@@ -10100,21 +9015,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14526971674320547280
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Building_Floor:id"
-      AssetReference {
-        Id: 11651912733691789859
-      }
-    }
-    Overrides {
-      Name: "ma:Building_Floor:color"
-      Color {
-        A: 1
-      }
-    }
-  }
+  ParentId: 17910184742199376823
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -10152,7 +9053,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 5930374868119203221
+  Id: 17735159861794187280
   Name: "Sci-fi Base Floor 03 4m"
   Transform {
     Location {
@@ -10168,21 +9069,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14526971674320547280
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Building_Floor:id"
-      AssetReference {
-        Id: 11651912733691789859
-      }
-    }
-    Overrides {
-      Name: "ma:Building_Floor:color"
-      Color {
-        A: 1
-      }
-    }
-  }
+  ParentId: 17910184742199376823
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -10220,7 +9107,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 13283891288918781048
+  Id: 10031230455830309517
   Name: "Sci-fi Base Floor 03 4m"
   Transform {
     Location {
@@ -10236,15 +9123,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14526971674320547280
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Building_Floor:id"
-      AssetReference {
-        Id: 11651912733691789859
-      }
-    }
-  }
+  ParentId: 17910184742199376823
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -10282,7 +9161,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 4758367172488241055
+  Id: 3116788176318843594
   Name: "Sci-fi Base Floor 03 4m"
   Transform {
     Location {
@@ -10298,17 +9177,74 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14526971674320547280
+  ParentId: 17910184742199376823
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 8380401260161462649
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 2878370013640987771
+  Name: "Sci-fi Base Floor 03 4m"
+  Transform {
+    Location {
+      X: -500
+      Y: -500
+      Z: 49.9998169
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1.25
+      Y: 1.25
+      Z: 1
+    }
+  }
+  ParentId: 17910184742199376823
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_Floor:id"
       AssetReference {
-        Id: 11651912733691789859
+        Id: 14491267291911834448
       }
     }
     Overrides {
       Name: "ma:Building_Floor:color"
       Color {
+        R: 1
+        G: 0.0180004835
+        B: 0.0180000067
         A: 1
       }
     }
@@ -10350,7 +9286,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 1084262991306749382
+  Id: 1857284931428312261
   Name: "Sci-fi Base Floor 03 4m"
   Transform {
     Location {
@@ -10365,21 +9301,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14526971674320547280
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Building_Floor:id"
-      AssetReference {
-        Id: 11651912733691789859
-      }
-    }
-    Overrides {
-      Name: "ma:Building_Floor:color"
-      Color {
-        A: 1
-      }
-    }
-  }
+  ParentId: 17910184742199376823
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -10417,7 +9339,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 4689204558021549347
+  Id: 5521882539298791302
   Name: "Sci-fi Base Floor 03 4m"
   Transform {
     Location {
@@ -10433,15 +9355,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14526971674320547280
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Building_Floor:id"
-      AssetReference {
-        Id: 11651912733691789859
-      }
-    }
-  }
+  ParentId: 17910184742199376823
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -10479,12 +9393,12 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 13400245298536837961
+  Id: 1025823790356934412
   Name: "Sci-fi Base Floor 03 4m"
   Transform {
     Location {
       X: -500
-      Y: 1500
+      Y: 1000
       Z: 49.9998169
     }
     Rotation {
@@ -10495,79 +9409,20 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14526971674320547280
+  ParentId: 17910184742199376823
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_Floor:id"
       AssetReference {
-        Id: 11651912733691789859
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 8380401260161462649
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-      BoundsScale: 1
-    }
-  }
-  Relevance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  IsReplicationEnabledByDefault: true
-}
-Objects {
-  Id: 10037806110249843085
-  Name: "Sci-fi Base Floor 03 4m"
-  Transform {
-    Location {
-      X: -500
-      Y: 2000
-      Z: 49.9998169
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1.25
-      Y: 1.25
-      Z: 1
-    }
-  }
-  ParentId: 14526971674320547280
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Building_Floor:id"
-      AssetReference {
-        Id: 11651912733691789859
+        Id: 14491267291911834448
       }
     }
     Overrides {
       Name: "ma:Building_Floor:color"
       Color {
+        R: 1
+        G: 0.0180004835
+        B: 0.0180000067
         A: 1
       }
     }
@@ -10609,12 +9464,12 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 10161918161612823048
+  Id: 12134414736702344788
   Name: "Sci-fi Base Floor 03 4m"
   Transform {
     Location {
       X: -500
-      Y: 2500
+      Y: 1500
       Z: 49.9998169
     }
     Rotation {
@@ -10625,15 +9480,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14526971674320547280
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Building_Floor:id"
-      AssetReference {
-        Id: 11651912733691789859
-      }
-    }
-  }
+  ParentId: 17910184742199376823
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -10671,7 +9518,115 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 1892886897534997680
+  Id: 10042540714966901720
+  Name: "Sci-fi Base Floor 03 4m"
+  Transform {
+    Location {
+      X: -500
+      Y: 2000
+      Z: 49.9998169
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1.25
+      Y: 1.25
+      Z: 1
+    }
+  }
+  ParentId: 17910184742199376823
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 8380401260161462649
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 10319988688634993332
+  Name: "Sci-fi Base Floor 03 4m"
+  Transform {
+    Location {
+      X: -500
+      Y: 2500
+      Z: 49.9998169
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1.25
+      Y: 1.25
+      Z: 1
+    }
+  }
+  ParentId: 17910184742199376823
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 8380401260161462649
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 6259818118037094345
   Name: "Sci-fi Base Floor 03 4m"
   Transform {
     Location {
@@ -10687,15 +9642,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14526971674320547280
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Building_Floor:id"
-      AssetReference {
-        Id: 11651912733691789859
-      }
-    }
-  }
+  ParentId: 17910184742199376823
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -10733,7 +9680,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 11754976547690859733
+  Id: 15096055486126653649
   Name: "Sci-fi Base Floor 03 4m"
   Transform {
     Location {
@@ -10749,21 +9696,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14526971674320547280
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Building_Floor:id"
-      AssetReference {
-        Id: 11651912733691789859
-      }
-    }
-    Overrides {
-      Name: "ma:Building_Floor:color"
-      Color {
-        A: 1
-      }
-    }
-  }
+  ParentId: 17910184742199376823
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -10801,7 +9734,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 17873651007175861797
+  Id: 10456173250520377870
   Name: "Sci-fi Base Floor 03 4m"
   Transform {
     Location {
@@ -10817,12 +9750,75 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14526971674320547280
+  ParentId: 17910184742199376823
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 8380401260161462649
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 420069938031098450
+  Name: "Sci-fi Base Floor 03 4m"
+  Transform {
+    Location {
+      X: -1000
+      Y: -500
+      Z: 49.9998169
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1.25
+      Y: 1.25
+      Z: 1
+    }
+  }
+  ParentId: 17910184742199376823
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_Floor:id"
       AssetReference {
-        Id: 11651912733691789859
+        Id: 14491267291911834448
+      }
+    }
+    Overrides {
+      Name: "ma:Building_Floor:color"
+      Color {
+        R: 1
+        G: 0.0180004835
+        B: 0.0180000067
+        A: 1
       }
     }
   }
@@ -10863,7 +9859,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 647986229357495091
+  Id: 9259746712205240396
   Name: "Sci-fi Base Floor 03 4m"
   Transform {
     Location {
@@ -10878,15 +9874,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14526971674320547280
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Building_Floor:id"
-      AssetReference {
-        Id: 11651912733691789859
-      }
-    }
-  }
+  ParentId: 17910184742199376823
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -10924,7 +9912,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 2476891734729362262
+  Id: 6163735717598145991
   Name: "Sci-fi Base Floor 03 4m"
   Transform {
     Location {
@@ -10940,17 +9928,74 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14526971674320547280
+  ParentId: 17910184742199376823
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 8380401260161462649
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 18401095259344243742
+  Name: "Sci-fi Base Floor 03 4m"
+  Transform {
+    Location {
+      X: -1000
+      Y: 1000
+      Z: 49.9998169
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1.25
+      Y: 1.25
+      Z: 1
+    }
+  }
+  ParentId: 17910184742199376823
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_Floor:id"
       AssetReference {
-        Id: 11651912733691789859
+        Id: 14491267291911834448
       }
     }
     Overrides {
       Name: "ma:Building_Floor:color"
       Color {
+        R: 1
+        G: 0.0180004835
+        B: 0.0180000067
         A: 1
       }
     }
@@ -10992,7 +10037,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 1230085684307966263
+  Id: 17135295900968538369
   Name: "Sci-fi Base Floor 03 4m"
   Transform {
     Location {
@@ -11008,21 +10053,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14526971674320547280
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Building_Floor:id"
-      AssetReference {
-        Id: 11651912733691789859
-      }
-    }
-    Overrides {
-      Name: "ma:Building_Floor:color"
-      Color {
-        A: 1
-      }
-    }
-  }
+  ParentId: 17910184742199376823
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -11060,7 +10091,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 12627143409659719281
+  Id: 957987298966242981
   Name: "Sci-fi Base Floor 03 4m"
   Transform {
     Location {
@@ -11076,15 +10107,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14526971674320547280
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Building_Floor:id"
-      AssetReference {
-        Id: 11651912733691789859
-      }
-    }
-  }
+  ParentId: 17910184742199376823
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -11122,7 +10145,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 5065162412477803897
+  Id: 4427178987561724967
   Name: "Sci-fi Base Floor 03 4m"
   Transform {
     Location {
@@ -11138,21 +10161,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14526971674320547280
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Building_Floor:id"
-      AssetReference {
-        Id: 11651912733691789859
-      }
-    }
-    Overrides {
-      Name: "ma:Building_Floor:color"
-      Color {
-        A: 1
-      }
-    }
-  }
+  ParentId: 17910184742199376823
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -11190,7 +10199,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 11376811470237035742
+  Id: 17725775108313776145
   Name: "Sci-fi Base Floor 03 4m"
   Transform {
     Location {
@@ -11206,15 +10215,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14526971674320547280
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Building_Floor:id"
-      AssetReference {
-        Id: 11651912733691789859
-      }
-    }
-  }
+  ParentId: 17910184742199376823
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -11252,7 +10253,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 8450424228710199851
+  Id: 17678805569538004180
   Name: "Sci-fi Base Floor 03 4m"
   Transform {
     Location {
@@ -11268,21 +10269,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14526971674320547280
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Building_Floor:id"
-      AssetReference {
-        Id: 11651912733691789859
-      }
-    }
-    Overrides {
-      Name: "ma:Building_Floor:color"
-      Color {
-        A: 1
-      }
-    }
-  }
+  ParentId: 17910184742199376823
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -11320,7 +10307,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 17391429443734125938
+  Id: 8996001800167177453
   Name: "Sci-fi Base Floor 03 4m"
   Transform {
     Location {
@@ -11336,15 +10323,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14526971674320547280
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Building_Floor:id"
-      AssetReference {
-        Id: 11651912733691789859
-      }
-    }
-  }
+  ParentId: 17910184742199376823
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -11382,7 +10361,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 12145627701073672410
+  Id: 4429567422620082875
   Name: "Sci-fi Base Floor 03 4m"
   Transform {
     Location {
@@ -11398,17 +10377,74 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14526971674320547280
+  ParentId: 17910184742199376823
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 8380401260161462649
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 16841075695097088957
+  Name: "Sci-fi Base Floor 03 4m"
+  Transform {
+    Location {
+      X: -1500
+      Y: 500
+      Z: 49.9998169
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1.25
+      Y: 1.25
+      Z: 1
+    }
+  }
+  ParentId: 17910184742199376823
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_Floor:id"
       AssetReference {
-        Id: 11651912733691789859
+        Id: 14491267291911834448
       }
     }
     Overrides {
       Name: "ma:Building_Floor:color"
       Color {
+        R: 1
+        G: 0.0180004835
+        B: 0.0180000067
         A: 1
       }
     }
@@ -11450,7 +10486,77 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 18000930988333566972
+  Id: 14646669070176892545
+  Name: "Sci-fi Base Floor 03 4m"
+  Transform {
+    Location {
+      X: -1500
+      Z: 49.9998169
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1.25
+      Y: 1.25
+      Z: 1
+    }
+  }
+  ParentId: 17910184742199376823
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Building_Floor:id"
+      AssetReference {
+        Id: 14491267291911834448
+      }
+    }
+    Overrides {
+      Name: "ma:Building_Floor:color"
+      Color {
+        R: 1
+        G: 0.0180004835
+        B: 0.0180000067
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 8380401260161462649
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 6238238339680045976
   Name: "Sci-fi Base Floor 03 4m"
   Transform {
     Location {
@@ -11466,15 +10572,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14526971674320547280
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Building_Floor:id"
-      AssetReference {
-        Id: 11651912733691789859
-      }
-    }
-  }
+  ParentId: 17910184742199376823
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -11512,7 +10610,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 3962594065068496809
+  Id: 330591401535369649
   Name: "Sci-fi Base Floor 03 4m"
   Transform {
     Location {
@@ -11528,21 +10626,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14526971674320547280
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Building_Floor:color"
-      Color {
-        A: 1
-      }
-    }
-    Overrides {
-      Name: "ma:Building_Floor:id"
-      AssetReference {
-        Id: 11651912733691789859
-      }
-    }
-  }
+  ParentId: 17910184742199376823
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -11580,7 +10664,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 9020362494345963466
+  Id: 14355471039786621491
   Name: "Sci-fi Base Floor 03 4m"
   Transform {
     Location {
@@ -11596,15 +10680,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14526971674320547280
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Building_Floor:id"
-      AssetReference {
-        Id: 11651912733691789859
-      }
-    }
-  }
+  ParentId: 17910184742199376823
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -11642,7 +10718,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 490511555989811773
+  Id: 11995588986165891679
   Name: "Sci-fi Base Floor 03 4m"
   Transform {
     Location {
@@ -11658,21 +10734,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14526971674320547280
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Building_Floor:id"
-      AssetReference {
-        Id: 11651912733691789859
-      }
-    }
-    Overrides {
-      Name: "ma:Building_Floor:color"
-      Color {
-        A: 1
-      }
-    }
-  }
+  ParentId: 17910184742199376823
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -11710,7 +10772,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 12971797923077924363
+  Id: 18022666202109807368
   Name: "Sci-fi Base Floor 03 4m"
   Transform {
     Location {
@@ -11726,21 +10788,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14526971674320547280
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Building_Floor:id"
-      AssetReference {
-        Id: 11651912733691789859
-      }
-    }
-    Overrides {
-      Name: "ma:Building_Floor:color"
-      Color {
-        A: 1
-      }
-    }
-  }
+  ParentId: 17910184742199376823
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -11778,7 +10826,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 5745484100448526944
+  Id: 690415141646118264
   Name: "Sci-fi Base Floor 03 4m"
   Transform {
     Location {
@@ -11794,15 +10842,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14526971674320547280
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Building_Floor:id"
-      AssetReference {
-        Id: 11651912733691789859
-      }
-    }
-  }
+  ParentId: 17910184742199376823
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -11840,7 +10880,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 12419122781363711428
+  Id: 6802929887042250581
   Name: "Sci-fi Base Floor 03 4m"
   Transform {
     Location {
@@ -11856,21 +10896,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14526971674320547280
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Building_Floor:id"
-      AssetReference {
-        Id: 11651912733691789859
-      }
-    }
-    Overrides {
-      Name: "ma:Building_Floor:color"
-      Color {
-        A: 1
-      }
-    }
-  }
+  ParentId: 17910184742199376823
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -11908,7 +10934,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 1062726913735567739
+  Id: 15012839104202558829
   Name: "Sci-fi Base Floor 03 4m"
   Transform {
     Location {
@@ -11924,15 +10950,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14526971674320547280
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Building_Floor:id"
-      AssetReference {
-        Id: 11651912733691789859
-      }
-    }
-  }
+  ParentId: 17910184742199376823
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -11970,7 +10988,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 13865024034558908906
+  Id: 16943970739383921507
   Name: "Sci-fi Base Floor 03 4m"
   Transform {
     Location {
@@ -11985,15 +11003,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14526971674320547280
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Building_Floor:id"
-      AssetReference {
-        Id: 11651912733691789859
-      }
-    }
-  }
+  ParentId: 17910184742199376823
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -12031,7 +11041,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 1242888649995116237
+  Id: 12135917539662487656
   Name: "Sci-fi Base Floor 03 4m"
   Transform {
     Location {
@@ -12047,21 +11057,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14526971674320547280
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Building_Floor:id"
-      AssetReference {
-        Id: 11651912733691789859
-      }
-    }
-    Overrides {
-      Name: "ma:Building_Floor:color"
-      Color {
-        A: 1
-      }
-    }
-  }
+  ParentId: 17910184742199376823
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -12099,7 +11095,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 1285241317327754783
+  Id: 15293107544866282002
   Name: "Sci-fi Base Floor 03 4m"
   Transform {
     Location {
@@ -12115,15 +11111,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14526971674320547280
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Building_Floor:id"
-      AssetReference {
-        Id: 11651912733691789859
-      }
-    }
-  }
+  ParentId: 17910184742199376823
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -12161,7 +11149,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 14841615156331990279
+  Id: 3150053541387438388
   Name: "Sci-fi Base Floor 03 4m"
   Transform {
     Location {
@@ -12177,21 +11165,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14526971674320547280
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Building_Floor:id"
-      AssetReference {
-        Id: 11651912733691789859
-      }
-    }
-    Overrides {
-      Name: "ma:Building_Floor:color"
-      Color {
-        A: 1
-      }
-    }
-  }
+  ParentId: 17910184742199376823
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -12229,7 +11203,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 9904720140961231939
+  Id: 7085790307336313410
   Name: "Sci-fi Base Floor 03 4m"
   Transform {
     Location {
@@ -12245,15 +11219,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14526971674320547280
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Building_Floor:id"
-      AssetReference {
-        Id: 11651912733691789859
-      }
-    }
-  }
+  ParentId: 17910184742199376823
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -12291,7 +11257,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 15454577902921456563
+  Id: 14195666012492381417
   Name: "Sci-fi Base Floor 03 4m"
   Transform {
     Location {
@@ -12307,21 +11273,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14526971674320547280
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Building_Floor:id"
-      AssetReference {
-        Id: 11651912733691789859
-      }
-    }
-    Overrides {
-      Name: "ma:Building_Floor:color"
-      Color {
-        A: 1
-      }
-    }
-  }
+  ParentId: 17910184742199376823
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -12359,7 +11311,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 14710323175078775492
+  Id: 8220105266232205690
   Name: "Sci-fi Base Floor 03 4m"
   Transform {
     Location {
@@ -12375,21 +11327,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14526971674320547280
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Building_Floor:id"
-      AssetReference {
-        Id: 11651912733691789859
-      }
-    }
-    Overrides {
-      Name: "ma:Building_Floor:color"
-      Color {
-        A: 1
-      }
-    }
-  }
+  ParentId: 17910184742199376823
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -12427,7 +11365,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 1005684845133585650
+  Id: 7670709944862925216
   Name: "Sci-fi Base Floor 03 4m"
   Transform {
     Location {
@@ -12443,12 +11381,12 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14526971674320547280
+  ParentId: 17910184742199376823
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_Floor:id"
       AssetReference {
-        Id: 11651912733691789859
+        Id: 12541919055417117269
       }
     }
   }
@@ -12489,7 +11427,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 820914739442716233
+  Id: 14329009664992028031
   Name: "Sci-fi Base Floor 03 4m"
   Transform {
     Location {
@@ -12505,15 +11443,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14526971674320547280
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Building_Floor:id"
-      AssetReference {
-        Id: 11651912733691789859
-      }
-    }
-  }
+  ParentId: 17910184742199376823
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -12551,7 +11481,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 5778563464514764645
+  Id: 3807412596684641460
   Name: "Sci-fi Base Floor 03 4m"
   Transform {
     Location {
@@ -12567,7 +11497,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14526971674320547280
+  ParentId: 17910184742199376823
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -12605,7 +11535,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 7722466362635392883
+  Id: 4564151933973138996
   Name: "Sci-fi Base Floor 03 4m"
   Transform {
     Location {
@@ -12621,21 +11551,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14526971674320547280
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Building_Floor:id"
-      AssetReference {
-        Id: 11651912733691789859
-      }
-    }
-    Overrides {
-      Name: "ma:Building_Floor:color"
-      Color {
-        A: 1
-      }
-    }
-  }
+  ParentId: 17910184742199376823
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -12673,7 +11589,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 1528611656612650651
+  Id: 15931785593289827652
   Name: "Sci-fi Base Floor 03 4m"
   Transform {
     Location {
@@ -12689,15 +11605,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14526971674320547280
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Building_Floor:id"
-      AssetReference {
-        Id: 11651912733691789859
-      }
-    }
-  }
+  ParentId: 17910184742199376823
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -12735,7 +11643,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 8859798191171688321
+  Id: 1299740534798226686
   Name: "Sci-fi Base Floor 03 4m"
   Transform {
     Location {
@@ -12750,21 +11658,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14526971674320547280
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Building_Floor:id"
-      AssetReference {
-        Id: 11651912733691789859
-      }
-    }
-    Overrides {
-      Name: "ma:Building_Floor:color"
-      Color {
-        A: 1
-      }
-    }
-  }
+  ParentId: 17910184742199376823
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -12802,7 +11696,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 9220076416469874799
+  Id: 18176024491229529097
   Name: "Sci-fi Base Floor 03 4m"
   Transform {
     Location {
@@ -12818,15 +11712,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14526971674320547280
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Building_Floor:id"
-      AssetReference {
-        Id: 11651912733691789859
-      }
-    }
-  }
+  ParentId: 17910184742199376823
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -12864,7 +11750,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 15940729881306087335
+  Id: 16973279318181703191
   Name: "Sci-fi Base Floor 03 4m"
   Transform {
     Location {
@@ -12880,21 +11766,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14526971674320547280
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Building_Floor:color"
-      Color {
-        A: 1
-      }
-    }
-    Overrides {
-      Name: "ma:Building_Floor:id"
-      AssetReference {
-        Id: 11651912733691789859
-      }
-    }
-  }
+  ParentId: 17910184742199376823
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -12932,7 +11804,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 2911844175793967073
+  Id: 3652222186539208637
   Name: "Sci-fi Base Floor 03 4m"
   Transform {
     Location {
@@ -12948,12 +11820,72 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14526971674320547280
+  ParentId: 17910184742199376823
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 8380401260161462649
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 16040596891029758522
+  Name: "Start conor"
+  Transform {
+    Location {
+      X: -2500
+      Y: -2000
+      Z: 49.9998169
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1.25
+      Y: 1.25
+      Z: 1
+    }
+  }
+  ParentId: 17910184742199376823
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_Floor:id"
       AssetReference {
-        Id: 11651912733691789859
+        Id: 12541919055417117269
+      }
+    }
+    Overrides {
+      Name: "ma:Building_Floor:color"
+      Color {
+        A: 1
       }
     }
   }

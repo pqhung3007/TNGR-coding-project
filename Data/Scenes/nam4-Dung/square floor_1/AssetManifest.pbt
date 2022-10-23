@@ -1,4 +1,13 @@
 Assets {
+  Id: 14491267291911834448
+  Name: "Vinyl Floor Square 01"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_urb_vinyl_floor_001_uv_ref"
+  }
+}
+Assets {
   Id: 12541919055417117269
   Name: "Vinyl Floor Stars 01"
   PlatformAssetType: 2
