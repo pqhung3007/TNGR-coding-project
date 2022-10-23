@@ -8500,7 +8500,7 @@ ObjectSettings {
     }
   }
 }
-LastSavedScene: "nam4-Dung"
+LastSavedScene: "man1-Dat"
 PreviewDetailLevelPerScene {
   key: "Level1"
   value: 2

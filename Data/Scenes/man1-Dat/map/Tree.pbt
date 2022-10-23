@@ -1,4 +1,4 @@
-Name: "BASE"
+Name: "map"
 RootId: 5973142006212069348
 Objects {
   Id: 1512200014692769830
@@ -32421,9 +32421,36 @@ Objects {
   ParentId: 5973142006212069348
   UnregisteredParameters {
     Overrides {
+      Name: "ma:Building_WallInner:id"
+      AssetReference {
+        Id: 8389813293955201251
+      }
+    }
+    Overrides {
+      Name: "ma:Building_WallInner:color"
+      Color {
+        R: 1
+        G: 0.160000443
+        B: 0.160000026
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:id"
+      AssetReference {
+        Id: 13679493068599210497
+      }
+    }
+    Overrides {
       Name: "ma:Building_WallOuter:id"
       AssetReference {
-        Id: 10850472748876015065
+        Id: 2290407761405197447
+      }
+    }
+    Overrides {
+      Name: "ma:Building_UpperTrimOuter:id"
+      AssetReference {
+        Id: 8329339828071933523
       }
     }
   }
@@ -32485,9 +32512,36 @@ Objects {
   ParentId: 5973142006212069348
   UnregisteredParameters {
     Overrides {
+      Name: "ma:Building_WallInner:id"
+      AssetReference {
+        Id: 8389813293955201251
+      }
+    }
+    Overrides {
+      Name: "ma:Building_WallInner:color"
+      Color {
+        R: 1
+        G: 0.160000443
+        B: 0.160000026
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:id"
+      AssetReference {
+        Id: 13679493068599210497
+      }
+    }
+    Overrides {
       Name: "ma:Building_WallOuter:id"
       AssetReference {
-        Id: 10850472748876015065
+        Id: 2290407761405197447
+      }
+    }
+    Overrides {
+      Name: "ma:Building_UpperTrimOuter:id"
+      AssetReference {
+        Id: 8329339828071933523
       }
     }
   }
@@ -32549,9 +32603,36 @@ Objects {
   ParentId: 5973142006212069348
   UnregisteredParameters {
     Overrides {
+      Name: "ma:Building_WallInner:id"
+      AssetReference {
+        Id: 8389813293955201251
+      }
+    }
+    Overrides {
+      Name: "ma:Building_WallInner:color"
+      Color {
+        R: 1
+        G: 0.160000443
+        B: 0.160000026
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:id"
+      AssetReference {
+        Id: 13679493068599210497
+      }
+    }
+    Overrides {
       Name: "ma:Building_WallOuter:id"
       AssetReference {
-        Id: 10850472748876015065
+        Id: 2290407761405197447
+      }
+    }
+    Overrides {
+      Name: "ma:Building_UpperTrimOuter:id"
+      AssetReference {
+        Id: 8329339828071933523
       }
     }
   }
@@ -32612,9 +32693,36 @@ Objects {
   ParentId: 5973142006212069348
   UnregisteredParameters {
     Overrides {
+      Name: "ma:Building_WallInner:id"
+      AssetReference {
+        Id: 8389813293955201251
+      }
+    }
+    Overrides {
+      Name: "ma:Building_WallInner:color"
+      Color {
+        R: 1
+        G: 0.160000443
+        B: 0.160000026
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:id"
+      AssetReference {
+        Id: 13679493068599210497
+      }
+    }
+    Overrides {
       Name: "ma:Building_WallOuter:id"
       AssetReference {
-        Id: 10850472748876015065
+        Id: 2290407761405197447
+      }
+    }
+    Overrides {
+      Name: "ma:Building_UpperTrimOuter:id"
+      AssetReference {
+        Id: 8329339828071933523
       }
     }
   }
@@ -32675,9 +32783,36 @@ Objects {
   ParentId: 5973142006212069348
   UnregisteredParameters {
     Overrides {
+      Name: "ma:Building_WallInner:id"
+      AssetReference {
+        Id: 8389813293955201251
+      }
+    }
+    Overrides {
+      Name: "ma:Building_WallInner:color"
+      Color {
+        R: 1
+        G: 0.160000443
+        B: 0.160000026
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:id"
+      AssetReference {
+        Id: 13679493068599210497
+      }
+    }
+    Overrides {
       Name: "ma:Building_WallOuter:id"
       AssetReference {
-        Id: 10850472748876015065
+        Id: 2290407761405197447
+      }
+    }
+    Overrides {
+      Name: "ma:Building_UpperTrimOuter:id"
+      AssetReference {
+        Id: 8329339828071933523
       }
     }
   }
@@ -32738,9 +32873,36 @@ Objects {
   ParentId: 5973142006212069348
   UnregisteredParameters {
     Overrides {
+      Name: "ma:Building_WallInner:id"
+      AssetReference {
+        Id: 8389813293955201251
+      }
+    }
+    Overrides {
+      Name: "ma:Building_WallInner:color"
+      Color {
+        R: 1
+        G: 0.160000443
+        B: 0.160000026
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:id"
+      AssetReference {
+        Id: 13679493068599210497
+      }
+    }
+    Overrides {
       Name: "ma:Building_WallOuter:id"
       AssetReference {
-        Id: 10850472748876015065
+        Id: 2290407761405197447
+      }
+    }
+    Overrides {
+      Name: "ma:Building_UpperTrimOuter:id"
+      AssetReference {
+        Id: 8329339828071933523
       }
     }
   }
@@ -32802,9 +32964,36 @@ Objects {
   ParentId: 5973142006212069348
   UnregisteredParameters {
     Overrides {
+      Name: "ma:Building_WallInner:id"
+      AssetReference {
+        Id: 8389813293955201251
+      }
+    }
+    Overrides {
+      Name: "ma:Building_WallInner:color"
+      Color {
+        R: 1
+        G: 0.160000443
+        B: 0.160000026
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:id"
+      AssetReference {
+        Id: 13679493068599210497
+      }
+    }
+    Overrides {
       Name: "ma:Building_WallOuter:id"
       AssetReference {
-        Id: 10850472748876015065
+        Id: 2290407761405197447
+      }
+    }
+    Overrides {
+      Name: "ma:Building_UpperTrimOuter:id"
+      AssetReference {
+        Id: 8329339828071933523
       }
     }
   }
@@ -32866,9 +33055,36 @@ Objects {
   ParentId: 5973142006212069348
   UnregisteredParameters {
     Overrides {
+      Name: "ma:Building_WallInner:id"
+      AssetReference {
+        Id: 8389813293955201251
+      }
+    }
+    Overrides {
+      Name: "ma:Building_WallInner:color"
+      Color {
+        R: 1
+        G: 0.160000443
+        B: 0.160000026
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:id"
+      AssetReference {
+        Id: 13679493068599210497
+      }
+    }
+    Overrides {
       Name: "ma:Building_WallOuter:id"
       AssetReference {
-        Id: 10850472748876015065
+        Id: 2290407761405197447
+      }
+    }
+    Overrides {
+      Name: "ma:Building_UpperTrimOuter:id"
+      AssetReference {
+        Id: 8329339828071933523
       }
     }
   }
@@ -32930,9 +33146,36 @@ Objects {
   ParentId: 5973142006212069348
   UnregisteredParameters {
     Overrides {
+      Name: "ma:Building_WallInner:id"
+      AssetReference {
+        Id: 8389813293955201251
+      }
+    }
+    Overrides {
+      Name: "ma:Building_WallInner:color"
+      Color {
+        R: 1
+        G: 0.160000443
+        B: 0.160000026
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:id"
+      AssetReference {
+        Id: 13679493068599210497
+      }
+    }
+    Overrides {
       Name: "ma:Building_WallOuter:id"
       AssetReference {
-        Id: 10850472748876015065
+        Id: 2290407761405197447
+      }
+    }
+    Overrides {
+      Name: "ma:Building_UpperTrimOuter:id"
+      AssetReference {
+        Id: 8329339828071933523
       }
     }
   }
@@ -32994,9 +33237,36 @@ Objects {
   ParentId: 5973142006212069348
   UnregisteredParameters {
     Overrides {
+      Name: "ma:Building_WallInner:id"
+      AssetReference {
+        Id: 8389813293955201251
+      }
+    }
+    Overrides {
+      Name: "ma:Building_WallInner:color"
+      Color {
+        R: 1
+        G: 0.160000443
+        B: 0.160000026
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:id"
+      AssetReference {
+        Id: 13679493068599210497
+      }
+    }
+    Overrides {
       Name: "ma:Building_WallOuter:id"
       AssetReference {
-        Id: 10850472748876015065
+        Id: 2290407761405197447
+      }
+    }
+    Overrides {
+      Name: "ma:Building_UpperTrimOuter:id"
+      AssetReference {
+        Id: 8329339828071933523
       }
     }
   }
@@ -33058,9 +33328,36 @@ Objects {
   ParentId: 5973142006212069348
   UnregisteredParameters {
     Overrides {
+      Name: "ma:Building_WallInner:id"
+      AssetReference {
+        Id: 8389813293955201251
+      }
+    }
+    Overrides {
+      Name: "ma:Building_WallInner:color"
+      Color {
+        R: 1
+        G: 0.160000443
+        B: 0.160000026
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:id"
+      AssetReference {
+        Id: 13679493068599210497
+      }
+    }
+    Overrides {
       Name: "ma:Building_WallOuter:id"
       AssetReference {
-        Id: 10850472748876015065
+        Id: 2290407761405197447
+      }
+    }
+    Overrides {
+      Name: "ma:Building_UpperTrimOuter:id"
+      AssetReference {
+        Id: 8329339828071933523
       }
     }
   }
@@ -33122,9 +33419,36 @@ Objects {
   ParentId: 5973142006212069348
   UnregisteredParameters {
     Overrides {
+      Name: "ma:Building_WallInner:id"
+      AssetReference {
+        Id: 8389813293955201251
+      }
+    }
+    Overrides {
+      Name: "ma:Building_WallInner:color"
+      Color {
+        R: 1
+        G: 0.160000443
+        B: 0.160000026
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:id"
+      AssetReference {
+        Id: 13679493068599210497
+      }
+    }
+    Overrides {
       Name: "ma:Building_WallOuter:id"
       AssetReference {
-        Id: 10850472748876015065
+        Id: 2290407761405197447
+      }
+    }
+    Overrides {
+      Name: "ma:Building_UpperTrimOuter:id"
+      AssetReference {
+        Id: 8329339828071933523
       }
     }
   }
@@ -33186,9 +33510,36 @@ Objects {
   ParentId: 5973142006212069348
   UnregisteredParameters {
     Overrides {
+      Name: "ma:Building_WallInner:id"
+      AssetReference {
+        Id: 8389813293955201251
+      }
+    }
+    Overrides {
+      Name: "ma:Building_WallInner:color"
+      Color {
+        R: 1
+        G: 0.160000443
+        B: 0.160000026
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:id"
+      AssetReference {
+        Id: 13679493068599210497
+      }
+    }
+    Overrides {
       Name: "ma:Building_WallOuter:id"
       AssetReference {
-        Id: 10850472748876015065
+        Id: 2290407761405197447
+      }
+    }
+    Overrides {
+      Name: "ma:Building_UpperTrimOuter:id"
+      AssetReference {
+        Id: 8329339828071933523
       }
     }
   }
@@ -33250,9 +33601,36 @@ Objects {
   ParentId: 5973142006212069348
   UnregisteredParameters {
     Overrides {
+      Name: "ma:Building_WallInner:id"
+      AssetReference {
+        Id: 8389813293955201251
+      }
+    }
+    Overrides {
+      Name: "ma:Building_WallInner:color"
+      Color {
+        R: 1
+        G: 0.160000443
+        B: 0.160000026
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:id"
+      AssetReference {
+        Id: 13679493068599210497
+      }
+    }
+    Overrides {
       Name: "ma:Building_WallOuter:id"
       AssetReference {
-        Id: 10850472748876015065
+        Id: 2290407761405197447
+      }
+    }
+    Overrides {
+      Name: "ma:Building_UpperTrimOuter:id"
+      AssetReference {
+        Id: 8329339828071933523
       }
     }
   }
@@ -33314,9 +33692,36 @@ Objects {
   ParentId: 5973142006212069348
   UnregisteredParameters {
     Overrides {
+      Name: "ma:Building_WallInner:id"
+      AssetReference {
+        Id: 8389813293955201251
+      }
+    }
+    Overrides {
+      Name: "ma:Building_WallInner:color"
+      Color {
+        R: 1
+        G: 0.160000443
+        B: 0.160000026
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:id"
+      AssetReference {
+        Id: 13679493068599210497
+      }
+    }
+    Overrides {
       Name: "ma:Building_WallOuter:id"
       AssetReference {
-        Id: 10850472748876015065
+        Id: 2290407761405197447
+      }
+    }
+    Overrides {
+      Name: "ma:Building_UpperTrimOuter:id"
+      AssetReference {
+        Id: 8329339828071933523
       }
     }
   }
@@ -33378,9 +33783,36 @@ Objects {
   ParentId: 5973142006212069348
   UnregisteredParameters {
     Overrides {
+      Name: "ma:Building_WallInner:id"
+      AssetReference {
+        Id: 8389813293955201251
+      }
+    }
+    Overrides {
+      Name: "ma:Building_WallInner:color"
+      Color {
+        R: 1
+        G: 0.160000443
+        B: 0.160000026
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:id"
+      AssetReference {
+        Id: 13679493068599210497
+      }
+    }
+    Overrides {
       Name: "ma:Building_WallOuter:id"
       AssetReference {
-        Id: 10850472748876015065
+        Id: 2290407761405197447
+      }
+    }
+    Overrides {
+      Name: "ma:Building_UpperTrimOuter:id"
+      AssetReference {
+        Id: 8329339828071933523
       }
     }
   }
@@ -33441,9 +33873,36 @@ Objects {
   ParentId: 5973142006212069348
   UnregisteredParameters {
     Overrides {
+      Name: "ma:Building_WallInner:id"
+      AssetReference {
+        Id: 8389813293955201251
+      }
+    }
+    Overrides {
+      Name: "ma:Building_WallInner:color"
+      Color {
+        R: 1
+        G: 0.160000443
+        B: 0.160000026
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:id"
+      AssetReference {
+        Id: 13679493068599210497
+      }
+    }
+    Overrides {
       Name: "ma:Building_WallOuter:id"
       AssetReference {
-        Id: 10850472748876015065
+        Id: 2290407761405197447
+      }
+    }
+    Overrides {
+      Name: "ma:Building_UpperTrimOuter:id"
+      AssetReference {
+        Id: 8329339828071933523
       }
     }
   }
@@ -33504,9 +33963,36 @@ Objects {
   ParentId: 5973142006212069348
   UnregisteredParameters {
     Overrides {
+      Name: "ma:Building_WallInner:id"
+      AssetReference {
+        Id: 8389813293955201251
+      }
+    }
+    Overrides {
+      Name: "ma:Building_WallInner:color"
+      Color {
+        R: 1
+        G: 0.160000443
+        B: 0.160000026
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:id"
+      AssetReference {
+        Id: 13679493068599210497
+      }
+    }
+    Overrides {
       Name: "ma:Building_WallOuter:id"
       AssetReference {
-        Id: 10850472748876015065
+        Id: 2290407761405197447
+      }
+    }
+    Overrides {
+      Name: "ma:Building_UpperTrimOuter:id"
+      AssetReference {
+        Id: 8329339828071933523
       }
     }
   }
@@ -33567,9 +34053,36 @@ Objects {
   ParentId: 5973142006212069348
   UnregisteredParameters {
     Overrides {
+      Name: "ma:Building_WallInner:id"
+      AssetReference {
+        Id: 8389813293955201251
+      }
+    }
+    Overrides {
+      Name: "ma:Building_WallInner:color"
+      Color {
+        R: 1
+        G: 0.160000443
+        B: 0.160000026
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:id"
+      AssetReference {
+        Id: 13679493068599210497
+      }
+    }
+    Overrides {
       Name: "ma:Building_WallOuter:id"
       AssetReference {
-        Id: 10850472748876015065
+        Id: 2290407761405197447
+      }
+    }
+    Overrides {
+      Name: "ma:Building_UpperTrimOuter:id"
+      AssetReference {
+        Id: 8329339828071933523
       }
     }
   }
@@ -33630,9 +34143,36 @@ Objects {
   ParentId: 5973142006212069348
   UnregisteredParameters {
     Overrides {
+      Name: "ma:Building_WallInner:id"
+      AssetReference {
+        Id: 8389813293955201251
+      }
+    }
+    Overrides {
+      Name: "ma:Building_WallInner:color"
+      Color {
+        R: 1
+        G: 0.160000443
+        B: 0.160000026
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:id"
+      AssetReference {
+        Id: 13679493068599210497
+      }
+    }
+    Overrides {
       Name: "ma:Building_WallOuter:id"
       AssetReference {
-        Id: 10850472748876015065
+        Id: 2290407761405197447
+      }
+    }
+    Overrides {
+      Name: "ma:Building_UpperTrimOuter:id"
+      AssetReference {
+        Id: 8329339828071933523
       }
     }
   }
@@ -33693,9 +34233,36 @@ Objects {
   ParentId: 5973142006212069348
   UnregisteredParameters {
     Overrides {
+      Name: "ma:Building_WallInner:id"
+      AssetReference {
+        Id: 8389813293955201251
+      }
+    }
+    Overrides {
+      Name: "ma:Building_WallInner:color"
+      Color {
+        R: 1
+        G: 0.160000443
+        B: 0.160000026
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:id"
+      AssetReference {
+        Id: 13679493068599210497
+      }
+    }
+    Overrides {
       Name: "ma:Building_WallOuter:id"
       AssetReference {
-        Id: 10850472748876015065
+        Id: 2290407761405197447
+      }
+    }
+    Overrides {
+      Name: "ma:Building_UpperTrimOuter:id"
+      AssetReference {
+        Id: 8329339828071933523
       }
     }
   }
@@ -33756,9 +34323,36 @@ Objects {
   ParentId: 5973142006212069348
   UnregisteredParameters {
     Overrides {
+      Name: "ma:Building_WallInner:id"
+      AssetReference {
+        Id: 8389813293955201251
+      }
+    }
+    Overrides {
+      Name: "ma:Building_WallInner:color"
+      Color {
+        R: 1
+        G: 0.160000443
+        B: 0.160000026
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:id"
+      AssetReference {
+        Id: 13679493068599210497
+      }
+    }
+    Overrides {
       Name: "ma:Building_WallOuter:id"
       AssetReference {
-        Id: 10850472748876015065
+        Id: 2290407761405197447
+      }
+    }
+    Overrides {
+      Name: "ma:Building_UpperTrimOuter:id"
+      AssetReference {
+        Id: 8329339828071933523
       }
     }
   }
@@ -33819,9 +34413,36 @@ Objects {
   ParentId: 5973142006212069348
   UnregisteredParameters {
     Overrides {
+      Name: "ma:Building_WallInner:id"
+      AssetReference {
+        Id: 8389813293955201251
+      }
+    }
+    Overrides {
+      Name: "ma:Building_WallInner:color"
+      Color {
+        R: 1
+        G: 0.160000443
+        B: 0.160000026
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:id"
+      AssetReference {
+        Id: 13679493068599210497
+      }
+    }
+    Overrides {
       Name: "ma:Building_WallOuter:id"
       AssetReference {
-        Id: 10850472748876015065
+        Id: 2290407761405197447
+      }
+    }
+    Overrides {
+      Name: "ma:Building_UpperTrimOuter:id"
+      AssetReference {
+        Id: 8329339828071933523
       }
     }
   }
@@ -33882,9 +34503,36 @@ Objects {
   ParentId: 5973142006212069348
   UnregisteredParameters {
     Overrides {
+      Name: "ma:Building_WallInner:id"
+      AssetReference {
+        Id: 8389813293955201251
+      }
+    }
+    Overrides {
+      Name: "ma:Building_WallInner:color"
+      Color {
+        R: 1
+        G: 0.160000443
+        B: 0.160000026
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:id"
+      AssetReference {
+        Id: 13679493068599210497
+      }
+    }
+    Overrides {
       Name: "ma:Building_WallOuter:id"
       AssetReference {
-        Id: 10850472748876015065
+        Id: 2290407761405197447
+      }
+    }
+    Overrides {
+      Name: "ma:Building_UpperTrimOuter:id"
+      AssetReference {
+        Id: 8329339828071933523
       }
     }
   }
@@ -33945,9 +34593,36 @@ Objects {
   ParentId: 5973142006212069348
   UnregisteredParameters {
     Overrides {
+      Name: "ma:Building_WallInner:id"
+      AssetReference {
+        Id: 8389813293955201251
+      }
+    }
+    Overrides {
+      Name: "ma:Building_WallInner:color"
+      Color {
+        R: 1
+        G: 0.160000443
+        B: 0.160000026
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:id"
+      AssetReference {
+        Id: 13679493068599210497
+      }
+    }
+    Overrides {
       Name: "ma:Building_WallOuter:id"
       AssetReference {
-        Id: 10850472748876015065
+        Id: 2290407761405197447
+      }
+    }
+    Overrides {
+      Name: "ma:Building_UpperTrimOuter:id"
+      AssetReference {
+        Id: 8329339828071933523
       }
     }
   }
@@ -34009,9 +34684,36 @@ Objects {
   ParentId: 5973142006212069348
   UnregisteredParameters {
     Overrides {
+      Name: "ma:Building_WallInner:id"
+      AssetReference {
+        Id: 8389813293955201251
+      }
+    }
+    Overrides {
+      Name: "ma:Building_WallInner:color"
+      Color {
+        R: 1
+        G: 0.160000443
+        B: 0.160000026
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:id"
+      AssetReference {
+        Id: 13679493068599210497
+      }
+    }
+    Overrides {
       Name: "ma:Building_WallOuter:id"
       AssetReference {
-        Id: 10850472748876015065
+        Id: 2290407761405197447
+      }
+    }
+    Overrides {
+      Name: "ma:Building_UpperTrimOuter:id"
+      AssetReference {
+        Id: 8329339828071933523
       }
     }
   }
@@ -34073,9 +34775,36 @@ Objects {
   ParentId: 5973142006212069348
   UnregisteredParameters {
     Overrides {
+      Name: "ma:Building_WallInner:id"
+      AssetReference {
+        Id: 8389813293955201251
+      }
+    }
+    Overrides {
+      Name: "ma:Building_WallInner:color"
+      Color {
+        R: 1
+        G: 0.160000443
+        B: 0.160000026
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:id"
+      AssetReference {
+        Id: 13679493068599210497
+      }
+    }
+    Overrides {
       Name: "ma:Building_WallOuter:id"
       AssetReference {
-        Id: 10850472748876015065
+        Id: 2290407761405197447
+      }
+    }
+    Overrides {
+      Name: "ma:Building_UpperTrimOuter:id"
+      AssetReference {
+        Id: 8329339828071933523
       }
     }
   }
@@ -34137,9 +34866,36 @@ Objects {
   ParentId: 5973142006212069348
   UnregisteredParameters {
     Overrides {
+      Name: "ma:Building_WallInner:id"
+      AssetReference {
+        Id: 8389813293955201251
+      }
+    }
+    Overrides {
+      Name: "ma:Building_WallInner:color"
+      Color {
+        R: 1
+        G: 0.160000443
+        B: 0.160000026
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:id"
+      AssetReference {
+        Id: 13679493068599210497
+      }
+    }
+    Overrides {
       Name: "ma:Building_WallOuter:id"
       AssetReference {
-        Id: 10850472748876015065
+        Id: 2290407761405197447
+      }
+    }
+    Overrides {
+      Name: "ma:Building_UpperTrimOuter:id"
+      AssetReference {
+        Id: 8329339828071933523
       }
     }
   }
@@ -34201,9 +34957,36 @@ Objects {
   ParentId: 5973142006212069348
   UnregisteredParameters {
     Overrides {
+      Name: "ma:Building_WallInner:id"
+      AssetReference {
+        Id: 8389813293955201251
+      }
+    }
+    Overrides {
+      Name: "ma:Building_WallInner:color"
+      Color {
+        R: 1
+        G: 0.160000443
+        B: 0.160000026
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:id"
+      AssetReference {
+        Id: 13679493068599210497
+      }
+    }
+    Overrides {
       Name: "ma:Building_WallOuter:id"
       AssetReference {
-        Id: 10850472748876015065
+        Id: 2290407761405197447
+      }
+    }
+    Overrides {
+      Name: "ma:Building_UpperTrimOuter:id"
+      AssetReference {
+        Id: 8329339828071933523
       }
     }
   }
@@ -34265,9 +35048,36 @@ Objects {
   ParentId: 5973142006212069348
   UnregisteredParameters {
     Overrides {
+      Name: "ma:Building_WallInner:id"
+      AssetReference {
+        Id: 8389813293955201251
+      }
+    }
+    Overrides {
+      Name: "ma:Building_WallInner:color"
+      Color {
+        R: 1
+        G: 0.160000443
+        B: 0.160000026
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:id"
+      AssetReference {
+        Id: 13679493068599210497
+      }
+    }
+    Overrides {
       Name: "ma:Building_WallOuter:id"
       AssetReference {
-        Id: 10850472748876015065
+        Id: 2290407761405197447
+      }
+    }
+    Overrides {
+      Name: "ma:Building_UpperTrimOuter:id"
+      AssetReference {
+        Id: 8329339828071933523
       }
     }
   }
@@ -34329,9 +35139,36 @@ Objects {
   ParentId: 5973142006212069348
   UnregisteredParameters {
     Overrides {
+      Name: "ma:Building_WallInner:id"
+      AssetReference {
+        Id: 8389813293955201251
+      }
+    }
+    Overrides {
+      Name: "ma:Building_WallInner:color"
+      Color {
+        R: 1
+        G: 0.160000443
+        B: 0.160000026
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:id"
+      AssetReference {
+        Id: 13679493068599210497
+      }
+    }
+    Overrides {
       Name: "ma:Building_WallOuter:id"
       AssetReference {
-        Id: 10850472748876015065
+        Id: 2290407761405197447
+      }
+    }
+    Overrides {
+      Name: "ma:Building_UpperTrimOuter:id"
+      AssetReference {
+        Id: 8329339828071933523
       }
     }
   }
@@ -34393,9 +35230,36 @@ Objects {
   ParentId: 5973142006212069348
   UnregisteredParameters {
     Overrides {
+      Name: "ma:Building_WallInner:id"
+      AssetReference {
+        Id: 8389813293955201251
+      }
+    }
+    Overrides {
+      Name: "ma:Building_WallInner:color"
+      Color {
+        R: 1
+        G: 0.160000443
+        B: 0.160000026
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:id"
+      AssetReference {
+        Id: 13679493068599210497
+      }
+    }
+    Overrides {
       Name: "ma:Building_WallOuter:id"
       AssetReference {
-        Id: 10850472748876015065
+        Id: 2290407761405197447
+      }
+    }
+    Overrides {
+      Name: "ma:Building_UpperTrimOuter:id"
+      AssetReference {
+        Id: 8329339828071933523
       }
     }
   }
@@ -34457,9 +35321,36 @@ Objects {
   ParentId: 5973142006212069348
   UnregisteredParameters {
     Overrides {
+      Name: "ma:Building_WallInner:id"
+      AssetReference {
+        Id: 8389813293955201251
+      }
+    }
+    Overrides {
+      Name: "ma:Building_WallInner:color"
+      Color {
+        R: 1
+        G: 0.160000443
+        B: 0.160000026
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:id"
+      AssetReference {
+        Id: 13679493068599210497
+      }
+    }
+    Overrides {
       Name: "ma:Building_WallOuter:id"
       AssetReference {
-        Id: 10850472748876015065
+        Id: 2290407761405197447
+      }
+    }
+    Overrides {
+      Name: "ma:Building_UpperTrimOuter:id"
+      AssetReference {
+        Id: 8329339828071933523
       }
     }
   }
@@ -34521,9 +35412,36 @@ Objects {
   ParentId: 5973142006212069348
   UnregisteredParameters {
     Overrides {
+      Name: "ma:Building_WallInner:id"
+      AssetReference {
+        Id: 8389813293955201251
+      }
+    }
+    Overrides {
+      Name: "ma:Building_WallInner:color"
+      Color {
+        R: 1
+        G: 0.160000443
+        B: 0.160000026
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:id"
+      AssetReference {
+        Id: 13679493068599210497
+      }
+    }
+    Overrides {
       Name: "ma:Building_WallOuter:id"
       AssetReference {
-        Id: 10850472748876015065
+        Id: 2290407761405197447
+      }
+    }
+    Overrides {
+      Name: "ma:Building_UpperTrimOuter:id"
+      AssetReference {
+        Id: 8329339828071933523
       }
     }
   }
@@ -34585,9 +35503,36 @@ Objects {
   ParentId: 5973142006212069348
   UnregisteredParameters {
     Overrides {
+      Name: "ma:Building_WallInner:id"
+      AssetReference {
+        Id: 8389813293955201251
+      }
+    }
+    Overrides {
+      Name: "ma:Building_WallInner:color"
+      Color {
+        R: 1
+        G: 0.160000443
+        B: 0.160000026
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:id"
+      AssetReference {
+        Id: 13679493068599210497
+      }
+    }
+    Overrides {
       Name: "ma:Building_WallOuter:id"
       AssetReference {
-        Id: 10850472748876015065
+        Id: 2290407761405197447
+      }
+    }
+    Overrides {
+      Name: "ma:Building_UpperTrimOuter:id"
+      AssetReference {
+        Id: 8329339828071933523
       }
     }
   }
@@ -34649,9 +35594,36 @@ Objects {
   ParentId: 5973142006212069348
   UnregisteredParameters {
     Overrides {
+      Name: "ma:Building_WallInner:id"
+      AssetReference {
+        Id: 8389813293955201251
+      }
+    }
+    Overrides {
+      Name: "ma:Building_WallInner:color"
+      Color {
+        R: 1
+        G: 0.160000443
+        B: 0.160000026
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:id"
+      AssetReference {
+        Id: 13679493068599210497
+      }
+    }
+    Overrides {
       Name: "ma:Building_WallOuter:id"
       AssetReference {
-        Id: 10850472748876015065
+        Id: 2290407761405197447
+      }
+    }
+    Overrides {
+      Name: "ma:Building_UpperTrimOuter:id"
+      AssetReference {
+        Id: 8329339828071933523
       }
     }
   }
@@ -34713,9 +35685,36 @@ Objects {
   ParentId: 5973142006212069348
   UnregisteredParameters {
     Overrides {
+      Name: "ma:Building_WallInner:id"
+      AssetReference {
+        Id: 8389813293955201251
+      }
+    }
+    Overrides {
+      Name: "ma:Building_WallInner:color"
+      Color {
+        R: 1
+        G: 0.160000443
+        B: 0.160000026
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:id"
+      AssetReference {
+        Id: 13679493068599210497
+      }
+    }
+    Overrides {
       Name: "ma:Building_WallOuter:id"
       AssetReference {
-        Id: 10850472748876015065
+        Id: 2290407761405197447
+      }
+    }
+    Overrides {
+      Name: "ma:Building_UpperTrimOuter:id"
+      AssetReference {
+        Id: 8329339828071933523
       }
     }
   }
@@ -34776,9 +35775,36 @@ Objects {
   ParentId: 5973142006212069348
   UnregisteredParameters {
     Overrides {
+      Name: "ma:Building_WallInner:id"
+      AssetReference {
+        Id: 8389813293955201251
+      }
+    }
+    Overrides {
+      Name: "ma:Building_WallInner:color"
+      Color {
+        R: 1
+        G: 0.160000443
+        B: 0.160000026
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:id"
+      AssetReference {
+        Id: 13679493068599210497
+      }
+    }
+    Overrides {
       Name: "ma:Building_WallOuter:id"
       AssetReference {
-        Id: 10850472748876015065
+        Id: 2290407761405197447
+      }
+    }
+    Overrides {
+      Name: "ma:Building_UpperTrimOuter:id"
+      AssetReference {
+        Id: 8329339828071933523
       }
     }
   }
@@ -34839,9 +35865,36 @@ Objects {
   ParentId: 5973142006212069348
   UnregisteredParameters {
     Overrides {
+      Name: "ma:Building_WallInner:id"
+      AssetReference {
+        Id: 8389813293955201251
+      }
+    }
+    Overrides {
+      Name: "ma:Building_WallInner:color"
+      Color {
+        R: 1
+        G: 0.160000443
+        B: 0.160000026
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:id"
+      AssetReference {
+        Id: 13679493068599210497
+      }
+    }
+    Overrides {
       Name: "ma:Building_WallOuter:id"
       AssetReference {
-        Id: 10850472748876015065
+        Id: 2290407761405197447
+      }
+    }
+    Overrides {
+      Name: "ma:Building_UpperTrimOuter:id"
+      AssetReference {
+        Id: 8329339828071933523
       }
     }
   }
@@ -34902,9 +35955,36 @@ Objects {
   ParentId: 5973142006212069348
   UnregisteredParameters {
     Overrides {
+      Name: "ma:Building_WallInner:id"
+      AssetReference {
+        Id: 8389813293955201251
+      }
+    }
+    Overrides {
+      Name: "ma:Building_WallInner:color"
+      Color {
+        R: 1
+        G: 0.160000443
+        B: 0.160000026
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:id"
+      AssetReference {
+        Id: 13679493068599210497
+      }
+    }
+    Overrides {
       Name: "ma:Building_WallOuter:id"
       AssetReference {
-        Id: 10850472748876015065
+        Id: 2290407761405197447
+      }
+    }
+    Overrides {
+      Name: "ma:Building_UpperTrimOuter:id"
+      AssetReference {
+        Id: 8329339828071933523
       }
     }
   }

@@ -170,6 +170,15 @@ Assets {
   }
 }
 Assets {
+  Id: 13679493068599210497
+  Name: "Animated Neon Sign "
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "fxmi_NeonSign_All"
+  }
+}
+Assets {
   Id: 13613791909257878711
   Name: "Sci-fi Terminal Base 01"
   PlatformAssetType: 1
@@ -503,12 +512,30 @@ Assets {
   }
 }
 Assets {
+  Id: 8389813293955201251
+  Name: "Tech Panel 01"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_sf_gen_tech-panel_001"
+  }
+}
+Assets {
   Id: 8365771066679611572
   Name: "Electrical Arc Volume"
   PlatformAssetType: 8
   PrimaryAsset {
     AssetType: "VfxBlueprintAssetRef"
     AssetId: "fxbp_Electrical_Arc_Volume"
+  }
+}
+Assets {
+  Id: 8329339828071933523
+  Name: "Concrete Basic 01"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_gen_concrete_001"
   }
 }
 Assets {
@@ -815,6 +842,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_ts_scf_base_pillar_002_base_01_ref"
+  }
+}
+Assets {
+  Id: 2290407761405197447
+  Name: "Concrete Panels 01"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_gen_concrete_panels_001"
   }
 }
 Assets {

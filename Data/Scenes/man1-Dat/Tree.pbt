@@ -20,6 +20,7 @@ Objects {
   ChildIds: 13522450900055713696
   ChildIds: 5973142006212069348
   ChildIds: 13516681107950879855
+  ChildIds: 3005502271887988623
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -35,6 +36,52 @@ Objects {
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 3005502271887988623
+  Name: "Decal Soil Cracks Smal Variants 02"
+  Transform {
+    Location {
+      X: 950
+      Y: -6425
+      Z: 325
+    }
+    Rotation {
+      Yaw: -0.00436401274
+      Roll: 90.0098877
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 6006129942621426608
+    }
+    TeamSettings {
+    }
+    DecalBP {
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:medium"
   }
   IsReplicationEnabledByDefault: true
 }
@@ -80,7 +127,7 @@ Objects {
 }
 Objects {
   Id: 5973142006212069348
-  Name: "f"
+  Name: "map"
   Transform {
     Location {
       X: 1600
@@ -104,7 +151,7 @@ Objects {
   }
   Folder {
     IsFilePartition: true
-    FilePartitionName: "BASE"
+    FilePartitionName: "map"
   }
   InstanceHistory {
     SelfId: 5973142006212069348
