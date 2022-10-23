@@ -1,7 +1,1054 @@
-Name: "BASE"
-RootId: 5973142006212069348
+Name: "map"
+RootId: 9575761177890923949
 Objects {
-  Id: 1512200014692769830
+  Id: 8042237876287879843
+  Name: "Sci-fi Base Wall 02 Half - Sliding Door Template"
+  Transform {
+    Location {
+      X: -3450
+      Y: -5800
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 9575761177890923949
+  ChildIds: 8881093491357089778
+  ChildIds: 6582912250838496621
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 6582912250838496621
+  Name: "Sci-fi Base Sliding Door 02 - 30cm Z Offset"
+  Transform {
+    Location {
+      X: 110
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 8042237876287879843
+  ChildIds: 15778545287663701372
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 15778545287663701372
+  Name: "Select To Edit Animation Properties"
+  Transform {
+    Location {
+      Z: 30
+    }
+    Rotation {
+      Yaw: -89.9999924
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 6582912250838496621
+  ChildIds: 15561476380762795555
+  ChildIds: 7488845601200275256
+  ChildIds: 10727221619115297949
+  ChildIds: 8763407342881374714
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:AutoOpen"
+      Bool: true
+    }
+    Overrides {
+      Name: "cs:TimeOpen"
+      Float: 3
+    }
+    Overrides {
+      Name: "cs:OpenLabel"
+      String: "Open Door"
+    }
+    Overrides {
+      Name: "cs:CloseLabel"
+      String: "Close Door"
+    }
+    Overrides {
+      Name: "cs:OpenDistance"
+      Float: 180
+    }
+    Overrides {
+      Name: "cs:Speed"
+      Float: 450
+    }
+    Overrides {
+      Name: "cs:ResetOnRoundStart"
+      Bool: true
+    }
+    Overrides {
+      Name: "cs:AutoOpen:tooltip"
+      String: "This door will open when a player gets close, and cannot be interact with"
+    }
+    Overrides {
+      Name: "cs:TimeOpen:tooltip"
+      String: "With AutoOpen, how long the day stays open with no player near."
+    }
+    Overrides {
+      Name: "cs:OpenLabel:tooltip"
+      String: "Use label to open the door (without AutoOpen)"
+    }
+    Overrides {
+      Name: "cs:CloseLabel:tooltip"
+      String: "Use label to close the door (without AutoOpen)"
+    }
+    Overrides {
+      Name: "cs:Speed:tooltip"
+      String: "How fast the door opens or closes, in cm / second"
+    }
+    Overrides {
+      Name: "cs:ResetOnRoundStart:tooltip"
+      String: "Will reset (to be closed) at the start of a round"
+    }
+    Overrides {
+      Name: "cs:OpenDistance:tooltip"
+      String: "Total distance door moves from closed to open (in cm)."
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 8763407342881374714
+  Name: "DoorRoot"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 15778545287663701372
+  ChildIds: 12547652230467425946
+  UnregisteredParameters {
+  }
+  WantsNetworking: true
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 12547652230467425946
+  Name: "Geo_StaticContext"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 8763407342881374714
+  ChildIds: 16690101259747182459
+  UnregisteredParameters {
+  }
+  WantsNetworking: true
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  NetworkContext {
+    Type: RuntimeStatic
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 16690101259747182459
+  Name: "Sci-fi Base Door 02"
+  Transform {
+    Location {
+    }
+    Rotation {
+      Yaw: 89.9999771
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 12547652230467425946
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_Detail2:color"
+      Color {
+        G: 0.688741446
+        B: 0.799999952
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 18105158013125412176
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+      }
+      BoundsScale: 1
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 10727221619115297949
+  Name: "ClientContext"
+  Transform {
+    Location {
+      Z: 175
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 15778545287663701372
+  ChildIds: 784792208103625487
+  ChildIds: 13116758167189024410
+  ChildIds: 18205508217838455408
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  NetworkContext {
+    MinDetailLevel {
+      Value: "mc:edetaillevel:low"
+    }
+    MaxDetailLevel {
+      Value: "mc:edetaillevel:ultra"
+    }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 18205508217838455408
+  Name: "Helper_DoorCloseSound"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10727221619115297949
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  AudioInstance {
+    AudioAsset {
+      Id: 2825736010572694941
+    }
+    Pitch: 2400
+    Volume: 1
+    Falloff: 3600
+    Radius: 400
+    EnableOcclusion: true
+    IsSpatializationEnabled: true
+    IsAttenuationEnabled: true
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 13116758167189024410
+  Name: "Helper_DoorOpenSound"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10727221619115297949
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  AudioInstance {
+    AudioAsset {
+      Id: 13324134738449385310
+    }
+    Pitch: 2400
+    Volume: 1
+    Falloff: 3600
+    Radius: 400
+    EnableOcclusion: true
+    IsSpatializationEnabled: true
+    IsAttenuationEnabled: true
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 784792208103625487
+  Name: "SlidingDoorControllerClient"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10727221619115297949
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:ComponentRoot"
+      ObjectReference {
+        SelfId: 15778545287663701372
+      }
+    }
+    Overrides {
+      Name: "cs:DoorRoot"
+      ObjectReference {
+        SelfId: 8763407342881374714
+      }
+    }
+    Overrides {
+      Name: "cs:OpenSound"
+      ObjectReference {
+        SelfId: 13116758167189024410
+      }
+    }
+    Overrides {
+      Name: "cs:CloseSound"
+      ObjectReference {
+        SelfId: 18205508217838455408
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 13279840372954225083
+    }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 7488845601200275256
+  Name: "ServerContext"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 15778545287663701372
+  ChildIds: 9018848491621490231
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  NetworkContext {
+    Type: Server
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 9018848491621490231
+  Name: "SlidingDoorControllerServer"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 7488845601200275256
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:ComponentRoot"
+      ObjectReference {
+        SelfId: 15778545287663701372
+      }
+    }
+    Overrides {
+      Name: "cs:DoorRoot"
+      ObjectReference {
+        SelfId: 8763407342881374714
+      }
+    }
+    Overrides {
+      Name: "cs:Trigger"
+      ObjectReference {
+        SelfId: 15561476380762795555
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 11890246360956808940
+    }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 15561476380762795555
+  Name: "Trigger"
+  Transform {
+    Location {
+      Y: 90
+      Z: 150
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1.5
+      Y: 1.8
+      Z: 3
+    }
+  }
+  ParentId: 15778545287663701372
+  UnregisteredParameters {
+  }
+  WantsNetworking: true
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Trigger {
+    TeamSettings {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    TriggerShape_v2 {
+      Value: "mc:etriggershape:box"
+    }
+    InteractionTemplate {
+    }
+    BreadcrumbTemplate {
+    }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 8881093491357089778
+  Name: "Sci-Fi Base Wall 02 - Doorway 02 Half"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 8042237876287879843
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Building_WallOuter:color"
+      Color {
+        R: 0.603000045
+        G: 0.603000045
+        B: 0.603000045
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 14078436206544360258
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+      }
+      BoundsScale: 1
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 14882961620313644612
+  Name: "Sci-Fi Base Wall Interior 01 - Window 01"
+  Transform {
+    Location {
+      X: -3050
+      Y: -5800
+    }
+    Rotation {
+    }
+    Scale {
+      X: 0.75
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 9575761177890923949
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_Trim:id"
+      AssetReference {
+        Id: 14930404121609448095
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:color"
+      Color {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Building_WallInner:id"
+      AssetReference {
+        Id: 14930404121609448095
+      }
+    }
+    Overrides {
+      Name: "ma:Building_WallInner:color"
+      Color {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Building_UpperTrimInner:id"
+      AssetReference {
+        Id: 14930404121609448095
+      }
+    }
+    Overrides {
+      Name: "ma:Building_UpperTrimInner:color"
+      Color {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Building_LowerTrimInner:id"
+      AssetReference {
+        Id: 17454602997626929349
+      }
+    }
+    Overrides {
+      Name: "ma:Building_LowerTrimInner:color"
+      Color {
+        R: 0.8125
+        G: 0.8125
+        B: 0.8125
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Building_WallOuter:id"
+      AssetReference {
+        Id: 17454602997626929349
+      }
+    }
+    Overrides {
+      Name: "ma:Building_WallOuter:color"
+      Color {
+        R: 0.8125
+        G: 0.8125
+        B: 0.8125
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Building_UpperTrimOuter:id"
+      AssetReference {
+        Id: 17454602997626929349
+      }
+    }
+    Overrides {
+      Name: "ma:Building_UpperTrimOuter:color"
+      Color {
+        R: 0.8125
+        G: 0.8125
+        B: 0.8125
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 13114847352832521924
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+      }
+      BoundsScale: 1
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 12680225034486831390
+  Name: "Sci-Fi Base Wall Interior 01 - Window 01"
+  Transform {
+    Location {
+      X: -3850
+      Y: -5800
+    }
+    Rotation {
+    }
+    Scale {
+      X: 0.5
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 9575761177890923949
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 13114847352832521924
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+      }
+      BoundsScale: 1
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 11108642084146428513
+  Name: "Sci-Fi Base Wall 02"
+  Transform {
+    Location {
+      X: -100
+      Y: -5450
+    }
+    Rotation {
+      Yaw: -90
+    }
+    Scale {
+      X: 0.5
+      Y: 1.00000012
+      Z: 1
+    }
+  }
+  ParentId: 9575761177890923949
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Building_WallInner:id"
+      AssetReference {
+        Id: 8389813293955201251
+      }
+    }
+    Overrides {
+      Name: "ma:Building_WallInner:color"
+      Color {
+        R: 1
+        G: 0.160000443
+        B: 0.160000026
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:id"
+      AssetReference {
+        Id: 13679493068599210497
+      }
+    }
+    Overrides {
+      Name: "ma:Building_WallOuter:id"
+      AssetReference {
+        Id: 2290407761405197447
+      }
+    }
+    Overrides {
+      Name: "ma:Building_UpperTrimOuter:id"
+      AssetReference {
+        Id: 8329339828071933523
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:color"
+      Color {
+        R: 1
+        G: 0.0235294141
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 9493188079052154321
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+      }
+      BoundsScale: 1
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 9412430545825647491
+  Name: "Sci-Fi Base Wall 02"
+  Transform {
+    Location {
+      X: -100
+      Y: -4224.97266
+    }
+    Rotation {
+      Yaw: -90
+    }
+    Scale {
+      X: 0.5
+      Y: 1.00000012
+      Z: 1
+    }
+  }
+  ParentId: 9575761177890923949
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Building_WallInner:id"
+      AssetReference {
+        Id: 8389813293955201251
+      }
+    }
+    Overrides {
+      Name: "ma:Building_WallInner:color"
+      Color {
+        R: 1
+        G: 0.156862751
+        B: 0.156862751
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:id"
+      AssetReference {
+        Id: 13679493068599210497
+      }
+    }
+    Overrides {
+      Name: "ma:Building_WallOuter:id"
+      AssetReference {
+        Id: 2290407761405197447
+      }
+    }
+    Overrides {
+      Name: "ma:Building_UpperTrimOuter:id"
+      AssetReference {
+        Id: 8329339828071933523
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 9493188079052154321
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+      }
+      BoundsScale: 1
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 15951172955891047931
   Name: "Military Tank Historic Armor Plate 02"
   Transform {
     Location {
@@ -17,7 +1064,7 @@ Objects {
       Z: 3
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -42,12 +1089,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 1512200014692769830
-    SubobjectId: 14173718297325538626
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -57,7 +1098,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 13796977363618519628
+  Id: 7997805226271720320
   Name: "Military Tank Historic Armor Plate 02"
   Transform {
     Location {
@@ -73,7 +1114,7 @@ Objects {
       Z: 3
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -98,12 +1139,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 13796977363618519628
-    SubobjectId: 8014144013223802664
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -113,7 +1148,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 3549231111579419024
+  Id: 16504390648644306155
   Name: "Military Tank Historic Container 01"
   Transform {
     Location {
@@ -132,7 +1167,7 @@ Objects {
       Z: 3.25
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -167,12 +1202,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 3549231111579419024
-    SubobjectId: 16216941849001438452
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -182,7 +1211,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 14952117221838135684
+  Id: 9241087742127755386
   Name: "Military Tank Modern 01 (Prop)"
   Transform {
     Location {
@@ -198,10 +1227,10 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5973142006212069348
-  ChildIds: 12927446016780054636
-  ChildIds: 15485608464316746592
-  ChildIds: 943021459480463023
+  ParentId: 9575761177890923949
+  ChildIds: 11534189007122319050
+  ChildIds: 6584961473358259354
+  ChildIds: 9815126091274490705
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -214,19 +1243,13 @@ Objects {
   Folder {
     IsGroup: true
   }
-  InstanceHistory {
-    SelfId: 14952117221838135684
-    SubobjectId: 2292287338060500192
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 943021459480463023
+  Id: 9815126091274490705
   Name: "Tread"
   Transform {
     Location {
@@ -239,9 +1262,9 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14952117221838135684
-  ChildIds: 8726835780124227309
-  ChildIds: 2659260277947689511
+  ParentId: 9241087742127755386
+  ChildIds: 5990683554682410539
+  ChildIds: 4638618324207190502
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -254,19 +1277,13 @@ Objects {
   Folder {
     IsGroup: true
   }
-  InstanceHistory {
-    SelfId: 943021459480463023
-    SubobjectId: 15949789800961551307
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 2659260277947689511
+  Id: 4638618324207190502
   Name: "Tread (R)"
   Transform {
     Location {
@@ -279,10 +1296,10 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 943021459480463023
-  ChildIds: 4055477891539150550
-  ChildIds: 7664429363489214972
-  ChildIds: 17866907710034692152
+  ParentId: 9815126091274490705
+  ChildIds: 12758919710239330264
+  ChildIds: 4774085289985046345
+  ChildIds: 16830292982779022164
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -295,19 +1312,13 @@ Objects {
   Folder {
     IsGroup: true
   }
-  InstanceHistory {
-    SelfId: 2659260277947689511
-    SubobjectId: 17629577646569523011
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 17866907710034692152
+  Id: 16830292982779022164
   Name: "Gears (R)"
   Transform {
     Location {
@@ -320,13 +1331,13 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 2659260277947689511
-  ChildIds: 6037049202332126018
-  ChildIds: 5060646866961490073
-  ChildIds: 5013533899818761144
-  ChildIds: 1324444141375849133
-  ChildIds: 12001292857669559192
-  ChildIds: 17072634406950375427
+  ParentId: 4638618324207190502
+  ChildIds: 16773225010600860934
+  ChildIds: 14680318003110722910
+  ChildIds: 13951223928872157561
+  ChildIds: 3096108049169023722
+  ChildIds: 17048945825192890623
+  ChildIds: 17531274230346989747
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -339,19 +1350,13 @@ Objects {
   Folder {
     IsGroup: true
   }
-  InstanceHistory {
-    SelfId: 17866907710034692152
-    SubobjectId: 2862954224522569052
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 17072634406950375427
+  Id: 17531274230346989747
   Name: "Military Tank Modern Gear 02 - Rear"
   Transform {
     Location {
@@ -367,7 +1372,7 @@ Objects {
       Z: 0.85
     }
   }
-  ParentId: 17866907710034692152
+  ParentId: 16830292982779022164
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -392,12 +1397,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 17072634406950375427
-    SubobjectId: 4368895009898036583
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -407,7 +1406,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 12001292857669559192
+  Id: 17048945825192890623
   Name: "Military Tank Modern Gear 01 - Rear"
   Transform {
     Location {
@@ -423,7 +1422,7 @@ Objects {
       Z: 0.9
     }
   }
-  ParentId: 17866907710034692152
+  ParentId: 16830292982779022164
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -448,12 +1447,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 12001292857669559192
-    SubobjectId: 8557516661383679740
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -463,7 +1456,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 1324444141375849133
+  Id: 3096108049169023722
   Name: "Military Tank Modern Gear 01 - Mid Rear"
   Transform {
     Location {
@@ -479,7 +1472,7 @@ Objects {
       Z: 0.9
     }
   }
-  ParentId: 17866907710034692152
+  ParentId: 16830292982779022164
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -504,12 +1497,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 1324444141375849133
-    SubobjectId: 13992154872340770761
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -519,7 +1506,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 5013533899818761144
+  Id: 13951223928872157561
   Name: "Military Tank Modern Gear 01 - Mid Front"
   Transform {
     Location {
@@ -535,7 +1522,7 @@ Objects {
       Z: 0.9
     }
   }
-  ParentId: 17866907710034692152
+  ParentId: 16830292982779022164
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -560,12 +1547,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 5013533899818761144
-    SubobjectId: 10798759787614050012
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -575,7 +1556,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 5060646866961490073
+  Id: 14680318003110722910
   Name: "Military Tank Modern Gear 01 - Front"
   Transform {
     Location {
@@ -591,7 +1572,7 @@ Objects {
       Z: 0.9
     }
   }
-  ParentId: 17866907710034692152
+  ParentId: 16830292982779022164
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -616,12 +1597,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 5060646866961490073
-    SubobjectId: 10841369194776202749
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -631,7 +1606,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 6037049202332126018
+  Id: 16773225010600860934
   Name: "Military Tank Modern Gear 02 - Front"
   Transform {
     Location {
@@ -647,7 +1622,7 @@ Objects {
       Z: 0.85
     }
   }
-  ParentId: 17866907710034692152
+  ParentId: 16830292982779022164
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -672,12 +1647,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 6037049202332126018
-    SubobjectId: 9478010234403202598
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -687,7 +1656,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 7664429363489214972
+  Id: 4774085289985046345
   Name: "Tank Tread"
   Transform {
     Location {
@@ -703,7 +1672,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 2659260277947689511
+  ParentId: 4638618324207190502
   UnregisteredParameters {
     Overrides {
       Name: "bp:Tread Shape"
@@ -734,19 +1703,13 @@ Objects {
     TeamSettings {
     }
   }
-  InstanceHistory {
-    SelfId: 7664429363489214972
-    SubobjectId: 13407996404958788760
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 4055477891539150550
+  Id: 12758919710239330264
   Name: "Tread Frame (R)"
   Transform {
     Location {
@@ -759,12 +1722,12 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 2659260277947689511
-  ChildIds: 18214881685651490712
-  ChildIds: 3588594595955316327
-  ChildIds: 6439623512613390183
-  ChildIds: 17816170558502743784
-  ChildIds: 7743433744650948053
+  ParentId: 4638618324207190502
+  ChildIds: 10061318862208346626
+  ChildIds: 12800097029334027776
+  ChildIds: 16955510216207138422
+  ChildIds: 14592195901955327832
+  ChildIds: 8572623718313867042
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -777,19 +1740,13 @@ Objects {
   Folder {
     IsGroup: true
   }
-  InstanceHistory {
-    SelfId: 4055477891539150550
-    SubobjectId: 16719811473613081522
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 7743433744650948053
+  Id: 8572623718313867042
   Name: "Military Tank Modern Tread Frame 01 - End"
   Transform {
     Location {
@@ -806,7 +1763,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 4055477891539150550
+  ParentId: 12758919710239330264
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -831,12 +1788,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 7743433744650948053
-    SubobjectId: 13490941299328557233
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -846,7 +1797,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 17816170558502743784
+  Id: 14592195901955327832
   Name: "Military Tank Modern Tread Frame 01 - End"
   Transform {
     Location {
@@ -862,7 +1813,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 4055477891539150550
+  ParentId: 12758919710239330264
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -887,12 +1838,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 17816170558502743784
-    SubobjectId: 2841913126553994124
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -902,7 +1847,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 6439623512613390183
+  Id: 16955510216207138422
   Name: "Military Tank Modern Tread Frame 01 - Mid"
   Transform {
     Location {
@@ -918,7 +1863,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 4055477891539150550
+  ParentId: 12758919710239330264
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -943,12 +1888,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 6439623512613390183
-    SubobjectId: 9876784462845602307
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -958,7 +1897,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 3588594595955316327
+  Id: 12800097029334027776
   Name: "Military Tank Modern Tread Frame 01 - Mid - 1m"
   Transform {
     Location {
@@ -974,7 +1913,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 4055477891539150550
+  ParentId: 12758919710239330264
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -999,12 +1938,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 3588594595955316327
-    SubobjectId: 16249690668222184195
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -1014,7 +1947,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 18214881685651490712
+  Id: 10061318862208346626
   Name: "Military Tank Modern Tread Frame 01 - Mid - 1m"
   Transform {
     Location {
@@ -1030,7 +1963,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 4055477891539150550
+  ParentId: 12758919710239330264
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -1055,12 +1988,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 18214881685651490712
-    SubobjectId: 3208535690754648828
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -1070,7 +1997,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 8726835780124227309
+  Id: 5990683554682410539
   Name: "Tread (L)"
   Transform {
     Location {
@@ -1083,10 +2010,10 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 943021459480463023
-  ChildIds: 15895140677399154489
-  ChildIds: 12185915953639597982
-  ChildIds: 3299407139274327028
+  ParentId: 9815126091274490705
+  ChildIds: 3940949694571732884
+  ChildIds: 17193367622153790218
+  ChildIds: 16658424224180510693
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -1099,19 +2026,13 @@ Objects {
   Folder {
     IsGroup: true
   }
-  InstanceHistory {
-    SelfId: 8726835780124227309
-    SubobjectId: 12201573773881138057
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 3299407139274327028
+  Id: 16658424224180510693
   Name: "Gears (L)"
   Transform {
     Location {
@@ -1124,13 +2045,13 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 8726835780124227309
-  ChildIds: 6873594750940183174
-  ChildIds: 8048908416527085654
-  ChildIds: 12542518437263274666
-  ChildIds: 129018808734983493
-  ChildIds: 15439371077060280563
-  ChildIds: 425032965326610706
+  ParentId: 5990683554682410539
+  ChildIds: 10431356913627715364
+  ChildIds: 14752199456901961454
+  ChildIds: 6597334063465424939
+  ChildIds: 11940245768864428850
+  ChildIds: 11482804456630363650
+  ChildIds: 9021171739399997200
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -1143,19 +2064,13 @@ Objects {
   Folder {
     IsGroup: true
   }
-  InstanceHistory {
-    SelfId: 3299407139274327028
-    SubobjectId: 18268457279890452112
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 425032965326610706
+  Id: 9021171739399997200
   Name: "Military Tank Modern Gear 02 - Rear"
   Transform {
     Location {
@@ -1171,7 +2086,7 @@ Objects {
       Z: 0.85
     }
   }
-  ParentId: 3299407139274327028
+  ParentId: 16658424224180510693
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -1196,12 +2111,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 425032965326610706
-    SubobjectId: 15395913140018269302
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -1211,7 +2120,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 15439371077060280563
+  Id: 11482804456630363650
   Name: "Military Tank Modern Gear 01 - Rear"
   Transform {
     Location {
@@ -1227,7 +2136,7 @@ Objects {
       Z: 0.9
     }
   }
-  ParentId: 3299407139274327028
+  ParentId: 16658424224180510693
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -1252,12 +2161,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 15439371077060280563
-    SubobjectId: 435980986011823511
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -1267,7 +2170,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 129018808734983493
+  Id: 11940245768864428850
   Name: "Military Tank Modern Gear 01 - Mid Rear"
   Transform {
     Location {
@@ -1283,7 +2186,7 @@ Objects {
       Z: 0.9
     }
   }
-  ParentId: 3299407139274327028
+  ParentId: 16658424224180510693
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -1308,12 +2211,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 129018808734983493
-    SubobjectId: 15097506004699400225
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -1323,7 +2220,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 12542518437263274666
+  Id: 6597334063465424939
   Name: "Military Tank Modern Gear 01 - Mid Front"
   Transform {
     Location {
@@ -1339,7 +2236,7 @@ Objects {
       Z: 0.9
     }
   }
-  ParentId: 3299407139274327028
+  ParentId: 16658424224180510693
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -1364,12 +2261,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 12542518437263274666
-    SubobjectId: 9097476049218576334
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -1379,7 +2270,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 8048908416527085654
+  Id: 14752199456901961454
   Name: "Military Tank Modern Gear 01 - Front"
   Transform {
     Location {
@@ -1395,7 +2286,7 @@ Objects {
       Z: 0.9
     }
   }
-  ParentId: 3299407139274327028
+  ParentId: 16658424224180510693
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -1420,12 +2311,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 8048908416527085654
-    SubobjectId: 13833993572185988402
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -1435,7 +2320,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 6873594750940183174
+  Id: 10431356913627715364
   Name: "Military Tank Modern Gear 02 - Front"
   Transform {
     Location {
@@ -1451,7 +2336,7 @@ Objects {
       Z: 0.85
     }
   }
-  ParentId: 3299407139274327028
+  ParentId: 16658424224180510693
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -1476,12 +2361,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 6873594750940183174
-    SubobjectId: 10316808136775047138
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -1491,7 +2370,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 12185915953639597982
+  Id: 17193367622153790218
   Name: "Tank Tread"
   Transform {
     Location {
@@ -1507,7 +2386,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 8726835780124227309
+  ParentId: 5990683554682410539
   UnregisteredParameters {
     Overrides {
       Name: "bp:Tread Shape"
@@ -1538,19 +2417,13 @@ Objects {
     TeamSettings {
     }
   }
-  InstanceHistory {
-    SelfId: 12185915953639597982
-    SubobjectId: 8742139617750633210
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 15895140677399154489
+  Id: 3940949694571732884
   Name: "Tread Frame (L)"
   Transform {
     Location {
@@ -1563,12 +2436,12 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 8726835780124227309
-  ChildIds: 14604603648861830969
-  ChildIds: 7825203179349243931
-  ChildIds: 6274350097382345870
-  ChildIds: 3465561148131480098
-  ChildIds: 7127529049344295622
+  ParentId: 5990683554682410539
+  ChildIds: 10402532196148478249
+  ChildIds: 14012123369560818572
+  ChildIds: 4540368436657996495
+  ChildIds: 5285364589213642847
+  ChildIds: 1936731777055139707
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -1581,19 +2454,13 @@ Objects {
   Folder {
     IsGroup: true
   }
-  InstanceHistory {
-    SelfId: 15895140677399154489
-    SubobjectId: 925949791742747229
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 7127529049344295622
+  Id: 1936731777055139707
   Name: "Military Tank Modern Tread Frame 01 - End"
   Transform {
     Location {
@@ -1610,7 +2477,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 15895140677399154489
+  ParentId: 3940949694571732884
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -1635,12 +2502,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 7127529049344295622
-    SubobjectId: 12872784981493067682
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -1650,7 +2511,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 3465561148131480098
+  Id: 5285364589213642847
   Name: "Military Tank Modern Tread Frame 01 - End"
   Transform {
     Location {
@@ -1666,7 +2527,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 15895140677399154489
+  ParentId: 3940949694571732884
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -1691,12 +2552,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 3465561148131480098
-    SubobjectId: 16165501350259785542
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -1706,7 +2561,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 6274350097382345870
+  Id: 4540368436657996495
   Name: "Military Tank Modern Tread Frame 01 - Mid"
   Transform {
     Location {
@@ -1722,7 +2577,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 15895140677399154489
+  ParentId: 3940949694571732884
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -1747,12 +2602,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 6274350097382345870
-    SubobjectId: 9754155224854487530
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -1762,7 +2611,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 7825203179349243931
+  Id: 14012123369560818572
   Name: "Military Tank Modern Tread Frame 01 - Mid - 1m"
   Transform {
     Location {
@@ -1778,7 +2627,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 15895140677399154489
+  ParentId: 3940949694571732884
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -1803,12 +2652,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 7825203179349243931
-    SubobjectId: 13607613630182790527
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -1818,7 +2661,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 14604603648861830969
+  Id: 10402532196148478249
   Name: "Military Tank Modern Tread Frame 01 - Mid - 1m"
   Transform {
     Location {
@@ -1834,7 +2677,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 15895140677399154489
+  ParentId: 3940949694571732884
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -1859,12 +2702,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 14604603648861830969
-    SubobjectId: 1937315261243265629
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -1874,7 +2711,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 15485608464316746592
+  Id: 6584961473358259354
   Name: "Turret"
   Transform {
     Location {
@@ -1889,13 +2726,13 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14952117221838135684
-  ChildIds: 18115855204847047886
-  ChildIds: 1916435005535284922
-  ChildIds: 10503529073525957690
-  ChildIds: 9695568300478556711
-  ChildIds: 5436648385254368367
-  ChildIds: 3150060892511116938
+  ParentId: 9241087742127755386
+  ChildIds: 9444387820585747617
+  ChildIds: 13923663001430904901
+  ChildIds: 15797518070728712865
+  ChildIds: 314204769153661043
+  ChildIds: 18291777845734743587
+  ChildIds: 10053591986813262127
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -1908,19 +2745,13 @@ Objects {
   Folder {
     IsGroup: true
   }
-  InstanceHistory {
-    SelfId: 15485608464316746592
-    SubobjectId: 479825289483953668
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 3150060892511116938
+  Id: 10053591986813262127
   Name: "Fuel Containers and Shelf"
   Transform {
     Location {
@@ -1935,15 +2766,15 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 15485608464316746592
-  ChildIds: 8634254609457439006
-  ChildIds: 10069876171749499201
-  ChildIds: 17082586439774716897
-  ChildIds: 15964599353037192527
-  ChildIds: 188951057285567315
-  ChildIds: 7735639100885909294
-  ChildIds: 8263655165595474927
-  ChildIds: 16591103906134093196
+  ParentId: 6584961473358259354
+  ChildIds: 600195811248664245
+  ChildIds: 5275197496170009630
+  ChildIds: 14993213734163471708
+  ChildIds: 4988303356754161474
+  ChildIds: 16244252321604807088
+  ChildIds: 15714401120390667576
+  ChildIds: 8071789781952875189
+  ChildIds: 5391494600269036835
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -1956,19 +2787,13 @@ Objects {
   Folder {
     IsGroup: true
   }
-  InstanceHistory {
-    SelfId: 3150060892511116938
-    SubobjectId: 18156266183138538478
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 16591103906134093196
+  Id: 5391494600269036835
   Name: "Sci-Fi Base Railing 02 - 4m"
   Transform {
     Location {
@@ -1984,7 +2809,7 @@ Objects {
       Z: 0.312443823
     }
   }
-  ParentId: 3150060892511116938
+  ParentId: 10053591986813262127
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -2041,12 +2866,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 16591103906134093196
-    SubobjectId: 3922689484489392360
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -2056,7 +2875,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 8263655165595474927
+  Id: 8071789781952875189
   Name: "Sci-Fi Base Railing 02 - 4m"
   Transform {
     Location {
@@ -2072,7 +2891,7 @@ Objects {
       Z: 0.312443823
     }
   }
-  ParentId: 3150060892511116938
+  ParentId: 10053591986813262127
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -2129,12 +2948,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 8263655165595474927
-    SubobjectId: 11736704726089250443
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -2144,7 +2957,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 7735639100885909294
+  Id: 15714401120390667576
   Name: "Sci-Fi Base Railing 02 - 4m"
   Transform {
     Location {
@@ -2161,7 +2974,7 @@ Objects {
       Z: 0.312443823
     }
   }
-  ParentId: 3150060892511116938
+  ParentId: 10053591986813262127
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -2218,12 +3031,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 7735639100885909294
-    SubobjectId: 13480894992150712906
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -2233,7 +3040,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 188951057285567315
+  Id: 16244252321604807088
   Name: "Military Tank Modern Armorplate 02"
   Transform {
     Location {
@@ -2250,7 +3057,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 3150060892511116938
+  ParentId: 10053591986813262127
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -2275,12 +3082,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 188951057285567315
-    SubobjectId: 15190652163146759735
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -2290,7 +3091,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 15964599353037192527
+  Id: 4988303356754161474
   Name: "Military Tank Fuel Container 01"
   Transform {
     Location {
@@ -2308,7 +3109,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 3150060892511116938
+  ParentId: 10053591986813262127
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -2350,12 +3151,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 15964599353037192527
-    SubobjectId: 991608665790681131
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -2365,7 +3160,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 17082586439774716897
+  Id: 14993213734163471708
   Name: "Military Tank Fuel Container 01"
   Transform {
     Location {
@@ -2382,7 +3177,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 3150060892511116938
+  ParentId: 10053591986813262127
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -2424,12 +3219,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 17082586439774716897
-    SubobjectId: 4422193473973399173
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -2439,7 +3228,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 10069876171749499201
+  Id: 5275197496170009630
   Name: "Military Tank Fuel Container 01"
   Transform {
     Location {
@@ -2457,7 +3246,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 3150060892511116938
+  ParentId: 10053591986813262127
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -2499,12 +3288,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 10069876171749499201
-    SubobjectId: 6624833888950537253
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -2514,7 +3297,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 8634254609457439006
+  Id: 600195811248664245
   Name: "Military Tank Fuel Container 01"
   Transform {
     Location {
@@ -2531,7 +3314,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 3150060892511116938
+  ParentId: 10053591986813262127
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -2573,12 +3356,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 8634254609457439006
-    SubobjectId: 12077608044610718842
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -2588,7 +3365,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 5436648385254368367
+  Id: 18291777845734743587
   Name: "Accessories"
   Transform {
     Location {
@@ -2603,19 +3380,19 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 15485608464316746592
-  ChildIds: 9350335653433160388
-  ChildIds: 5384435371841888444
-  ChildIds: 1894928966281235646
-  ChildIds: 2849897864582206347
-  ChildIds: 674248045764926206
-  ChildIds: 13910808764230259876
-  ChildIds: 17104035090014965547
-  ChildIds: 9529218146265238492
-  ChildIds: 11705226467833372448
-  ChildIds: 16425590902626956561
-  ChildIds: 14164884548866177796
-  ChildIds: 5191373046792619928
+  ParentId: 6584961473358259354
+  ChildIds: 13767190631791552318
+  ChildIds: 5313865208251413087
+  ChildIds: 332063414569873241
+  ChildIds: 9971070981502489999
+  ChildIds: 6108060371803111232
+  ChildIds: 1328237615957667779
+  ChildIds: 561557875783765348
+  ChildIds: 10114190057979346666
+  ChildIds: 7161033740909577876
+  ChildIds: 3116235181809179087
+  ChildIds: 13434583648348297860
+  ChildIds: 8196684208128799736
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -2628,19 +3405,13 @@ Objects {
   Folder {
     IsGroup: true
   }
-  InstanceHistory {
-    SelfId: 5436648385254368367
-    SubobjectId: 11186267139698379019
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 5191373046792619928
+  Id: 8196684208128799736
   Name: "Military Tank Modern U Bracket 01"
   Transform {
     Location {
@@ -2655,7 +3426,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5436648385254368367
+  ParentId: 18291777845734743587
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -2680,12 +3451,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 5191373046792619928
-    SubobjectId: 10971954047632665340
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -2695,7 +3460,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 14164884548866177796
+  Id: 13434583648348297860
   Name: "Military Tank Modern Light 02"
   Transform {
     Location {
@@ -2711,7 +3476,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5436648385254368367
+  ParentId: 18291777845734743587
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -2744,12 +3509,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 14164884548866177796
-    SubobjectId: 1503224973584963168
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -2759,7 +3518,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 16425590902626956561
+  Id: 3116235181809179087
   Name: "Military Tank Modern Hatch 01 Lid"
   Transform {
     Location {
@@ -2775,7 +3534,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5436648385254368367
+  ParentId: 18291777845734743587
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -2800,12 +3559,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 16425590902626956561
-    SubobjectId: 3727902637801527413
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -2815,7 +3568,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 11705226467833372448
+  Id: 7161033740909577876
   Name: "Military Tank Modern Gun 01"
   Transform {
     Location {
@@ -2831,7 +3584,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5436648385254368367
+  ParentId: 18291777845734743587
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -2856,12 +3609,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 11705226467833372448
-    SubobjectId: 8232036000115995204
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -2871,7 +3618,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 9529218146265238492
+  Id: 10114190057979346666
   Name: "Military Tank Historic Periscope 01"
   Transform {
     Location {
@@ -2886,7 +3633,7 @@ Objects {
       Z: 1.30000007
     }
   }
-  ParentId: 5436648385254368367
+  ParentId: 18291777845734743587
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -2919,12 +3666,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 9529218146265238492
-    SubobjectId: 6084879035442783928
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -2934,7 +3675,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 17104035090014965547
+  Id: 561557875783765348
   Name: "Ring - Beveled Thick"
   Transform {
     Location {
@@ -2949,7 +3690,7 @@ Objects {
       Z: 0.5
     }
   }
-  ParentId: 5436648385254368367
+  ParentId: 18291777845734743587
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -2982,12 +3723,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 17104035090014965547
-    SubobjectId: 4400858099602809423
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -2997,7 +3732,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 13910808764230259876
+  Id: 1328237615957667779
   Name: "Military Tank Modern Armorplate 03"
   Transform {
     Location {
@@ -3014,7 +3749,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5436648385254368367
+  ParentId: 18291777845734743587
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -3039,12 +3774,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 13910808764230259876
-    SubobjectId: 1243660396888635840
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -3054,7 +3783,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 674248045764926206
+  Id: 6108060371803111232
   Name: "Military Tank Modern Light 01"
   Transform {
     Location {
@@ -3070,7 +3799,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5436648385254368367
+  ParentId: 18291777845734743587
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -3103,12 +3832,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 674248045764926206
-    SubobjectId: 15642172840508176282
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -3118,7 +3841,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 2849897864582206347
+  Id: 9971070981502489999
   Name: "Military Tank Modern Light 01"
   Transform {
     Location {
@@ -3134,7 +3857,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5436648385254368367
+  ParentId: 18291777845734743587
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -3159,12 +3882,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 2849897864582206347
-    SubobjectId: 17853288542948589295
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -3174,7 +3891,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 1894928966281235646
+  Id: 332063414569873241
   Name: "Military Tank Antenna 01"
   Transform {
     Location {
@@ -3193,7 +3910,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5436648385254368367
+  ParentId: 18291777845734743587
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -3235,12 +3952,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 1894928966281235646
-    SubobjectId: 14556587882234765786
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -3250,7 +3961,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 5384435371841888444
+  Id: 5313865208251413087
   Name: "Military Tank Antenna 01"
   Transform {
     Location {
@@ -3266,7 +3977,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5436648385254368367
+  ParentId: 18291777845734743587
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -3308,12 +4019,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 5384435371841888444
-    SubobjectId: 11166142174880222680
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -3323,7 +4028,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 9350335653433160388
+  Id: 13767190631791552318
   Name: "Military Tank Modern Hatch 01"
   Transform {
     Location {
@@ -3339,7 +4044,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5436648385254368367
+  ParentId: 18291777845734743587
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -3364,12 +4069,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 9350335653433160388
-    SubobjectId: 5876160573088784288
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -3379,7 +4078,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 9695568300478556711
+  Id: 314204769153661043
   Name: "Military Tank Modern Turret 01"
   Transform {
     Location {
@@ -3394,7 +4093,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 15485608464316746592
+  ParentId: 6584961473358259354
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -3430,12 +4129,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 9695568300478556711
-    SubobjectId: 6251791964641855299
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -3445,7 +4138,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 10503529073525957690
+  Id: 15797518070728712865
   Name: "Military Tank Historic Turret 01 Ring"
   Transform {
     Location {
@@ -3460,7 +4153,7 @@ Objects {
       Z: 1.30000007
     }
   }
-  ParentId: 15485608464316746592
+  ParentId: 6584961473358259354
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -3493,12 +4186,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 10503529073525957690
-    SubobjectId: 4722948203598694750
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -3508,7 +4195,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 1916435005535284922
+  Id: 13923663001430904901
   Name: "Military Tank Modern Mantlet 01"
   Transform {
     Location {
@@ -3523,7 +4210,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 15485608464316746592
+  ParentId: 6584961473358259354
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -3548,12 +4235,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 1916435005535284922
-    SubobjectId: 14616374519445357534
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -3563,7 +4244,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 18115855204847047886
+  Id: 9444387820585747617
   Name: "Military Tank Modern Main Gun 01"
   Transform {
     Location {
@@ -3578,7 +4259,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 15485608464316746592
+  ParentId: 6584961473358259354
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -3603,12 +4284,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 18115855204847047886
-    SubobjectId: 3109509074656475562
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -3618,7 +4293,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 12927446016780054636
+  Id: 11534189007122319050
   Name: "Hull"
   Transform {
     Location {
@@ -3631,12 +4306,12 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14952117221838135684
-  ChildIds: 12767155563169491549
-  ChildIds: 7236524328385559957
-  ChildIds: 16855676003342149551
-  ChildIds: 4673584008264026028
-  ChildIds: 16459032972224527303
+  ParentId: 9241087742127755386
+  ChildIds: 1575656233045912144
+  ChildIds: 12893440632825914783
+  ChildIds: 1712593858831675327
+  ChildIds: 15384400267898638940
+  ChildIds: 3273595976961700954
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -3649,19 +4324,13 @@ Objects {
   Folder {
     IsGroup: true
   }
-  InstanceHistory {
-    SelfId: 12927446016780054636
-    SubobjectId: 7145176295933467912
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 16459032972224527303
+  Id: 3273595976961700954
   Name: "Skirt Armor (R)"
   Transform {
     Location {
@@ -3674,15 +4343,15 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 12927446016780054636
-  ChildIds: 18338346516527110060
-  ChildIds: 8492646701895139739
-  ChildIds: 993087925113157575
-  ChildIds: 15234213427902672526
-  ChildIds: 13951768016593638770
-  ChildIds: 2520231244752945761
-  ChildIds: 6733103515304531352
-  ChildIds: 15407455027747715023
+  ParentId: 11534189007122319050
+  ChildIds: 5317580483105198710
+  ChildIds: 17970983370091227782
+  ChildIds: 495619685370361442
+  ChildIds: 383914365532407837
+  ChildIds: 14788615460079503425
+  ChildIds: 5477795333718203627
+  ChildIds: 2924133205885212581
+  ChildIds: 10631844580057958108
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -3695,19 +4364,13 @@ Objects {
   Folder {
     IsGroup: true
   }
-  InstanceHistory {
-    SelfId: 16459032972224527303
-    SubobjectId: 3757544825179805347
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 15407455027747715023
+  Id: 10631844580057958108
   Name: "Armorplate 01 Side Group (R)"
   Transform {
     Location {
@@ -3723,11 +4386,11 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 16459032972224527303
-  ChildIds: 9497303540178200406
-  ChildIds: 7150178339054382095
-  ChildIds: 5373811176868145345
-  ChildIds: 13334360720682750280
+  ParentId: 3273595976961700954
+  ChildIds: 9058088270077336274
+  ChildIds: 5365134443732794166
+  ChildIds: 8490817077225317588
+  ChildIds: 3234538719100410155
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -3740,19 +4403,13 @@ Objects {
   Folder {
     IsGroup: true
   }
-  InstanceHistory {
-    SelfId: 15407455027747715023
-    SubobjectId: 404487117019028139
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 13334360720682750280
+  Id: 3234538719100410155
   Name: "Military Tank Modern Armorplate 01"
   Transform {
     Location {
@@ -3769,7 +4426,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 15407455027747715023
+  ParentId: 10631844580057958108
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -3794,12 +4451,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 13334360720682750280
-    SubobjectId: 7584741518387641388
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -3809,7 +4460,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 5373811176868145345
+  Id: 8490817077225317588
   Name: "Military Tank Modern Armorplate 01"
   Transform {
     Location {
@@ -3827,7 +4478,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 15407455027747715023
+  ParentId: 10631844580057958108
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -3852,12 +4503,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 5373811176868145345
-    SubobjectId: 11159036555609146789
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -3867,7 +4512,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 7150178339054382095
+  Id: 5365134443732794166
   Name: "Military Tank Modern Armorplate 01"
   Transform {
     Location {
@@ -3886,7 +4531,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 15407455027747715023
+  ParentId: 10631844580057958108
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -3911,12 +4556,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 7150178339054382095
-    SubobjectId: 12931462924342788459
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -3926,7 +4565,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 9497303540178200406
+  Id: 9058088270077336274
   Name: "Military Tank Modern Armorplate 01"
   Transform {
     Location {
@@ -3943,7 +4582,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 15407455027747715023
+  ParentId: 10631844580057958108
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -3968,12 +4607,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 9497303540178200406
-    SubobjectId: 6017498585614043698
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -3983,7 +4616,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 6733103515304531352
+  Id: 2924133205885212581
   Name: "Military Tank Modern Mudflap 01"
   Transform {
     Location {
@@ -4002,7 +4635,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 16459032972224527303
+  ParentId: 3273595976961700954
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -4027,12 +4660,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 6733103515304531352
-    SubobjectId: 10178005061724567804
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -4042,7 +4669,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 2520231244752945761
+  Id: 5477795333718203627
   Name: "Military Tank Modern Armorplate 02"
   Transform {
     Location {
@@ -4059,7 +4686,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 16459032972224527303
+  ParentId: 3273595976961700954
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -4084,12 +4711,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 2520231244752945761
-    SubobjectId: 17489421986441883397
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -4099,7 +4720,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 13951768016593638770
+  Id: 14788615460079503425
   Name: "Military Tank Modern Armorplate 02"
   Transform {
     Location {
@@ -4115,7 +4736,7 @@ Objects {
       Z: 0.8
     }
   }
-  ParentId: 16459032972224527303
+  ParentId: 3273595976961700954
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -4140,12 +4761,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 13951768016593638770
-    SubobjectId: 1284057247997573142
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -4155,7 +4770,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 15234213427902672526
+  Id: 383914365532407837
   Name: "Military Tank Modern Armorplate 02"
   Transform {
     Location {
@@ -4172,7 +4787,7 @@ Objects {
       Z: 0.8
     }
   }
-  ParentId: 16459032972224527303
+  ParentId: 3273595976961700954
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -4197,12 +4812,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 15234213427902672526
-    SubobjectId: 226741498753745898
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -4212,7 +4821,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 993087925113157575
+  Id: 495619685370361442
   Name: "Military Tank Modern Skirt 01 Rear"
   Transform {
     Location {
@@ -4228,7 +4837,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 16459032972224527303
+  ParentId: 3273595976961700954
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -4253,12 +4862,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 993087925113157575
-    SubobjectId: 15962842166511278755
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -4268,7 +4871,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 8492646701895139739
+  Id: 17970983370091227782
   Name: "Military Tank Modern Skirt 01 Mid"
   Transform {
     Location {
@@ -4284,7 +4887,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 16459032972224527303
+  ParentId: 3273595976961700954
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -4309,12 +4912,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 8492646701895139739
-    SubobjectId: 11931356446308642047
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -4324,7 +4921,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 18338346516527110060
+  Id: 5317580483105198710
   Name: "Military Tank Modern Skirt 01 Front"
   Transform {
     Location {
@@ -4340,7 +4937,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 16459032972224527303
+  ParentId: 3273595976961700954
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -4365,12 +4962,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 18338346516527110060
-    SubobjectId: 3328622650159250120
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -4380,7 +4971,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 4673584008264026028
+  Id: 15384400267898638940
   Name: "Skirt Armor (L)"
   Transform {
     Location {
@@ -4393,15 +4984,15 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 12927446016780054636
-  ChildIds: 16242285919562346603
-  ChildIds: 11252767911446638108
-  ChildIds: 11085320451982585804
-  ChildIds: 11562953830075404140
-  ChildIds: 2457019418928954475
-  ChildIds: 14858953938739257265
-  ChildIds: 3925873199389735800
-  ChildIds: 13876626509162725350
+  ParentId: 11534189007122319050
+  ChildIds: 11878465354306011722
+  ChildIds: 11148697340280628268
+  ChildIds: 15432819976264494300
+  ChildIds: 8524168065224652622
+  ChildIds: 2205458162705419845
+  ChildIds: 7680027691958014218
+  ChildIds: 13458249056379783901
+  ChildIds: 14856387030974418561
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -4414,19 +5005,13 @@ Objects {
   Folder {
     IsGroup: true
   }
-  InstanceHistory {
-    SelfId: 4673584008264026028
-    SubobjectId: 10418136213228055240
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 13876626509162725350
+  Id: 14856387030974418561
   Name: "Armorplate 01 Side Group (L)"
   Transform {
     Location {
@@ -4442,11 +5027,11 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 4673584008264026028
-  ChildIds: 5243535022036197195
-  ChildIds: 13783041869890828753
-  ChildIds: 11180263779761819355
-  ChildIds: 15128423544609913265
+  ParentId: 15384400267898638940
+  ChildIds: 5372409615779735300
+  ChildIds: 8008917826478814547
+  ChildIds: 9444746159838261265
+  ChildIds: 14746246166759376427
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -4459,19 +5044,13 @@ Objects {
   Folder {
     IsGroup: true
   }
-  InstanceHistory {
-    SelfId: 13876626509162725350
-    SubobjectId: 1215107808827593346
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 15128423544609913265
+  Id: 14746246166759376427
   Name: "Military Tank Modern Armorplate 01"
   Transform {
     Location {
@@ -4488,7 +5067,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13876626509162725350
+  ParentId: 14856387030974418561
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -4513,12 +5092,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 15128423544609913265
-    SubobjectId: 125455770298897621
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -4528,7 +5101,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 11180263779761819355
+  Id: 9444746159838261265
   Name: "Military Tank Modern Armorplate 01"
   Transform {
     Location {
@@ -4546,7 +5119,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13876626509162725350
+  ParentId: 14856387030974418561
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -4571,12 +5144,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 11180263779761819355
-    SubobjectId: 5433319141632107455
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -4586,7 +5153,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 13783041869890828753
+  Id: 8008917826478814547
   Name: "Military Tank Modern Armorplate 01"
   Transform {
     Location {
@@ -4605,7 +5172,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13876626509162725350
+  ParentId: 14856387030974418561
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -4630,12 +5197,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 13783041869890828753
-    SubobjectId: 8000772122202657973
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -4645,7 +5206,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 5243535022036197195
+  Id: 5372409615779735300
   Name: "Military Tank Modern Armorplate 01"
   Transform {
     Location {
@@ -4662,7 +5223,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13876626509162725350
+  ParentId: 14856387030974418561
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -4687,12 +5248,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 5243535022036197195
-    SubobjectId: 10992027778862871087
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -4702,7 +5257,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 3925873199389735800
+  Id: 13458249056379783901
   Name: "Military Tank Modern Mudflap 01"
   Transform {
     Location {
@@ -4721,7 +5276,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 4673584008264026028
+  ParentId: 15384400267898638940
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -4746,12 +5301,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 3925873199389735800
-    SubobjectId: 16588095030901118492
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -4761,7 +5310,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 14858953938739257265
+  Id: 7680027691958014218
   Name: "Military Tank Modern Armorplate 02"
   Transform {
     Location {
@@ -4778,7 +5327,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 4673584008264026028
+  ParentId: 15384400267898638940
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -4803,12 +5352,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 14858953938739257265
-    SubobjectId: 2196309340743316181
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -4818,7 +5361,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 2457019418928954475
+  Id: 2205458162705419845
   Name: "Military Tank Modern Armorplate 02"
   Transform {
     Location {
@@ -4834,7 +5377,7 @@ Objects {
       Z: 0.8
     }
   }
-  ParentId: 4673584008264026028
+  ParentId: 15384400267898638940
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -4859,12 +5402,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 2457019418928954475
-    SubobjectId: 17462239644831600911
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -4874,7 +5411,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 11562953830075404140
+  Id: 8524168065224652622
   Name: "Military Tank Modern Armorplate 02"
   Transform {
     Location {
@@ -4891,7 +5428,7 @@ Objects {
       Z: 0.8
     }
   }
-  ParentId: 4673584008264026028
+  ParentId: 15384400267898638940
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -4916,12 +5453,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 11562953830075404140
-    SubobjectId: 8086386210214404616
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -4931,7 +5462,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 11085320451982585804
+  Id: 15432819976264494300
   Name: "Military Tank Modern Skirt 01 Rear"
   Transform {
     Location {
@@ -4947,7 +5478,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 4673584008264026028
+  ParentId: 15384400267898638940
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -4972,12 +5503,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 11085320451982585804
-    SubobjectId: 5303472771854631592
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -4987,7 +5512,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 11252767911446638108
+  Id: 11148697340280628268
   Name: "Military Tank Modern Skirt 01 Mid"
   Transform {
     Location {
@@ -5003,7 +5528,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 4673584008264026028
+  ParentId: 15384400267898638940
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -5028,12 +5553,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 11252767911446638108
-    SubobjectId: 5505259802665780088
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -5043,7 +5562,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 16242285919562346603
+  Id: 11878465354306011722
   Name: "Military Tank Modern Skirt 01 Front"
   Transform {
     Location {
@@ -5059,7 +5578,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 4673584008264026028
+  ParentId: 15384400267898638940
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -5084,12 +5603,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 16242285919562346603
-    SubobjectId: 3541923507066035471
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -5099,7 +5612,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 16855676003342149551
+  Id: 1712593858831675327
   Name: "Military Tank Modern Hull 01 Rear"
   Transform {
     Location {
@@ -5114,7 +5627,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 12927446016780054636
+  ParentId: 11534189007122319050
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -5139,12 +5652,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 16855676003342149551
-    SubobjectId: 4153484690811620043
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -5154,7 +5661,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 7236524328385559957
+  Id: 12893440632825914783
   Name: "Military Tank Modern Hull 01 Mid"
   Transform {
     Location {
@@ -5168,7 +5675,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 12927446016780054636
+  ParentId: 11534189007122319050
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Detail1:color"
@@ -5204,12 +5711,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 7236524328385559957
-    SubobjectId: 12979951222893433073
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -5219,7 +5720,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 12767155563169491549
+  Id: 1575656233045912144
   Name: "Military Tank Modern Hull 01 Front"
   Transform {
     Location {
@@ -5234,7 +5735,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 12927446016780054636
+  ParentId: 11534189007122319050
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -5259,12 +5760,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 12767155563169491549
-    SubobjectId: 7016973272425154361
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -5274,7 +5769,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 1525346678941062494
+  Id: 288238143213201905
   Name: "Military Propane Tank"
   Transform {
     Location {
@@ -5290,7 +5785,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -5315,12 +5810,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 1525346678941062494
-    SubobjectId: 14223597899136890938
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -5330,7 +5819,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 5191254156873491155
+  Id: 3887735586957630472
   Name: "Military Mobile Radar 01 - Power Pack - 01"
   Transform {
     Location {
@@ -5347,7 +5836,7 @@ Objects {
       Z: 0.25
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -5381,12 +5870,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 5191254156873491155
-    SubobjectId: 10971976447088365495
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -5396,7 +5879,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 4757987438584723440
+  Id: 12090498666984253076
   Name: "Military Radio Set Template"
   Transform {
     Location {
@@ -5413,7 +5896,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -5427,19 +5910,13 @@ Objects {
     IsFilePartition: true
     FilePartitionName: "Military Radio Set Template"
   }
-  InstanceHistory {
-    SelfId: 4757987438584723440
-    SubobjectId: 10540820102873193108
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 8181739946475721556
+  Id: 9920465258182606202
   Name: "Military Radio Large"
   Transform {
     Location {
@@ -5455,7 +5932,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -5480,12 +5957,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 8181739946475721556
-    SubobjectId: 11656478522236370480
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -5495,7 +5966,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 10564068404673934607
+  Id: 7472624020634311783
   Name: "Military Rare Crate Base"
   Transform {
     Location {
@@ -5514,7 +5985,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -5539,12 +6010,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 10564068404673934607
-    SubobjectId: 4815575514587928683
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -5554,7 +6019,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 15036836528853938310
+  Id: 8332813293852892758
   Name: "Military Rare Crate Base"
   Transform {
     Location {
@@ -5570,7 +6035,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -5595,12 +6060,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 15036836528853938310
-    SubobjectId: 63845837295689186
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -5610,7 +6069,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 13520991482261101223
+  Id: 14721522816937266881
   Name: "Military Rare Crate Template"
   Transform {
     Location {
@@ -5626,9 +6085,9 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5973142006212069348
-  ChildIds: 4488671607826338140
-  ChildIds: 11170694154840668881
+  ParentId: 9575761177890923949
+  ChildIds: 15403356878193388583
+  ChildIds: 8833647225591947590
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -5641,19 +6100,13 @@ Objects {
   Folder {
     IsGroup: true
   }
-  InstanceHistory {
-    SelfId: 13520991482261101223
-    SubobjectId: 7776439238644479939
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 11170694154840668881
+  Id: 8833647225591947590
   Name: "Military Rare Crate Hinged Lid"
   Transform {
     Location {
@@ -5669,10 +6122,10 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13520991482261101223
-  ChildIds: 9396643487092361860
-  ChildIds: 15528619323433692179
-  ChildIds: 1100009870776485077
+  ParentId: 14721522816937266881
+  ChildIds: 13644867530888257757
+  ChildIds: 14150269352203007929
+  ChildIds: 7814288163917475515
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -5685,19 +6138,13 @@ Objects {
   Folder {
     IsGroup: true
   }
-  InstanceHistory {
-    SelfId: 11170694154840668881
-    SubobjectId: 5424875415613085621
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 1100009870776485077
+  Id: 7814288163917475515
   Name: "Military Rare Crate Lid"
   Transform {
     Location {
@@ -5713,7 +6160,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 11170694154840668881
+  ParentId: 8833647225591947590
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -5746,12 +6193,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 1100009870776485077
-    SubobjectId: 16072016054865308081
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -5761,7 +6202,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 15528619323433692179
+  Id: 14150269352203007929
   Name: "Military Rare Crate Hinge"
   Transform {
     Location {
@@ -5775,7 +6216,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 11170694154840668881
+  ParentId: 8833647225591947590
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -5802,12 +6243,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 15528619323433692179
-    SubobjectId: 562947018920116599
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -5817,7 +6252,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 9396643487092361860
+  Id: 13644867530888257757
   Name: "Military Rare Crate Hinge"
   Transform {
     Location {
@@ -5830,7 +6265,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 11170694154840668881
+  ParentId: 8833647225591947590
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -5857,12 +6292,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 9396643487092361860
-    SubobjectId: 5920216059342858208
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -5872,7 +6301,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 4488671607826338140
+  Id: 15403356878193388583
   Name: "Military Rare Crate Base"
   Transform {
     Location {
@@ -5885,7 +6314,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13520991482261101223
+  ParentId: 14721522816937266881
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -5918,12 +6347,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 4488671607826338140
-    SubobjectId: 17151316376612224056
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -5933,7 +6356,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 7805800393744555064
+  Id: 7202248954010545323
   Name: "Military Rare Crate Template"
   Transform {
     Location {
@@ -5949,9 +6372,9 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5973142006212069348
-  ChildIds: 18407275005043703391
-  ChildIds: 15018691611129126205
+  ParentId: 9575761177890923949
+  ChildIds: 14429658829301142926
+  ChildIds: 7381266389623986831
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -5964,19 +6387,13 @@ Objects {
   Folder {
     IsGroup: true
   }
-  InstanceHistory {
-    SelfId: 7805800393744555064
-    SubobjectId: 13554856643936579932
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 15018691611129126205
+  Id: 7381266389623986831
   Name: "Military Rare Crate Hinged Lid"
   Transform {
     Location {
@@ -5992,10 +6409,10 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 7805800393744555064
-  ChildIds: 14525406825822956613
-  ChildIds: 12596636387029631122
-  ChildIds: 13813029438220283447
+  ParentId: 7202248954010545323
+  ChildIds: 15744939695110850425
+  ChildIds: 8166422137261872424
+  ChildIds: 17487835165678925801
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -6008,19 +6425,13 @@ Objects {
   Folder {
     IsGroup: true
   }
-  InstanceHistory {
-    SelfId: 15018691611129126205
-    SubobjectId: 9671468760494169
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 13813029438220283447
+  Id: 17487835165678925801
   Name: "Military Rare Crate Lid"
   Transform {
     Location {
@@ -6036,7 +6447,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 15018691611129126205
+  ParentId: 7381266389623986831
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -6069,12 +6480,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 13813029438220283447
-    SubobjectId: 8070166042383696723
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -6084,7 +6489,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 12596636387029631122
+  Id: 8166422137261872424
   Name: "Military Rare Crate Hinge"
   Transform {
     Location {
@@ -6098,7 +6503,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 15018691611129126205
+  ParentId: 7381266389623986831
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -6125,12 +6530,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 12596636387029631122
-    SubobjectId: 9124150291836972534
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -6140,7 +6539,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 14525406825822956613
+  Id: 15744939695110850425
   Name: "Military Rare Crate Hinge"
   Transform {
     Location {
@@ -6153,7 +6552,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 15018691611129126205
+  ParentId: 7381266389623986831
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -6180,12 +6579,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 14525406825822956613
-    SubobjectId: 1863325693075996961
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -6195,7 +6588,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 18407275005043703391
+  Id: 14429658829301142926
   Name: "Military Rare Crate Base"
   Transform {
     Location {
@@ -6208,7 +6601,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 7805800393744555064
+  ParentId: 7202248954010545323
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -6241,12 +6634,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 18407275005043703391
-    SubobjectId: 3403744143256523579
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -6256,7 +6643,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 11214443163973887812
+  Id: 12960320754046377393
   Name: "Military Rare Crate Template"
   Transform {
     Location {
@@ -6272,9 +6659,9 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5973142006212069348
-  ChildIds: 10403732014526498188
-  ChildIds: 11939823707126388955
+  ParentId: 9575761177890923949
+  ChildIds: 16987553800844947038
+  ChildIds: 17831959232835787267
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -6287,19 +6674,13 @@ Objects {
   Folder {
     IsGroup: true
   }
-  InstanceHistory {
-    SelfId: 11214443163973887812
-    SubobjectId: 5471579913056799264
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 11939823707126388955
+  Id: 17831959232835787267
   Name: "Military Rare Crate Hinged Lid"
   Transform {
     Location {
@@ -6315,10 +6696,10 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 11214443163973887812
-  ChildIds: 16766232832849982274
-  ChildIds: 5011934814470344357
-  ChildIds: 5181255101519553003
+  ParentId: 12960320754046377393
+  ChildIds: 3139577118705986331
+  ChildIds: 1922294814871062012
+  ChildIds: 17580416435165335768
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -6331,19 +6712,13 @@ Objects {
   Folder {
     IsGroup: true
   }
-  InstanceHistory {
-    SelfId: 11939823707126388955
-    SubobjectId: 8502099221852140991
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 5181255101519553003
+  Id: 17580416435165335768
   Name: "Military Rare Crate Lid"
   Transform {
     Location {
@@ -6359,7 +6734,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 11939823707126388955
+  ParentId: 17831959232835787267
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -6392,12 +6767,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 5181255101519553003
-    SubobjectId: 10928200295830883471
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -6407,7 +6776,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 5011934814470344357
+  Id: 1922294814871062012
   Name: "Military Rare Crate Hinge"
   Transform {
     Location {
@@ -6421,7 +6790,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 11939823707126388955
+  ParentId: 17831959232835787267
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -6448,12 +6817,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 5011934814470344357
-    SubobjectId: 10791390500628358081
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -6463,7 +6826,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 16766232832849982274
+  Id: 3139577118705986331
   Name: "Military Rare Crate Hinge"
   Transform {
     Location {
@@ -6476,7 +6839,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 11939823707126388955
+  ParentId: 17831959232835787267
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -6503,12 +6866,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 16766232832849982274
-    SubobjectId: 4099084605046578726
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -6518,7 +6875,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 10403732014526498188
+  Id: 16987553800844947038
   Name: "Military Rare Crate Base"
   Transform {
     Location {
@@ -6531,7 +6888,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 11214443163973887812
+  ParentId: 12960320754046377393
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -6564,12 +6921,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 10403732014526498188
-    SubobjectId: 4624699227021732072
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -6579,7 +6930,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 17665366854007029612
+  Id: 17952151141787650967
   Name: "Military Rare Crate Template"
   Transform {
     Location {
@@ -6595,9 +6946,9 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5973142006212069348
-  ChildIds: 3448280364327286263
-  ChildIds: 15212957396141617630
+  ParentId: 9575761177890923949
+  ChildIds: 3217381484722343493
+  ChildIds: 11906905044066336402
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -6610,19 +6961,13 @@ Objects {
   Folder {
     IsGroup: true
   }
-  InstanceHistory {
-    SelfId: 17665366854007029612
-    SubobjectId: 2695613129095451144
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 15212957396141617630
+  Id: 11906905044066336402
   Name: "Military Rare Crate Hinged Lid"
   Transform {
     Location {
@@ -6638,10 +6983,10 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17665366854007029612
-  ChildIds: 18418445170993210340
-  ChildIds: 333564001194104188
-  ChildIds: 3047314049988479449
+  ParentId: 17952151141787650967
+  ChildIds: 16946735897613234713
+  ChildIds: 9727536227750922442
+  ChildIds: 5685272770588538813
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -6654,19 +6999,13 @@ Objects {
   Folder {
     IsGroup: true
   }
-  InstanceHistory {
-    SelfId: 15212957396141617630
-    SubobjectId: 238700068381482170
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 3047314049988479449
+  Id: 5685272770588538813
   Name: "Military Rare Crate Lid"
   Transform {
     Location {
@@ -6682,7 +7021,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 15212957396141617630
+  ParentId: 11906905044066336402
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -6709,12 +7048,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 3047314049988479449
-    SubobjectId: 18015941877241455805
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -6724,7 +7057,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 333564001194104188
+  Id: 9727536227750922442
   Name: "Military Rare Crate Hinge"
   Transform {
     Location {
@@ -6738,7 +7071,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 15212957396141617630
+  ParentId: 11906905044066336402
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -6765,12 +7098,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 333564001194104188
-    SubobjectId: 15343287730156681240
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -6780,7 +7107,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 18418445170993210340
+  Id: 16946735897613234713
   Name: "Military Rare Crate Hinge"
   Transform {
     Location {
@@ -6793,7 +7120,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 15212957396141617630
+  ParentId: 11906905044066336402
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -6820,12 +7147,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 18418445170993210340
-    SubobjectId: 3446439094364556928
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -6835,7 +7156,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 3448280364327286263
+  Id: 3217381484722343493
   Name: "Military Rare Crate Base"
   Transform {
     Location {
@@ -6848,7 +7169,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17665366854007029612
+  ParentId: 17952151141787650967
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -6875,12 +7196,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 3448280364327286263
-    SubobjectId: 18416768003816282259
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -6890,7 +7205,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 13564316428823342261
+  Id: 2700150274491398454
   Name: "Military Rare Crate Template"
   Transform {
     Location {
@@ -6906,9 +7221,9 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5973142006212069348
-  ChildIds: 5552959215605621998
-  ChildIds: 8811745885578311291
+  ParentId: 9575761177890923949
+  ChildIds: 9680715101452681057
+  ChildIds: 10312760605786757524
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -6921,19 +7236,13 @@ Objects {
   Folder {
     IsGroup: true
   }
-  InstanceHistory {
-    SelfId: 13564316428823342261
-    SubobjectId: 7814134272349159889
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 8811745885578311291
+  Id: 10312760605786757524
   Name: "Military Rare Crate Hinged Lid"
   Transform {
     Location {
@@ -6949,10 +7258,10 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13564316428823342261
-  ChildIds: 5692226734950995479
-  ChildIds: 3957819796822010914
-  ChildIds: 13535054719899811203
+  ParentId: 2700150274491398454
+  ChildIds: 7217231705590248595
+  ChildIds: 3741338692418057712
+  ChildIds: 12705932527599993680
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -6965,19 +7274,13 @@ Objects {
   Folder {
     IsGroup: true
   }
-  InstanceHistory {
-    SelfId: 8811745885578311291
-    SubobjectId: 12251722169695263519
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 13535054719899811203
+  Id: 12705932527599993680
   Name: "Military Rare Crate Lid"
   Transform {
     Location {
@@ -6993,7 +7296,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 8811745885578311291
+  ParentId: 10312760605786757524
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -7020,12 +7323,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 13535054719899811203
-    SubobjectId: 7753347920015610087
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -7035,7 +7332,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 3957819796822010914
+  Id: 3741338692418057712
   Name: "Military Rare Crate Hinge"
   Transform {
     Location {
@@ -7049,7 +7346,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 8811745885578311291
+  ParentId: 10312760605786757524
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -7076,12 +7373,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 3957819796822010914
-    SubobjectId: 16618916451054829894
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -7091,7 +7382,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 5692226734950995479
+  Id: 7217231705590248595
   Name: "Military Rare Crate Hinge"
   Transform {
     Location {
@@ -7104,7 +7395,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 8811745885578311291
+  ParentId: 10312760605786757524
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -7131,12 +7422,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 5692226734950995479
-    SubobjectId: 11435090641922374515
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -7146,7 +7431,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 5552959215605621998
+  Id: 9680715101452681057
   Name: "Military Rare Crate Base"
   Transform {
     Location {
@@ -7159,7 +7444,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13564316428823342261
+  ParentId: 2700150274491398454
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -7186,12 +7471,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 5552959215605621998
-    SubobjectId: 11339873271370140042
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -7201,7 +7480,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 5676918964727709925
+  Id: 5893142966712931688
   Name: "Military Epic Crate Template"
   Transform {
     Location {
@@ -7218,9 +7497,9 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5973142006212069348
-  ChildIds: 5412925749980852013
-  ChildIds: 16199508827672186123
+  ParentId: 9575761177890923949
+  ChildIds: 3025669726251922626
+  ChildIds: 12980001570981739865
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -7233,19 +7512,13 @@ Objects {
   Folder {
     IsGroup: true
   }
-  InstanceHistory {
-    SelfId: 5676918964727709925
-    SubobjectId: 11423160468292201857
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 16199508827672186123
+  Id: 12980001570981739865
   Name: "Lid"
   Transform {
     Location {
@@ -7261,10 +7534,10 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5676918964727709925
-  ChildIds: 1399575775686164000
-  ChildIds: 6552565387522513359
-  ChildIds: 18194444765650512252
+  ParentId: 5893142966712931688
+  ChildIds: 17874521082920993941
+  ChildIds: 6059485475629944238
+  ChildIds: 1145529315362864945
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -7277,19 +7550,13 @@ Objects {
   Folder {
     IsGroup: true
   }
-  InstanceHistory {
-    SelfId: 16199508827672186123
-    SubobjectId: 3503650048173269103
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 18194444765650512252
+  Id: 1145529315362864945
   Name: "Military Epic Crate Lid"
   Transform {
     Location {
@@ -7305,7 +7572,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 16199508827672186123
+  ParentId: 12980001570981739865
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -7330,12 +7597,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 18194444765650512252
-    SubobjectId: 3184299238704088088
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -7345,7 +7606,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 6552565387522513359
+  Id: 6059485475629944238
   Name: "Military Epic Crate Hinge"
   Transform {
     Location {
@@ -7359,7 +7620,7 @@ Objects {
       Z: 1.14271653
     }
   }
-  ParentId: 16199508827672186123
+  ParentId: 12980001570981739865
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -7384,12 +7645,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 6552565387522513359
-    SubobjectId: 9989023367507604651
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -7399,7 +7654,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 1399575775686164000
+  Id: 17874521082920993941
   Name: "Military Epic Crate Hinge"
   Transform {
     Location {
@@ -7413,7 +7668,7 @@ Objects {
       Z: 1.14271653
     }
   }
-  ParentId: 16199508827672186123
+  ParentId: 12980001570981739865
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -7438,12 +7693,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 1399575775686164000
-    SubobjectId: 14061094093720818500
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -7453,7 +7702,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 5412925749980852013
+  Id: 3025669726251922626
   Name: "Military Epic Crate Base"
   Transform {
     Location {
@@ -7466,7 +7715,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5676918964727709925
+  ParentId: 5893142966712931688
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -7491,12 +7740,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 5412925749980852013
-    SubobjectId: 11191958677088961097
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -7506,7 +7749,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 8441424198961826326
+  Id: 486228535111210436
   Name: "Military Ammo Crate Small"
   Transform {
     Location {
@@ -7522,7 +7765,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -7547,12 +7790,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 8441424198961826326
-    SubobjectId: 11919540305882310514
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -7562,7 +7799,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 12787978444690615998
+  Id: 12093845819024858832
   Name: "Military Ammo Crate Small"
   Transform {
     Location {
@@ -7579,7 +7816,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -7604,12 +7841,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 12787978444690615998
-    SubobjectId: 7005145744901637082
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -7619,7 +7850,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 12113491986945374220
+  Id: 17667730640310137556
   Name: "Military Ammo Crate Small"
   Transform {
     Location {
@@ -7636,7 +7867,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -7661,12 +7892,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 12113491986945374220
-    SubobjectId: 8670700991717971304
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -7676,7 +7901,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 13737865698102377737
+  Id: 11704501050999831232
   Name: "Military Ammo Crate Small"
   Transform {
     Location {
@@ -7692,7 +7917,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -7717,12 +7942,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 13737865698102377737
-    SubobjectId: 7992187586791280749
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -7732,7 +7951,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 14563895270398940517
+  Id: 16797036934307223014
   Name: "Military Ammo Crate Small"
   Transform {
     Location {
@@ -7748,7 +7967,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -7773,12 +7992,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 14563895270398940517
-    SubobjectId: 1896606709956196353
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -7788,7 +8001,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 675933548188731959
+  Id: 12779098490905887489
   Name: "Military Ammo Crate Large"
   Transform {
     Location {
@@ -7805,7 +8018,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -7839,12 +8052,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 675933548188731959
-    SubobjectId: 15649487192804190035
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -7854,7 +8061,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 817689672445435606
+  Id: 15731757938790914805
   Name: "Military Ammo Crate Large"
   Transform {
     Location {
@@ -7871,7 +8078,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -7906,12 +8113,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 817689672445435606
-    SubobjectId: 15786880552663839666
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -7921,7 +8122,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 1403814788606965
+  Id: 7981844514202652287
   Name: "Military Ammo Crate Large"
   Transform {
     Location {
@@ -7938,7 +8139,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -7973,12 +8174,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 1403814788606965
-    SubobjectId: 15009297544068941457
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -7988,7 +8183,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 14537815624330143844
+  Id: 6383014514131875682
   Name: "Military Ammo Crate Large"
   Transform {
     Location {
@@ -8005,7 +8200,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -8040,12 +8235,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 14537815624330143844
-    SubobjectId: 1841956982236579072
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -8055,7 +8244,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 15813725723888184576
+  Id: 15602552207338943032
   Name: "Military Ammo Crate Large"
   Transform {
     Location {
@@ -8072,7 +8261,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -8106,12 +8295,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 15813725723888184576
-    SubobjectId: 809209317396742244
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -8121,7 +8304,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 2292624518183820483
+  Id: 277899034896562620
   Name: "Military Ammo Crate Large"
   Transform {
     Location {
@@ -8138,7 +8321,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -8163,12 +8346,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 2292624518183820483
-    SubobjectId: 14960475890065338791
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -8178,7 +8355,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 2640825236252021264
+  Id: 9365463146596017255
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -8194,7 +8371,7 @@ Objects {
       Z: 0.999249041
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -8227,12 +8404,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 2640825236252021264
-    SubobjectId: 17647734314246422388
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -8242,7 +8413,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 4613912544001225812
+  Id: 15442968411281918776
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -8258,7 +8429,7 @@ Objects {
       Z: 0.999249041
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -8291,12 +8462,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 4613912544001225812
-    SubobjectId: 10396745933100947760
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -8306,7 +8471,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 4937107961721104144
+  Id: 3854140840571853968
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -8322,7 +8487,7 @@ Objects {
       Z: 0.999249041
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -8355,12 +8520,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 4937107961721104144
-    SubobjectId: 10721770937146067572
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -8370,7 +8529,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 7368345986082441416
+  Id: 7911358336193015574
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -8386,7 +8545,7 @@ Objects {
       Z: 0.999249041
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -8419,12 +8578,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 7368345986082441416
-    SubobjectId: 13118669014262867372
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -8434,7 +8587,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 13941583064574974275
+  Id: 1018337478856622352
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -8450,7 +8603,7 @@ Objects {
       Z: 0.999249041
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -8483,12 +8636,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 13941583064574974275
-    SubobjectId: 1239954148934726695
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -8498,7 +8645,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 9634211046892297612
+  Id: 10926614277777064498
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -8514,7 +8661,7 @@ Objects {
       Z: 0.999249041
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -8547,12 +8694,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 9634211046892297612
-    SubobjectId: 6196064354488135912
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -8562,7 +8703,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 8240341221224462902
+  Id: 9340731357707950448
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -8578,7 +8719,7 @@ Objects {
       Z: 0.999249041
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -8611,12 +8752,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 8240341221224462902
-    SubobjectId: 11679191707354060626
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -8626,7 +8761,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 5262086091127581281
+  Id: 9492058315581119847
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -8642,7 +8777,7 @@ Objects {
       Z: 0.999249041
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -8675,12 +8810,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 5262086091127581281
-    SubobjectId: 11045622616789321477
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -8690,7 +8819,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 18339891314141705662
+  Id: 18107121652112105844
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -8706,7 +8835,7 @@ Objects {
       Z: 0.999249041
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -8739,12 +8868,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 18339891314141705662
-    SubobjectId: 3371825785095674074
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -8754,7 +8877,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 12108393964899583123
+  Id: 6071359348647213342
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -8770,7 +8893,7 @@ Objects {
       Z: 0.999249041
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -8803,12 +8926,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 12108393964899583123
-    SubobjectId: 8666870154707315191
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -8818,7 +8935,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 17672228904884241425
+  Id: 15642823273631759982
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -8834,7 +8951,7 @@ Objects {
       Z: 0.999249041
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -8867,12 +8984,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 17672228904884241425
-    SubobjectId: 2670387027225438581
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -8882,7 +8993,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 4310846909738920192
+  Id: 12972744652821610632
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -8898,7 +9009,7 @@ Objects {
       Z: 0.999249041
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -8931,12 +9042,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 4310846909738920192
-    SubobjectId: 16977572480548160612
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -8946,7 +9051,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 13020248869990327833
+  Id: 16567088233560225693
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -8962,7 +9067,7 @@ Objects {
       Z: 0.999249041
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -8995,12 +9100,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 13020248869990327833
-    SubobjectId: 7277384924345469821
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -9010,7 +9109,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 16182468679215835166
+  Id: 12616032300082768700
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -9026,7 +9125,7 @@ Objects {
       Z: 0.999249041
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -9059,12 +9158,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 16182468679215835166
-    SubobjectId: 3520950497548305786
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -9074,7 +9167,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 15642003411531557647
+  Id: 11483072370298109190
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -9090,7 +9183,7 @@ Objects {
       Z: 0.999249041
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -9123,12 +9216,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 15642003411531557647
-    SubobjectId: 674642118577751659
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -9138,7 +9225,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 5108594973152434699
+  Id: 17822050046740300119
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -9154,7 +9241,7 @@ Objects {
       Z: 0.999249041
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -9187,12 +9274,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 5108594973152434699
-    SubobjectId: 10856525427607451503
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -9202,7 +9283,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 7959233878214578352
+  Id: 17226548456198222027
   Name: "weaponsa"
   Transform {
     Location {
@@ -9219,7 +9300,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -9233,19 +9314,13 @@ Objects {
     IsFilePartition: true
     FilePartitionName: "weaponsa"
   }
-  InstanceHistory {
-    SelfId: 7959233878214578352
-    SubobjectId: 13707727316882128340
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 17526538482306975477
+  Id: 14437401539545027056
   Name: "weaponsa"
   Transform {
     Location {
@@ -9262,7 +9337,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -9276,19 +9351,13 @@ Objects {
     IsFilePartition: true
     FilePartitionName: "weaponsa_1"
   }
-  InstanceHistory {
-    SelfId: 17526538482306975477
-    SubobjectId: 2555095385694432145
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 9716893961097795853
+  Id: 13584733794429985827
   Name: "weaponsa"
   Transform {
     Location {
@@ -9304,7 +9373,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -9318,19 +9387,13 @@ Objects {
     IsFilePartition: true
     FilePartitionName: "weaponsa_2"
   }
-  InstanceHistory {
-    SelfId: 9716893961097795853
-    SubobjectId: 6239200479999308905
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 13768940306345120128
+  Id: 16085141785925917824
   Name: "weaponsa"
   Transform {
     Location {
@@ -9346,7 +9409,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -9360,19 +9423,13 @@ Objects {
     IsFilePartition: true
     FilePartitionName: "weaponsa_3"
   }
-  InstanceHistory {
-    SelfId: 13768940306345120128
-    SubobjectId: 8023824732737715428
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 5460634881113546721
+  Id: 7191114512957551143
   Name: "Fantasy Human Guy"
   Transform {
     Location {
@@ -9389,7 +9446,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -9428,12 +9485,6 @@ Objects {
       }
     }
   }
-  InstanceHistory {
-    SelfId: 5460634881113546721
-    SubobjectId: 11207016541355782789
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -9443,7 +9494,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 8568445088468082242
+  Id: 5706679966947387724
   Name: "Fantasy Human Guy 2"
   Transform {
     Location {
@@ -9460,7 +9511,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -9499,12 +9550,6 @@ Objects {
       }
     }
   }
-  InstanceHistory {
-    SelfId: 8568445088468082242
-    SubobjectId: 12008420962313040678
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -9514,7 +9559,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 9118255963615041969
+  Id: 13594698053097744900
   Name: "Fantasy Human Guy 2"
   Transform {
     Location {
@@ -9531,7 +9576,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -9570,12 +9615,6 @@ Objects {
       }
     }
   }
-  InstanceHistory {
-    SelfId: 9118255963615041969
-    SubobjectId: 12593697512777184469
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -9585,7 +9624,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 11602891547483009806
+  Id: 11606107077113961299
   Name: "Fantasy Human Gal 1"
   Transform {
     Location {
@@ -9602,7 +9641,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -9641,12 +9680,6 @@ Objects {
       }
     }
   }
-  InstanceHistory {
-    SelfId: 11602891547483009806
-    SubobjectId: 8163478251974041194
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -9656,7 +9689,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 4688446489439912596
+  Id: 793078024771711164
   Name: "Fantasy Human Guy"
   Transform {
     Location {
@@ -9673,7 +9706,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -9712,12 +9745,6 @@ Objects {
       }
     }
   }
-  InstanceHistory {
-    SelfId: 4688446489439912596
-    SubobjectId: 10475361090629742576
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -9727,7 +9754,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 1282176728760120730
+  Id: 17450785801934148091
   Name: "Computer Monitor 01"
   Transform {
     Location {
@@ -9736,7 +9763,7 @@ Objects {
       Z: 325
     }
     Rotation {
-      Yaw: -89.9999924
+      Yaw: -90
     }
     Scale {
       X: 2.5
@@ -9744,7 +9771,7 @@ Objects {
       Z: 2.5
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -9769,12 +9796,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 1282176728760120730
-    SubobjectId: 13944398602199996670
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -9784,7 +9805,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 1525476138871055588
+  Id: 2836815596631265509
   Name: "Sci-fi Base Pillar 01"
   Transform {
     Location {
@@ -9801,7 +9822,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -9826,12 +9847,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 1525476138871055588
-    SubobjectId: 14223726772770244992
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -9841,7 +9856,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 12709247022518443793
+  Id: 8143279872904025616
   Name: "Sci-fi Base Pillar 01"
   Transform {
     Location {
@@ -9858,7 +9873,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -9883,12 +9898,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 12709247022518443793
-    SubobjectId: 6930776495509369461
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -9898,7 +9907,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 9529173278407376950
+  Id: 2826132452674930370
   Name: "Sci-fi Base Pillar 01"
   Transform {
     Location {
@@ -9915,7 +9924,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -9940,12 +9949,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 9529173278407376950
-    SubobjectId: 6084693839208820050
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -9955,7 +9958,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 9259661354434870196
+  Id: 18304692525302590991
   Name: "Sci-fi Base Pillar 01"
   Transform {
     Location {
@@ -9971,7 +9974,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -9996,12 +9999,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 9259661354434870196
-    SubobjectId: 5823062671239534288
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -10011,7 +10008,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 5254279554454062964
+  Id: 1719902420198187734
   Name: "Barrier Plastic 01"
   Transform {
     Location {
@@ -10028,7 +10025,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -10055,12 +10052,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 5254279554454062964
-    SubobjectId: 10999394745842952720
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -10070,7 +10061,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 1042152931605585172
+  Id: 2238000257944509963
   Name: "Barrier Plastic 01"
   Transform {
     Location {
@@ -10086,7 +10077,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -10113,12 +10104,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 1042152931605585172
-    SubobjectId: 16012892369832308848
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -10128,7 +10113,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 8840686014535204844
+  Id: 6063648553180884978
   Name: "Military Rare Crate Template"
   Transform {
     Location {
@@ -10145,9 +10130,9 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5973142006212069348
-  ChildIds: 13730709703288449539
-  ChildIds: 9171091015744352516
+  ParentId: 9575761177890923949
+  ChildIds: 4334993278178343989
+  ChildIds: 11435475056337264275
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -10160,19 +10145,13 @@ Objects {
   Folder {
     IsGroup: true
   }
-  InstanceHistory {
-    SelfId: 8840686014535204844
-    SubobjectId: 12321616875467510408
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 9171091015744352516
+  Id: 11435475056337264275
   Name: "Military Rare Crate Hinged Lid"
   Transform {
     Location {
@@ -10188,10 +10167,10 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 8840686014535204844
-  ChildIds: 2066743198719706536
-  ChildIds: 14351440944149140287
-  ChildIds: 10615698540747336631
+  ParentId: 6063648553180884978
+  ChildIds: 17182865522268778978
+  ChildIds: 4542686518093179547
+  ChildIds: 8029740948170897945
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -10204,19 +10183,13 @@ Objects {
   Folder {
     IsGroup: true
   }
-  InstanceHistory {
-    SelfId: 9171091015744352516
-    SubobjectId: 12612615413321604192
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 10615698540747336631
+  Id: 8029740948170897945
   Name: "Military Rare Crate Lid"
   Transform {
     Location {
@@ -10232,7 +10205,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 9171091015744352516
+  ParentId: 11435475056337264275
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -10259,12 +10232,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 10615698540747336631
-    SubobjectId: 4836243405370672851
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -10274,7 +10241,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 14351440944149140287
+  Id: 4542686518093179547
   Name: "Military Rare Crate Hinge"
   Transform {
     Location {
@@ -10288,7 +10255,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 9171091015744352516
+  ParentId: 11435475056337264275
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -10315,12 +10282,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 14351440944149140287
-    SubobjectId: 1685982147117121115
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -10330,7 +10291,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 2066743198719706536
+  Id: 17182865522268778978
   Name: "Military Rare Crate Hinge"
   Transform {
     Location {
@@ -10343,7 +10304,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 9171091015744352516
+  ParentId: 11435475056337264275
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -10370,12 +10331,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 2066743198719706536
-    SubobjectId: 14763304983868074188
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -10385,7 +10340,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 13730709703288449539
+  Id: 4334993278178343989
   Name: "Military Rare Crate Base"
   Transform {
     Location {
@@ -10398,7 +10353,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 8840686014535204844
+  ParentId: 6063648553180884978
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -10425,12 +10380,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 13730709703288449539
-    SubobjectId: 7980950212348020583
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -10440,7 +10389,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 6690298392521305477
+  Id: 13748447359237175461
   Name: "Military Rare Crate Template"
   Transform {
     Location {
@@ -10457,9 +10406,9 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5973142006212069348
-  ChildIds: 6613360733385538952
-  ChildIds: 14033518729161802444
+  ParentId: 9575761177890923949
+  ChildIds: 12573395605265765855
+  ChildIds: 12257916979370377648
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -10472,19 +10421,13 @@ Objects {
   Folder {
     IsGroup: true
   }
-  InstanceHistory {
-    SelfId: 6690298392521305477
-    SubobjectId: 10130837071364358369
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 14033518729161802444
+  Id: 12257916979370377648
   Name: "Military Rare Crate Hinged Lid"
   Transform {
     Location {
@@ -10500,10 +10443,10 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 6690298392521305477
-  ChildIds: 9523012296395293265
-  ChildIds: 3408187493967138608
-  ChildIds: 6063874496552122344
+  ParentId: 13748447359237175461
+  ChildIds: 7990361120955678005
+  ChildIds: 6362788747339071913
+  ChildIds: 4259751085755987087
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -10516,19 +10459,13 @@ Objects {
   Folder {
     IsGroup: true
   }
-  InstanceHistory {
-    SelfId: 14033518729161802444
-    SubobjectId: 1337097100674625448
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 6063874496552122344
+  Id: 4259751085755987087
   Name: "Military Rare Crate Lid"
   Transform {
     Location {
@@ -10544,7 +10481,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14033518729161802444
+  ParentId: 12257916979370377648
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -10571,12 +10508,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 6063874496552122344
-    SubobjectId: 9541005479708940940
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -10586,7 +10517,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 3408187493967138608
+  Id: 6362788747339071913
   Name: "Military Rare Crate Hinge"
   Transform {
     Location {
@@ -10600,7 +10531,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14033518729161802444
+  ParentId: 12257916979370377648
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -10627,12 +10558,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 3408187493967138608
-    SubobjectId: 18375548647284040276
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -10642,7 +10567,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 9523012296395293265
+  Id: 7990361120955678005
   Name: "Military Rare Crate Hinge"
   Transform {
     Location {
@@ -10655,7 +10580,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14033518729161802444
+  ParentId: 12257916979370377648
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -10682,12 +10607,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 9523012296395293265
-    SubobjectId: 6082051298717396789
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -10697,7 +10616,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 6613360733385538952
+  Id: 12573395605265765855
   Name: "Military Rare Crate Base"
   Transform {
     Location {
@@ -10710,7 +10629,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 6690298392521305477
+  ParentId: 13748447359237175461
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -10737,12 +10656,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 6613360733385538952
-    SubobjectId: 10054322282998223084
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -10752,7 +10665,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 6981622415492498435
+  Id: 4631267533698383233
   Name: "Military Epic Crate Template"
   Transform {
     Location {
@@ -10769,9 +10682,9 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5973142006212069348
-  ChildIds: 15862288657311376661
-  ChildIds: 12351887210408522211
+  ParentId: 9575761177890923949
+  ChildIds: 9053245802975972977
+  ChildIds: 6222234389710616386
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -10784,19 +10697,13 @@ Objects {
   Folder {
     IsGroup: true
   }
-  InstanceHistory {
-    SelfId: 6981622415492498435
-    SubobjectId: 12730819405236447591
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 12351887210408522211
+  Id: 6222234389710616386
   Name: "Lid"
   Transform {
     Location {
@@ -10812,10 +10719,10 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 6981622415492498435
-  ChildIds: 2217974883027511276
-  ChildIds: 6552609033677216275
-  ChildIds: 7527211505768490142
+  ParentId: 4631267533698383233
+  ChildIds: 10141501558810878772
+  ChildIds: 18405852326701059200
+  ChildIds: 14362699129343452070
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -10828,19 +10735,13 @@ Objects {
   Folder {
     IsGroup: true
   }
-  InstanceHistory {
-    SelfId: 12351887210408522211
-    SubobjectId: 8873770964975246471
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 7527211505768490142
+  Id: 14362699129343452070
   Name: "Military Epic Crate Lid"
   Transform {
     Location {
@@ -10856,7 +10757,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 12351887210408522211
+  ParentId: 6222234389710616386
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -10881,12 +10782,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 7527211505768490142
-    SubobjectId: 13274719094839511546
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -10896,7 +10791,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 6552609033677216275
+  Id: 18405852326701059200
   Name: "Military Epic Crate Hinge"
   Transform {
     Location {
@@ -10910,7 +10805,7 @@ Objects {
       Z: 1.14271653
     }
   }
-  ParentId: 12351887210408522211
+  ParentId: 6222234389710616386
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -10935,12 +10830,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 6552609033677216275
-    SubobjectId: 9989207612719757175
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -10950,7 +10839,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 2217974883027511276
+  Id: 10141501558810878772
   Name: "Military Epic Crate Hinge"
   Transform {
     Location {
@@ -10964,7 +10853,7 @@ Objects {
       Z: 1.14271653
     }
   }
-  ParentId: 12351887210408522211
+  ParentId: 6222234389710616386
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -10989,12 +10878,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 2217974883027511276
-    SubobjectId: 14882307917490850440
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -11004,7 +10887,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 15862288657311376661
+  Id: 9053245802975972977
   Name: "Military Epic Crate Base"
   Transform {
     Location {
@@ -11017,7 +10900,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 6981622415492498435
+  ParentId: 4631267533698383233
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -11042,12 +10925,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 15862288657311376661
-    SubobjectId: 895489724826896497
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -11057,7 +10934,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 11187369817919295478
+  Id: 7561091380358498933
   Name: "Military Hazard Barrel"
   Transform {
     Location {
@@ -11074,7 +10951,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -11109,12 +10986,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 11187369817919295478
-    SubobjectId: 5408477662678147730
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -11124,7 +10995,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 12415165733195968103
+  Id: 15116991398518073549
   Name: "Military Rare Crate Template"
   Transform {
     Location {
@@ -11140,9 +11011,9 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5973142006212069348
-  ChildIds: 2493919254737525827
-  ChildIds: 14200541851134739470
+  ParentId: 9575761177890923949
+  ChildIds: 3351417729530192139
+  ChildIds: 16042593476776809249
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -11155,19 +11026,13 @@ Objects {
   Folder {
     IsGroup: true
   }
-  InstanceHistory {
-    SelfId: 12415165733195968103
-    SubobjectId: 8936486502358975235
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 14200541851134739470
+  Id: 16042593476776809249
   Name: "Military Rare Crate Hinged Lid"
   Transform {
     Location {
@@ -11183,10 +11048,10 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 12415165733195968103
-  ChildIds: 1894042355028301988
-  ChildIds: 18305677271838149324
-  ChildIds: 10320545263336794649
+  ParentId: 15116991398518073549
+  ChildIds: 3855954030839091761
+  ChildIds: 9044128997252312084
+  ChildIds: 11365868091754826210
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -11199,19 +11064,13 @@ Objects {
   Folder {
     IsGroup: true
   }
-  InstanceHistory {
-    SelfId: 14200541851134739470
-    SubobjectId: 1539445778817558890
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 10320545263336794649
+  Id: 11365868091754826210
   Name: "Military Rare Crate Lid"
   Transform {
     Location {
@@ -11227,7 +11086,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14200541851134739470
+  ParentId: 16042593476776809249
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -11254,12 +11113,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 10320545263336794649
-    SubobjectId: 6878880542802495357
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -11269,7 +11122,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 18305677271838149324
+  Id: 9044128997252312084
   Name: "Military Rare Crate Hinge"
   Transform {
     Location {
@@ -11283,7 +11136,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14200541851134739470
+  ParentId: 16042593476776809249
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -11310,12 +11163,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 18305677271838149324
-    SubobjectId: 3334234004483975080
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -11325,7 +11172,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 1894042355028301988
+  Id: 3855954030839091761
   Name: "Military Rare Crate Hinge"
   Transform {
     Location {
@@ -11338,7 +11185,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14200541851134739470
+  ParentId: 16042593476776809249
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -11365,12 +11212,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 1894042355028301988
-    SubobjectId: 14557812301111555520
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -11380,7 +11221,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 2493919254737525827
+  Id: 3351417729530192139
   Name: "Military Rare Crate Base"
   Transform {
     Location {
@@ -11393,7 +11234,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 12415165733195968103
+  ParentId: 15116991398518073549
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -11420,12 +11261,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 2493919254737525827
-    SubobjectId: 17497449982309069095
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -11435,7 +11270,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 3241549549673700739
+  Id: 10849925994033083911
   Name: "Military Rare Crate Template"
   Transform {
     Location {
@@ -11451,9 +11286,9 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5973142006212069348
-  ChildIds: 17331943694485847325
-  ChildIds: 12291724192554162232
+  ParentId: 9575761177890923949
+  ChildIds: 8977033665075983180
+  ChildIds: 1783201115158234815
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -11466,19 +11301,13 @@ Objects {
   Folder {
     IsGroup: true
   }
-  InstanceHistory {
-    SelfId: 3241549549673700739
-    SubobjectId: 18208911397686980839
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 12291724192554162232
+  Id: 1783201115158234815
   Name: "Military Rare Crate Hinged Lid"
   Transform {
     Location {
@@ -11494,10 +11323,10 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 3241549549673700739
-  ChildIds: 17091537772692674603
-  ChildIds: 4508168964772271247
-  ChildIds: 3206842814207849466
+  ParentId: 10849925994033083911
+  ChildIds: 10039011104615560567
+  ChildIds: 4378061440772719531
+  ChildIds: 3745784785416879236
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -11510,19 +11339,13 @@ Objects {
   Folder {
     IsGroup: true
   }
-  InstanceHistory {
-    SelfId: 12291724192554162232
-    SubobjectId: 8852874361356776796
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 3206842814207849466
+  Id: 3745784785416879236
   Name: "Military Rare Crate Lid"
   Transform {
     Location {
@@ -11538,7 +11361,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 12291724192554162232
+  ParentId: 1783201115158234815
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -11565,12 +11388,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 3206842814207849466
-    SubobjectId: 18216988854350388894
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -11580,7 +11397,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 4508168964772271247
+  Id: 4378061440772719531
   Name: "Military Rare Crate Hinge"
   Transform {
     Location {
@@ -11594,7 +11411,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 12291724192554162232
+  ParentId: 1783201115158234815
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -11621,12 +11438,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 4508168964772271247
-    SubobjectId: 17212612215729846763
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -11636,7 +11447,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 17091537772692674603
+  Id: 10039011104615560567
   Name: "Military Rare Crate Hinge"
   Transform {
     Location {
@@ -11649,7 +11460,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 12291724192554162232
+  ParentId: 1783201115158234815
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -11676,12 +11487,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 17091537772692674603
-    SubobjectId: 4431004751262774607
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -11691,7 +11496,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 17331943694485847325
+  Id: 8977033665075983180
   Name: "Military Rare Crate Base"
   Transform {
     Location {
@@ -11704,7 +11509,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 3241549549673700739
+  ParentId: 10849925994033083911
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -11731,12 +11536,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 17331943694485847325
-    SubobjectId: 2362189281288982649
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -11746,7 +11545,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 145912359707073227
+  Id: 12951474067280581205
   Name: "Military Ammo Crate Large"
   Transform {
     Location {
@@ -11762,7 +11561,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -11787,12 +11586,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 145912359707073227
-    SubobjectId: 15152680699141339055
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -11802,7 +11595,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 11375848658441448165
+  Id: 8496118126444113977
   Name: "Military Ammo Crate Large"
   Transform {
     Location {
@@ -11821,7 +11614,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -11846,12 +11639,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 11375848658441448165
-    SubobjectId: 5589075171606579073
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -11861,7 +11648,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 1324575546566211916
+  Id: 5557799050184501340
   Name: "Military Ammo Crate Large"
   Transform {
     Location {
@@ -11878,7 +11665,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -11903,12 +11690,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 1324575546566211916
-    SubobjectId: 13992286181982606376
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -11918,7 +11699,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 9023431739878821689
+  Id: 9104172481513340926
   Name: "Military Propane Tank"
   Transform {
     Location {
@@ -11934,7 +11715,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -11959,12 +11740,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 9023431739878821689
-    SubobjectId: 12499436265837896285
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -11974,7 +11749,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 11800718049985642438
+  Id: 12175192175764112752
   Name: "Military Propane Tank"
   Transform {
     Location {
@@ -11990,7 +11765,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -12015,12 +11790,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 11800718049985642438
-    SubobjectId: 8325980194640646818
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -12030,7 +11799,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 7061123406824223341
+  Id: 2917505839727072735
   Name: "Military Hazard Barrel"
   Transform {
     Location {
@@ -12047,7 +11816,7 @@ Objects {
       Z: 1.75
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -12083,12 +11852,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 7061123406824223341
-    SubobjectId: 12804127397341650697
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -12098,7 +11861,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 17897988468474816352
+  Id: 3104779964450310609
   Name: "Military Hazard Barrel"
   Transform {
     Location {
@@ -12115,7 +11878,7 @@ Objects {
       Z: 1.75
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -12151,12 +11914,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 17897988468474816352
-    SubobjectId: 2895020695202023940
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -12166,7 +11923,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 13009823343796609725
+  Id: 11824291466736225789
   Name: "Military Hazard Barrel"
   Transform {
     Location {
@@ -12183,7 +11940,7 @@ Objects {
       Z: 1.75
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -12219,12 +11976,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 13009823343796609725
-    SubobjectId: 7260767086136627161
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -12234,7 +11985,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 7626657323886948651
+  Id: 800296172292076982
   Name: "Military Hazard Barrel"
   Transform {
     Location {
@@ -12251,7 +12002,7 @@ Objects {
       Z: 1.75
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -12287,12 +12038,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 7626657323886948651
-    SubobjectId: 13373461329704705103
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -12302,7 +12047,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 6604935572112730931
+  Id: 13750922013449235796
   Name: "Military Hazard Barrel"
   Transform {
     Location {
@@ -12319,7 +12064,7 @@ Objects {
       Z: 1.75
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -12355,12 +12100,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 6604935572112730931
-    SubobjectId: 10080799501310723671
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -12370,7 +12109,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 4584769149387485726
+  Id: 17499815901287426673
   Name: "Military Hazard Barrel"
   Transform {
     Location {
@@ -12387,7 +12126,7 @@ Objects {
       Z: 1.75
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -12423,12 +12162,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 4584769149387485726
-    SubobjectId: 17289071669250908026
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -12438,7 +12171,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 8061252743778837200
+  Id: 840553011106685198
   Name: "Sci-fi Console Screen 03"
   Transform {
     Location {
@@ -12455,7 +12188,7 @@ Objects {
       Z: 3
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -12480,12 +12213,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 8061252743778837200
-    SubobjectId: 13803553731935326132
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -12495,7 +12222,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 9272230783589687561
+  Id: 17495807832824468609
   Name: "Scifi Cockpit Siderail 01"
   Transform {
     Location {
@@ -12512,7 +12239,7 @@ Objects {
       Z: 2.5
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -12537,12 +12264,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 9272230783589687561
-    SubobjectId: 5828454589436742765
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -12552,7 +12273,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 514983444072017569
+  Id: 9334532404264687486
   Name: "Scifi Ship Nacelle 04"
   Transform {
     Location {
@@ -12569,7 +12290,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -12594,12 +12315,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 514983444072017569
-    SubobjectId: 15522455332416635845
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -12609,7 +12324,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 6544942104389937230
+  Id: 8115851159563713254
   Name: "Scifi Cockpit Control Throttle 01"
   Transform {
     Location {
@@ -12625,7 +12340,7 @@ Objects {
       Z: 10.0000019
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -12650,12 +12365,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 6544942104389937230
-    SubobjectId: 9987592533829059882
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -12665,7 +12374,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 12886263723148746782
+  Id: 3225619572095912744
   Name: "Sci-fi Terminal Base 01"
   Transform {
     Location {
@@ -12682,7 +12391,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -12707,12 +12416,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 12886263723148746782
-    SubobjectId: 7105119730513071482
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -12722,7 +12425,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 8299301589767415607
+  Id: 15750838683517448159
   Name: "Sci-fi Terminal Base 01"
   Transform {
     Location {
@@ -12738,7 +12441,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -12763,12 +12466,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 8299301589767415607
-    SubobjectId: 11773054323447728723
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -12778,7 +12475,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 5073453780623924435
+  Id: 17832730142997911511
   Name: "Sci-fi Console Screen 03"
   Transform {
     Location {
@@ -12795,7 +12492,7 @@ Objects {
       Z: 1.5
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -12820,12 +12517,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 5073453780623924435
-    SubobjectId: 10819835439740023223
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -12835,7 +12526,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 4639456762855914525
+  Id: 13048092255259505763
   Name: "Sci-fi Console Screen 04"
   Transform {
     Location {
@@ -12852,7 +12543,7 @@ Objects {
       Z: 4.75000095
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -12877,12 +12568,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 4639456762855914525
-    SubobjectId: 10389216156104659321
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -12892,7 +12577,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 2782475027246647031
+  Id: 667208890556159264
   Name: "Sci-fi Console_01(Prop)"
   Transform {
     Location {
@@ -12909,18 +12594,18 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5973142006212069348
-  ChildIds: 15554339035031157918
-  ChildIds: 13806684843543416443
-  ChildIds: 14044167724432693795
-  ChildIds: 6887722395083123766
-  ChildIds: 12582921284575224034
-  ChildIds: 17456649992567692007
-  ChildIds: 14473473214094466667
-  ChildIds: 11981492656047514733
-  ChildIds: 1940387426633125972
-  ChildIds: 6532072865402967958
-  ChildIds: 5883846350902254527
+  ParentId: 9575761177890923949
+  ChildIds: 10846683454873276926
+  ChildIds: 14831029840022699282
+  ChildIds: 3869611108494054247
+  ChildIds: 12137104714264827404
+  ChildIds: 3552674266792129719
+  ChildIds: 16726335982782461792
+  ChildIds: 4637434306778402311
+  ChildIds: 9617212594192151263
+  ChildIds: 15070245851352327524
+  ChildIds: 7253749709645583778
+  ChildIds: 13841455972200048365
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -12933,19 +12618,13 @@ Objects {
   Folder {
     IsGroup: true
   }
-  InstanceHistory {
-    SelfId: 2782475027246647031
-    SubobjectId: 17785302202600909715
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 5883846350902254527
+  Id: 13841455972200048365
   Name: "Sci-fi Console Screen 04"
   Transform {
     Location {
@@ -12961,7 +12640,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 2782475027246647031
+  ParentId: 667208890556159264
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -12986,12 +12665,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 5883846350902254527
-    SubobjectId: 9360977299665630939
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -13001,7 +12674,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 6532072865402967958
+  Id: 7253749709645583778
   Name: "Sci-fi Console Screen 03"
   Transform {
     Location {
@@ -13020,7 +12693,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 2782475027246647031
+  ParentId: 667208890556159264
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Detail1:id"
@@ -13053,12 +12726,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 6532072865402967958
-    SubobjectId: 10009766930600082162
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -13068,7 +12735,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 1940387426633125972
+  Id: 15070245851352327524
   Name: "Sci-fi Console Screen 03"
   Transform {
     Location {
@@ -13087,7 +12754,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 2782475027246647031
+  ParentId: 667208890556159264
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -13112,12 +12779,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 1940387426633125972
-    SubobjectId: 14601483912271854896
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -13127,7 +12788,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 11981492656047514733
+  Id: 9617212594192151263
   Name: "Sci-fi Console Hinge 01"
   Transform {
     Location {
@@ -13146,7 +12807,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 2782475027246647031
+  ParentId: 667208890556159264
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -13171,12 +12832,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 11981492656047514733
-    SubobjectId: 8505487992615897353
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -13186,7 +12841,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 14473473214094466667
+  Id: 4637434306778402311
   Name: "Sci-fi Console Hinge 01"
   Transform {
     Location {
@@ -13204,7 +12859,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 2782475027246647031
+  ParentId: 667208890556159264
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -13229,12 +12884,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 14473473214094466667
-    SubobjectId: 1770859549510218511
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -13244,7 +12893,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 17456649992567692007
+  Id: 16726335982782461792
   Name: "Sci-fi Console Leg 01"
   Transform {
     Location {
@@ -13260,7 +12909,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 2782475027246647031
+  ParentId: 667208890556159264
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -13285,12 +12934,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 17456649992567692007
-    SubobjectId: 2453682213859096451
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -13300,7 +12943,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 12582921284575224034
+  Id: 3552674266792129719
   Name: "Sci-fi Console Leg 01"
   Transform {
     Location {
@@ -13316,7 +12959,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 2782475027246647031
+  ParentId: 667208890556159264
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -13341,12 +12984,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 12582921284575224034
-    SubobjectId: 9138019600668003718
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -13356,7 +12993,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 6887722395083123766
+  Id: 12137104714264827404
   Name: "Sci-fi Console Screen 02"
   Transform {
     Location {
@@ -13375,7 +13012,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 2782475027246647031
+  ParentId: 667208890556159264
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Detail3:id"
@@ -13408,12 +13045,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 6887722395083123766
-    SubobjectId: 10365416426960830802
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -13423,7 +13054,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 14044167724432693795
+  Id: 3869611108494054247
   Name: "Sci-fi Console Screen 02"
   Transform {
     Location {
@@ -13441,7 +13072,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 2782475027246647031
+  ParentId: 667208890556159264
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Detail3:id"
@@ -13474,12 +13105,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 14044167724432693795
-    SubobjectId: 1344791189567600455
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -13489,7 +13114,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 13806684843543416443
+  Id: 14831029840022699282
   Name: "Sci-fi Console 01"
   Transform {
     Location {
@@ -13504,7 +13129,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 2782475027246647031
+  ParentId: 667208890556159264
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -13529,12 +13154,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 13806684843543416443
-    SubobjectId: 8058191949246341919
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -13544,7 +13163,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 15554339035031157918
+  Id: 10846683454873276926
   Name: "Sci-fi Console Leg 02"
   Transform {
     Location {
@@ -13557,7 +13176,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 2782475027246647031
+  ParentId: 667208890556159264
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Detail2:color"
@@ -13592,12 +13211,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 15554339035031157918
-    SubobjectId: 545881846812463610
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -13607,7 +13220,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 1377022415214103333
+  Id: 17136417045376733589
   Name: "Sci-fi Console_01(Prop)"
   Transform {
     Location {
@@ -13624,18 +13237,18 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5973142006212069348
-  ChildIds: 16746871485522587058
-  ChildIds: 16542801762503050204
-  ChildIds: 9883396264976568862
-  ChildIds: 11500383516736206110
-  ChildIds: 17288300464023075666
-  ChildIds: 15038441276318989039
-  ChildIds: 15925170905931137875
-  ChildIds: 9549743351551048266
-  ChildIds: 14312173939762772151
-  ChildIds: 8415991252182212833
-  ChildIds: 9386228532855052868
+  ParentId: 9575761177890923949
+  ChildIds: 12866451352446595045
+  ChildIds: 15657884285924576914
+  ChildIds: 23395234877550275
+  ChildIds: 7568069325345940056
+  ChildIds: 6509234479392651652
+  ChildIds: 13117488032220899450
+  ChildIds: 6267906488653841873
+  ChildIds: 1971576630874644618
+  ChildIds: 8525208623965908507
+  ChildIds: 889193624226654430
+  ChildIds: 2893582517167538404
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -13648,19 +13261,13 @@ Objects {
   Folder {
     IsGroup: true
   }
-  InstanceHistory {
-    SelfId: 1377022415214103333
-    SubobjectId: 14074710648915699265
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 9386228532855052868
+  Id: 2893582517167538404
   Name: "Sci-fi Console Screen 04"
   Transform {
     Location {
@@ -13676,7 +13283,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 1377022415214103333
+  ParentId: 17136417045376733589
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -13701,12 +13308,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 9386228532855052868
-    SubobjectId: 5912616400331437856
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -13716,7 +13317,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 8415991252182212833
+  Id: 889193624226654430
   Name: "Sci-fi Console Screen 03"
   Transform {
     Location {
@@ -13735,7 +13336,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 1377022415214103333
+  ParentId: 17136417045376733589
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Detail1:id"
@@ -13768,12 +13369,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 8415991252182212833
-    SubobjectId: 11854841053264530821
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -13783,7 +13378,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 14312173939762772151
+  Id: 8525208623965908507
   Name: "Sci-fi Console Screen 03"
   Transform {
     Location {
@@ -13802,7 +13397,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 1377022415214103333
+  ParentId: 17136417045376733589
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -13827,12 +13422,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 14312173939762772151
-    SubobjectId: 1643899671409120723
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -13842,7 +13431,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 9549743351551048266
+  Id: 1971576630874644618
   Name: "Sci-fi Console Hinge 01"
   Transform {
     Location {
@@ -13861,7 +13450,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 1377022415214103333
+  ParentId: 17136417045376733589
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -13886,12 +13475,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 9549743351551048266
-    SubobjectId: 6109344755178034990
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -13901,7 +13484,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 15925170905931137875
+  Id: 6267906488653841873
   Name: "Sci-fi Console Hinge 01"
   Transform {
     Location {
@@ -13919,7 +13502,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 1377022415214103333
+  ParentId: 17136417045376733589
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -13944,12 +13527,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 15925170905931137875
-    SubobjectId: 958935512900972087
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -13959,7 +13536,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 15038441276318989039
+  Id: 13117488032220899450
   Name: "Sci-fi Console Leg 01"
   Transform {
     Location {
@@ -13975,7 +13552,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 1377022415214103333
+  ParentId: 17136417045376733589
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -14000,12 +13577,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 15038441276318989039
-    SubobjectId: 70939377978693515
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -14015,7 +13586,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 17288300464023075666
+  Id: 6509234479392651652
   Name: "Sci-fi Console Leg 01"
   Transform {
     Location {
@@ -14031,7 +13602,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 1377022415214103333
+  ParentId: 17136417045376733589
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -14056,12 +13627,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 17288300464023075666
-    SubobjectId: 4585546196168316470
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -14071,7 +13636,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 11500383516736206110
+  Id: 7568069325345940056
   Name: "Sci-fi Console Screen 02"
   Transform {
     Location {
@@ -14090,7 +13655,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 1377022415214103333
+  ParentId: 17136417045376733589
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Detail3:id"
@@ -14123,12 +13688,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 11500383516736206110
-    SubobjectId: 5753016147523983482
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -14138,7 +13697,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 9883396264976568862
+  Id: 23395234877550275
   Name: "Sci-fi Console Screen 02"
   Transform {
     Location {
@@ -14156,7 +13715,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 1377022415214103333
+  ParentId: 17136417045376733589
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Detail3:id"
@@ -14189,12 +13748,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 9883396264976568862
-    SubobjectId: 6442294664095121274
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -14204,7 +13757,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 16542801762503050204
+  Id: 15657884285924576914
   Name: "Sci-fi Console 01"
   Transform {
     Location {
@@ -14219,7 +13772,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 1377022415214103333
+  ParentId: 17136417045376733589
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -14244,12 +13797,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 16542801762503050204
-    SubobjectId: 3881142845425462968
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -14259,7 +13806,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 16746871485522587058
+  Id: 12866451352446595045
   Name: "Sci-fi Console Leg 02"
   Transform {
     Location {
@@ -14272,7 +13819,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 1377022415214103333
+  ParentId: 17136417045376733589
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Detail2:color"
@@ -14307,12 +13854,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 16746871485522587058
-    SubobjectId: 4046368506329972950
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -14322,7 +13863,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 13556649173977595020
+  Id: 13154146646660473276
   Name: "Sci-fi Terminal 01(Prop)"
   Transform {
     Location {
@@ -14339,10 +13880,10 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5973142006212069348
-  ChildIds: 7757668303915437906
-  ChildIds: 17744268864212778506
-  ChildIds: 17978864009317947065
+  ParentId: 9575761177890923949
+  ChildIds: 734115249170836439
+  ChildIds: 14088871591903910734
+  ChildIds: 6551312222969355176
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -14355,19 +13896,13 @@ Objects {
   Folder {
     IsGroup: true
   }
-  InstanceHistory {
-    SelfId: 13556649173977595020
-    SubobjectId: 7813082124975051240
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 17978864009317947065
+  Id: 6551312222969355176
   Name: "Sci-fi Terminal Keyboard 01"
   Transform {
     Location {
@@ -14383,7 +13918,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13556649173977595020
+  ParentId: 13154146646660473276
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -14408,12 +13943,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 17978864009317947065
-    SubobjectId: 3012487980903496669
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -14423,7 +13952,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 17744268864212778506
+  Id: 14088871591903910734
   Name: "Sci-fi Console Screen 01"
   Transform {
     Location {
@@ -14438,7 +13967,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13556649173977595020
+  ParentId: 13154146646660473276
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Detail3:id"
@@ -14471,12 +14000,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 17744268864212778506
-    SubobjectId: 2742426985446527854
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -14486,7 +14009,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 7757668303915437906
+  Id: 734115249170836439
   Name: "Sci-fi Terminal Base 01"
   Transform {
     Location {
@@ -14501,7 +14024,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13556649173977595020
+  ParentId: 13154146646660473276
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -14526,12 +14049,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 7757668303915437906
-    SubobjectId: 13539938605673128502
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -14541,7 +14058,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 15908473218614787054
+  Id: 16136306375836085225
   Name: "Sci-fi Terminal 01(Prop)"
   Transform {
     Location {
@@ -14558,10 +14075,10 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5973142006212069348
-  ChildIds: 14420646871463596173
-  ChildIds: 13410379192481028358
-  ChildIds: 16836386682568880830
+  ParentId: 9575761177890923949
+  ChildIds: 4279768334711153634
+  ChildIds: 14788544553171651656
+  ChildIds: 15617219031523710719
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -14574,19 +14091,13 @@ Objects {
   Folder {
     IsGroup: true
   }
-  InstanceHistory {
-    SelfId: 15908473218614787054
-    SubobjectId: 903253543489115786
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 16836386682568880830
+  Id: 15617219031523710719
   Name: "Sci-fi Terminal Keyboard 01"
   Transform {
     Location {
@@ -14602,7 +14113,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 15908473218614787054
+  ParentId: 16136306375836085225
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -14627,12 +14138,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 16836386682568880830
-    SubobjectId: 4173038229512249306
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -14642,7 +14147,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 13410379192481028358
+  Id: 14788544553171651656
   Name: "Sci-fi Console Screen 01"
   Transform {
     Location {
@@ -14657,7 +14162,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 15908473218614787054
+  ParentId: 16136306375836085225
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Detail3:id"
@@ -14690,12 +14195,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 13410379192481028358
-    SubobjectId: 7661885789161026658
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -14705,7 +14204,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 14420646871463596173
+  Id: 4279768334711153634
   Name: "Sci-fi Terminal Base 01"
   Transform {
     Location {
@@ -14720,7 +14219,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 15908473218614787054
+  ParentId: 16136306375836085225
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -14745,12 +14244,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 14420646871463596173
-    SubobjectId: 1760676248150801897
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -14760,7 +14253,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 2136190984293589483
+  Id: 4271162734687757474
   Name: "Sci-fi Terminal 01(Prop)"
   Transform {
     Location {
@@ -14777,10 +14270,10 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5973142006212069348
-  ChildIds: 2957010976355152038
-  ChildIds: 5308316576783411606
-  ChildIds: 772364845240271629
+  ParentId: 9575761177890923949
+  ChildIds: 11147657178649397727
+  ChildIds: 551894699889596253
+  ChildIds: 4258665322987365931
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -14793,19 +14286,13 @@ Objects {
   Folder {
     IsGroup: true
   }
-  InstanceHistory {
-    SelfId: 2136190984293589483
-    SubobjectId: 14837678747911933071
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 772364845240271629
+  Id: 4258665322987365931
   Name: "Sci-fi Terminal Keyboard 01"
   Transform {
     Location {
@@ -14821,7 +14308,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 2136190984293589483
+  ParentId: 4271162734687757474
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -14846,12 +14333,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 772364845240271629
-    SubobjectId: 15778570102617321065
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -14861,7 +14342,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 5308316576783411606
+  Id: 551894699889596253
   Name: "Sci-fi Console Screen 01"
   Transform {
     Location {
@@ -14876,7 +14357,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 2136190984293589483
+  ParentId: 4271162734687757474
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Detail3:id"
@@ -14909,12 +14390,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 5308316576783411606
-    SubobjectId: 11089460532962346226
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -14924,7 +14399,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 2957010976355152038
+  Id: 11147657178649397727
   Name: "Sci-fi Terminal Base 01"
   Transform {
     Location {
@@ -14939,7 +14414,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 2136190984293589483
+  ParentId: 4271162734687757474
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -14964,12 +14439,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 2957010976355152038
-    SubobjectId: 17962089810877554114
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -14979,7 +14448,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 3799569606095864385
+  Id: 1931835685296839408
   Name: "Sci-fi Terminal 01(Prop)"
   Transform {
     Location {
@@ -14996,10 +14465,10 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5973142006212069348
-  ChildIds: 4282874461954723635
-  ChildIds: 7858471044149016928
-  ChildIds: 11584738671234805641
+  ParentId: 9575761177890923949
+  ChildIds: 10457661142511708800
+  ChildIds: 2540475498689875182
+  ChildIds: 10504255177373869584
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -15012,19 +14481,13 @@ Objects {
   Folder {
     IsGroup: true
   }
-  InstanceHistory {
-    SelfId: 3799569606095864385
-    SubobjectId: 16498242584530284325
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 11584738671234805641
+  Id: 10504255177373869584
   Name: "Sci-fi Terminal Keyboard 01"
   Transform {
     Location {
@@ -15040,7 +14503,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 3799569606095864385
+  ParentId: 1931835685296839408
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -15065,12 +14528,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 11584738671234805641
-    SubobjectId: 8109296439139435245
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -15080,7 +14537,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 7858471044149016928
+  Id: 2540475498689875182
   Name: "Sci-fi Console Screen 01"
   Transform {
     Location {
@@ -15095,7 +14552,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 3799569606095864385
+  ParentId: 1931835685296839408
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Detail3:id"
@@ -15128,12 +14585,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 7858471044149016928
-    SubobjectId: 13637363200581211140
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -15143,7 +14594,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 4282874461954723635
+  Id: 10457661142511708800
   Name: "Sci-fi Terminal Base 01"
   Transform {
     Location {
@@ -15158,7 +14609,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 3799569606095864385
+  ParentId: 1931835685296839408
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -15183,12 +14634,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 4282874461954723635
-    SubobjectId: 16942704479884943959
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -15198,7 +14643,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 14854471859341848315
+  Id: 1191312481090747689
   Name: "Computer Monitor 01"
   Transform {
     Location {
@@ -15215,7 +14660,7 @@ Objects {
       Z: 2.5
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -15240,12 +14685,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 14854471859341848315
-    SubobjectId: 2191827092701315999
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -15255,7 +14694,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 9314687339949755697
+  Id: 8151298383336674571
   Name: "Electrical Arc Volume"
   Transform {
     Location {
@@ -15272,7 +14711,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -15292,12 +14731,6 @@ Objects {
       AutoPlay: true
     }
   }
-  InstanceHistory {
-    SelfId: 9314687339949755697
-    SubobjectId: 5839808191992029269
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -15307,7 +14740,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 4937744510357497611
+  Id: 10566977093176896433
   Name: "Electrical Arc Volume"
   Transform {
     Location {
@@ -15324,7 +14757,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -15344,12 +14777,6 @@ Objects {
       AutoPlay: true
     }
   }
-  InstanceHistory {
-    SelfId: 4937744510357497611
-    SubobjectId: 10721140161089833583
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -15359,7 +14786,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 1576704214307218387
+  Id: 10488681572501476850
   Name: "rotate"
   Transform {
     Location {
@@ -15375,7 +14802,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
   WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -15390,19 +14817,13 @@ Objects {
     IsFilePartition: true
     FilePartitionName: "rotate"
   }
-  InstanceHistory {
-    SelfId: 1576704214307218387
-    SubobjectId: 14244556274459332279
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 1514338127235338058
+  Id: 3697174812793279991
   Name: "rotate"
   Transform {
     Location {
@@ -15418,7 +14839,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
   WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -15433,19 +14854,13 @@ Objects {
     IsFilePartition: true
     FilePartitionName: "rotate_1"
   }
-  InstanceHistory {
-    SelfId: 1514338127235338058
-    SubobjectId: 14216530128034341422
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 15966569140600850063
+  Id: 9900750532327634811
   Name: "Sci-fi Chair Base 02"
   Transform {
     Location {
@@ -15462,7 +14877,7 @@ Objects {
       Z: 3.75000024
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -15487,12 +14902,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 15966569140600850063
-    SubobjectId: 998645029778697195
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -15502,7 +14911,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 8745413459192938592
+  Id: 3728540533444059710
   Name: "Sci-fi Chair Base 02"
   Transform {
     Location {
@@ -15518,7 +14927,7 @@ Objects {
       Z: 3.75000024
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -15543,12 +14952,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 8745413459192938592
-    SubobjectId: 12182997168408030468
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -15558,16 +14961,16 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 9585015751790179041
+  Id: 18373855320648232772
   Name: "Sci-fi Terminal 01(Prop)"
   Transform {
     Location {
-      X: -2670
-      Y: -5210
+      X: -880.002441
+      Y: -5050.00146
       Z: 20
     }
     Rotation {
-      Yaw: 89.9999924
+      Yaw: -90
     }
     Scale {
       X: 1
@@ -15575,10 +14978,10 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5973142006212069348
-  ChildIds: 8277444445002030561
-  ChildIds: 7240707168688763658
-  ChildIds: 291911869152744441
+  ParentId: 9575761177890923949
+  ChildIds: 16963499057482501970
+  ChildIds: 11187877739962628356
+  ChildIds: 15177778540676138217
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -15591,19 +14994,13 @@ Objects {
   Folder {
     IsGroup: true
   }
-  InstanceHistory {
-    SelfId: 9585015751790179041
-    SubobjectId: 6146165949531381637
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 291911869152744441
+  Id: 15177778540676138217
   Name: "Sci-fi Terminal Keyboard 01"
   Transform {
     Location {
@@ -15619,7 +15016,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 9585015751790179041
+  ParentId: 18373855320648232772
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -15644,12 +15041,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 291911869152744441
-    SubobjectId: 15294879748723883677
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -15659,7 +15050,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 7240707168688763658
+  Id: 11187877739962628356
   Name: "Sci-fi Console Screen 01"
   Transform {
     Location {
@@ -15674,7 +15065,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 9585015751790179041
+  ParentId: 18373855320648232772
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Detail3:id"
@@ -15707,12 +15098,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 7240707168688763658
-    SubobjectId: 12984837163349712494
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -15722,7 +15107,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 8277444445002030561
+  Id: 16963499057482501970
   Name: "Sci-fi Terminal Base 01"
   Transform {
     Location {
@@ -15737,7 +15122,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 9585015751790179041
+  ParentId: 18373855320648232772
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -15762,12 +15147,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 8277444445002030561
-    SubobjectId: 11713901702442725509
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -15777,1034 +15156,15 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 5223738973192710533
-  Name: "Sci-fi Terminal 01(Prop)"
-  Transform {
-    Location {
-      X: -2670
-      Y: -4900
-      Z: 20
-    }
-    Rotation {
-      Yaw: 89.9999924
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 5973142006212069348
-  ChildIds: 16573442155321329922
-  ChildIds: 16594553601128008200
-  ChildIds: 273573760429429322
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Folder {
-    IsGroup: true
-  }
-  InstanceHistory {
-    SelfId: 5223738973192710533
-    SubobjectId: 10966602365877257441
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  IsReplicationEnabledByDefault: true
-}
-Objects {
-  Id: 273573760429429322
-  Name: "Sci-fi Terminal Keyboard 01"
-  Transform {
-    Location {
-      Y: 5
-      Z: 142
-    }
-    Rotation {
-      Roll: 33.7501144
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 5223738973192710533
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:forceon"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 10869945471657645318
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    InteractWithTriggers: true
-    StaticMesh {
-      Physics {
-      }
-      BoundsScale: 1
-    }
-  }
-  InstanceHistory {
-    SelfId: 273573760429429322
-    SubobjectId: 15241498037631254318
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
-  Relevance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  IsReplicationEnabledByDefault: true
-}
-Objects {
-  Id: 16594553601128008200
-  Name: "Sci-fi Console Screen 01"
-  Transform {
-    Location {
-      Y: -5
-      Z: 117
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 5223738973192710533
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Shared_Detail3:id"
-      AssetReference {
-        Id: 4030275142858042677
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:forceon"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 10993237832432372474
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    InteractWithTriggers: true
-    StaticMesh {
-      Physics {
-      }
-      BoundsScale: 1
-    }
-  }
-  InstanceHistory {
-    SelfId: 16594553601128008200
-    SubobjectId: 3892502888613373804
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
-  Relevance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  IsReplicationEnabledByDefault: true
-}
-Objects {
-  Id: 16573442155321329922
-  Name: "Sci-fi Terminal Base 01"
-  Transform {
-    Location {
-      Y: 5
-      Z: 0.000122070312
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 5223738973192710533
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:forceon"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 13613791909257878711
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    InteractWithTriggers: true
-    StaticMesh {
-      Physics {
-      }
-      BoundsScale: 1
-    }
-  }
-  InstanceHistory {
-    SelfId: 16573442155321329922
-    SubobjectId: 3913612135262381158
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
-  Relevance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  IsReplicationEnabledByDefault: true
-}
-Objects {
-  Id: 465130162508576875
-  Name: "Scifi Cockpit Siderail 01"
-  Transform {
-    Location {
-      X: -2430
-      Y: -4880
-      Z: 120
-    }
-    Rotation {
-      Pitch: -90
-      Yaw: -0.158258319
-      Roll: 0.158258334
-    }
-    Scale {
-      X: -3.75
-      Y: 1
-      Z: 4.00000048
-    }
-  }
-  ParentId: 5973142006212069348
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:forceon"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 11024977997119225113
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    InteractWithTriggers: true
-    StaticMesh {
-      Physics {
-      }
-      BoundsScale: 1
-    }
-  }
-  InstanceHistory {
-    SelfId: 465130162508576875
-    SubobjectId: 15436995094736393487
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
-  Relevance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  IsReplicationEnabledByDefault: true
-}
-Objects {
-  Id: 14073371551781416080
-  Name: "Scifi Cockpit Siderail 01"
-  Transform {
-    Location {
-      X: -2040
-      Y: -4880
-      Z: 120
-    }
-    Rotation {
-      Pitch: 90
-      Yaw: 1.68760467
-      Roll: 1.68760502
-    }
-    Scale {
-      X: 3.75000024
-      Y: 1
-      Z: 2.25
-    }
-  }
-  ParentId: 5973142006212069348
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:forceon"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 11024977997119225113
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    InteractWithTriggers: true
-    StaticMesh {
-      Physics {
-      }
-      BoundsScale: 1
-    }
-  }
-  InstanceHistory {
-    SelfId: 14073371551781416080
-    SubobjectId: 1369631433241756148
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
-  Relevance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  IsReplicationEnabledByDefault: true
-}
-Objects {
-  Id: 4308015409462702118
-  Name: "Cabinet Door - Narrow"
-  Transform {
-    Location {
-      X: -2100
-      Y: -4880
-      Z: 70
-    }
-    Rotation {
-      Pitch: 90
-    }
-    Scale {
-      X: -2.25
-      Y: 4.00000048
-      Z: 2.25
-    }
-  }
-  ParentId: 5973142006212069348
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:id"
-      AssetReference {
-        Id: 5942576950294938013
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:forceon"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 12161561803661806420
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    InteractWithTriggers: true
-    StaticMesh {
-      Physics {
-      }
-      BoundsScale: 1
-    }
-  }
-  InstanceHistory {
-    SelfId: 4308015409462702118
-    SubobjectId: 16971363727112641858
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
-  Relevance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  IsReplicationEnabledByDefault: true
-}
-Objects {
-  Id: 12475276120107655673
-  Name: "Sci-Fi Base Railing 02 - 4m"
-  Transform {
-    Location {
-      X: -1640
-      Y: -4870
-      Z: 20
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1.5
-    }
-  }
-  ParentId: 5973142006212069348
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:forceon"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 13373724591692948914
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    InteractWithTriggers: true
-    StaticMesh {
-      Physics {
-      }
-      BoundsScale: 1
-    }
-  }
-  InstanceHistory {
-    SelfId: 12475276120107655673
-    SubobjectId: 9038255906340424861
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
-  Relevance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  IsReplicationEnabledByDefault: true
-}
-Objects {
-  Id: 16991399090182615761
-  Name: "Sci-Fi Base Railing 02 - 4m"
-  Transform {
-    Location {
-      X: -1240
-      Y: -4870
-      Z: 20
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1.5
-    }
-  }
-  ParentId: 5973142006212069348
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:forceon"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 13373724591692948914
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    InteractWithTriggers: true
-    StaticMesh {
-      Physics {
-      }
-      BoundsScale: 1
-    }
-  }
-  InstanceHistory {
-    SelfId: 16991399090182615761
-    SubobjectId: 4288221956927102901
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
-  Relevance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  IsReplicationEnabledByDefault: true
-}
-Objects {
-  Id: 8810819621483366210
-  Name: "Sci-Fi Base Railing 02 - 4m"
-  Transform {
-    Location {
-      X: -2040
-      Y: -4870
-      Z: 20
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1.5
-    }
-  }
-  ParentId: 5973142006212069348
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:forceon"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 13373724591692948914
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    InteractWithTriggers: true
-    StaticMesh {
-      Physics {
-      }
-      BoundsScale: 1
-    }
-  }
-  InstanceHistory {
-    SelfId: 8810819621483366210
-    SubobjectId: 12252343603440888358
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
-  Relevance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  IsReplicationEnabledByDefault: true
-}
-Objects {
-  Id: 17188746721483684696
-  Name: "Sci-Fi Base Railing 02 - 4m"
-  Transform {
-    Location {
-      X: -840
-      Y: -4870
-      Z: 20
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1.5
-    }
-  }
-  ParentId: 5973142006212069348
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:forceon"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 13373724591692948914
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    InteractWithTriggers: true
-    StaticMesh {
-      Physics {
-      }
-      BoundsScale: 1
-    }
-  }
-  InstanceHistory {
-    SelfId: 17188746721483684696
-    SubobjectId: 4523287783889999420
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
-  Relevance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  IsReplicationEnabledByDefault: true
-}
-Objects {
-  Id: 6696309077238063955
-  Name: "Sci-Fi Base Railing 02 - 4m"
-  Transform {
-    Location {
-      X: -440
-      Y: -4870
-      Z: 20
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1.5
-    }
-  }
-  ParentId: 5973142006212069348
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:forceon"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 13373724591692948914
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    InteractWithTriggers: true
-    StaticMesh {
-      Physics {
-      }
-      BoundsScale: 1
-    }
-  }
-  InstanceHistory {
-    SelfId: 6696309077238063955
-    SubobjectId: 10133470746810175031
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
-  Relevance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  IsReplicationEnabledByDefault: true
-}
-Objects {
-  Id: 3715734004780344569
-  Name: "Sci-Fi Base Railing 02 - 4m"
-  Transform {
-    Location {
-      X: -840
-      Y: -5230
-      Z: 20
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1.5
-    }
-  }
-  ParentId: 5973142006212069348
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:forceon"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 13373724591692948914
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    InteractWithTriggers: true
-    StaticMesh {
-      Physics {
-      }
-      BoundsScale: 1
-    }
-  }
-  InstanceHistory {
-    SelfId: 3715734004780344569
-    SubobjectId: 16420036517110794653
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
-  Relevance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  IsReplicationEnabledByDefault: true
-}
-Objects {
-  Id: 1073206837815229578
-  Name: "Sci-Fi Base Railing 02 - 4m"
-  Transform {
-    Location {
-      X: -440
-      Y: -5230
-      Z: 20
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1.5
-    }
-  }
-  ParentId: 5973142006212069348
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:forceon"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 13373724591692948914
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    InteractWithTriggers: true
-    StaticMesh {
-      Physics {
-      }
-      BoundsScale: 1
-    }
-  }
-  InstanceHistory {
-    SelfId: 1073206837815229578
-    SubobjectId: 16045071729255404014
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
-  Relevance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  IsReplicationEnabledByDefault: true
-}
-Objects {
-  Id: 9141694425349656327
-  Name: "Sci-Fi Base Railing 02 - 4m"
-  Transform {
-    Location {
-      X: -1640
-      Y: -5230
-      Z: 20
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1.5
-    }
-  }
-  ParentId: 5973142006212069348
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:forceon"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 13373724591692948914
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    InteractWithTriggers: true
-    StaticMesh {
-      Physics {
-      }
-      BoundsScale: 1
-    }
-  }
-  InstanceHistory {
-    SelfId: 9141694425349656327
-    SubobjectId: 12579278276334445155
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
-  Relevance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  IsReplicationEnabledByDefault: true
-}
-Objects {
-  Id: 4940918264507597807
-  Name: "Sci-Fi Base Railing 02 - 4m"
-  Transform {
-    Location {
-      X: -1240
-      Y: -5230
-      Z: 20
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1.5
-    }
-  }
-  ParentId: 5973142006212069348
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:forceon"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 13373724591692948914
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    InteractWithTriggers: true
-    StaticMesh {
-      Physics {
-      }
-      BoundsScale: 1
-    }
-  }
-  InstanceHistory {
-    SelfId: 4940918264507597807
-    SubobjectId: 10727269400448495243
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
-  Relevance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  IsReplicationEnabledByDefault: true
-}
-Objects {
-  Id: 296376283708430841
-  Name: "Sci-Fi Base Railing 02 - 4m"
-  Transform {
-    Location {
-      X: -2040
-      Y: -5230
-      Z: 20
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1.5
-    }
-  }
-  ParentId: 5973142006212069348
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:forceon"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 13373724591692948914
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    InteractWithTriggers: true
-    StaticMesh {
-      Physics {
-      }
-      BoundsScale: 1
-    }
-  }
-  InstanceHistory {
-    SelfId: 296376283708430841
-    SubobjectId: 15299766955584255133
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
-  Relevance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  IsReplicationEnabledByDefault: true
-}
-Objects {
-  Id: 17362563035545217098
-  Name: "Sci-Fi Base Railing 02 - 4m"
-  Transform {
-    Location {
-      X: -2440
-      Y: -5230
-      Z: 20
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1.5
-    }
-  }
-  ParentId: 5973142006212069348
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:forceon"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 13373724591692948914
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    InteractWithTriggers: true
-    StaticMesh {
-      Physics {
-      }
-      BoundsScale: 1
-    }
-  }
-  InstanceHistory {
-    SelfId: 17362563035545217098
-    SubobjectId: 2358609963524375854
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
-  Relevance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  IsReplicationEnabledByDefault: true
-}
-Objects {
-  Id: 11892305735217897980
+  Id: 4212525771404001944
   Name: "Scifi Cockpit Console 001"
   Transform {
     Location {
-      X: -2450
+      X: -1100.00098
       Y: -5050
       Z: 365
     }
     Rotation {
-      Yaw: -179.999985
     }
     Scale {
       X: 1.75
@@ -16812,7 +15172,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -16837,12 +15197,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 11892305735217897980
-    SubobjectId: 8450641150025501848
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -16852,16 +15206,16 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 9180608583905972901
+  Id: 4167067528125649776
   Name: "Scifi Cockpit Siderail 01"
   Transform {
     Location {
-      X: -2625
-      Y: -5060
+      X: -925.001221
+      Y: -5040.00146
       Z: 25
     }
     Rotation {
-      Yaw: -89.9999924
+      Yaw: 90
     }
     Scale {
       X: 3.5
@@ -16869,7 +15223,7 @@ Objects {
       Z: 4.50000191
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -16894,12 +15248,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 9180608583905972901
-    SubobjectId: 12621147230604066753
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -16909,15 +15257,16 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 14148105909384802127
+  Id: 16769466621726580273
   Name: "Scifi Cockpit Sideguard 01"
   Transform {
     Location {
-      X: -2475
-      Y: -5175
+      X: -1075.00244
+      Y: -4925
       Z: 25
     }
     Rotation {
+      Yaw: 180
     }
     Scale {
       X: -4.25
@@ -16925,7 +15274,7 @@ Objects {
       Z: 4.25000048
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim2:id"
@@ -16958,12 +15307,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 14148105909384802127
-    SubobjectId: 1447743494824985131
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -16973,16 +15316,15 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 8468584169035904888
+  Id: 7184453246570843340
   Name: "Scifi Cockpit Sideguard 01"
   Transform {
     Location {
-      X: -2475
-      Y: -4925
+      X: -1075
+      Y: -5175.00049
       Z: 25
     }
     Rotation {
-      Yaw: -179.999985
     }
     Scale {
       X: 4.25000048
@@ -16990,7 +15332,7 @@ Objects {
       Z: 4.25000048
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim2:id"
@@ -17023,12 +15365,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 8468584169035904888
-    SubobjectId: 11946136910464866844
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -17038,7 +15374,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 12865390172611772673
+  Id: 11839424669608404012
   Name: "Sci-Fi Base Wall Interior 01"
   Transform {
     Location {
@@ -17054,7 +15390,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -17079,12 +15415,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 12865390172611772673
-    SubobjectId: 7116897313678879845
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -17094,7 +15424,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 10025242608811905723
+  Id: 1880783246034248004
   Name: "Sci-Fi Base Wall Interior 01"
   Transform {
     Location {
@@ -17110,7 +15440,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -17135,12 +15465,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 10025242608811905723
-    SubobjectId: 6588644610745663455
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -17150,7 +15474,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 2693958735681465384
+  Id: 8810637115349845987
   Name: "Sci-fi Base - Window 01"
   Transform {
     Location {
@@ -17167,7 +15491,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -17192,12 +15516,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 2693958735681465384
-    SubobjectId: 17666949976876106060
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -17207,7 +15525,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 8476499364932027262
+  Id: 14409605866246655381
   Name: "Sci-Fi Base Wall Interior 01 - Window 01"
   Transform {
     Location {
@@ -17223,7 +15541,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -17248,12 +15566,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 8476499364932027262
-    SubobjectId: 11956444685536882202
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -17263,7 +15575,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 13786314083804206793
+  Id: 15422488624836895479
   Name: "Sci-Fi Base Wall Interior 01"
   Transform {
     Location {
@@ -17279,7 +15591,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -17304,12 +15616,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 13786314083804206793
-    SubobjectId: 8006718205585013677
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -17319,7 +15625,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 4398504733269520120
+  Id: 17619904558735965438
   Name: "Sci-Fi Base Wall Interior 01"
   Transform {
     Location {
@@ -17335,7 +15641,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -17360,12 +15666,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 4398504733269520120
-    SubobjectId: 17097318490046858140
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -17375,7 +15675,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 10403548092155844359
+  Id: 12213667298383705480
   Name: "Sci-fi Base - Window 01"
   Transform {
     Location {
@@ -17392,7 +15692,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -17417,12 +15717,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 10403548092155844359
-    SubobjectId: 4625077565247535715
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -17432,7 +15726,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 18205800678781170932
+  Id: 3290380336142462118
   Name: "Sci-Fi Base Wall Interior 01 - Window 01"
   Transform {
     Location {
@@ -17448,7 +15742,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -17473,12 +15767,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 18205800678781170932
-    SubobjectId: 3236046436256733584
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -17488,7 +15776,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 17328645042331431661
+  Id: 17220315078575637481
   Name: "Sci-fi Base Wall 02 Half - Sliding Door Template"
   Transform {
     Location {
@@ -17504,9 +15792,9 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5973142006212069348
-  ChildIds: 13570095477862957756
-  ChildIds: 9857034568346253554
+  ParentId: 9575761177890923949
+  ChildIds: 13801988877058683799
+  ChildIds: 7461955538505220652
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -17519,19 +15807,13 @@ Objects {
   Folder {
     IsGroup: true
   }
-  InstanceHistory {
-    SelfId: 17328645042331431661
-    SubobjectId: 2320750798712004489
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 9857034568346253554
+  Id: 7461955538505220652
   Name: "Sci-fi Base Sliding Door 02 - 30cm Z Offset"
   Transform {
     Location {
@@ -17545,8 +15827,8 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17328645042331431661
-  ChildIds: 6538841357561440894
+  ParentId: 17220315078575637481
+  ChildIds: 13126092677816592030
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -17559,19 +15841,13 @@ Objects {
   Folder {
     IsGroup: true
   }
-  InstanceHistory {
-    SelfId: 9857034568346253554
-    SubobjectId: 6378355892686378390
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 6538841357561440894
+  Id: 13126092677816592030
   Name: "Select To Edit Animation Properties"
   Transform {
     Location {
@@ -17586,11 +15862,11 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 9857034568346253554
-  ChildIds: 4377536988780410520
-  ChildIds: 7258429465877382760
-  ChildIds: 10620277296584590565
-  ChildIds: 12926463249451757581
+  ParentId: 7461955538505220652
+  ChildIds: 1537000311207383495
+  ChildIds: 17843981401947851307
+  ChildIds: 7411897313363816580
+  ChildIds: 8488031740426995678
   UnregisteredParameters {
     Overrides {
       Name: "cs:AutoOpen"
@@ -17661,19 +15937,13 @@ Objects {
   Folder {
     IsGroup: true
   }
-  InstanceHistory {
-    SelfId: 6538841357561440894
-    SubobjectId: 10012031691092412186
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 12926463249451757581
+  Id: 8488031740426995678
   Name: "DoorRoot"
   Transform {
     Location {
@@ -17686,8 +15956,8 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 6538841357561440894
-  ChildIds: 121158337080915379
+  ParentId: 13126092677816592030
+  ChildIds: 7702723440435666045
   UnregisteredParameters {
   }
   WantsNetworking: true
@@ -17703,19 +15973,13 @@ Objects {
   Folder {
     IsGroup: true
   }
-  InstanceHistory {
-    SelfId: 12926463249451757581
-    SubobjectId: 7145881660182486377
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 121158337080915379
+  Id: 7702723440435666045
   Name: "Geo_StaticContext"
   Transform {
     Location {
@@ -17728,8 +15992,8 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 12926463249451757581
-  ChildIds: 7876532026976045928
+  ParentId: 8488031740426995678
+  ChildIds: 9258123153030171395
   UnregisteredParameters {
   }
   WantsNetworking: true
@@ -17745,19 +16009,13 @@ Objects {
   NetworkContext {
     Type: RuntimeStatic
   }
-  InstanceHistory {
-    SelfId: 121158337080915379
-    SubobjectId: 15123422390683015383
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 7876532026976045928
+  Id: 9258123153030171395
   Name: "Sci-fi Base Door 02"
   Transform {
     Location {
@@ -17771,7 +16029,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 121158337080915379
+  ParentId: 7702723440435666045
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Detail2:color"
@@ -17806,12 +16064,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 7876532026976045928
-    SubobjectId: 13618973721484355084
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -17821,7 +16073,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 10620277296584590565
+  Id: 7411897313363816580
   Name: "ClientContext"
   Transform {
     Location {
@@ -17835,10 +16087,10 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 6538841357561440894
-  ChildIds: 5255290015846692993
-  ChildIds: 9316465696484832639
-  ChildIds: 16355104041028138525
+  ParentId: 13126092677816592030
+  ChildIds: 18250087310808715096
+  ChildIds: 11747224978199426019
+  ChildIds: 16732413442099165221
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -17858,19 +16110,13 @@ Objects {
       Value: "mc:edetaillevel:ultra"
     }
   }
-  InstanceHistory {
-    SelfId: 10620277296584590565
-    SubobjectId: 4840681006048700801
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 16355104041028138525
+  Id: 16732413442099165221
   Name: "Helper_DoorCloseSound"
   Transform {
     Location {
@@ -17883,7 +16129,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 10620277296584590565
+  ParentId: 7411897313363816580
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -17907,19 +16153,13 @@ Objects {
     IsSpatializationEnabled: true
     IsAttenuationEnabled: true
   }
-  InstanceHistory {
-    SelfId: 16355104041028138525
-    SubobjectId: 3654178705474378617
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 9316465696484832639
+  Id: 11747224978199426019
   Name: "Helper_DoorOpenSound"
   Transform {
     Location {
@@ -17932,7 +16172,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 10620277296584590565
+  ParentId: 7411897313363816580
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -17956,19 +16196,13 @@ Objects {
     IsSpatializationEnabled: true
     IsAttenuationEnabled: true
   }
-  InstanceHistory {
-    SelfId: 9316465696484832639
-    SubobjectId: 5838349999767181339
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 5255290015846692993
+  Id: 18250087310808715096
   Name: "SlidingDoorControllerClient"
   Transform {
     Location {
@@ -17981,30 +16215,30 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 10620277296584590565
+  ParentId: 7411897313363816580
   UnregisteredParameters {
     Overrides {
       Name: "cs:ComponentRoot"
       ObjectReference {
-        SelfId: 6538841357561440894
+        SelfId: 13126092677816592030
       }
     }
     Overrides {
       Name: "cs:DoorRoot"
       ObjectReference {
-        SelfId: 12926463249451757581
+        SelfId: 8488031740426995678
       }
     }
     Overrides {
       Name: "cs:OpenSound"
       ObjectReference {
-        SelfId: 9316465696484832639
+        SelfId: 11747224978199426019
       }
     }
     Overrides {
       Name: "cs:CloseSound"
       ObjectReference {
-        SelfId: 16355104041028138525
+        SelfId: 16732413442099165221
       }
     }
   }
@@ -18022,19 +16256,13 @@ Objects {
       Id: 13279840372954225083
     }
   }
-  InstanceHistory {
-    SelfId: 5255290015846692993
-    SubobjectId: 10998294107312592357
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 7258429465877382760
+  Id: 17843981401947851307
   Name: "ServerContext"
   Transform {
     Location {
@@ -18047,8 +16275,8 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 6538841357561440894
-  ChildIds: 9571615196600055813
+  ParentId: 13126092677816592030
+  ChildIds: 1161443601598585061
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -18063,19 +16291,13 @@ Objects {
   NetworkContext {
     Type: Server
   }
-  InstanceHistory {
-    SelfId: 7258429465877382760
-    SubobjectId: 13039151758323542796
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 9571615196600055813
+  Id: 1161443601598585061
   Name: "SlidingDoorControllerServer"
   Transform {
     Location {
@@ -18088,24 +16310,24 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 7258429465877382760
+  ParentId: 17843981401947851307
   UnregisteredParameters {
     Overrides {
       Name: "cs:ComponentRoot"
       ObjectReference {
-        SelfId: 6538841357561440894
+        SelfId: 13126092677816592030
       }
     }
     Overrides {
       Name: "cs:DoorRoot"
       ObjectReference {
-        SelfId: 12926463249451757581
+        SelfId: 8488031740426995678
       }
     }
     Overrides {
       Name: "cs:Trigger"
       ObjectReference {
-        SelfId: 4377536988780410520
+        SelfId: 1537000311207383495
       }
     }
   }
@@ -18123,19 +16345,13 @@ Objects {
       Id: 11890246360956808940
     }
   }
-  InstanceHistory {
-    SelfId: 9571615196600055813
-    SubobjectId: 6096313808375174497
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 4377536988780410520
+  Id: 1537000311207383495
   Name: "Trigger"
   Transform {
     Location {
@@ -18150,7 +16366,7 @@ Objects {
       Z: 3
     }
   }
-  ParentId: 6538841357561440894
+  ParentId: 13126092677816592030
   UnregisteredParameters {
   }
   WantsNetworking: true
@@ -18176,19 +16392,13 @@ Objects {
     BreadcrumbTemplate {
     }
   }
-  InstanceHistory {
-    SelfId: 4377536988780410520
-    SubobjectId: 17045951856027819004
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 13570095477862957756
+  Id: 13801988877058683799
   Name: "Sci-Fi Base Wall 02 - Doorway 02 Half"
   Transform {
     Location {
@@ -18201,7 +16411,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17328645042331431661
+  ParentId: 17220315078575637481
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_WallOuter:color"
@@ -18237,12 +16447,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 13570095477862957756
-    SubobjectId: 7790639822845603800
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -18252,7 +16456,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 9096291418689540822
+  Id: 18249425470083424413
   Name: "Sci-fi Console Screen 04"
   Transform {
     Location {
@@ -18269,7 +16473,7 @@ Objects {
       Z: 2.25
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Detail2:id"
@@ -18302,12 +16506,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 9096291418689540822
-    SubobjectId: 12570607094857596850
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -18317,7 +16515,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 16519539810055040425
+  Id: 15796795224924581495
   Name: "Sci-fi Console Screen 04"
   Transform {
     Location {
@@ -18335,7 +16533,7 @@ Objects {
       Z: 2.25
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Detail2:id"
@@ -18368,12 +16566,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 16519539810055040425
-    SubobjectId: 3823118178248048845
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -18383,7 +16575,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 4516862153475980892
+  Id: 15547365487256945316
   Name: "Sci-fi Console Screen 04"
   Transform {
     Location {
@@ -18402,7 +16594,7 @@ Objects {
       Z: 2.25
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Detail2:id"
@@ -18435,12 +16627,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 4516862153475980892
-    SubobjectId: 17212861570653492024
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -18450,7 +16636,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 12508581186104538122
+  Id: 8733674242068913179
   Name: "Sci-fi Console Screen 04"
   Transform {
     Location {
@@ -18467,7 +16653,7 @@ Objects {
       Z: 2.25
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Detail2:id"
@@ -18500,12 +16686,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 12508581186104538122
-    SubobjectId: 9068041847933524334
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -18515,7 +16695,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 16737213452943043202
+  Id: 8431446522625079876
   Name: "Sci-fi Chair 01(Prop)"
   Transform {
     Location {
@@ -18532,12 +16712,12 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5973142006212069348
-  ChildIds: 6381227577923744768
-  ChildIds: 14588931989665722586
-  ChildIds: 3473148770419694713
-  ChildIds: 4124340256549989026
-  ChildIds: 9832200682136575467
+  ParentId: 9575761177890923949
+  ChildIds: 10870048954614503923
+  ChildIds: 2187614770856932713
+  ChildIds: 1874233344814258761
+  ChildIds: 17178505686694949292
+  ChildIds: 11279794060391473375
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -18550,19 +16730,13 @@ Objects {
   Folder {
     IsGroup: true
   }
-  InstanceHistory {
-    SelfId: 16737213452943043202
-    SubobjectId: 4037976939382589414
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 9832200682136575467
+  Id: 11279794060391473375
   Name: "Sci-fi Chair Back 01"
   Transform {
     Location {
@@ -18577,7 +16751,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 16737213452943043202
+  ParentId: 8431446522625079876
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -18602,12 +16776,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 9832200682136575467
-    SubobjectId: 6358447404035600527
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -18617,7 +16785,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 4124340256549989026
+  Id: 17178505686694949292
   Name: "Sci-fi Chair Support 01"
   Transform {
     Location {
@@ -18632,7 +16800,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 16737213452943043202
+  ParentId: 8431446522625079876
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -18657,12 +16825,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 4124340256549989026
-    SubobjectId: 16822028488173160390
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -18672,7 +16834,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 3473148770419694713
+  Id: 1874233344814258761
   Name: "Sci-fi Chair Seat 01"
   Transform {
     Location {
@@ -18687,7 +16849,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 16737213452943043202
+  ParentId: 8431446522625079876
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -18712,12 +16874,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 3473148770419694713
-    SubobjectId: 16175903138230972701
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -18727,7 +16883,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 14588931989665722586
+  Id: 2187614770856932713
   Name: "Sci-fi Chair Armrest 01"
   Transform {
     Location {
@@ -18741,7 +16897,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 16737213452943043202
+  ParentId: 8431446522625079876
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -18766,12 +16922,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 14588931989665722586
-    SubobjectId: 1889554770843852222
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -18781,7 +16931,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 6381227577923744768
+  Id: 10870048954614503923
   Name: "Sci-fi Chair Base 02"
   Transform {
     Location {
@@ -18794,7 +16944,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 16737213452943043202
+  ParentId: 8431446522625079876
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -18819,12 +16969,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 6381227577923744768
-    SubobjectId: 9854418012353026404
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -18834,7 +16978,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 1626492425157004004
+  Id: 9626564477653352924
   Name: "Sci-fi Chair 01(Prop)"
   Transform {
     Location {
@@ -18851,12 +16995,12 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5973142006212069348
-  ChildIds: 14577692272314205500
-  ChildIds: 13879080365446484149
-  ChildIds: 9118784009227770122
-  ChildIds: 13196097449638590713
-  ChildIds: 15055043743668113312
+  ParentId: 9575761177890923949
+  ChildIds: 10069380476136035582
+  ChildIds: 2583946670548238183
+  ChildIds: 6362540265768391979
+  ChildIds: 4590621034739127355
+  ChildIds: 4991992318890529094
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -18869,19 +17013,13 @@ Objects {
   Folder {
     IsGroup: true
   }
-  InstanceHistory {
-    SelfId: 1626492425157004004
-    SubobjectId: 14329669421961422720
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 15055043743668113312
+  Id: 4991992318890529094
   Name: "Sci-fi Chair Back 01"
   Transform {
     Location {
@@ -18896,7 +17034,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 1626492425157004004
+  ParentId: 9626564477653352924
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -18921,12 +17059,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 15055043743668113312
-    SubobjectId: 45320571963007684
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -18936,7 +17068,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 13196097449638590713
+  Id: 4590621034739127355
   Name: "Sci-fi Chair Support 01"
   Transform {
     Location {
@@ -18951,7 +17083,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 1626492425157004004
+  ParentId: 9626564477653352924
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -18976,12 +17108,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 13196097449638590713
-    SubobjectId: 7453093316246377885
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -18991,7 +17117,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 9118784009227770122
+  Id: 6362540265768391979
   Name: "Sci-fi Chair Seat 01"
   Transform {
     Location {
@@ -19006,7 +17132,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 1626492425157004004
+  ParentId: 9626564477653352924
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -19031,12 +17157,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 9118784009227770122
-    SubobjectId: 12592959469695661166
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -19046,7 +17166,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 13879080365446484149
+  Id: 2583946670548238183
   Name: "Sci-fi Chair Armrest 01"
   Transform {
     Location {
@@ -19060,7 +17180,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 1626492425157004004
+  ParentId: 9626564477653352924
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -19085,12 +17205,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 13879080365446484149
-    SubobjectId: 1212354893421493713
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -19100,7 +17214,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 14577692272314205500
+  Id: 10069380476136035582
   Name: "Sci-fi Chair Base 02"
   Transform {
     Location {
@@ -19113,7 +17227,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 1626492425157004004
+  ParentId: 9626564477653352924
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -19138,12 +17252,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 14577692272314205500
-    SubobjectId: 1873811588082804824
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -19153,7 +17261,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 11474245709437868750
+  Id: 16285056846190106195
   Name: "Sci-fi Console_01(Prop)"
   Transform {
     Location {
@@ -19170,18 +17278,18 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5973142006212069348
-  ChildIds: 8793504795180220794
-  ChildIds: 11237691416442786805
-  ChildIds: 9588826192313420937
-  ChildIds: 9943903121785905153
-  ChildIds: 7564800990013209091
-  ChildIds: 11979969531694789804
-  ChildIds: 1442657818904624046
-  ChildIds: 17468385966495159221
-  ChildIds: 4013292106445865191
-  ChildIds: 14138077367817352735
-  ChildIds: 12120276588652552935
+  ParentId: 9575761177890923949
+  ChildIds: 12054644276951249229
+  ChildIds: 12316267267416484129
+  ChildIds: 3938329337861957822
+  ChildIds: 5498428950555004748
+  ChildIds: 4087746408458915642
+  ChildIds: 14788763591608675772
+  ChildIds: 3996039178564362813
+  ChildIds: 13988803267241880316
+  ChildIds: 1233612614817528966
+  ChildIds: 16630827223958233811
+  ChildIds: 10886108285687519234
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -19194,19 +17302,13 @@ Objects {
   Folder {
     IsGroup: true
   }
-  InstanceHistory {
-    SelfId: 11474245709437868750
-    SubobjectId: 5725190001567299498
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 12120276588652552935
+  Id: 10886108285687519234
   Name: "Sci-fi Console Screen 04"
   Transform {
     Location {
@@ -19222,7 +17324,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 11474245709437868750
+  ParentId: 16285056846190106195
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Detail2:id"
@@ -19255,12 +17357,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 12120276588652552935
-    SubobjectId: 8681989019137937283
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -19270,7 +17366,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 14138077367817352735
+  Id: 16630827223958233811
   Name: "Sci-fi Console Screen 03"
   Transform {
     Location {
@@ -19289,7 +17385,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 11474245709437868750
+  ParentId: 16285056846190106195
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Detail1:id"
@@ -19328,12 +17424,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 14138077367817352735
-    SubobjectId: 1475995547858852731
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -19343,7 +17433,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 4013292106445865191
+  Id: 1233612614817528966
   Name: "Sci-fi Console Screen 03"
   Transform {
     Location {
@@ -19362,7 +17452,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 11474245709437868750
+  ParentId: 16285056846190106195
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Detail2:id"
@@ -19395,12 +17485,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 4013292106445865191
-    SubobjectId: 16716609461791534467
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -19410,7 +17494,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 17468385966495159221
+  Id: 13988803267241880316
   Name: "Sci-fi Console Hinge 01"
   Transform {
     Location {
@@ -19429,7 +17513,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 11474245709437868750
+  ParentId: 16285056846190106195
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -19454,12 +17538,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 17468385966495159221
-    SubobjectId: 2459928744015281873
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -19469,7 +17547,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 1442657818904624046
+  Id: 3996039178564362813
   Name: "Sci-fi Console Hinge 01"
   Transform {
     Location {
@@ -19487,7 +17565,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 11474245709437868750
+  ParentId: 16285056846190106195
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -19512,12 +17590,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 1442657818904624046
-    SubobjectId: 14144146100167022282
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -19527,7 +17599,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 11979969531694789804
+  Id: 14788763591608675772
   Name: "Sci-fi Console Leg 01"
   Transform {
     Location {
@@ -19543,7 +17615,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 11474245709437868750
+  ParentId: 16285056846190106195
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Detail1:id"
@@ -19576,12 +17648,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 11979969531694789804
-    SubobjectId: 8506779102701345224
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -19591,7 +17657,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 7564800990013209091
+  Id: 4087746408458915642
   Name: "Sci-fi Console Leg 01"
   Transform {
     Location {
@@ -19607,7 +17673,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 11474245709437868750
+  ParentId: 16285056846190106195
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Detail1:id"
@@ -19640,12 +17706,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 7564800990013209091
-    SubobjectId: 13309493968922466151
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -19655,7 +17715,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 9943903121785905153
+  Id: 5498428950555004748
   Name: "Sci-fi Console Screen 02"
   Transform {
     Location {
@@ -19674,7 +17734,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 11474245709437868750
+  ParentId: 16285056846190106195
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Detail3:id"
@@ -19713,12 +17773,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 9943903121785905153
-    SubobjectId: 6462831906624048485
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -19728,7 +17782,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 9588826192313420937
+  Id: 3938329337861957822
   Name: "Sci-fi Console Screen 02"
   Transform {
     Location {
@@ -19746,7 +17800,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 11474245709437868750
+  ParentId: 16285056846190106195
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Detail3:id"
@@ -19785,12 +17839,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 9588826192313420937
-    SubobjectId: 6151102124674310637
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -19800,7 +17848,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 11237691416442786805
+  Id: 12316267267416484129
   Name: "Sci-fi Console 01"
   Transform {
     Location {
@@ -19815,7 +17863,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 11474245709437868750
+  ParentId: 16285056846190106195
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -19840,12 +17888,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 11237691416442786805
-    SubobjectId: 5456969226085875345
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -19855,7 +17897,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 8793504795180220794
+  Id: 12054644276951249229
   Name: "Sci-fi Console Leg 02"
   Transform {
     Location {
@@ -19868,7 +17910,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 11474245709437868750
+  ParentId: 16285056846190106195
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Detail2:color"
@@ -19909,12 +17951,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 8793504795180220794
-    SubobjectId: 12269932190702775326
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -19924,12 +17960,12 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 1167313832194257482
+  Id: 10936456777662953459
   Name: "Sci-fi Console Screen 03"
   Transform {
     Location {
       X: -7050
-      Y: -5100
+      Y: -5050
       Z: 233.283447
     }
     Rotation {
@@ -19941,12 +17977,21 @@ Objects {
       Z: 2.5
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Detail2:id"
       AssetReference {
         Id: 6803195442500220134
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
       }
     }
   }
@@ -19974,12 +18019,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 1167313832194257482
-    SubobjectId: 13870068610158288686
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -19989,7 +18028,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 16855911688766850966
+  Id: 4185628812020762405
   Name: "Sci-fi Base - Window 01"
   Transform {
     Location {
@@ -20005,7 +18044,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -20030,12 +18069,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 16855911688766850966
-    SubobjectId: 4153297470066846450
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -20045,7 +18078,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 11922869600744486383
+  Id: 12217068735987417183
   Name: "Sci-fi Base - Window 01"
   Transform {
     Location {
@@ -20061,7 +18094,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -20086,12 +18119,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 11922869600744486383
-    SubobjectId: 8447005706979956875
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -20101,7 +18128,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 17140152893403869383
+  Id: 6999977065316102022
   Name: "Sci-fi Base Wall 02 Half - Sliding Door Template"
   Transform {
     Location {
@@ -20116,9 +18143,9 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5973142006212069348
-  ChildIds: 1816448322964541353
-  ChildIds: 13072657849303834264
+  ParentId: 9575761177890923949
+  ChildIds: 8348017368746171137
+  ChildIds: 8253515198445686943
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -20131,19 +18158,13 @@ Objects {
   Folder {
     IsGroup: true
   }
-  InstanceHistory {
-    SelfId: 17140152893403869383
-    SubobjectId: 4436413327738527139
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 13072657849303834264
+  Id: 8253515198445686943
   Name: "Sci-fi Base Sliding Door 02 - 30cm Z Offset"
   Transform {
     Location {
@@ -20157,8 +18178,8 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17140152893403869383
-  ChildIds: 5006025206609055448
+  ParentId: 6999977065316102022
+  ChildIds: 7574885691799315842
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -20171,19 +18192,13 @@ Objects {
   Folder {
     IsGroup: true
   }
-  InstanceHistory {
-    SelfId: 13072657849303834264
-    SubobjectId: 7287995562214519804
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 5006025206609055448
+  Id: 7574885691799315842
   Name: "Select To Edit Animation Properties"
   Transform {
     Location {
@@ -20198,11 +18213,11 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13072657849303834264
-  ChildIds: 7256751768645432852
-  ChildIds: 4678807188128470456
-  ChildIds: 18091875773725209232
-  ChildIds: 15701934612427124922
+  ParentId: 8253515198445686943
+  ChildIds: 16317402182405845928
+  ChildIds: 6843178381939567397
+  ChildIds: 2979693182920386374
+  ChildIds: 12873178819865457531
   UnregisteredParameters {
     Overrides {
       Name: "cs:AutoOpen"
@@ -20273,19 +18288,13 @@ Objects {
   Folder {
     IsGroup: true
   }
-  InstanceHistory {
-    SelfId: 5006025206609055448
-    SubobjectId: 10752266267873567676
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 15701934612427124922
+  Id: 12873178819865457531
   Name: "DoorRoot"
   Transform {
     Location {
@@ -20298,8 +18307,8 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5006025206609055448
-  ChildIds: 14827604194692906066
+  ParentId: 7574885691799315842
+  ChildIds: 18247850532074301786
   UnregisteredParameters {
   }
   WantsNetworking: true
@@ -20315,19 +18324,13 @@ Objects {
   Folder {
     IsGroup: true
   }
-  InstanceHistory {
-    SelfId: 15701934612427124922
-    SubobjectId: 695588450127076830
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 14827604194692906066
+  Id: 18247850532074301786
   Name: "Geo_StaticContext"
   Transform {
     Location {
@@ -20340,8 +18343,8 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 15701934612427124922
-  ChildIds: 1535215776273929174
+  ParentId: 12873178819865457531
+  ChildIds: 11067863303415673534
   UnregisteredParameters {
   }
   WantsNetworking: true
@@ -20357,19 +18360,13 @@ Objects {
   NetworkContext {
     Type: RuntimeStatic
   }
-  InstanceHistory {
-    SelfId: 14827604194692906066
-    SubobjectId: 2128367678917857590
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 1535215776273929174
+  Id: 11067863303415673534
   Name: "Sci-fi Base Door 02"
   Transform {
     Location {
@@ -20383,7 +18380,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14827604194692906066
+  ParentId: 18247850532074301786
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Detail2:color"
@@ -20418,12 +18415,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 1535215776273929174
-    SubobjectId: 14195749313068629682
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -20433,7 +18424,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 18091875773725209232
+  Id: 2979693182920386374
   Name: "ClientContext"
   Transform {
     Location {
@@ -20447,10 +18438,10 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5006025206609055448
-  ChildIds: 17821115627783608016
-  ChildIds: 17775434383483065127
-  ChildIds: 3460722023984353964
+  ParentId: 7574885691799315842
+  ChildIds: 11856873436034865580
+  ChildIds: 13438466440430919066
+  ChildIds: 13010592273107111736
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -20470,19 +18461,13 @@ Objects {
       Value: "mc:edetaillevel:ultra"
     }
   }
-  InstanceHistory {
-    SelfId: 18091875773725209232
-    SubobjectId: 3124373880806023156
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 3460722023984353964
+  Id: 13010592273107111736
   Name: "Helper_DoorCloseSound"
   Transform {
     Location {
@@ -20495,7 +18480,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 18091875773725209232
+  ParentId: 2979693182920386374
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -20519,19 +18504,13 @@ Objects {
     IsSpatializationEnabled: true
     IsAttenuationEnabled: true
   }
-  InstanceHistory {
-    SelfId: 3460722023984353964
-    SubobjectId: 16161646704555474888
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 17775434383483065127
+  Id: 13438466440430919066
   Name: "Helper_DoorOpenSound"
   Transform {
     Location {
@@ -20544,7 +18523,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 18091875773725209232
+  ParentId: 2979693182920386374
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -20568,19 +18547,13 @@ Objects {
     IsSpatializationEnabled: true
     IsAttenuationEnabled: true
   }
-  InstanceHistory {
-    SelfId: 17775434383483065127
-    SubobjectId: 2801317241190399555
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 17821115627783608016
+  Id: 11856873436034865580
   Name: "SlidingDoorControllerClient"
   Transform {
     Location {
@@ -20593,30 +18566,30 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 18091875773725209232
+  ParentId: 2979693182920386374
   UnregisteredParameters {
     Overrides {
       Name: "cs:ComponentRoot"
       ObjectReference {
-        SelfId: 5006025206609055448
+        SelfId: 7574885691799315842
       }
     }
     Overrides {
       Name: "cs:DoorRoot"
       ObjectReference {
-        SelfId: 15701934612427124922
+        SelfId: 12873178819865457531
       }
     }
     Overrides {
       Name: "cs:OpenSound"
       ObjectReference {
-        SelfId: 17775434383483065127
+        SelfId: 13438466440430919066
       }
     }
     Overrides {
       Name: "cs:CloseSound"
       ObjectReference {
-        SelfId: 3460722023984353964
+        SelfId: 13010592273107111736
       }
     }
   }
@@ -20634,19 +18607,13 @@ Objects {
       Id: 13279840372954225083
     }
   }
-  InstanceHistory {
-    SelfId: 17821115627783608016
-    SubobjectId: 2818710666958158772
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 4678807188128470456
+  Id: 6843178381939567397
   Name: "ServerContext"
   Transform {
     Location {
@@ -20659,8 +18626,8 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5006025206609055448
-  ChildIds: 9497963650617627295
+  ParentId: 7574885691799315842
+  ChildIds: 2513798108428191984
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -20675,19 +18642,13 @@ Objects {
   NetworkContext {
     Type: Server
   }
-  InstanceHistory {
-    SelfId: 4678807188128470456
-    SubobjectId: 10421670445519501532
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 9497963650617627295
+  Id: 2513798108428191984
   Name: "SlidingDoorControllerServer"
   Transform {
     Location {
@@ -20700,24 +18661,24 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 4678807188128470456
+  ParentId: 6843178381939567397
   UnregisteredParameters {
     Overrides {
       Name: "cs:ComponentRoot"
       ObjectReference {
-        SelfId: 5006025206609055448
+        SelfId: 7574885691799315842
       }
     }
     Overrides {
       Name: "cs:DoorRoot"
       ObjectReference {
-        SelfId: 15701934612427124922
+        SelfId: 12873178819865457531
       }
     }
     Overrides {
       Name: "cs:Trigger"
       ObjectReference {
-        SelfId: 7256751768645432852
+        SelfId: 16317402182405845928
       }
     }
   }
@@ -20735,19 +18696,13 @@ Objects {
       Id: 11890246360956808940
     }
   }
-  InstanceHistory {
-    SelfId: 9497963650617627295
-    SubobjectId: 6017033174087090171
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 7256751768645432852
+  Id: 16317402182405845928
   Name: "Trigger"
   Transform {
     Location {
@@ -20762,7 +18717,7 @@ Objects {
       Z: 3
     }
   }
-  ParentId: 5006025206609055448
+  ParentId: 7574885691799315842
   UnregisteredParameters {
   }
   WantsNetworking: true
@@ -20788,19 +18743,13 @@ Objects {
     BreadcrumbTemplate {
     }
   }
-  InstanceHistory {
-    SelfId: 7256751768645432852
-    SubobjectId: 13040851247548930928
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 1816448322964541353
+  Id: 8348017368746171137
   Name: "Sci-Fi Base Wall 02 - Doorway 02 Half"
   Transform {
     Location {
@@ -20813,7 +18762,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17140152893403869383
+  ParentId: 6999977065316102022
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_WallOuter:color"
@@ -20849,12 +18798,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 1816448322964541353
-    SubobjectId: 14517936641709351629
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -20864,7 +18807,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 5643090698691933149
+  Id: 18050074872933602047
   Name: "Sci-Fi Base Wall Interior 01 - Window 01"
   Transform {
     Location {
@@ -20879,7 +18822,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -20904,12 +18847,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 5643090698691933149
-    SubobjectId: 11393835767538556601
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -20919,7 +18856,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 14481241036968753492
+  Id: 1880157011629556869
   Name: "Sci-Fi Base Wall Interior 01 - Window 01"
   Transform {
     Location {
@@ -20934,7 +18871,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -20959,12 +18896,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 14481241036968753492
-    SubobjectId: 1781441570147767344
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -20974,7 +18905,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 3659904070276387733
+  Id: 17750516232483675693
   Name: "Sci-Fi Base Wall Interior 01"
   Transform {
     Location {
@@ -20990,7 +18921,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -21015,12 +18946,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 3659904070276387733
-    SubobjectId: 16322688856103452401
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -21030,7 +18955,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 11191736003355462422
+  Id: 4114972499931233093
   Name: "Sci-Fi Base Wall Interior 01"
   Transform {
     Location {
@@ -21046,7 +18971,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -21071,12 +18996,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 11191736003355462422
-    SubobjectId: 5412843850142230130
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -21086,7 +19005,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 17694206369079900736
+  Id: 2221802515979822530
   Name: "Sci-Fi Base Wall Interior 01"
   Transform {
     Location {
@@ -21102,7 +19021,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -21127,12 +19046,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 17694206369079900736
-    SubobjectId: 2720511335114168100
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -21142,7 +19055,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 8633279569584722736
+  Id: 822964957580904419
   Name: "Sci-Fi Base Wall Interior 01"
   Transform {
     Location {
@@ -21158,7 +19071,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -21183,12 +19096,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 8633279569584722736
-    SubobjectId: 12069878259105234516
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -21198,7 +19105,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 5508316954726012037
+  Id: 13288602746264258494
   Name: "Sci-fi Base - Window 01"
   Transform {
     Location {
@@ -21215,7 +19122,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -21240,12 +19147,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 5508316954726012037
-    SubobjectId: 11258499077981469153
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -21255,7 +19156,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 12251599650595947963
+  Id: 4869942939326054906
   Name: "Sci-fi Base - Window 01"
   Transform {
     Location {
@@ -21272,7 +19173,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -21297,12 +19198,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 12251599650595947963
-    SubobjectId: 8811623265647929567
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -21312,7 +19207,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 5314223734833656349
+  Id: 12314540329850409214
   Name: "Sci-Fi Base Wall Interior 01 - Window 01"
   Transform {
     Location {
@@ -21328,7 +19223,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -21353,12 +19248,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 5314223734833656349
-    SubobjectId: 11092552800534847353
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -21368,7 +19257,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 17054208872448333835
+  Id: 12334565932751735810
   Name: "Sci-Fi Base Wall Interior 01 - Window 01"
   Transform {
     Location {
@@ -21384,7 +19273,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -21409,12 +19298,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 17054208872448333835
-    SubobjectId: 4387624000470676847
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -21424,7 +19307,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 5203835776251837883
+  Id: 8162259149985715417
   Name: "Sci-fi Base Pillar 02 - Base 01"
   Transform {
     Location {
@@ -21440,7 +19323,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -21465,12 +19348,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 5203835776251837883
-    SubobjectId: 10986809766506189023
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -21480,7 +19357,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 14916550729680248819
+  Id: 15810592628136069234
   Name: "Sci-fi Base Pillar 02 - Base 01"
   Transform {
     Location {
@@ -21496,7 +19373,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -21521,12 +19398,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 14916550729680248819
-    SubobjectId: 2255594845164679831
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -21536,7 +19407,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 9316794440994448066
+  Id: 1587803118563431533
   Name: "Sci-fi Base Breakout Box 04"
   Transform {
     Location {
@@ -21553,7 +19424,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -21578,12 +19449,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 9316794440994448066
-    SubobjectId: 5837975162080694182
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -21593,7 +19458,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 4771416863311091609
+  Id: 4576600554865673583
   Name: "Sci-fi Base Breakout Box 04"
   Transform {
     Location {
@@ -21610,7 +19475,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -21635,12 +19500,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 4771416863311091609
-    SubobjectId: 10554249565247519485
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -21650,7 +19509,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 8918603759274515706
+  Id: 6339282888707010879
   Name: "Sci-fi Base HVAC 01"
   Transform {
     Location {
@@ -21667,7 +19526,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -21692,12 +19551,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 8918603759274515706
-    SubobjectId: 12360831254811390366
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -21707,15 +19560,15 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 7539338455409550431
+  Id: 7511273267638797134
   Name: "Sci-fi Base Sconce 01"
   Transform {
     Location {
-      Y: -5650
+      Y: -5025
       Z: 550
     }
     Rotation {
-      Yaw: -89.9999924
+      Yaw: -90
     }
     Scale {
       X: 1
@@ -21723,7 +19576,24 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_Trim:id"
+      AssetReference {
+        Id: 3702191406046426907
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Detail1:color"
+      Color {
+        R: 1
+        G: 0.97
+        B: 0.972384095
+        A: 1
+      }
+    }
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -21748,12 +19618,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 7539338455409550431
-    SubobjectId: 13325689733086546235
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -21763,63 +19627,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 5509013742811687037
-  Name: "Sci-fi Base Sconce 01"
-  Transform {
-    Location {
-      Y: -4450
-      Z: 550
-    }
-    Rotation {
-      Yaw: -89.9999924
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 5973142006212069348
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:forceon"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 2902285227154202651
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    InteractWithTriggers: true
-    StaticMesh {
-      Physics {
-      }
-      BoundsScale: 1
-    }
-  }
-  InstanceHistory {
-    SelfId: 5509013742811687037
-    SubobjectId: 11258069548392793369
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
-  Relevance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  IsReplicationEnabledByDefault: true
-}
-Objects {
-  Id: 10342459371581980887
+  Id: 3753212966114419561
   Name: "Sci-fi Base Ceiling Light 01"
   Transform {
     Location {
@@ -21835,7 +19643,18 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_Lights:color"
+      Color {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+    }
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -21860,12 +19679,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 10342459371581980887
-    SubobjectId: 6901920723776613811
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -21875,7 +19688,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 1525393123173391689
+  Id: 16884912638875310976
   Name: "Sci-fi Base Ceiling Light 01"
   Transform {
     Location {
@@ -21891,7 +19704,18 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_Lights:color"
+      Color {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+    }
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -21916,12 +19740,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 1525393123173391689
-    SubobjectId: 14223503016396566573
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -21931,7 +19749,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 15738105930613767130
+  Id: 4606071057895086215
   Name: "Sci-fi Base Ceiling Light 01"
   Transform {
     Location {
@@ -21947,7 +19765,18 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_Lights:color"
+      Color {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+    }
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -21972,12 +19801,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 15738105930613767130
-    SubobjectId: 731759766046693054
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -21987,7 +19810,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 2056504126593092102
+  Id: 10544919519087089554
   Name: "Sci-fi Base Ceiling Light 01"
   Transform {
     Location {
@@ -22003,7 +19826,18 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_Lights:color"
+      Color {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+    }
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -22028,12 +19862,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 2056504126593092102
-    SubobjectId: 14755318293554636642
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -22043,7 +19871,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 13448600836933545380
+  Id: 6061016741386731741
   Name: "Sci-fi Base Ceiling Light 01"
   Transform {
     Location {
@@ -22059,7 +19887,18 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_Lights:color"
+      Color {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+    }
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -22084,12 +19923,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 13448600836933545380
-    SubobjectId: 7704611548636938432
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -22099,7 +19932,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 6609872979108444390
+  Id: 2834483793367726125
   Name: "Sci-fi Base Ceiling Light 01"
   Transform {
     Location {
@@ -22115,7 +19948,18 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_Lights:color"
+      Color {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+    }
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -22140,12 +19984,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 6609872979108444390
-    SubobjectId: 10085173789708473730
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -22155,7 +19993,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 16442353731897707494
+  Id: 18403334452720029780
   Name: "Sci-fi Base Ceiling Light 01"
   Transform {
     Location {
@@ -22171,7 +20009,18 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_Lights:color"
+      Color {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+    }
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -22196,12 +20045,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 16442353731897707494
-    SubobjectId: 3774502259116058242
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -22211,7 +20054,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 6873034985498098714
+  Id: 5195218739323451203
   Name: "Sci-fi Base Ceiling Light 01"
   Transform {
     Location {
@@ -22227,7 +20070,18 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_Lights:color"
+      Color {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+    }
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -22252,12 +20106,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 6873034985498098714
-    SubobjectId: 10317373682844127614
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -22267,7 +20115,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 4793973147333181340
+  Id: 11708588045404844844
   Name: "Sci-fi Base Ceiling Light 01"
   Transform {
     Location {
@@ -22283,7 +20131,18 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_Lights:color"
+      Color {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+    }
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -22308,12 +20167,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 4793973147333181340
-    SubobjectId: 10576947238487937784
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -22323,7 +20176,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 15007307925310663842
+  Id: 11545321369411197103
   Name: "Sci-fi Base Ceiling Light 01"
   Transform {
     Location {
@@ -22339,7 +20192,18 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_Lights:color"
+      Color {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+    }
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -22364,12 +20228,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 15007307925310663842
-    SubobjectId: 3355018545234374
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -22379,7 +20237,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 15700868497446722495
+  Id: 2302249823426253504
   Name: "Sci-fi Base Ceiling Light 01"
   Transform {
     Location {
@@ -22395,7 +20253,18 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_Lights:color"
+      Color {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+    }
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -22420,12 +20289,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 15700868497446722495
-    SubobjectId: 696915424251459291
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -22435,7 +20298,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 4840051658641482936
+  Id: 15309629716553770657
   Name: "Sci-fi Base Ceiling Light 01"
   Transform {
     Location {
@@ -22451,7 +20314,18 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_Lights:color"
+      Color {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+    }
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -22476,12 +20350,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 4840051658641482936
-    SubobjectId: 10620632522008873436
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -22491,7 +20359,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 16883208949494458380
+  Id: 13572850680981354540
   Name: "Sci-fi Base Ceiling Light 01"
   Transform {
     Location {
@@ -22507,7 +20375,18 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_Lights:color"
+      Color {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+    }
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -22532,12 +20411,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 16883208949494458380
-    SubobjectId: 4180032331635049832
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -22547,7 +20420,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 12735637124768880629
+  Id: 4739036994152605896
   Name: "Sci-fi Base Ceiling Light 01"
   Transform {
     Location {
@@ -22563,7 +20436,18 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_Lights:color"
+      Color {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+    }
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -22588,12 +20472,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 12735637124768880629
-    SubobjectId: 6985454837264628369
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -22603,7 +20481,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 3942175216983661221
+  Id: 17520347181520900928
   Name: "Sci-fi Base Ceiling Light 01"
   Transform {
     Location {
@@ -22619,7 +20497,18 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_Lights:color"
+      Color {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+    }
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -22644,12 +20533,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 3942175216983661221
-    SubobjectId: 16643662848550614977
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -22659,7 +20542,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 12966989319391901482
+  Id: 16612611606502514872
   Name: "Sci-fi Base Ceiling Light 01"
   Transform {
     Location {
@@ -22675,7 +20558,18 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_Lights:color"
+      Color {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+    }
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -22700,12 +20594,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 12966989319391901482
-    SubobjectId: 7186408280987671118
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -22715,7 +20603,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 12402485204682362012
+  Id: 16078243077565685944
   Name: "Sci-fi Base Ceiling Light 01"
   Transform {
     Location {
@@ -22731,7 +20619,18 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_Lights:color"
+      Color {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+    }
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -22756,12 +20655,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 12402485204682362012
-    SubobjectId: 8958005738692682232
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -22771,7 +20664,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 7356299022786761729
+  Id: 8909818692459239069
   Name: "Sci-fi Base Ceiling Light 01"
   Transform {
     Location {
@@ -22787,7 +20680,18 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_Lights:color"
+      Color {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+    }
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -22812,12 +20716,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 7356299022786761729
-    SubobjectId: 13139694640252025189
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -22827,7 +20725,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 6679063195743763672
+  Id: 10671672477902135092
   Name: "Sci-fi Base Pillar 01"
   Transform {
     Location {
@@ -22843,7 +20741,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Detail2:color"
@@ -22879,12 +20777,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 6679063195743763672
-    SubobjectId: 10159994050248200636
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -22894,7 +20786,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 16111909218106535488
+  Id: 6379718983182541693
   Name: "Sci-fi Base Pillar 01"
   Transform {
     Location {
@@ -22910,7 +20802,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Detail2:color"
@@ -22946,12 +20838,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 16111909218106535488
-    SubobjectId: 1141170222242562852
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -22961,7 +20847,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 6728088192384420608
+  Id: 6462754871226570271
   Name: "Sci-fi Base Pillar 01"
   Transform {
     Location {
@@ -22977,7 +20863,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Detail2:color"
@@ -23013,12 +20899,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 6728088192384420608
-    SubobjectId: 10165108988170184292
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -23028,7 +20908,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 260192190164828373
+  Id: 1324442298211849483
   Name: "Sci-fi Base Pillar 01"
   Transform {
     Location {
@@ -23044,7 +20924,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Detail2:color"
@@ -23080,12 +20960,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 260192190164828373
-    SubobjectId: 15263582319865916849
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -23095,7 +20969,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 16002445441353940586
+  Id: 14050146071550794841
   Name: "Sci-fi Base Pillar 02 - Base 01"
   Transform {
     Location {
@@ -23110,7 +20984,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -23135,12 +21009,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 16002445441353940586
-    SubobjectId: 1034520649846559502
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -23150,7 +21018,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 15253050459692074783
+  Id: 6587235066073401071
   Name: "Sci-fi Base Pillar 02 - Base 01"
   Transform {
     Location {
@@ -23165,7 +21033,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -23190,12 +21058,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 15253050459692074783
-    SubobjectId: 280059633935018619
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -23205,7 +21067,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 811331607547360622
+  Id: 12036713053822441514
   Name: "Sci-fi Base Wall 02 - Double Sliding Door Template"
   Transform {
     Location {
@@ -23221,9 +21083,9 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5973142006212069348
-  ChildIds: 15886336252423155732
-  ChildIds: 7631223896798621726
+  ParentId: 9575761177890923949
+  ChildIds: 16027258271727088303
+  ChildIds: 5698074358241623380
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -23236,19 +21098,13 @@ Objects {
   Folder {
     IsGroup: true
   }
-  InstanceHistory {
-    SelfId: 811331607547360622
-    SubobjectId: 15784322402101057546
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 7631223896798621726
+  Id: 5698074358241623380
   Name: "Sci-fi Base Sliding Door 01 Double - 30cm Z Offset"
   Transform {
     Location {
@@ -23262,9 +21118,9 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 811331607547360622
-  ChildIds: 3243536420618160504
-  ChildIds: 10639605010414783718
+  ParentId: 12036713053822441514
+  ChildIds: 9356974155272528563
+  ChildIds: 3146706699298470330
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -23277,19 +21133,13 @@ Objects {
   Folder {
     IsGroup: true
   }
-  InstanceHistory {
-    SelfId: 7631223896798621726
-    SubobjectId: 13378169085690781050
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 10639605010414783718
+  Id: 3146706699298470330
   Name: "Select To Edit Animation Properties (Sliding Door 02)"
   Transform {
     Location {
@@ -23305,10 +21155,10 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 7631223896798621726
-  ChildIds: 11605841581072538093
-  ChildIds: 10943813975876880
-  ChildIds: 4137951778484053615
+  ParentId: 5698074358241623380
+  ChildIds: 18215843359974384899
+  ChildIds: 2347257855994691698
+  ChildIds: 1280682137696700302
   UnregisteredParameters {
     Overrides {
       Name: "cs:AutoOpen"
@@ -23379,19 +21229,13 @@ Objects {
   Folder {
     IsGroup: true
   }
-  InstanceHistory {
-    SelfId: 10639605010414783718
-    SubobjectId: 4893222800517243266
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 4137951778484053615
+  Id: 1280682137696700302
   Name: "DoorRoot"
   Transform {
     Location {
@@ -23404,8 +21248,8 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 10639605010414783718
-  ChildIds: 4102945807530042467
+  ParentId: 3146706699298470330
+  ChildIds: 17524530399441411692
   UnregisteredParameters {
   }
   WantsNetworking: true
@@ -23421,19 +21265,13 @@ Objects {
   Folder {
     IsGroup: true
   }
-  InstanceHistory {
-    SelfId: 4137951778484053615
-    SubobjectId: 16799470472326384395
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 4102945807530042467
+  Id: 17524530399441411692
   Name: "Geo_StaticContext"
   Transform {
     Location {
@@ -23446,8 +21284,8 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 4137951778484053615
-  ChildIds: 4073084647938857762
+  ParentId: 1280682137696700302
+  ChildIds: 2381759042159107348
   UnregisteredParameters {
   }
   WantsNetworking: true
@@ -23463,19 +21301,13 @@ Objects {
   NetworkContext {
     Type: RuntimeStatic
   }
-  InstanceHistory {
-    SelfId: 4102945807530042467
-    SubobjectId: 16771360129333381383
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 4073084647938857762
+  Id: 2381759042159107348
   Name: "Sci-fi Base Door 01"
   Transform {
     Location {
@@ -23489,7 +21321,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 4102945807530042467
+  ParentId: 17524530399441411692
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Detail2:color"
@@ -23524,12 +21356,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 4073084647938857762
-    SubobjectId: 16774150204561520198
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -23539,7 +21365,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 10943813975876880
+  Id: 2347257855994691698
   Name: "ClientContext"
   Transform {
     Location {
@@ -23553,10 +21379,10 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 10639605010414783718
-  ChildIds: 13898133221780293141
-  ChildIds: 13295662972216483179
-  ChildIds: 1978831338308116208
+  ParentId: 3146706699298470330
+  ChildIds: 4807610267866365585
+  ChildIds: 15651179247772451251
+  ChildIds: 2727334273635812083
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -23576,19 +21402,13 @@ Objects {
       Value: "mc:edetaillevel:ultra"
     }
   }
-  InstanceHistory {
-    SelfId: 10943813975876880
-    SubobjectId: 15017711469436618868
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 1978831338308116208
+  Id: 2727334273635812083
   Name: "Helper_DoorCloseSound"
   Transform {
     Location {
@@ -23601,7 +21421,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 10943813975876880
+  ParentId: 2347257855994691698
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -23625,19 +21445,13 @@ Objects {
     IsSpatializationEnabled: true
     IsAttenuationEnabled: true
   }
-  InstanceHistory {
-    SelfId: 1978831338308116208
-    SubobjectId: 14643868475803923348
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 13295662972216483179
+  Id: 15651179247772451251
   Name: "Helper_DoorOpenSound"
   Transform {
     Location {
@@ -23650,7 +21464,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 10943813975876880
+  ParentId: 2347257855994691698
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -23674,19 +21488,13 @@ Objects {
     IsSpatializationEnabled: true
     IsAttenuationEnabled: true
   }
-  InstanceHistory {
-    SelfId: 13295662972216483179
-    SubobjectId: 7551673816092930063
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 13898133221780293141
+  Id: 4807610267866365585
   Name: "SlidingDoorControllerClient"
   Transform {
     Location {
@@ -23699,30 +21507,30 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 10943813975876880
+  ParentId: 2347257855994691698
   UnregisteredParameters {
     Overrides {
       Name: "cs:ComponentRoot"
       ObjectReference {
-        SelfId: 10639605010414783718
+        SelfId: 3146706699298470330
       }
     }
     Overrides {
       Name: "cs:DoorRoot"
       ObjectReference {
-        SelfId: 4137951778484053615
+        SelfId: 1280682137696700302
       }
     }
     Overrides {
       Name: "cs:OpenSound"
       ObjectReference {
-        SelfId: 13295662972216483179
+        SelfId: 15651179247772451251
       }
     }
     Overrides {
       Name: "cs:CloseSound"
       ObjectReference {
-        SelfId: 1978831338308116208
+        SelfId: 2727334273635812083
       }
     }
   }
@@ -23740,19 +21548,13 @@ Objects {
       Id: 13279840372954225083
     }
   }
-  InstanceHistory {
-    SelfId: 13898133221780293141
-    SubobjectId: 1202275091897150321
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 11605841581072538093
+  Id: 18215843359974384899
   Name: "ServerContext"
   Transform {
     Location {
@@ -23765,8 +21567,8 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 10639605010414783718
-  ChildIds: 506620349088070919
+  ParentId: 3146706699298470330
+  ChildIds: 10040141014768881048
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -23781,19 +21583,13 @@ Objects {
   NetworkContext {
     Type: Server
   }
-  InstanceHistory {
-    SelfId: 11605841581072538093
-    SubobjectId: 8169383736313918601
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 506620349088070919
+  Id: 10040141014768881048
   Name: "SlidingDoorControllerServer"
   Transform {
     Location {
@@ -23806,24 +21602,24 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 11605841581072538093
+  ParentId: 18215843359974384899
   UnregisteredParameters {
     Overrides {
       Name: "cs:ComponentRoot"
       ObjectReference {
-        SelfId: 10639605010414783718
+        SelfId: 3146706699298470330
       }
     }
     Overrides {
       Name: "cs:DoorRoot"
       ObjectReference {
-        SelfId: 4137951778484053615
+        SelfId: 1280682137696700302
       }
     }
     Overrides {
       Name: "cs:Trigger"
       ObjectReference {
-        SelfId: 16152865510946768383
+        SelfId: 13655988509326983684
       }
     }
   }
@@ -23841,19 +21637,13 @@ Objects {
       Id: 11890246360956808940
     }
   }
-  InstanceHistory {
-    SelfId: 506620349088070919
-    SubobjectId: 15512825736337657955
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 3243536420618160504
+  Id: 9356974155272528563
   Name: "Select To Edit Animation Properties (Sliding Door 01)"
   Transform {
     Location {
@@ -23868,11 +21658,11 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 7631223896798621726
-  ChildIds: 16152865510946768383
-  ChildIds: 6959302659086042999
-  ChildIds: 3484045749116238787
-  ChildIds: 13433021288270638862
+  ParentId: 5698074358241623380
+  ChildIds: 13655988509326983684
+  ChildIds: 9824275308545768348
+  ChildIds: 17911299053839047813
+  ChildIds: 1925444600325609435
   UnregisteredParameters {
     Overrides {
       Name: "cs:AutoOpen"
@@ -23943,19 +21733,13 @@ Objects {
   Folder {
     IsGroup: true
   }
-  InstanceHistory {
-    SelfId: 3243536420618160504
-    SubobjectId: 18251993507838141468
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 13433021288270638862
+  Id: 1925444600325609435
   Name: "DoorRoot"
   Transform {
     Location {
@@ -23968,8 +21752,8 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 3243536420618160504
-  ChildIds: 5038608229048228081
+  ParentId: 9356974155272528563
+  ChildIds: 10196828435564357985
   UnregisteredParameters {
   }
   WantsNetworking: true
@@ -23985,19 +21769,13 @@ Objects {
   Folder {
     IsGroup: true
   }
-  InstanceHistory {
-    SelfId: 13433021288270638862
-    SubobjectId: 7648499631230337642
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 5038608229048228081
+  Id: 10196828435564357985
   Name: "Geo_StaticContext"
   Transform {
     Location {
@@ -24010,8 +21788,8 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13433021288270638862
-  ChildIds: 6644797307018182249
+  ParentId: 1925444600325609435
+  ChildIds: 9027998206087365315
   UnregisteredParameters {
   }
   WantsNetworking: true
@@ -24027,19 +21805,13 @@ Objects {
   NetworkContext {
     Type: RuntimeStatic
   }
-  InstanceHistory {
-    SelfId: 5038608229048228081
-    SubobjectId: 10782738090483447189
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 6644797307018182249
+  Id: 9027998206087365315
   Name: "Sci-fi Base Door 01"
   Transform {
     Location {
@@ -24053,7 +21825,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5038608229048228081
+  ParentId: 10196828435564357985
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Detail2:color"
@@ -24088,12 +21860,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 6644797307018182249
-    SubobjectId: 10121927732919735053
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -24103,7 +21869,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 3484045749116238787
+  Id: 17911299053839047813
   Name: "ClientContext"
   Transform {
     Location {
@@ -24117,10 +21883,10 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 3243536420618160504
-  ChildIds: 14601353604097078670
-  ChildIds: 17123159950934355295
-  ChildIds: 16394824074746803247
+  ParentId: 9356974155272528563
+  ChildIds: 6138219950323291508
+  ChildIds: 8017279981666602349
+  ChildIds: 4421771321175291794
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -24140,19 +21906,13 @@ Objects {
       Value: "mc:edetaillevel:ultra"
     }
   }
-  InstanceHistory {
-    SelfId: 3484045749116238787
-    SubobjectId: 16147253435662145191
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 16394824074746803247
+  Id: 4421771321175291794
   Name: "Helper_DoorCloseSound"
   Transform {
     Location {
@@ -24165,7 +21925,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 3484045749116238787
+  ParentId: 17911299053839047813
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -24189,19 +21949,13 @@ Objects {
     IsSpatializationEnabled: true
     IsAttenuationEnabled: true
   }
-  InstanceHistory {
-    SelfId: 16394824074746803247
-    SubobjectId: 3731617073267169611
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 17123159950934355295
+  Id: 8017279981666602349
   Name: "Helper_DoorOpenSound"
   Transform {
     Location {
@@ -24214,7 +21968,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 3484045749116238787
+  ParentId: 17911299053839047813
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -24238,19 +21992,13 @@ Objects {
     IsSpatializationEnabled: true
     IsAttenuationEnabled: true
   }
-  InstanceHistory {
-    SelfId: 17123159950934355295
-    SubobjectId: 4462767150489288763
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 14601353604097078670
+  Id: 6138219950323291508
   Name: "SlidingDoorControllerClient"
   Transform {
     Location {
@@ -24263,30 +22011,30 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 3484045749116238787
+  ParentId: 17911299053839047813
   UnregisteredParameters {
     Overrides {
       Name: "cs:ComponentRoot"
       ObjectReference {
-        SelfId: 3243536420618160504
+        SelfId: 9356974155272528563
       }
     }
     Overrides {
       Name: "cs:DoorRoot"
       ObjectReference {
-        SelfId: 13433021288270638862
+        SelfId: 1925444600325609435
       }
     }
     Overrides {
       Name: "cs:OpenSound"
       ObjectReference {
-        SelfId: 17123159950934355295
+        SelfId: 8017279981666602349
       }
     }
     Overrides {
       Name: "cs:CloseSound"
       ObjectReference {
-        SelfId: 16394824074746803247
+        SelfId: 4421771321175291794
       }
     }
   }
@@ -24304,19 +22052,13 @@ Objects {
       Id: 13279840372954225083
     }
   }
-  InstanceHistory {
-    SelfId: 14601353604097078670
-    SubobjectId: 1940257494282672362
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 6959302659086042999
+  Id: 9824275308545768348
   Name: "ServerContext"
   Transform {
     Location {
@@ -24329,8 +22071,8 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 3243536420618160504
-  ChildIds: 8371363691083917822
+  ParentId: 9356974155272528563
+  ChildIds: 7600537327801845493
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -24345,19 +22087,13 @@ Objects {
   NetworkContext {
     Type: Server
   }
-  InstanceHistory {
-    SelfId: 6959302659086042999
-    SubobjectId: 12743824313880160787
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 8371363691083917822
+  Id: 7600537327801845493
   Name: "SlidingDoorControllerServer"
   Transform {
     Location {
@@ -24370,24 +22106,24 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 6959302659086042999
+  ParentId: 9824275308545768348
   UnregisteredParameters {
     Overrides {
       Name: "cs:ComponentRoot"
       ObjectReference {
-        SelfId: 3243536420618160504
+        SelfId: 9356974155272528563
       }
     }
     Overrides {
       Name: "cs:DoorRoot"
       ObjectReference {
-        SelfId: 13433021288270638862
+        SelfId: 1925444600325609435
       }
     }
     Overrides {
       Name: "cs:Trigger"
       ObjectReference {
-        SelfId: 16152865510946768383
+        SelfId: 13655988509326983684
       }
     }
   }
@@ -24405,19 +22141,13 @@ Objects {
       Id: 11890246360956808940
     }
   }
-  InstanceHistory {
-    SelfId: 8371363691083917822
-    SubobjectId: 11845116524655903898
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 16152865510946768383
+  Id: 13655988509326983684
   Name: "Trigger"
   Transform {
     Location {
@@ -24432,7 +22162,7 @@ Objects {
       Z: 3.70000029
     }
   }
-  ParentId: 3243536420618160504
+  ParentId: 9356974155272528563
   UnregisteredParameters {
   }
   WantsNetworking: true
@@ -24458,19 +22188,13 @@ Objects {
     BreadcrumbTemplate {
     }
   }
-  InstanceHistory {
-    SelfId: 16152865510946768383
-    SubobjectId: 3487406573338585243
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 15886336252423155732
+  Id: 16027258271727088303
   Name: "Sci-Fi Base Wall 02 - Doorway 01"
   Transform {
     Location {
@@ -24483,7 +22207,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 811331607547360622
+  ParentId: 12036713053822441514
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_WallOuter:color"
@@ -24519,12 +22243,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 15886336252423155732
-    SubobjectId: 880694460462587248
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -24534,7 +22252,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 9350341017261022810
+  Id: 17793662953778651955
   Name: "Sci-fi Base Wall 02 - Double Sliding Door Template"
   Transform {
     Location {
@@ -24550,9 +22268,9 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5973142006212069348
-  ChildIds: 18340093626588780780
-  ChildIds: 2793970787077147639
+  ParentId: 9575761177890923949
+  ChildIds: 4757258818100190033
+  ChildIds: 14542562254778082229
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -24565,19 +22283,13 @@ Objects {
   Folder {
     IsGroup: true
   }
-  InstanceHistory {
-    SelfId: 9350341017261022810
-    SubobjectId: 5876165937954747198
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 2793970787077147639
+  Id: 14542562254778082229
   Name: "Sci-fi Base Sliding Door 01 Double - 30cm Z Offset"
   Transform {
     Location {
@@ -24591,9 +22303,9 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 9350341017261022810
-  ChildIds: 17746037497866485884
-  ChildIds: 8338961870492382715
+  ParentId: 17793662953778651955
+  ChildIds: 12794922230963044743
+  ChildIds: 13704862689561426253
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -24606,19 +22318,13 @@ Objects {
   Folder {
     IsGroup: true
   }
-  InstanceHistory {
-    SelfId: 2793970787077147639
-    SubobjectId: 17764851101340542611
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 8338961870492382715
+  Id: 13704862689561426253
   Name: "Select To Edit Animation Properties (Sliding Door 02)"
   Transform {
     Location {
@@ -24634,10 +22340,10 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 2793970787077147639
-  ChildIds: 9198636217811727347
-  ChildIds: 14079633102024826905
-  ChildIds: 14478329091888324663
+  ParentId: 14542562254778082229
+  ChildIds: 7761644030687541393
+  ChildIds: 9667171353975455243
+  ChildIds: 4908428938311577490
   UnregisteredParameters {
     Overrides {
       Name: "cs:AutoOpen"
@@ -24708,19 +22414,13 @@ Objects {
   Folder {
     IsGroup: true
   }
-  InstanceHistory {
-    SelfId: 8338961870492382715
-    SubobjectId: 11814826348305242271
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 14478329091888324663
+  Id: 4908428938311577490
   Name: "DoorRoot"
   Transform {
     Location {
@@ -24733,8 +22433,8 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 8338961870492382715
-  ChildIds: 4674778071205253219
+  ParentId: 13704862689561426253
+  ChildIds: 5928989817657090810
   UnregisteredParameters {
   }
   WantsNetworking: true
@@ -24750,19 +22450,13 @@ Objects {
   Folder {
     IsGroup: true
   }
-  InstanceHistory {
-    SelfId: 14478329091888324663
-    SubobjectId: 1775011773047655763
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 4674778071205253219
+  Id: 5928989817657090810
   Name: "Geo_StaticContext"
   Transform {
     Location {
@@ -24775,8 +22469,8 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14478329091888324663
-  ChildIds: 11807323223178329289
+  ParentId: 4908428938311577490
+  ChildIds: 187022518107392039
   UnregisteredParameters {
   }
   WantsNetworking: true
@@ -24792,19 +22486,13 @@ Objects {
   NetworkContext {
     Type: RuntimeStatic
   }
-  InstanceHistory {
-    SelfId: 4674778071205253219
-    SubobjectId: 10425663501764197639
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 11807323223178329289
+  Id: 187022518107392039
   Name: "Sci-fi Base Door 01"
   Transform {
     Location {
@@ -24818,7 +22506,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 4674778071205253219
+  ParentId: 5928989817657090810
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Detail2:color"
@@ -24853,12 +22541,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 11807323223178329289
-    SubobjectId: 8328081212074807725
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -24868,7 +22550,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 14079633102024826905
+  Id: 9667171353975455243
   Name: "ClientContext"
   Transform {
     Location {
@@ -24882,10 +22564,10 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 8338961870492382715
-  ChildIds: 11027683304953282166
-  ChildIds: 2611432437524637029
-  ChildIds: 396285322137808131
+  ParentId: 13704862689561426253
+  ChildIds: 2629700638642686593
+  ChildIds: 8598492919715656069
+  ChildIds: 4788032133744105094
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -24905,19 +22587,13 @@ Objects {
       Value: "mc:edetaillevel:ultra"
     }
   }
-  InstanceHistory {
-    SelfId: 14079633102024826905
-    SubobjectId: 1381382297367088509
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 396285322137808131
+  Id: 4788032133744105094
   Name: "Helper_DoorCloseSound"
   Transform {
     Location {
@@ -24930,7 +22606,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14079633102024826905
+  ParentId: 9667171353975455243
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -24954,19 +22630,13 @@ Objects {
     IsSpatializationEnabled: true
     IsAttenuationEnabled: true
   }
-  InstanceHistory {
-    SelfId: 396285322137808131
-    SubobjectId: 15361957766187499623
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 2611432437524637029
+  Id: 8598492919715656069
   Name: "Helper_DoorOpenSound"
   Transform {
     Location {
@@ -24979,7 +22649,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14079633102024826905
+  ParentId: 9667171353975455243
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -25003,19 +22673,13 @@ Objects {
     IsSpatializationEnabled: true
     IsAttenuationEnabled: true
   }
-  InstanceHistory {
-    SelfId: 2611432437524637029
-    SubobjectId: 17614400180764264449
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 11027683304953282166
+  Id: 2629700638642686593
   Name: "SlidingDoorControllerClient"
   Transform {
     Location {
@@ -25028,30 +22692,30 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14079633102024826905
+  ParentId: 9667171353975455243
   UnregisteredParameters {
     Overrides {
       Name: "cs:ComponentRoot"
       ObjectReference {
-        SelfId: 8338961870492382715
+        SelfId: 13704862689561426253
       }
     }
     Overrides {
       Name: "cs:DoorRoot"
       ObjectReference {
-        SelfId: 14478329091888324663
+        SelfId: 4908428938311577490
       }
     }
     Overrides {
       Name: "cs:OpenSound"
       ObjectReference {
-        SelfId: 2611432437524637029
+        SelfId: 8598492919715656069
       }
     }
     Overrides {
       Name: "cs:CloseSound"
       ObjectReference {
-        SelfId: 396285322137808131
+        SelfId: 4788032133744105094
       }
     }
   }
@@ -25069,19 +22733,13 @@ Objects {
       Id: 13279840372954225083
     }
   }
-  InstanceHistory {
-    SelfId: 11027683304953282166
-    SubobjectId: 5279753531265356562
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 9198636217811727347
+  Id: 7761644030687541393
   Name: "ServerContext"
   Transform {
     Location {
@@ -25094,8 +22752,8 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 8338961870492382715
-  ChildIds: 2239672575881418133
+  ParentId: 13704862689561426253
+  ChildIds: 984200391003447204
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -25110,19 +22768,13 @@ Objects {
   NetworkContext {
     Type: Server
   }
-  InstanceHistory {
-    SelfId: 9198636217811727347
-    SubobjectId: 12675203802222337687
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 2239672575881418133
+  Id: 984200391003447204
   Name: "SlidingDoorControllerServer"
   Transform {
     Location {
@@ -25135,24 +22787,24 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 9198636217811727347
+  ParentId: 7761644030687541393
   UnregisteredParameters {
     Overrides {
       Name: "cs:ComponentRoot"
       ObjectReference {
-        SelfId: 8338961870492382715
+        SelfId: 13704862689561426253
       }
     }
     Overrides {
       Name: "cs:DoorRoot"
       ObjectReference {
-        SelfId: 14478329091888324663
+        SelfId: 4908428938311577490
       }
     }
     Overrides {
       Name: "cs:Trigger"
       ObjectReference {
-        SelfId: 7176963198355878873
+        SelfId: 9142923190620863371
       }
     }
   }
@@ -25170,19 +22822,13 @@ Objects {
       Id: 11890246360956808940
     }
   }
-  InstanceHistory {
-    SelfId: 2239672575881418133
-    SubobjectId: 14941723120892508401
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 17746037497866485884
+  Id: 12794922230963044743
   Name: "Select To Edit Animation Properties (Sliding Door 01)"
   Transform {
     Location {
@@ -25197,11 +22843,11 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 2793970787077147639
-  ChildIds: 7176963198355878873
-  ChildIds: 8417288791914098022
-  ChildIds: 9698965220667269160
-  ChildIds: 2870838635558362532
+  ParentId: 14542562254778082229
+  ChildIds: 9142923190620863371
+  ChildIds: 12010424285138556177
+  ChildIds: 2375055188680938208
+  ChildIds: 379659122852448293
   UnregisteredParameters {
     Overrides {
       Name: "cs:AutoOpen"
@@ -25272,19 +22918,13 @@ Objects {
   Folder {
     IsGroup: true
   }
-  InstanceHistory {
-    SelfId: 17746037497866485884
-    SubobjectId: 2740958518319869208
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 2870838635558362532
+  Id: 379659122852448293
   Name: "DoorRoot"
   Transform {
     Location {
@@ -25297,8 +22937,8 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17746037497866485884
-  ChildIds: 10331324623221840177
+  ParentId: 12794922230963044743
+  ChildIds: 2686278984690499429
   UnregisteredParameters {
   }
   WantsNetworking: true
@@ -25314,19 +22954,13 @@ Objects {
   Folder {
     IsGroup: true
   }
-  InstanceHistory {
-    SelfId: 2870838635558362532
-    SubobjectId: 17841015231140933824
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 10331324623221840177
+  Id: 2686278984690499429
   Name: "Geo_StaticContext"
   Transform {
     Location {
@@ -25339,8 +22973,8 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 2870838635558362532
-  ChildIds: 12378508024117853591
+  ParentId: 379659122852448293
+  ChildIds: 16364557414538249375
   UnregisteredParameters {
   }
   WantsNetworking: true
@@ -25356,19 +22990,13 @@ Objects {
   NetworkContext {
     Type: RuntimeStatic
   }
-  InstanceHistory {
-    SelfId: 10331324623221840177
-    SubobjectId: 6858838562372269141
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 12378508024117853591
+  Id: 16364557414538249375
   Name: "Sci-fi Base Door 01"
   Transform {
     Location {
@@ -25382,7 +23010,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 10331324623221840177
+  ParentId: 2686278984690499429
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Detail2:color"
@@ -25417,12 +23045,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 12378508024117853591
-    SubobjectId: 8900813955699347699
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -25432,7 +23054,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 9698965220667269160
+  Id: 2375055188680938208
   Name: "ClientContext"
   Transform {
     Location {
@@ -25446,10 +23068,10 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17746037497866485884
-  ChildIds: 850954955776422174
-  ChildIds: 13966093549440257906
-  ChildIds: 12085231115340351327
+  ParentId: 12794922230963044743
+  ChildIds: 4901944527207905502
+  ChildIds: 5533311733144218215
+  ChildIds: 2412001198211060424
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -25469,19 +23091,13 @@ Objects {
       Value: "mc:edetaillevel:ultra"
     }
   }
-  InstanceHistory {
-    SelfId: 9698965220667269160
-    SubobjectId: 6257440726484569420
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 12085231115340351327
+  Id: 2412001198211060424
   Name: "Helper_DoorCloseSound"
   Transform {
     Location {
@@ -25494,7 +23110,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 9698965220667269160
+  ParentId: 2375055188680938208
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -25518,19 +23134,13 @@ Objects {
     IsSpatializationEnabled: true
     IsAttenuationEnabled: true
   }
-  InstanceHistory {
-    SelfId: 12085231115340351327
-    SubobjectId: 8644692468640344635
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 13966093549440257906
+  Id: 5533311733144218215
   Name: "Helper_DoorOpenSound"
   Transform {
     Location {
@@ -25543,7 +23153,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 9698965220667269160
+  ParentId: 2375055188680938208
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -25567,19 +23177,13 @@ Objects {
     IsSpatializationEnabled: true
     IsAttenuationEnabled: true
   }
-  InstanceHistory {
-    SelfId: 13966093549440257906
-    SubobjectId: 1269672333205021206
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 850954955776422174
+  Id: 4901944527207905502
   Name: "SlidingDoorControllerClient"
   Transform {
     Location {
@@ -25592,30 +23196,30 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 9698965220667269160
+  ParentId: 2375055188680938208
   UnregisteredParameters {
     Overrides {
       Name: "cs:ComponentRoot"
       ObjectReference {
-        SelfId: 17746037497866485884
+        SelfId: 12794922230963044743
       }
     }
     Overrides {
       Name: "cs:DoorRoot"
       ObjectReference {
-        SelfId: 2870838635558362532
+        SelfId: 379659122852448293
       }
     }
     Overrides {
       Name: "cs:OpenSound"
       ObjectReference {
-        SelfId: 13966093549440257906
+        SelfId: 5533311733144218215
       }
     }
     Overrides {
       Name: "cs:CloseSound"
       ObjectReference {
-        SelfId: 12085231115340351327
+        SelfId: 2412001198211060424
       }
     }
   }
@@ -25633,19 +23237,13 @@ Objects {
       Id: 13279840372954225083
     }
   }
-  InstanceHistory {
-    SelfId: 850954955776422174
-    SubobjectId: 15816768691400875130
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 8417288791914098022
+  Id: 12010424285138556177
   Name: "ServerContext"
   Transform {
     Location {
@@ -25658,8 +23256,8 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17746037497866485884
-  ChildIds: 13365621010135410939
+  ParentId: 12794922230963044743
+  ChildIds: 13803673304827357521
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -25674,19 +23272,13 @@ Objects {
   NetworkContext {
     Type: Server
   }
-  InstanceHistory {
-    SelfId: 8417288791914098022
-    SubobjectId: 11862331729731371010
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 13365621010135410939
+  Id: 13803673304827357521
   Name: "SlidingDoorControllerServer"
   Transform {
     Location {
@@ -25699,24 +23291,24 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 8417288791914098022
+  ParentId: 12010424285138556177
   UnregisteredParameters {
     Overrides {
       Name: "cs:ComponentRoot"
       ObjectReference {
-        SelfId: 17746037497866485884
+        SelfId: 12794922230963044743
       }
     }
     Overrides {
       Name: "cs:DoorRoot"
       ObjectReference {
-        SelfId: 2870838635558362532
+        SelfId: 379659122852448293
       }
     }
     Overrides {
       Name: "cs:Trigger"
       ObjectReference {
-        SelfId: 7176963198355878873
+        SelfId: 9142923190620863371
       }
     }
   }
@@ -25734,19 +23326,13 @@ Objects {
       Id: 11890246360956808940
     }
   }
-  InstanceHistory {
-    SelfId: 13365621010135410939
-    SubobjectId: 7580535821171623327
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 7176963198355878873
+  Id: 9142923190620863371
   Name: "Trigger"
   Transform {
     Location {
@@ -25761,7 +23347,7 @@ Objects {
       Z: 3.70000029
     }
   }
-  ParentId: 17746037497866485884
+  ParentId: 12794922230963044743
   UnregisteredParameters {
   }
   WantsNetworking: true
@@ -25787,19 +23373,13 @@ Objects {
     BreadcrumbTemplate {
     }
   }
-  InstanceHistory {
-    SelfId: 7176963198355878873
-    SubobjectId: 12958811420792512189
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 18340093626588780780
+  Id: 4757258818100190033
   Name: "Sci-Fi Base Wall 02 - Doorway 01"
   Transform {
     Location {
@@ -25812,7 +23392,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 9350341017261022810
+  ParentId: 17793662953778651955
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_WallOuter:color"
@@ -25848,12 +23428,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 18340093626588780780
-    SubobjectId: 3371605879792842120
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -25863,62 +23437,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 4083328729856506413
-  Name: "Sci-fi Base Pillar 02 - Base 01"
-  Transform {
-    Location {
-      X: -150
-      Y: -5050
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 5973142006212069348
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:forceon"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 2402982143081217095
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    InteractWithTriggers: true
-    StaticMesh {
-      Physics {
-      }
-      BoundsScale: 1
-    }
-  }
-  InstanceHistory {
-    SelfId: 4083328729856506413
-    SubobjectId: 16782001609590642505
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
-  Relevance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  IsReplicationEnabledByDefault: true
-}
-Objects {
-  Id: 2835578368266364368
+  Id: 17155137219517913958
   Name: "Sci-fi Base Pillar 01"
   Transform {
     Location {
@@ -25933,7 +23452,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -25958,12 +23477,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 2835578368266364368
-    SubobjectId: 17804629096238221492
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -25973,7 +23486,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 8476389266629629331
+  Id: 9084523275425323205
   Name: "Sci-fi Base Pillar 01"
   Transform {
     Location {
@@ -25989,7 +23502,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -26014,12 +23527,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 8476389266629629331
-    SubobjectId: 11956335130499741943
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -26029,7 +23536,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 8358747672317256023
+  Id: 3806298465618675248
   Name: "Sci-fi Base Pillar 01"
   Transform {
     Location {
@@ -26045,7 +23552,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -26070,12 +23577,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 8358747672317256023
-    SubobjectId: 11839819299709946931
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -26085,7 +23586,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 17718015935953612283
+  Id: 17406873597168899313
   Name: "Sci-fi Base Pillar 01"
   Transform {
     Location {
@@ -26100,7 +23601,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -26125,12 +23626,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 17718015935953612283
-    SubobjectId: 2714625808414589087
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -26140,7 +23635,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 17277953807773102470
+  Id: 4211660491040131836
   Name: "Sci-fi Base Pillar 02 - Base 01"
   Transform {
     Location {
@@ -26155,7 +23650,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -26180,12 +23675,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 17277953807773102470
-    SubobjectId: 4578154379659255010
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -26195,7 +23684,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 10484102230852886878
+  Id: 15135761966473139196
   Name: "Sci-fi Base Pillar 02 - Base 01"
   Transform {
     Location {
@@ -26210,7 +23699,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -26235,12 +23724,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 10484102230852886878
-    SubobjectId: 4697328329501215802
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -26250,7 +23733,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 5178171925817994596
+  Id: 14402701512801974162
   Name: "Sci-fi Base Pillar 02 - Base 01"
   Transform {
     Location {
@@ -26265,7 +23748,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -26290,12 +23773,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 5178171925817994596
-    SubobjectId: 10922301921554939904
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -26305,12 +23782,12 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 17061018770914141340
+  Id: 8904719233949606920
   Name: "Sci-fi Base Pillar 02 - Base 01"
   Transform {
     Location {
       X: -2550
-      Y: -5950
+      Y: -5875
     }
     Rotation {
     }
@@ -26320,7 +23797,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -26345,12 +23822,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 17061018770914141340
-    SubobjectId: 4362768101528996344
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -26360,7 +23831,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 10320515842380061086
+  Id: 6924411466234876600
   Name: "Sci-fi Base Pillar 02 - Base 01"
   Transform {
     Location {
@@ -26375,7 +23846,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -26400,12 +23871,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 10320515842380061086
-    SubobjectId: 6878850607454336250
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -26415,7 +23880,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 17066127925735885359
+  Id: 943784791088563112
   Name: "Sci-fi Base Pillar 02 - Base 01"
   Transform {
     Location {
@@ -26430,7 +23895,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -26455,12 +23920,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 17066127925735885359
-    SubobjectId: 4366328595364046667
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -26470,7 +23929,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 12685819866257831670
+  Id: 15053417290228566760
   Name: "Sci-Fi Base Girder 6m 01"
   Transform {
     Location {
@@ -26486,7 +23945,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim2:id"
@@ -26519,12 +23978,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 12685819866257831670
-    SubobjectId: 6936200523388640146
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -26534,7 +23987,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 1896656683035326064
+  Id: 4041148638137485822
   Name: "Sci-Fi Base Girder 6m 01"
   Transform {
     Location {
@@ -26550,7 +24003,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim2:id"
@@ -26583,12 +24036,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 1896656683035326064
-    SubobjectId: 14563804881814133524
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -26598,7 +24045,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 18327550012384497372
+  Id: 617184991131651079
   Name: "Sci-Fi Base Girder 6m 01"
   Transform {
     Location {
@@ -26614,7 +24061,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim2:id"
@@ -26647,12 +24094,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 18327550012384497372
-    SubobjectId: 3321345304731788216
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -26662,7 +24103,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 4821865752337789611
+  Id: 1929350493309816594
   Name: "Sci-Fi Base Girder 6m 01"
   Transform {
     Location {
@@ -26678,7 +24119,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim2:id"
@@ -26711,12 +24152,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 4821865752337789611
-    SubobjectId: 10567121542668771279
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -26726,15 +24161,15 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 6848219068117649890
+  Id: 8419491800463185043
   Name: "Sci-fi Base Wall 02 - Double Sliding Door Template"
   Transform {
     Location {
       X: -50
-      Y: -4250
+      Y: -4625
     }
     Rotation {
-      Yaw: -89.9999924
+      Yaw: -90
     }
     Scale {
       X: 1
@@ -26742,9 +24177,9 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5973142006212069348
-  ChildIds: 17350837751462865969
-  ChildIds: 1185267928884750765
+  ParentId: 9575761177890923949
+  ChildIds: 9826814838665413308
+  ChildIds: 2057437204907365746
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -26757,19 +24192,13 @@ Objects {
   Folder {
     IsGroup: true
   }
-  InstanceHistory {
-    SelfId: 6848219068117649890
-    SubobjectId: 10324082825416205446
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 1185267928884750765
+  Id: 2057437204907365746
   Name: "Sci-fi Base Sliding Door 01 Double - 30cm Z Offset"
   Transform {
     Location {
@@ -26783,9 +24212,9 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 6848219068117649890
-  ChildIds: 6664994843104488649
-  ChildIds: 15442608175178397034
+  ParentId: 8419491800463185043
+  ChildIds: 838069626048012973
+  ChildIds: 1931320656203424273
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -26798,19 +24227,13 @@ Objects {
   Folder {
     IsGroup: true
   }
-  InstanceHistory {
-    SelfId: 1185267928884750765
-    SubobjectId: 13852415711068538057
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 15442608175178397034
+  Id: 1931320656203424273
   Name: "Select To Edit Animation Properties (Sliding Door 02)"
   Transform {
     Location {
@@ -26826,10 +24249,10 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 1185267928884750765
-  ChildIds: 11285563995604100413
-  ChildIds: 4375728800537276679
-  ChildIds: 17891864631971436918
+  ParentId: 2057437204907365746
+  ChildIds: 7164745530315385798
+  ChildIds: 11388637462354548272
+  ChildIds: 15613506874058022151
   UnregisteredParameters {
     Overrides {
       Name: "cs:AutoOpen"
@@ -26900,19 +24323,13 @@ Objects {
   Folder {
     IsGroup: true
   }
-  InstanceHistory {
-    SelfId: 15442608175178397034
-    SubobjectId: 432462138173052942
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 17891864631971436918
+  Id: 15613506874058022151
   Name: "DoorRoot"
   Transform {
     Location {
@@ -26925,8 +24342,8 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 15442608175178397034
-  ChildIds: 4926966095916424933
+  ParentId: 1931320656203424273
+  ChildIds: 10790317332040434728
   UnregisteredParameters {
   }
   WantsNetworking: true
@@ -26942,19 +24359,13 @@ Objects {
   Folder {
     IsGroup: true
   }
-  InstanceHistory {
-    SelfId: 17891864631971436918
-    SubobjectId: 2883407957034873874
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 4926966095916424933
+  Id: 10790317332040434728
   Name: "Geo_StaticContext"
   Transform {
     Location {
@@ -26967,8 +24378,8 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17891864631971436918
-  ChildIds: 15472673754519739631
+  ParentId: 15613506874058022151
+  ChildIds: 13724172856205744862
   UnregisteredParameters {
   }
   WantsNetworking: true
@@ -26984,19 +24395,13 @@ Objects {
   NetworkContext {
     Type: RuntimeStatic
   }
-  InstanceHistory {
-    SelfId: 4926966095916424933
-    SubobjectId: 10677852041821074305
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 15472673754519739631
+  Id: 13724172856205744862
   Name: "Sci-fi Base Door 01"
   Transform {
     Location {
@@ -27010,14 +24415,20 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 4926966095916424933
+  ParentId: 10790317332040434728
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Detail2:color"
       Color {
-        G: 0.840000033
-        B: 0.78993392
+        R: 1
+        G: 0.0235294141
         A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Detail2:id"
+      AssetReference {
+        Id: 3702191406046426907
       }
     }
   }
@@ -27045,12 +24456,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 15472673754519739631
-    SubobjectId: 501793577680630155
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -27060,7 +24465,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 4375728800537276679
+  Id: 11388637462354548272
   Name: "ClientContext"
   Transform {
     Location {
@@ -27074,10 +24479,10 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 15442608175178397034
-  ChildIds: 4978301162198355917
-  ChildIds: 5035163533572912599
-  ChildIds: 12229113777991821466
+  ParentId: 1931320656203424273
+  ChildIds: 9059835111787293900
+  ChildIds: 13169519832165375064
+  ChildIds: 7479495532469045863
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -27097,19 +24502,13 @@ Objects {
       Value: "mc:edetaillevel:ultra"
     }
   }
-  InstanceHistory {
-    SelfId: 4375728800537276679
-    SubobjectId: 17075106058095631459
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 12229113777991821466
+  Id: 7479495532469045863
   Name: "Helper_DoorCloseSound"
   Transform {
     Location {
@@ -27122,7 +24521,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 4375728800537276679
+  ParentId: 11388637462354548272
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -27146,19 +24545,13 @@ Objects {
     IsSpatializationEnabled: true
     IsAttenuationEnabled: true
   }
-  InstanceHistory {
-    SelfId: 12229113777991821466
-    SubobjectId: 8789278682336773630
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 5035163533572912599
+  Id: 13169519832165375064
   Name: "Helper_DoorOpenSound"
   Transform {
     Location {
@@ -27171,7 +24564,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 4375728800537276679
+  ParentId: 11388637462354548272
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -27195,19 +24588,13 @@ Objects {
     IsSpatializationEnabled: true
     IsAttenuationEnabled: true
   }
-  InstanceHistory {
-    SelfId: 5035163533572912599
-    SubobjectId: 10785908740999370931
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 4978301162198355917
+  Id: 9059835111787293900
   Name: "SlidingDoorControllerClient"
   Transform {
     Location {
@@ -27220,30 +24607,30 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 4375728800537276679
+  ParentId: 11388637462354548272
   UnregisteredParameters {
     Overrides {
       Name: "cs:ComponentRoot"
       ObjectReference {
-        SelfId: 15442608175178397034
+        SelfId: 1931320656203424273
       }
     }
     Overrides {
       Name: "cs:DoorRoot"
       ObjectReference {
-        SelfId: 17891864631971436918
+        SelfId: 15613506874058022151
       }
     }
     Overrides {
       Name: "cs:OpenSound"
       ObjectReference {
-        SelfId: 5035163533572912599
+        SelfId: 13169519832165375064
       }
     }
     Overrides {
       Name: "cs:CloseSound"
       ObjectReference {
-        SelfId: 12229113777991821466
+        SelfId: 7479495532469045863
       }
     }
   }
@@ -27261,19 +24648,13 @@ Objects {
       Id: 13279840372954225083
     }
   }
-  InstanceHistory {
-    SelfId: 4978301162198355917
-    SubobjectId: 10761697462594708137
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 11285563995604100413
+  Id: 7164745530315385798
   Name: "ServerContext"
   Transform {
     Location {
@@ -27286,8 +24667,8 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 15442608175178397034
-  ChildIds: 9464344540979660587
+  ParentId: 1931320656203424273
+  ChildIds: 7845182079594188971
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -27302,19 +24683,13 @@ Objects {
   NetworkContext {
     Type: Server
   }
-  InstanceHistory {
-    SelfId: 11285563995604100413
-    SubobjectId: 5535241692115552345
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 9464344540979660587
+  Id: 7845182079594188971
   Name: "SlidingDoorControllerServer"
   Transform {
     Location {
@@ -27327,24 +24702,24 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 11285563995604100413
+  ParentId: 7164745530315385798
   UnregisteredParameters {
     Overrides {
       Name: "cs:ComponentRoot"
       ObjectReference {
-        SelfId: 15442608175178397034
+        SelfId: 1931320656203424273
       }
     }
     Overrides {
       Name: "cs:DoorRoot"
       ObjectReference {
-        SelfId: 17891864631971436918
+        SelfId: 15613506874058022151
       }
     }
     Overrides {
       Name: "cs:Trigger"
       ObjectReference {
-        SelfId: 1603822696515451639
+        SelfId: 10857103082099457302
       }
     }
   }
@@ -27362,19 +24737,13 @@ Objects {
       Id: 11890246360956808940
     }
   }
-  InstanceHistory {
-    SelfId: 9464344540979660587
-    SubobjectId: 5987354714106325583
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 6664994843104488649
+  Id: 838069626048012973
   Name: "Select To Edit Animation Properties (Sliding Door 01)"
   Transform {
     Location {
@@ -27389,11 +24758,11 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 1185267928884750765
-  ChildIds: 1603822696515451639
-  ChildIds: 9107478196533153657
-  ChildIds: 18179879902466863248
-  ChildIds: 6379609065316567451
+  ParentId: 2057437204907365746
+  ChildIds: 10857103082099457302
+  ChildIds: 12186779697817178796
+  ChildIds: 10868552780766549151
+  ChildIds: 4005658891114340565
   UnregisteredParameters {
     Overrides {
       Name: "cs:AutoOpen"
@@ -27464,19 +24833,13 @@ Objects {
   Folder {
     IsGroup: true
   }
-  InstanceHistory {
-    SelfId: 6664994843104488649
-    SubobjectId: 10102015055833645485
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 6379609065316567451
+  Id: 4005658891114340565
   Name: "DoorRoot"
   Transform {
     Location {
@@ -27489,8 +24852,8 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 6664994843104488649
-  ChildIds: 6289624849084794507
+  ParentId: 838069626048012973
+  ChildIds: 5209930175405190321
   UnregisteredParameters {
   }
   WantsNetworking: true
@@ -27506,19 +24869,13 @@ Objects {
   Folder {
     IsGroup: true
   }
-  InstanceHistory {
-    SelfId: 6379609065316567451
-    SubobjectId: 9856036456644945151
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 6289624849084794507
+  Id: 5209930175405190321
   Name: "Geo_StaticContext"
   Transform {
     Location {
@@ -27531,8 +24888,8 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 6379609065316567451
-  ChildIds: 3030329774136021807
+  ParentId: 4005658891114340565
+  ChildIds: 14375195884700067558
   UnregisteredParameters {
   }
   WantsNetworking: true
@@ -27548,19 +24905,13 @@ Objects {
   NetworkContext {
     Type: RuntimeStatic
   }
-  InstanceHistory {
-    SelfId: 6289624849084794507
-    SubobjectId: 9729600578093984751
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 3030329774136021807
+  Id: 14375195884700067558
   Name: "Sci-fi Base Door 01"
   Transform {
     Location {
@@ -27574,14 +24925,20 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 6289624849084794507
+  ParentId: 5209930175405190321
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Detail2:color"
       Color {
-        G: 0.840000033
-        B: 0.78993392
+        R: 1
+        G: 0.0235294141
         A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Detail2:id"
+      AssetReference {
+        Id: 3702191406046426907
       }
     }
   }
@@ -27609,12 +24966,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 3030329774136021807
-    SubobjectId: 18033156775527300683
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -27624,7 +24975,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 18179879902466863248
+  Id: 10868552780766549151
   Name: "ClientContext"
   Transform {
     Location {
@@ -27638,10 +24989,10 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 6664994843104488649
-  ChildIds: 5861757989820038498
-  ChildIds: 10680390041523821401
-  ChildIds: 15781461398003002260
+  ParentId: 838069626048012973
+  ChildIds: 15815365278872000819
+  ChildIds: 5547000391158377257
+  ChildIds: 3276922905708334328
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -27661,19 +25012,13 @@ Objects {
       Value: "mc:edetaillevel:ultra"
     }
   }
-  InstanceHistory {
-    SelfId: 18179879902466863248
-    SubobjectId: 3171844926763539956
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 15781461398003002260
+  Id: 3276922905708334328
   Name: "Helper_DoorCloseSound"
   Transform {
     Location {
@@ -27686,7 +25031,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 18179879902466863248
+  ParentId: 10868552780766549151
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -27710,19 +25055,13 @@ Objects {
     IsSpatializationEnabled: true
     IsAttenuationEnabled: true
   }
-  InstanceHistory {
-    SelfId: 15781461398003002260
-    SubobjectId: 814100210376722160
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 10680390041523821401
+  Id: 5547000391158377257
   Name: "Helper_DoorOpenSound"
   Transform {
     Location {
@@ -27735,7 +25074,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 18179879902466863248
+  ParentId: 10868552780766549151
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -27759,19 +25098,13 @@ Objects {
     IsSpatializationEnabled: true
     IsAttenuationEnabled: true
   }
-  InstanceHistory {
-    SelfId: 10680390041523821401
-    SubobjectId: 4933445396953626173
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 5861757989820038498
+  Id: 15815365278872000819
   Name: "SlidingDoorControllerClient"
   Transform {
     Location {
@@ -27784,30 +25117,30 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 18179879902466863248
+  ParentId: 10868552780766549151
   UnregisteredParameters {
     Overrides {
       Name: "cs:ComponentRoot"
       ObjectReference {
-        SelfId: 6664994843104488649
+        SelfId: 838069626048012973
       }
     }
     Overrides {
       Name: "cs:DoorRoot"
       ObjectReference {
-        SelfId: 6379609065316567451
+        SelfId: 4005658891114340565
       }
     }
     Overrides {
       Name: "cs:OpenSound"
       ObjectReference {
-        SelfId: 10680390041523821401
+        SelfId: 5547000391158377257
       }
     }
     Overrides {
       Name: "cs:CloseSound"
       ObjectReference {
-        SelfId: 15781461398003002260
+        SelfId: 3276922905708334328
       }
     }
   }
@@ -27825,19 +25158,13 @@ Objects {
       Id: 13279840372954225083
     }
   }
-  InstanceHistory {
-    SelfId: 5861757989820038498
-    SubobjectId: 9301733686533066758
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 9107478196533153657
+  Id: 12186779697817178796
   Name: "ServerContext"
   Transform {
     Location {
@@ -27850,8 +25177,8 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 6664994843104488649
-  ChildIds: 12953221324431557460
+  ParentId: 838069626048012973
+  ChildIds: 17734766864513239237
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -27866,19 +25193,13 @@ Objects {
   NetworkContext {
     Type: Server
   }
-  InstanceHistory {
-    SelfId: 9107478196533153657
-    SubobjectId: 12550128628117545501
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 12953221324431557460
+  Id: 17734766864513239237
   Name: "SlidingDoorControllerServer"
   Transform {
     Location {
@@ -27891,24 +25212,24 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 9107478196533153657
+  ParentId: 12186779697817178796
   UnregisteredParameters {
     Overrides {
       Name: "cs:ComponentRoot"
       ObjectReference {
-        SelfId: 6664994843104488649
+        SelfId: 838069626048012973
       }
     }
     Overrides {
       Name: "cs:DoorRoot"
       ObjectReference {
-        SelfId: 6379609065316567451
+        SelfId: 4005658891114340565
       }
     }
     Overrides {
       Name: "cs:Trigger"
       ObjectReference {
-        SelfId: 1603822696515451639
+        SelfId: 10857103082099457302
       }
     }
   }
@@ -27926,19 +25247,13 @@ Objects {
       Id: 11890246360956808940
     }
   }
-  InstanceHistory {
-    SelfId: 12953221324431557460
-    SubobjectId: 7173203408752700976
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 1603822696515451639
+  Id: 10857103082099457302
   Name: "Trigger"
   Transform {
     Location {
@@ -27953,7 +25268,7 @@ Objects {
       Z: 3.70000029
     }
   }
-  ParentId: 6664994843104488649
+  ParentId: 838069626048012973
   UnregisteredParameters {
   }
   WantsNetworking: true
@@ -27979,19 +25294,13 @@ Objects {
     BreadcrumbTemplate {
     }
   }
-  InstanceHistory {
-    SelfId: 1603822696515451639
-    SubobjectId: 14271533842045228947
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 17350837751462865969
+  Id: 9826814838665413308
   Name: "Sci-Fi Base Wall 02 - Doorway 01"
   Transform {
     Location {
@@ -28004,12 +25313,27 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 6848219068117649890
+  ParentId: 8419491800463185043
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_WallOuter:id"
       AssetReference {
-        Id: 10850472748876015065
+        Id: 2290407761405197447
+      }
+    }
+    Overrides {
+      Name: "ma:Building_WallInner:id"
+      AssetReference {
+        Id: 8389813293955201251
+      }
+    }
+    Overrides {
+      Name: "ma:Building_WallInner:color"
+      Color {
+        R: 1
+        G: 0.156862751
+        B: 0.156862751
+        A: 1
       }
     }
   }
@@ -28037,12 +25361,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 17350837751462865969
-    SubobjectId: 2343507147124425045
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -28052,1333 +25370,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 11494462521226574439
-  Name: "Sci-fi Base Wall 02 - Double Sliding Door Template"
-  Transform {
-    Location {
-      X: -50
-      Y: -5050
-    }
-    Rotation {
-      Yaw: -89.9999924
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 5973142006212069348
-  ChildIds: 13926738804225547435
-  ChildIds: 623979947486528394
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Folder {
-    IsGroup: true
-  }
-  InstanceHistory {
-    SelfId: 11494462521226574439
-    SubobjectId: 5749909902924535555
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  IsReplicationEnabledByDefault: true
-}
-Objects {
-  Id: 623979947486528394
-  Name: "Sci-fi Base Sliding Door 01 Double - 30cm Z Offset"
-  Transform {
-    Location {
-      X: 220
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 11494462521226574439
-  ChildIds: 9032057969400996750
-  ChildIds: 14650230780497947316
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Folder {
-    IsGroup: true
-  }
-  InstanceHistory {
-    SelfId: 623979947486528394
-    SubobjectId: 15629621698745577198
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  IsReplicationEnabledByDefault: true
-}
-Objects {
-  Id: 14650230780497947316
-  Name: "Select To Edit Animation Properties (Sliding Door 02)"
-  Transform {
-    Location {
-      X: 360
-      Z: 30
-    }
-    Rotation {
-      Yaw: 89.999939
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 623979947486528394
-  ChildIds: 18329214125795347034
-  ChildIds: 16841890439348727797
-  ChildIds: 2167530508156702629
-  UnregisteredParameters {
-    Overrides {
-      Name: "cs:AutoOpen"
-      Bool: true
-    }
-    Overrides {
-      Name: "cs:TimeOpen"
-      Float: 3
-    }
-    Overrides {
-      Name: "cs:OpenLabel"
-      String: "Open Door"
-    }
-    Overrides {
-      Name: "cs:CloseLabel"
-      String: "Close Door"
-    }
-    Overrides {
-      Name: "cs:OpenDistance"
-      Float: 180
-    }
-    Overrides {
-      Name: "cs:Speed"
-      Float: 450
-    }
-    Overrides {
-      Name: "cs:ResetOnRoundStart"
-      Bool: true
-    }
-    Overrides {
-      Name: "cs:AutoOpen:tooltip"
-      String: "This door will open when a player gets close, and cannot be interact with"
-    }
-    Overrides {
-      Name: "cs:TimeOpen:tooltip"
-      String: "With AutoOpen, how long the day stays open with no player near."
-    }
-    Overrides {
-      Name: "cs:OpenLabel:tooltip"
-      String: "Use label to open the door (without AutoOpen)"
-    }
-    Overrides {
-      Name: "cs:CloseLabel:tooltip"
-      String: "Use label to close the door (without AutoOpen)"
-    }
-    Overrides {
-      Name: "cs:Speed:tooltip"
-      String: "How fast the door opens or closes, in cm / second"
-    }
-    Overrides {
-      Name: "cs:ResetOnRoundStart:tooltip"
-      String: "Will reset (to be closed) at the start of a round"
-    }
-    Overrides {
-      Name: "cs:OpenDistance:tooltip"
-      String: "Total distance door moves from closed to open (in cm)."
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Folder {
-    IsGroup: true
-  }
-  InstanceHistory {
-    SelfId: 14650230780497947316
-    SubobjectId: 1954372103004456912
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  IsReplicationEnabledByDefault: true
-}
-Objects {
-  Id: 2167530508156702629
-  Name: "DoorRoot"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 14650230780497947316
-  ChildIds: 1873362429526058401
-  UnregisteredParameters {
-  }
-  WantsNetworking: true
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Folder {
-    IsGroup: true
-  }
-  InstanceHistory {
-    SelfId: 2167530508156702629
-    SubobjectId: 14869722513286488769
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  IsReplicationEnabledByDefault: true
-}
-Objects {
-  Id: 1873362429526058401
-  Name: "Geo_StaticContext"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 2167530508156702629
-  ChildIds: 5906713260316128729
-  UnregisteredParameters {
-  }
-  WantsNetworking: true
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  NetworkContext {
-    Type: RuntimeStatic
-  }
-  InstanceHistory {
-    SelfId: 1873362429526058401
-    SubobjectId: 14533333016331667653
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  IsReplicationEnabledByDefault: true
-}
-Objects {
-  Id: 5906713260316128729
-  Name: "Sci-fi Base Door 01"
-  Transform {
-    Location {
-    }
-    Rotation {
-      Yaw: 89.9999847
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 1873362429526058401
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Shared_Detail2:color"
-      Color {
-        G: 0.840000033
-        B: 0.78993392
-        A: 1
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:forceon"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 16392896844987521514
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    InteractWithTriggers: true
-    StaticMesh {
-      Physics {
-      }
-      BoundsScale: 1
-    }
-  }
-  InstanceHistory {
-    SelfId: 5906713260316128729
-    SubobjectId: 9347111344495270077
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
-  Relevance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  IsReplicationEnabledByDefault: true
-}
-Objects {
-  Id: 16841890439348727797
-  Name: "ClientContext"
-  Transform {
-    Location {
-      Z: 175
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 14650230780497947316
-  ChildIds: 15541422945003135947
-  ChildIds: 4896666873236085892
-  ChildIds: 16196920673812249991
-  UnregisteredParameters {
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  NetworkContext {
-    MinDetailLevel {
-      Value: "mc:edetaillevel:low"
-    }
-    MaxDetailLevel {
-      Value: "mc:edetaillevel:ultra"
-    }
-  }
-  InstanceHistory {
-    SelfId: 16841890439348727797
-    SubobjectId: 4176290734103380625
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  IsReplicationEnabledByDefault: true
-}
-Objects {
-  Id: 16196920673812249991
-  Name: "Helper_DoorCloseSound"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 16841890439348727797
-  UnregisteredParameters {
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  AudioInstance {
-    AudioAsset {
-      Id: 2825736010572694941
-    }
-    Pitch: 2400
-    Volume: 1
-    Falloff: 3600
-    Radius: 400
-    EnableOcclusion: true
-    IsSpatializationEnabled: true
-    IsAttenuationEnabled: true
-  }
-  InstanceHistory {
-    SelfId: 16196920673812249991
-    SubobjectId: 3497121927524454627
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  IsReplicationEnabledByDefault: true
-}
-Objects {
-  Id: 4896666873236085892
-  Name: "Helper_DoorOpenSound"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 16841890439348727797
-  UnregisteredParameters {
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  AudioInstance {
-    AudioAsset {
-      Id: 13324134738449385310
-    }
-    Pitch: 2400
-    Volume: 1
-    Falloff: 3600
-    Radius: 400
-    EnableOcclusion: true
-    IsSpatializationEnabled: true
-    IsAttenuationEnabled: true
-  }
-  InstanceHistory {
-    SelfId: 4896666873236085892
-    SubobjectId: 10645160174483517920
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  IsReplicationEnabledByDefault: true
-}
-Objects {
-  Id: 15541422945003135947
-  Name: "SlidingDoorControllerClient"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 16841890439348727797
-  UnregisteredParameters {
-    Overrides {
-      Name: "cs:ComponentRoot"
-      ObjectReference {
-        SelfId: 14650230780497947316
-      }
-    }
-    Overrides {
-      Name: "cs:DoorRoot"
-      ObjectReference {
-        SelfId: 2167530508156702629
-      }
-    }
-    Overrides {
-      Name: "cs:OpenSound"
-      ObjectReference {
-        SelfId: 4896666873236085892
-      }
-    }
-    Overrides {
-      Name: "cs:CloseSound"
-      ObjectReference {
-        SelfId: 16196920673812249991
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Script {
-    ScriptAsset {
-      Id: 13279840372954225083
-    }
-  }
-  InstanceHistory {
-    SelfId: 15541422945003135947
-    SubobjectId: 567868650742419119
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  IsReplicationEnabledByDefault: true
-}
-Objects {
-  Id: 18329214125795347034
-  Name: "ServerContext"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 14650230780497947316
-  ChildIds: 7279817034419737691
-  UnregisteredParameters {
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  NetworkContext {
-    Type: Server
-  }
-  InstanceHistory {
-    SelfId: 18329214125795347034
-    SubobjectId: 3319490984253581118
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  IsReplicationEnabledByDefault: true
-}
-Objects {
-  Id: 7279817034419737691
-  Name: "SlidingDoorControllerServer"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 18329214125795347034
-  UnregisteredParameters {
-    Overrides {
-      Name: "cs:ComponentRoot"
-      ObjectReference {
-        SelfId: 14650230780497947316
-      }
-    }
-    Overrides {
-      Name: "cs:DoorRoot"
-      ObjectReference {
-        SelfId: 2167530508156702629
-      }
-    }
-    Overrides {
-      Name: "cs:Trigger"
-      ObjectReference {
-        SelfId: 13491805729678961360
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Script {
-    ScriptAsset {
-      Id: 11890246360956808940
-    }
-  }
-  InstanceHistory {
-    SelfId: 7279817034419737691
-    SubobjectId: 13062791123410123071
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  IsReplicationEnabledByDefault: true
-}
-Objects {
-  Id: 9032057969400996750
-  Name: "Select To Edit Animation Properties (Sliding Door 01)"
-  Transform {
-    Location {
-      Z: 30
-    }
-    Rotation {
-      Yaw: -89.9999924
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 623979947486528394
-  ChildIds: 13491805729678961360
-  ChildIds: 4631570992560055810
-  ChildIds: 34342005098559626
-  ChildIds: 11794438420101329638
-  UnregisteredParameters {
-    Overrides {
-      Name: "cs:AutoOpen"
-      Bool: true
-    }
-    Overrides {
-      Name: "cs:TimeOpen"
-      Float: 3
-    }
-    Overrides {
-      Name: "cs:OpenLabel"
-      String: "Open Door"
-    }
-    Overrides {
-      Name: "cs:CloseLabel"
-      String: "Close Door"
-    }
-    Overrides {
-      Name: "cs:OpenDistance"
-      Float: 180
-    }
-    Overrides {
-      Name: "cs:Speed"
-      Float: 450
-    }
-    Overrides {
-      Name: "cs:ResetOnRoundStart"
-      Bool: true
-    }
-    Overrides {
-      Name: "cs:AutoOpen:tooltip"
-      String: "This door will open when a player gets close, and cannot be interact with"
-    }
-    Overrides {
-      Name: "cs:TimeOpen:tooltip"
-      String: "With AutoOpen, how long the day stays open with no player near."
-    }
-    Overrides {
-      Name: "cs:OpenLabel:tooltip"
-      String: "Use label to open the door (without AutoOpen)"
-    }
-    Overrides {
-      Name: "cs:CloseLabel:tooltip"
-      String: "Use label to close the door (without AutoOpen)"
-    }
-    Overrides {
-      Name: "cs:Speed:tooltip"
-      String: "How fast the door opens or closes, in cm / second"
-    }
-    Overrides {
-      Name: "cs:ResetOnRoundStart:tooltip"
-      String: "Will reset (to be closed) at the start of a round"
-    }
-    Overrides {
-      Name: "cs:OpenDistance:tooltip"
-      String: "Total distance door moves from closed to open (in cm)."
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Folder {
-    IsGroup: true
-  }
-  InstanceHistory {
-    SelfId: 9032057969400996750
-    SubobjectId: 12472455879719948010
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  IsReplicationEnabledByDefault: true
-}
-Objects {
-  Id: 11794438420101329638
-  Name: "DoorRoot"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 9032057969400996750
-  ChildIds: 9889404462010247719
-  UnregisteredParameters {
-  }
-  WantsNetworking: true
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Folder {
-    IsGroup: true
-  }
-  InstanceHistory {
-    SelfId: 11794438420101329638
-    SubobjectId: 8349958568569118594
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  IsReplicationEnabledByDefault: true
-}
-Objects {
-  Id: 9889404462010247719
-  Name: "Geo_StaticContext"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 11794438420101329638
-  ChildIds: 9267080689719563361
-  UnregisteredParameters {
-  }
-  WantsNetworking: true
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  NetworkContext {
-    Type: RuntimeStatic
-  }
-  InstanceHistory {
-    SelfId: 9889404462010247719
-    SubobjectId: 6445065182645962563
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  IsReplicationEnabledByDefault: true
-}
-Objects {
-  Id: 9267080689719563361
-  Name: "Sci-fi Base Door 01"
-  Transform {
-    Location {
-    }
-    Rotation {
-      Yaw: 89.9999847
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 9889404462010247719
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Shared_Detail2:color"
-      Color {
-        G: 0.840000033
-        B: 0.78993392
-        A: 1
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:forceon"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 16392896844987521514
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    InteractWithTriggers: true
-    StaticMesh {
-      Physics {
-      }
-      BoundsScale: 1
-    }
-  }
-  InstanceHistory {
-    SelfId: 9267080689719563361
-    SubobjectId: 5824289689104595205
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
-  Relevance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  IsReplicationEnabledByDefault: true
-}
-Objects {
-  Id: 34342005098559626
-  Name: "ClientContext"
-  Transform {
-    Location {
-      Z: 175
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 9032057969400996750
-  ChildIds: 13632108949888614675
-  ChildIds: 1008244946640052563
-  ChildIds: 14579155164196649287
-  UnregisteredParameters {
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  NetworkContext {
-    MinDetailLevel {
-      Value: "mc:edetaillevel:low"
-    }
-    MaxDetailLevel {
-      Value: "mc:edetaillevel:ultra"
-    }
-  }
-  InstanceHistory {
-    SelfId: 34342005098559626
-    SubobjectId: 15002969802221770222
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  IsReplicationEnabledByDefault: true
-}
-Objects {
-  Id: 14579155164196649287
-  Name: "Helper_DoorCloseSound"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 34342005098559626
-  UnregisteredParameters {
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  AudioInstance {
-    AudioAsset {
-      Id: 2825736010572694941
-    }
-    Pitch: 2400
-    Volume: 1
-    Falloff: 3600
-    Radius: 400
-    EnableOcclusion: true
-    IsSpatializationEnabled: true
-    IsAttenuationEnabled: true
-  }
-  InstanceHistory {
-    SelfId: 14579155164196649287
-    SubobjectId: 1881607666840589347
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  IsReplicationEnabledByDefault: true
-}
-Objects {
-  Id: 1008244946640052563
-  Name: "Helper_DoorOpenSound"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 34342005098559626
-  UnregisteredParameters {
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  AudioInstance {
-    AudioAsset {
-      Id: 13324134738449385310
-    }
-    Pitch: 2400
-    Volume: 1
-    Falloff: 3600
-    Radius: 400
-    EnableOcclusion: true
-    IsSpatializationEnabled: true
-    IsAttenuationEnabled: true
-  }
-  InstanceHistory {
-    SelfId: 1008244946640052563
-    SubobjectId: 15974621074927209527
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  IsReplicationEnabledByDefault: true
-}
-Objects {
-  Id: 13632108949888614675
-  Name: "SlidingDoorControllerClient"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 34342005098559626
-  UnregisteredParameters {
-    Overrides {
-      Name: "cs:ComponentRoot"
-      ObjectReference {
-        SelfId: 9032057969400996750
-      }
-    }
-    Overrides {
-      Name: "cs:DoorRoot"
-      ObjectReference {
-        SelfId: 11794438420101329638
-      }
-    }
-    Overrides {
-      Name: "cs:OpenSound"
-      ObjectReference {
-        SelfId: 1008244946640052563
-      }
-    }
-    Overrides {
-      Name: "cs:CloseSound"
-      ObjectReference {
-        SelfId: 14579155164196649287
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Script {
-    ScriptAsset {
-      Id: 13279840372954225083
-    }
-  }
-  InstanceHistory {
-    SelfId: 13632108949888614675
-    SubobjectId: 7881785923839044727
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  IsReplicationEnabledByDefault: true
-}
-Objects {
-  Id: 4631570992560055810
-  Name: "ServerContext"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 9032057969400996750
-  ChildIds: 6717264301109546946
-  UnregisteredParameters {
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  NetworkContext {
-    Type: Server
-  }
-  InstanceHistory {
-    SelfId: 4631570992560055810
-    SubobjectId: 10379078688973704038
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  IsReplicationEnabledByDefault: true
-}
-Objects {
-  Id: 6717264301109546946
-  Name: "SlidingDoorControllerServer"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4631570992560055810
-  UnregisteredParameters {
-    Overrides {
-      Name: "cs:ComponentRoot"
-      ObjectReference {
-        SelfId: 9032057969400996750
-      }
-    }
-    Overrides {
-      Name: "cs:DoorRoot"
-      ObjectReference {
-        SelfId: 11794438420101329638
-      }
-    }
-    Overrides {
-      Name: "cs:Trigger"
-      ObjectReference {
-        SelfId: 13491805729678961360
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Script {
-    ScriptAsset {
-      Id: 11890246360956808940
-    }
-  }
-  InstanceHistory {
-    SelfId: 6717264301109546946
-    SubobjectId: 10193831915536868006
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  IsReplicationEnabledByDefault: true
-}
-Objects {
-  Id: 13491805729678961360
-  Name: "Trigger"
-  Transform {
-    Location {
-      Y: 179.999466
-      Z: 180
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1.5
-      Y: 3.60000014
-      Z: 3.70000029
-    }
-  }
-  ParentId: 9032057969400996750
-  UnregisteredParameters {
-  }
-  WantsNetworking: true
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Trigger {
-    TeamSettings {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    TriggerShape_v2 {
-      Value: "mc:etriggershape:box"
-    }
-    InteractionTemplate {
-    }
-    BreadcrumbTemplate {
-    }
-  }
-  InstanceHistory {
-    SelfId: 13491805729678961360
-    SubobjectId: 7742749342146578356
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  IsReplicationEnabledByDefault: true
-}
-Objects {
-  Id: 13926738804225547435
-  Name: "Sci-Fi Base Wall 02 - Doorway 01"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 11494462521226574439
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Building_WallOuter:id"
-      AssetReference {
-        Id: 10850472748876015065
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:forceon"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 17411449495217333473
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    InteractWithTriggers: true
-    StaticMesh {
-      Physics {
-      }
-      BoundsScale: 1
-    }
-  }
-  InstanceHistory {
-    SelfId: 13926738804225547435
-    SubobjectId: 1228065922411033039
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
-  Relevance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  IsReplicationEnabledByDefault: true
-}
-Objects {
-  Id: 4299783034639672971
+  Id: 12904151640409678370
   Name: "Sci-fi Base Roof 01 - 8m"
   Transform {
     Location {
@@ -29394,7 +25386,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -29419,12 +25411,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 4299783034639672971
-    SubobjectId: 16997893100701715439
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -29434,7 +25420,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 5734714585714684634
+  Id: 16783578558520254814
   Name: "Sci-fi Base Roof 01 - 8m"
   Transform {
     Location {
@@ -29450,7 +25436,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -29475,12 +25461,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 5734714585714684634
-    SubobjectId: 11518673876868865982
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -29490,7 +25470,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 6272362643981388334
+  Id: 5657714916800401195
   Name: "Sci-fi Base Roof 01 - 8m"
   Transform {
     Location {
@@ -29506,7 +25486,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -29531,12 +25511,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 6272362643981388334
-    SubobjectId: 9747101050139158346
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -29546,7 +25520,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 5721106200305818852
+  Id: 14676892058800353049
   Name: "Sci-fi Base Roof 01 - 8m"
   Transform {
     Location {
@@ -29562,7 +25536,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -29587,12 +25561,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 5721106200305818852
-    SubobjectId: 11469036111331996032
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -29602,7 +25570,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 2525538766136126127
+  Id: 4657346026180968046
   Name: "Sci-fi Base Roof 01 - 8m"
   Transform {
     Location {
@@ -29618,7 +25586,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -29643,12 +25611,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 2525538766136126127
-    SubobjectId: 17529070179795126219
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -29658,7 +25620,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 13443657712158176402
+  Id: 3439775929218811151
   Name: "Sci-fi Base Roof 01 - 8m"
   Transform {
     Location {
@@ -29674,7 +25636,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -29699,12 +25661,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 13443657712158176402
-    SubobjectId: 7700653035452733942
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -29714,7 +25670,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 903012005108485554
+  Id: 9184925443211275204
   Name: "Sci-fi Base Roof 01 - 8m"
   Transform {
     Location {
@@ -29730,7 +25686,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -29755,12 +25711,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 903012005108485554
-    SubobjectId: 15908795218648293590
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -29770,7 +25720,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 13379362901539229860
+  Id: 6587321807497889991
   Name: "Sci-fi Base Roof 01 - 8m"
   Transform {
     Location {
@@ -29786,7 +25736,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -29811,12 +25761,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 13379362901539229860
-    SubobjectId: 7629744251149516224
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -29826,7 +25770,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 15786640234892085074
+  Id: 6976312026771505173
   Name: "Sci-fi Base Roof 01 - 8m"
   Transform {
     Location {
@@ -29842,7 +25786,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -29867,12 +25811,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 15786640234892085074
-    SubobjectId: 818012409836907062
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -29882,7 +25820,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 2360997113771970082
+  Id: 15480689508472959974
   Name: "Sci-fi Base Roof 01 - 8m"
   Transform {
     Location {
@@ -29898,7 +25836,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -29923,12 +25861,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 2360997113771970082
-    SubobjectId: 17333424818800337734
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -29938,7 +25870,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 10324323148013757909
+  Id: 10368657755433144183
   Name: "Sci-fi Base Roof 01 - 8m"
   Transform {
     Location {
@@ -29954,7 +25886,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -29979,12 +25911,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 10324323148013757909
-    SubobjectId: 6847755562510354609
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -29994,7 +25920,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 9511314969470021233
+  Id: 15919429331512847983
   Name: "Sci-fi Base Roof 01 - 8m"
   Transform {
     Location {
@@ -30010,7 +25936,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -30035,12 +25961,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 9511314969470021233
-    SubobjectId: 6030806738637996821
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -30050,7 +25970,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 4506482124290946649
+  Id: 16721588406477943795
   Name: "Sci-fi Base Roof 01 - 8m"
   Transform {
     Location {
@@ -30066,7 +25986,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -30091,12 +26011,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 4506482124290946649
-    SubobjectId: 17205296255804316477
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -30106,7 +26020,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 15111103952003744110
+  Id: 15942120583027946129
   Name: "Sci-fi Base Roof 01 - 8m"
   Transform {
     Location {
@@ -30122,7 +26036,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -30147,12 +26061,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 15111103952003744110
-    SubobjectId: 142475470841981962
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -30162,7 +26070,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 16967622263156516163
+  Id: 15899550547605489921
   Name: "Sci-fi Base Roof 01 - 8m"
   Transform {
     Location {
@@ -30178,7 +26086,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -30203,12 +26111,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 16967622263156516163
-    SubobjectId: 4266697581509560359
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -30218,7 +26120,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 10945276674947257104
+  Id: 12350778052560633134
   Name: "Sci-fi Base Roof 01 - 8m"
   Transform {
     Location {
@@ -30234,7 +26136,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -30259,12 +26161,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 10945276674947257104
-    SubobjectId: 5163992088618532468
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -30274,7 +26170,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 14866172336637964246
+  Id: 17501707095594921324
   Name: "Sci-fi Base Roof 01 - 8m"
   Transform {
     Location {
@@ -30290,7 +26186,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -30315,12 +26211,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 14866172336637964246
-    SubobjectId: 2161728564915471026
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -30330,7 +26220,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 12039422362833001120
+  Id: 4938675876029317734
   Name: "Sci-fi Base Roof 01 - 8m"
   Transform {
     Location {
@@ -30346,7 +26236,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -30371,12 +26261,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 12039422362833001120
-    SubobjectId: 8600712610937010116
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -30386,7 +26270,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 16845530540987161510
+  Id: 2728466423601536406
   Name: "Sci-fi Base Roof 01 - 8m"
   Transform {
     Location {
@@ -30402,7 +26286,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -30427,12 +26311,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 16845530540987161510
-    SubobjectId: 4145590474202805954
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -30442,7 +26320,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 3023270371222204838
+  Id: 2655457470826627695
   Name: "Sci-fi Base Roof 01 - 8m"
   Transform {
     Location {
@@ -30458,7 +26336,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -30483,12 +26361,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 3023270371222204838
-    SubobjectId: 17995135300295777474
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -30498,7 +26370,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 3768412831243591290
+  Id: 11157684734334184753
   Name: "Sci-fi Base Roof 01 - 8m"
   Transform {
     Location {
@@ -30514,7 +26386,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -30539,12 +26411,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 3768412831243591290
-    SubobjectId: 16430072441924825886
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -30554,7 +26420,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 4007552014753862009
+  Id: 9512631033302518377
   Name: "Sci-fi Base Roof 01 - 8m"
   Transform {
     Location {
@@ -30570,7 +26436,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -30595,12 +26461,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 4007552014753862009
-    SubobjectId: 16704676785272355869
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -30610,7 +26470,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 6280935649870868248
+  Id: 626917180866381599
   Name: "Sci-fi Base Roof 01 - 8m"
   Transform {
     Location {
@@ -30626,7 +26486,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -30651,12 +26511,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 6280935649870868248
-    SubobjectId: 9756237045611790972
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -30666,7 +26520,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 11133343552402814648
+  Id: 16866150761363313726
   Name: "Sci-fi Base Roof 01 - 8m"
   Transform {
     Location {
@@ -30682,7 +26536,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -30707,12 +26561,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 11133343552402814648
-    SubobjectId: 5390479646469626844
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -30722,7 +26570,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 9562797360700026864
+  Id: 3018194639211016274
   Name: "Sci-fi Base Roof 01 - 8m"
   Transform {
     Location {
@@ -30738,7 +26586,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -30763,12 +26611,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 9562797360700026864
-    SubobjectId: 6123384611708863124
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -30778,7 +26620,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 6241085494888814807
+  Id: 18351890934327178486
   Name: "Sci-fi Base Roof 01 - 8m"
   Transform {
     Location {
@@ -30794,7 +26636,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -30819,12 +26661,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 6241085494888814807
-    SubobjectId: 9715260984278496691
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -30834,7 +26670,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 16544544217295540506
+  Id: 7194056815687728736
   Name: "Sci-fi Base Roof 01 - 8m"
   Transform {
     Location {
@@ -30850,7 +26686,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -30875,12 +26711,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 16544544217295540506
-    SubobjectId: 3879084839386070142
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -30890,7 +26720,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 642615446398182467
+  Id: 1238525125107536288
   Name: "Sci-fi Base Roof 01 - 8m"
   Transform {
     Location {
@@ -30906,7 +26736,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -30931,12 +26761,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 642615446398182467
-    SubobjectId: 15610680329032911143
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -30946,7 +26770,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 6655053412177808287
+  Id: 11896264569562429169
   Name: "Sci-fi Base Roof 01 - 8m"
   Transform {
     Location {
@@ -30962,7 +26786,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -30987,12 +26811,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 6655053412177808287
-    SubobjectId: 10093762506943981307
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -31002,7 +26820,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 797087637777784077
+  Id: 11893269296650029960
   Name: "Sci-fi Base Roof 01 - 8m"
   Transform {
     Location {
@@ -31018,7 +26836,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -31043,12 +26861,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 797087637777784077
-    SubobjectId: 15798788773720420457
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -31058,7 +26870,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 6772087669885426753
+  Id: 18367650028808054415
   Name: "Sci-fi Base Roof 01 - 8m"
   Transform {
     Location {
@@ -31074,7 +26886,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -31099,12 +26911,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 6772087669885426753
-    SubobjectId: 10210796768912978213
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -31114,7 +26920,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 16676203639266224395
+  Id: 3914769059753670089
   Name: "Sci-fi Base Roof 01 - 8m"
   Transform {
     Location {
@@ -31130,7 +26936,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -31155,12 +26961,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 16676203639266224395
-    SubobjectId: 3972885773977076847
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -31170,7 +26970,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 10043904430295253
+  Id: 16982627337802254913
   Name: "Sci-fi Base Roof 01 - 8m"
   Transform {
     Location {
@@ -31186,7 +26986,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -31211,12 +27011,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 10043904430295253
-    SubobjectId: 15018641315714344369
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -31226,7 +27020,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 7766308320791513782
+  Id: 3251753462051149417
   Name: "Sci-fi Base Roof 01 - 8m"
   Transform {
     Location {
@@ -31242,7 +27036,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -31267,12 +27061,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 7766308320791513782
-    SubobjectId: 13513112330935805906
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -31282,7 +27070,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 6504272021447114685
+  Id: 16351908898742893026
   Name: "Sci-fi Base Roof 01 - 8m"
   Transform {
     Location {
@@ -31298,7 +27086,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -31323,12 +27111,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 6504272021447114685
-    SubobjectId: 9947484718038291161
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -31338,7 +27120,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 17805964913463723715
+  Id: 4425375144927726124
   Name: "Sci-fi Base Roof 01 - 8m"
   Transform {
     Location {
@@ -31354,7 +27136,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -31379,12 +27161,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 17805964913463723715
-    SubobjectId: 2833959245861514151
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -31394,7 +27170,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 9165936981872303408
+  Id: 2895329086671739109
   Name: "Sci-fi Base Roof 01 - 8m"
   Transform {
     Location {
@@ -31410,7 +27186,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -31435,12 +27211,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 9165936981872303408
-    SubobjectId: 12645178991901945940
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -31450,7 +27220,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 10826024735030320915
+  Id: 10006611147060294208
   Name: "Sci-fi Base Roof 01 - 8m"
   Transform {
     Location {
@@ -31466,7 +27236,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -31491,12 +27261,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 10826024735030320915
-    SubobjectId: 5076265379429511799
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -31506,7 +27270,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 7838939631267546304
+  Id: 15720436954629523319
   Name: "Sci-fi Base Roof 01 - 8m"
   Transform {
     Location {
@@ -31522,7 +27286,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -31547,12 +27311,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 7838939631267546304
-    SubobjectId: 13584759022291937700
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -31562,7 +27320,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 6289464818632730759
+  Id: 10099064539097089183
   Name: "Sci-fi Base Roof 01 - 8m"
   Transform {
     Location {
@@ -31578,7 +27336,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -31603,12 +27361,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 6289464818632730759
-    SubobjectId: 9730003600624240099
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -31618,7 +27370,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 4826805680470692024
+  Id: 14567448364894949752
   Name: "Sci-fi Base Roof 01 - 8m"
   Transform {
     Location {
@@ -31634,7 +27386,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -31659,12 +27411,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 4826805680470692024
-    SubobjectId: 10570795385395772892
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -31674,7 +27420,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 10744662202057724068
+  Id: 1522627182877111539
   Name: "Sci-fi Base Roof 01 - 8m"
   Transform {
     Location {
@@ -31690,7 +27436,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -31715,12 +27461,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 10744662202057724068
-    SubobjectId: 4995605846703930816
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -31730,7 +27470,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 7667740119920309312
+  Id: 13642318246826631127
   Name: "Sci-fi Base Roof 01 - 8m"
   Transform {
     Location {
@@ -31746,7 +27486,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -31771,12 +27511,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 7667740119920309312
-    SubobjectId: 13413418812092258596
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -31786,7 +27520,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 2439493084263488269
+  Id: 1015979408907707525
   Name: "Sci-fi Base Roof 01 - 8m"
   Transform {
     Location {
@@ -31802,7 +27536,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -31827,12 +27561,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 2439493084263488269
-    SubobjectId: 17407980858976859753
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -31842,7 +27570,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 6460776799549793969
+  Id: 17505525971145601297
   Name: "Sci-fi Base Roof 01 - 8m"
   Transform {
     Location {
@@ -31858,7 +27586,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -31883,12 +27611,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 6460776799549793969
-    SubobjectId: 9936640693249330133
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -31898,7 +27620,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 14190206862800024223
+  Id: 15781484994362427936
   Name: "Sci-fi Base Roof 01 - 8m"
   Transform {
     Location {
@@ -31914,7 +27636,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -31939,12 +27661,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 14190206862800024223
-    SubobjectId: 1487029697351000059
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -31954,7 +27670,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 13064687583487972400
+  Id: 1373141023201598821
   Name: "Sci-fi Base Roof 01 - 8m"
   Transform {
     Location {
@@ -31970,7 +27686,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -31995,12 +27711,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 13064687583487972400
-    SubobjectId: 7277914269458413908
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -32010,7 +27720,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 9698595595621474591
+  Id: 17885681833122032717
   Name: "Sci-fi Base Roof 01 - 8m"
   Transform {
     Location {
@@ -32026,7 +27736,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -32051,12 +27761,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 9698595595621474591
-    SubobjectId: 6257493417035484283
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -32066,7 +27770,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 9069768835627999124
+  Id: 4627232993768549650
   Name: "Sci-fi Base Roof 01 - 8m"
   Transform {
     Location {
@@ -32082,7 +27786,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -32107,12 +27811,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 9069768835627999124
-    SubobjectId: 12506789628127392496
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -32122,7 +27820,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 1232094793841432925
+  Id: 16266803686489802476
   Name: "Sci-fi Base Roof 01 - 8m"
   Transform {
     Location {
@@ -32138,7 +27836,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -32163,12 +27861,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 1232094793841432925
-    SubobjectId: 13931331272054387769
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -32178,7 +27870,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 4064208499777562445
+  Id: 121240151200080676
   Name: "Sci-fi Base Roof 01 - 8m"
   Transform {
     Location {
@@ -32194,7 +27886,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -32219,12 +27911,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 4064208499777562445
-    SubobjectId: 16729104927700027945
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -32234,7 +27920,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 84062664415831182
+  Id: 14846361138242902345
   Name: "Sci-fi Base Roof 01 - 8m"
   Transform {
     Location {
@@ -32250,7 +27936,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -32275,12 +27961,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 84062664415831182
-    SubobjectId: 15088719944662223338
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -32290,7 +27970,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 12677081462442385096
+  Id: 14783423224682202089
   Name: "Sci-fi Base Roof 01 - 8m"
   Transform {
     Location {
@@ -32306,7 +27986,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -32331,12 +28011,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 12677081462442385096
-    SubobjectId: 9196713520291394476
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -32346,7 +28020,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 1330337281129621503
+  Id: 12583066737848841935
   Name: "Sci-fi Base Roof 01 - 8m"
   Transform {
     Location {
@@ -32362,7 +28036,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -32387,12 +28061,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 1330337281129621503
-    SubobjectId: 13995233679021034139
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -32402,7 +28070,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 12374331509902810625
+  Id: 15386962651516468718
   Name: "Sci-Fi Base Wall 02"
   Transform {
     Location {
@@ -32418,12 +28086,39 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
   UnregisteredParameters {
+    Overrides {
+      Name: "ma:Building_WallInner:id"
+      AssetReference {
+        Id: 8389813293955201251
+      }
+    }
+    Overrides {
+      Name: "ma:Building_WallInner:color"
+      Color {
+        R: 1
+        G: 0.160000443
+        B: 0.160000026
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:id"
+      AssetReference {
+        Id: 13679493068599210497
+      }
+    }
     Overrides {
       Name: "ma:Building_WallOuter:id"
       AssetReference {
-        Id: 10850472748876015065
+        Id: 2290407761405197447
+      }
+    }
+    Overrides {
+      Name: "ma:Building_UpperTrimOuter:id"
+      AssetReference {
+        Id: 8329339828071933523
       }
     }
   }
@@ -32451,12 +28146,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 12374331509902810625
-    SubobjectId: 8932103327273939813
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -32466,7 +28155,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 994261017660659410
+  Id: 15789222673963295272
   Name: "Sci-Fi Base Wall 02"
   Transform {
     Location {
@@ -32482,12 +28171,39 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
   UnregisteredParameters {
+    Overrides {
+      Name: "ma:Building_WallInner:id"
+      AssetReference {
+        Id: 8389813293955201251
+      }
+    }
+    Overrides {
+      Name: "ma:Building_WallInner:color"
+      Color {
+        R: 1
+        G: 0.160000443
+        B: 0.160000026
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:id"
+      AssetReference {
+        Id: 13679493068599210497
+      }
+    }
     Overrides {
       Name: "ma:Building_WallOuter:id"
       AssetReference {
-        Id: 10850472748876015065
+        Id: 2290407761405197447
+      }
+    }
+    Overrides {
+      Name: "ma:Building_UpperTrimOuter:id"
+      AssetReference {
+        Id: 8329339828071933523
       }
     }
   }
@@ -32515,12 +28231,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 994261017660659410
-    SubobjectId: 15961622894614674358
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -32530,7 +28240,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 6050205573405209381
+  Id: 17563848045106079600
   Name: "Sci-Fi Base Wall 02"
   Transform {
     Location {
@@ -32546,12 +28256,39 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
   UnregisteredParameters {
+    Overrides {
+      Name: "ma:Building_WallInner:id"
+      AssetReference {
+        Id: 8389813293955201251
+      }
+    }
+    Overrides {
+      Name: "ma:Building_WallInner:color"
+      Color {
+        R: 1
+        G: 0.160000443
+        B: 0.160000026
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:id"
+      AssetReference {
+        Id: 13679493068599210497
+      }
+    }
     Overrides {
       Name: "ma:Building_WallOuter:id"
       AssetReference {
-        Id: 10850472748876015065
+        Id: 2290407761405197447
+      }
+    }
+    Overrides {
+      Name: "ma:Building_UpperTrimOuter:id"
+      AssetReference {
+        Id: 8329339828071933523
       }
     }
   }
@@ -32579,12 +28316,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 6050205573405209381
-    SubobjectId: 9491870289696824897
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -32594,7 +28325,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 5017953259246956839
+  Id: 4056412909474483387
   Name: "Sci-Fi Base Wall 02"
   Transform {
     Location {
@@ -32609,12 +28340,39 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
   UnregisteredParameters {
+    Overrides {
+      Name: "ma:Building_WallInner:id"
+      AssetReference {
+        Id: 8389813293955201251
+      }
+    }
+    Overrides {
+      Name: "ma:Building_WallInner:color"
+      Color {
+        R: 1
+        G: 0.160000443
+        B: 0.160000026
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:id"
+      AssetReference {
+        Id: 13679493068599210497
+      }
+    }
     Overrides {
       Name: "ma:Building_WallOuter:id"
       AssetReference {
-        Id: 10850472748876015065
+        Id: 2290407761405197447
+      }
+    }
+    Overrides {
+      Name: "ma:Building_UpperTrimOuter:id"
+      AssetReference {
+        Id: 8329339828071933523
       }
     }
   }
@@ -32642,12 +28400,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 5017953259246956839
-    SubobjectId: 10803037866225884227
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -32657,7 +28409,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 5486029572676411169
+  Id: 4174311521063022472
   Name: "Sci-Fi Base Wall 02"
   Transform {
     Location {
@@ -32672,12 +28424,39 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
   UnregisteredParameters {
+    Overrides {
+      Name: "ma:Building_WallInner:id"
+      AssetReference {
+        Id: 8389813293955201251
+      }
+    }
+    Overrides {
+      Name: "ma:Building_WallInner:color"
+      Color {
+        R: 1
+        G: 0.160000443
+        B: 0.160000026
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:id"
+      AssetReference {
+        Id: 13679493068599210497
+      }
+    }
     Overrides {
       Name: "ma:Building_WallOuter:id"
       AssetReference {
-        Id: 10850472748876015065
+        Id: 2290407761405197447
+      }
+    }
+    Overrides {
+      Name: "ma:Building_UpperTrimOuter:id"
+      AssetReference {
+        Id: 8329339828071933523
       }
     }
   }
@@ -32705,12 +28484,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 5486029572676411169
-    SubobjectId: 11271676988881580613
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -32720,7 +28493,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 9086675665962893688
+  Id: 17265548530326725930
   Name: "Sci-Fi Base Wall 02"
   Transform {
     Location {
@@ -32735,12 +28508,39 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
   UnregisteredParameters {
+    Overrides {
+      Name: "ma:Building_WallInner:id"
+      AssetReference {
+        Id: 8389813293955201251
+      }
+    }
+    Overrides {
+      Name: "ma:Building_WallInner:color"
+      Color {
+        R: 1
+        G: 0.160000443
+        B: 0.160000026
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:id"
+      AssetReference {
+        Id: 13679493068599210497
+      }
+    }
     Overrides {
       Name: "ma:Building_WallOuter:id"
       AssetReference {
-        Id: 10850472748876015065
+        Id: 2290407761405197447
+      }
+    }
+    Overrides {
+      Name: "ma:Building_UpperTrimOuter:id"
+      AssetReference {
+        Id: 8329339828071933523
       }
     }
   }
@@ -32768,12 +28568,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 9086675665962893688
-    SubobjectId: 12561976470105680924
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -32783,7 +28577,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 7140839222732867151
+  Id: 2044203786563617296
   Name: "Sci-Fi Base Wall 02"
   Transform {
     Location {
@@ -32799,12 +28593,39 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
   UnregisteredParameters {
+    Overrides {
+      Name: "ma:Building_WallInner:id"
+      AssetReference {
+        Id: 8389813293955201251
+      }
+    }
+    Overrides {
+      Name: "ma:Building_WallInner:color"
+      Color {
+        R: 1
+        G: 0.160000443
+        B: 0.160000026
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:id"
+      AssetReference {
+        Id: 13679493068599210497
+      }
+    }
     Overrides {
       Name: "ma:Building_WallOuter:id"
       AssetReference {
-        Id: 10850472748876015065
+        Id: 2290407761405197447
+      }
+    }
+    Overrides {
+      Name: "ma:Building_UpperTrimOuter:id"
+      AssetReference {
+        Id: 8329339828071933523
       }
     }
   }
@@ -32832,12 +28653,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 7140839222732867151
-    SubobjectId: 12922546024747772715
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -32847,7 +28662,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 7141213320894228953
+  Id: 15479069796264617394
   Name: "Sci-Fi Base Wall 02"
   Transform {
     Location {
@@ -32863,12 +28678,39 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
   UnregisteredParameters {
+    Overrides {
+      Name: "ma:Building_WallInner:id"
+      AssetReference {
+        Id: 8389813293955201251
+      }
+    }
+    Overrides {
+      Name: "ma:Building_WallInner:color"
+      Color {
+        R: 1
+        G: 0.160000443
+        B: 0.160000026
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:id"
+      AssetReference {
+        Id: 13679493068599210497
+      }
+    }
     Overrides {
       Name: "ma:Building_WallOuter:id"
       AssetReference {
-        Id: 10850472748876015065
+        Id: 2290407761405197447
+      }
+    }
+    Overrides {
+      Name: "ma:Building_UpperTrimOuter:id"
+      AssetReference {
+        Id: 8329339828071933523
       }
     }
   }
@@ -32896,12 +28738,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 7141213320894228953
-    SubobjectId: 12922498558982177981
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -32911,7 +28747,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 4135283844160201506
+  Id: 4636512581927027636
   Name: "Sci-Fi Base Wall 02"
   Transform {
     Location {
@@ -32927,12 +28763,39 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
   UnregisteredParameters {
+    Overrides {
+      Name: "ma:Building_WallInner:id"
+      AssetReference {
+        Id: 8389813293955201251
+      }
+    }
+    Overrides {
+      Name: "ma:Building_WallInner:color"
+      Color {
+        R: 1
+        G: 0.160000443
+        B: 0.160000026
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:id"
+      AssetReference {
+        Id: 13679493068599210497
+      }
+    }
     Overrides {
       Name: "ma:Building_WallOuter:id"
       AssetReference {
-        Id: 10850472748876015065
+        Id: 2290407761405197447
+      }
+    }
+    Overrides {
+      Name: "ma:Building_UpperTrimOuter:id"
+      AssetReference {
+        Id: 8329339828071933523
       }
     }
   }
@@ -32960,12 +28823,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 4135283844160201506
-    SubobjectId: 16801869094076141126
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -32975,7 +28832,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 6803296218087169286
+  Id: 13547392611887147258
   Name: "Sci-Fi Base Wall 02"
   Transform {
     Location {
@@ -32991,12 +28848,39 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
   UnregisteredParameters {
+    Overrides {
+      Name: "ma:Building_WallInner:id"
+      AssetReference {
+        Id: 8389813293955201251
+      }
+    }
+    Overrides {
+      Name: "ma:Building_WallInner:color"
+      Color {
+        R: 1
+        G: 0.160000443
+        B: 0.160000026
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:id"
+      AssetReference {
+        Id: 13679493068599210497
+      }
+    }
     Overrides {
       Name: "ma:Building_WallOuter:id"
       AssetReference {
-        Id: 10850472748876015065
+        Id: 2290407761405197447
+      }
+    }
+    Overrides {
+      Name: "ma:Building_UpperTrimOuter:id"
+      AssetReference {
+        Id: 8329339828071933523
       }
     }
   }
@@ -33024,12 +28908,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 6803296218087169286
-    SubobjectId: 10242708967059452002
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -33039,7 +28917,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 17400846025874294539
+  Id: 12823257468097576259
   Name: "Sci-Fi Base Wall 02"
   Transform {
     Location {
@@ -33055,12 +28933,39 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
   UnregisteredParameters {
+    Overrides {
+      Name: "ma:Building_WallInner:id"
+      AssetReference {
+        Id: 8389813293955201251
+      }
+    }
+    Overrides {
+      Name: "ma:Building_WallInner:color"
+      Color {
+        R: 1
+        G: 0.160000443
+        B: 0.160000026
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:id"
+      AssetReference {
+        Id: 13679493068599210497
+      }
+    }
     Overrides {
       Name: "ma:Building_WallOuter:id"
       AssetReference {
-        Id: 10850472748876015065
+        Id: 2290407761405197447
+      }
+    }
+    Overrides {
+      Name: "ma:Building_UpperTrimOuter:id"
+      AssetReference {
+        Id: 8329339828071933523
       }
     }
   }
@@ -33088,12 +28993,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 17400846025874294539
-    SubobjectId: 2392388939644152431
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -33103,7 +29002,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 3149236844178814753
+  Id: 9188012926291303518
   Name: "Sci-Fi Base Wall 02"
   Transform {
     Location {
@@ -33119,12 +29018,39 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
   UnregisteredParameters {
+    Overrides {
+      Name: "ma:Building_WallInner:id"
+      AssetReference {
+        Id: 8389813293955201251
+      }
+    }
+    Overrides {
+      Name: "ma:Building_WallInner:color"
+      Color {
+        R: 1
+        G: 0.160000443
+        B: 0.160000026
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:id"
+      AssetReference {
+        Id: 13679493068599210497
+      }
+    }
     Overrides {
       Name: "ma:Building_WallOuter:id"
       AssetReference {
-        Id: 10850472748876015065
+        Id: 2290407761405197447
+      }
+    }
+    Overrides {
+      Name: "ma:Building_UpperTrimOuter:id"
+      AssetReference {
+        Id: 8329339828071933523
       }
     }
   }
@@ -33152,12 +29078,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 3149236844178814753
-    SubobjectId: 18157130982519003717
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -33167,7 +29087,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 5624580162566104583
+  Id: 9683532574099397578
   Name: "Sci-Fi Base Wall 02"
   Transform {
     Location {
@@ -33183,12 +29103,39 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
   UnregisteredParameters {
+    Overrides {
+      Name: "ma:Building_WallInner:id"
+      AssetReference {
+        Id: 8389813293955201251
+      }
+    }
+    Overrides {
+      Name: "ma:Building_WallInner:color"
+      Color {
+        R: 1
+        G: 0.160000443
+        B: 0.160000026
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:id"
+      AssetReference {
+        Id: 13679493068599210497
+      }
+    }
     Overrides {
       Name: "ma:Building_WallOuter:id"
       AssetReference {
-        Id: 10850472748876015065
+        Id: 2290407761405197447
+      }
+    }
+    Overrides {
+      Name: "ma:Building_UpperTrimOuter:id"
+      AssetReference {
+        Id: 8329339828071933523
       }
     }
   }
@@ -33216,12 +29163,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 5624580162566104583
-    SubobjectId: 11403612951260121955
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -33231,7 +29172,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 16518346158046434956
+  Id: 12257539970658879097
   Name: "Sci-Fi Base Wall 02"
   Transform {
     Location {
@@ -33247,12 +29188,39 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
   UnregisteredParameters {
+    Overrides {
+      Name: "ma:Building_WallInner:id"
+      AssetReference {
+        Id: 8389813293955201251
+      }
+    }
+    Overrides {
+      Name: "ma:Building_WallInner:color"
+      Color {
+        R: 1
+        G: 0.160000443
+        B: 0.160000026
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:id"
+      AssetReference {
+        Id: 13679493068599210497
+      }
+    }
     Overrides {
       Name: "ma:Building_WallOuter:id"
       AssetReference {
-        Id: 10850472748876015065
+        Id: 2290407761405197447
+      }
+    }
+    Overrides {
+      Name: "ma:Building_UpperTrimOuter:id"
+      AssetReference {
+        Id: 8329339828071933523
       }
     }
   }
@@ -33280,12 +29248,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 16518346158046434956
-    SubobjectId: 3851620039645641704
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -33295,7 +29257,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 13742722467683936154
+  Id: 821301241287072365
   Name: "Sci-Fi Base Wall 02"
   Transform {
     Location {
@@ -33311,12 +29273,39 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
   UnregisteredParameters {
+    Overrides {
+      Name: "ma:Building_WallInner:id"
+      AssetReference {
+        Id: 8389813293955201251
+      }
+    }
+    Overrides {
+      Name: "ma:Building_WallInner:color"
+      Color {
+        R: 1
+        G: 0.160000443
+        B: 0.160000026
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:id"
+      AssetReference {
+        Id: 13679493068599210497
+      }
+    }
     Overrides {
       Name: "ma:Building_WallOuter:id"
       AssetReference {
-        Id: 10850472748876015065
+        Id: 2290407761405197447
+      }
+    }
+    Overrides {
+      Name: "ma:Building_UpperTrimOuter:id"
+      AssetReference {
+        Id: 8329339828071933523
       }
     }
   }
@@ -33344,12 +29333,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 13742722467683936154
-    SubobjectId: 7996340224466995966
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -33359,7 +29342,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 3378693100488276555
+  Id: 3259420705748791662
   Name: "Sci-Fi Base Wall 02"
   Transform {
     Location {
@@ -33375,12 +29358,39 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
   UnregisteredParameters {
+    Overrides {
+      Name: "ma:Building_WallInner:id"
+      AssetReference {
+        Id: 8389813293955201251
+      }
+    }
+    Overrides {
+      Name: "ma:Building_WallInner:color"
+      Color {
+        R: 1
+        G: 0.160000443
+        B: 0.160000026
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:id"
+      AssetReference {
+        Id: 13679493068599210497
+      }
+    }
     Overrides {
       Name: "ma:Building_WallOuter:id"
       AssetReference {
-        Id: 10850472748876015065
+        Id: 2290407761405197447
+      }
+    }
+    Overrides {
+      Name: "ma:Building_UpperTrimOuter:id"
+      AssetReference {
+        Id: 8329339828071933523
       }
     }
   }
@@ -33408,12 +29418,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 3378693100488276555
-    SubobjectId: 18351261580537878319
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -33423,7 +29427,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 204589131423261707
+  Id: 8148397959980008092
   Name: "Sci-Fi Base Wall 02"
   Transform {
     Location {
@@ -33438,12 +29442,39 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
   UnregisteredParameters {
+    Overrides {
+      Name: "ma:Building_WallInner:id"
+      AssetReference {
+        Id: 8389813293955201251
+      }
+    }
+    Overrides {
+      Name: "ma:Building_WallInner:color"
+      Color {
+        R: 1
+        G: 0.160000443
+        B: 0.160000026
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:id"
+      AssetReference {
+        Id: 13679493068599210497
+      }
+    }
     Overrides {
       Name: "ma:Building_WallOuter:id"
       AssetReference {
-        Id: 10850472748876015065
+        Id: 2290407761405197447
+      }
+    }
+    Overrides {
+      Name: "ma:Building_UpperTrimOuter:id"
+      AssetReference {
+        Id: 8329339828071933523
       }
     }
   }
@@ -33471,12 +29502,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 204589131423261707
-    SubobjectId: 15175328574970448239
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -33486,7 +29511,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 5464440804677095066
+  Id: 9484193374587866287
   Name: "Sci-Fi Base Wall 02"
   Transform {
     Location {
@@ -33501,12 +29526,39 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
   UnregisteredParameters {
+    Overrides {
+      Name: "ma:Building_WallInner:id"
+      AssetReference {
+        Id: 8389813293955201251
+      }
+    }
+    Overrides {
+      Name: "ma:Building_WallInner:color"
+      Color {
+        R: 1
+        G: 0.160000443
+        B: 0.160000026
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:id"
+      AssetReference {
+        Id: 13679493068599210497
+      }
+    }
     Overrides {
       Name: "ma:Building_WallOuter:id"
       AssetReference {
-        Id: 10850472748876015065
+        Id: 2290407761405197447
+      }
+    }
+    Overrides {
+      Name: "ma:Building_UpperTrimOuter:id"
+      AssetReference {
+        Id: 8329339828071933523
       }
     }
   }
@@ -33534,12 +29586,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 5464440804677095066
-    SubobjectId: 11212511309343810558
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -33549,7 +29595,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 751025089522199264
+  Id: 17745149333194703377
   Name: "Sci-Fi Base Wall 02"
   Transform {
     Location {
@@ -33564,12 +29610,39 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
   UnregisteredParameters {
+    Overrides {
+      Name: "ma:Building_WallInner:id"
+      AssetReference {
+        Id: 8389813293955201251
+      }
+    }
+    Overrides {
+      Name: "ma:Building_WallInner:color"
+      Color {
+        R: 1
+        G: 0.160000443
+        B: 0.160000026
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:id"
+      AssetReference {
+        Id: 13679493068599210497
+      }
+    }
     Overrides {
       Name: "ma:Building_WallOuter:id"
       AssetReference {
-        Id: 10850472748876015065
+        Id: 2290407761405197447
+      }
+    }
+    Overrides {
+      Name: "ma:Building_UpperTrimOuter:id"
+      AssetReference {
+        Id: 8329339828071933523
       }
     }
   }
@@ -33597,12 +29670,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 751025089522199264
-    SubobjectId: 15718526980312860548
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -33612,7 +29679,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 12126938521106617458
+  Id: 18221699967806546019
   Name: "Sci-Fi Base Wall 02"
   Transform {
     Location {
@@ -33627,12 +29694,39 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
   UnregisteredParameters {
+    Overrides {
+      Name: "ma:Building_WallInner:id"
+      AssetReference {
+        Id: 8389813293955201251
+      }
+    }
+    Overrides {
+      Name: "ma:Building_WallInner:color"
+      Color {
+        R: 1
+        G: 0.160000443
+        B: 0.160000026
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:id"
+      AssetReference {
+        Id: 13679493068599210497
+      }
+    }
     Overrides {
       Name: "ma:Building_WallOuter:id"
       AssetReference {
-        Id: 10850472748876015065
+        Id: 2290407761405197447
+      }
+    }
+    Overrides {
+      Name: "ma:Building_UpperTrimOuter:id"
+      AssetReference {
+        Id: 8329339828071933523
       }
     }
   }
@@ -33660,12 +29754,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 12126938521106617458
-    SubobjectId: 8648259292385704214
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -33675,7 +29763,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 8456801823956895333
+  Id: 11778682714102903708
   Name: "Sci-Fi Base Wall 02"
   Transform {
     Location {
@@ -33690,12 +29778,39 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
   UnregisteredParameters {
+    Overrides {
+      Name: "ma:Building_WallInner:id"
+      AssetReference {
+        Id: 8389813293955201251
+      }
+    }
+    Overrides {
+      Name: "ma:Building_WallInner:color"
+      Color {
+        R: 1
+        G: 0.160000443
+        B: 0.160000026
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:id"
+      AssetReference {
+        Id: 13679493068599210497
+      }
+    }
     Overrides {
       Name: "ma:Building_WallOuter:id"
       AssetReference {
-        Id: 10850472748876015065
+        Id: 2290407761405197447
+      }
+    }
+    Overrides {
+      Name: "ma:Building_UpperTrimOuter:id"
+      AssetReference {
+        Id: 8329339828071933523
       }
     }
   }
@@ -33723,12 +29838,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 8456801823956895333
-    SubobjectId: 11895088703086979841
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -33738,7 +29847,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 7757196713796160952
+  Id: 14237119182773770238
   Name: "Sci-Fi Base Wall 02"
   Transform {
     Location {
@@ -33753,12 +29862,39 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
   UnregisteredParameters {
+    Overrides {
+      Name: "ma:Building_WallInner:id"
+      AssetReference {
+        Id: 8389813293955201251
+      }
+    }
+    Overrides {
+      Name: "ma:Building_WallInner:color"
+      Color {
+        R: 1
+        G: 0.160000443
+        B: 0.160000026
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:id"
+      AssetReference {
+        Id: 13679493068599210497
+      }
+    }
     Overrides {
       Name: "ma:Building_WallOuter:id"
       AssetReference {
-        Id: 10850472748876015065
+        Id: 2290407761405197447
+      }
+    }
+    Overrides {
+      Name: "ma:Building_UpperTrimOuter:id"
+      AssetReference {
+        Id: 8329339828071933523
       }
     }
   }
@@ -33786,12 +29922,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 7757196713796160952
-    SubobjectId: 13540170253013917916
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -33801,7 +29931,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 743512529953620420
+  Id: 6475619843221926798
   Name: "Sci-Fi Base Wall 02"
   Transform {
     Location {
@@ -33816,12 +29946,39 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
   UnregisteredParameters {
+    Overrides {
+      Name: "ma:Building_WallInner:id"
+      AssetReference {
+        Id: 8389813293955201251
+      }
+    }
+    Overrides {
+      Name: "ma:Building_WallInner:color"
+      Color {
+        R: 1
+        G: 0.160000443
+        B: 0.160000026
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:id"
+      AssetReference {
+        Id: 13679493068599210497
+      }
+    }
     Overrides {
       Name: "ma:Building_WallOuter:id"
       AssetReference {
-        Id: 10850472748876015065
+        Id: 2290407761405197447
+      }
+    }
+    Overrides {
+      Name: "ma:Building_UpperTrimOuter:id"
+      AssetReference {
+        Id: 8329339828071933523
       }
     }
   }
@@ -33849,12 +30006,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 743512529953620420
-    SubobjectId: 15717066682514107552
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -33864,7 +30015,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 7985638522471364157
+  Id: 3271878635802868820
   Name: "Sci-Fi Base Wall 02"
   Transform {
     Location {
@@ -33879,12 +30030,39 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
   UnregisteredParameters {
+    Overrides {
+      Name: "ma:Building_WallInner:id"
+      AssetReference {
+        Id: 8389813293955201251
+      }
+    }
+    Overrides {
+      Name: "ma:Building_WallInner:color"
+      Color {
+        R: 1
+        G: 0.160000443
+        B: 0.160000026
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:id"
+      AssetReference {
+        Id: 13679493068599210497
+      }
+    }
     Overrides {
       Name: "ma:Building_WallOuter:id"
       AssetReference {
-        Id: 10850472748876015065
+        Id: 2290407761405197447
+      }
+    }
+    Overrides {
+      Name: "ma:Building_UpperTrimOuter:id"
+      AssetReference {
+        Id: 8329339828071933523
       }
     }
   }
@@ -33912,12 +30090,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 7985638522471364157
-    SubobjectId: 13735398019871136601
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -33927,7 +30099,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 11014665727690829549
+  Id: 5906888840574690236
   Name: "Sci-Fi Base Wall 02"
   Transform {
     Location {
@@ -33942,12 +30114,39 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
   UnregisteredParameters {
+    Overrides {
+      Name: "ma:Building_WallInner:id"
+      AssetReference {
+        Id: 8389813293955201251
+      }
+    }
+    Overrides {
+      Name: "ma:Building_WallInner:color"
+      Color {
+        R: 1
+        G: 0.160000443
+        B: 0.160000026
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:id"
+      AssetReference {
+        Id: 13679493068599210497
+      }
+    }
     Overrides {
       Name: "ma:Building_WallOuter:id"
       AssetReference {
-        Id: 10850472748876015065
+        Id: 2290407761405197447
+      }
+    }
+    Overrides {
+      Name: "ma:Building_UpperTrimOuter:id"
+      AssetReference {
+        Id: 8329339828071933523
       }
     }
   }
@@ -33975,12 +30174,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 11014665727690829549
-    SubobjectId: 5230003305278538633
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -33990,7 +30183,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 12486220408153908449
+  Id: 18367397579729853145
   Name: "Sci-Fi Base Wall 02"
   Transform {
     Location {
@@ -34006,12 +30199,39 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
   UnregisteredParameters {
+    Overrides {
+      Name: "ma:Building_WallInner:id"
+      AssetReference {
+        Id: 8389813293955201251
+      }
+    }
+    Overrides {
+      Name: "ma:Building_WallInner:color"
+      Color {
+        R: 1
+        G: 0.160000443
+        B: 0.160000026
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:id"
+      AssetReference {
+        Id: 13679493068599210497
+      }
+    }
     Overrides {
       Name: "ma:Building_WallOuter:id"
       AssetReference {
-        Id: 10850472748876015065
+        Id: 2290407761405197447
+      }
+    }
+    Overrides {
+      Name: "ma:Building_UpperTrimOuter:id"
+      AssetReference {
+        Id: 8329339828071933523
       }
     }
   }
@@ -34039,12 +30259,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 12486220408153908449
-    SubobjectId: 9009652379211942277
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -34054,7 +30268,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 14673291003836215287
+  Id: 9479880318280660243
   Name: "Sci-Fi Base Wall 02"
   Transform {
     Location {
@@ -34070,12 +30284,39 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
   UnregisteredParameters {
+    Overrides {
+      Name: "ma:Building_WallInner:id"
+      AssetReference {
+        Id: 8389813293955201251
+      }
+    }
+    Overrides {
+      Name: "ma:Building_WallInner:color"
+      Color {
+        R: 1
+        G: 0.160000443
+        B: 0.160000026
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:id"
+      AssetReference {
+        Id: 13679493068599210497
+      }
+    }
     Overrides {
       Name: "ma:Building_WallOuter:id"
       AssetReference {
-        Id: 10850472748876015065
+        Id: 2290407761405197447
+      }
+    }
+    Overrides {
+      Name: "ma:Building_UpperTrimOuter:id"
+      AssetReference {
+        Id: 8329339828071933523
       }
     }
   }
@@ -34103,12 +30344,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 14673291003836215287
-    SubobjectId: 2012335218069258899
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -34118,7 +30353,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 10389828927740757026
+  Id: 8386765147821365900
   Name: "Sci-Fi Base Wall 02"
   Transform {
     Location {
@@ -34134,12 +30369,39 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
   UnregisteredParameters {
+    Overrides {
+      Name: "ma:Building_WallInner:id"
+      AssetReference {
+        Id: 8389813293955201251
+      }
+    }
+    Overrides {
+      Name: "ma:Building_WallInner:color"
+      Color {
+        R: 1
+        G: 0.160000443
+        B: 0.160000026
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:id"
+      AssetReference {
+        Id: 13679493068599210497
+      }
+    }
     Overrides {
       Name: "ma:Building_WallOuter:id"
       AssetReference {
-        Id: 10850472748876015065
+        Id: 2290407761405197447
+      }
+    }
+    Overrides {
+      Name: "ma:Building_UpperTrimOuter:id"
+      AssetReference {
+        Id: 8329339828071933523
       }
     }
   }
@@ -34167,12 +30429,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 10389828927740757026
-    SubobjectId: 4647527934180043078
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -34182,7 +30438,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 11994769299818459531
+  Id: 3354969419650287850
   Name: "Sci-Fi Base Wall 02"
   Transform {
     Location {
@@ -34198,12 +30454,39 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
   UnregisteredParameters {
+    Overrides {
+      Name: "ma:Building_WallInner:id"
+      AssetReference {
+        Id: 8389813293955201251
+      }
+    }
+    Overrides {
+      Name: "ma:Building_WallInner:color"
+      Color {
+        R: 1
+        G: 0.160000443
+        B: 0.160000026
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:id"
+      AssetReference {
+        Id: 13679493068599210497
+      }
+    }
     Overrides {
       Name: "ma:Building_WallOuter:id"
       AssetReference {
-        Id: 10850472748876015065
+        Id: 2290407761405197447
+      }
+    }
+    Overrides {
+      Name: "ma:Building_UpperTrimOuter:id"
+      AssetReference {
+        Id: 8329339828071933523
       }
     }
   }
@@ -34231,12 +30514,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 11994769299818459531
-    SubobjectId: 8519327753858833647
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -34246,7 +30523,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 254321469594209218
+  Id: 17231465867764360412
   Name: "Sci-Fi Base Wall 02"
   Transform {
     Location {
@@ -34262,12 +30539,39 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
   UnregisteredParameters {
+    Overrides {
+      Name: "ma:Building_WallInner:id"
+      AssetReference {
+        Id: 8389813293955201251
+      }
+    }
+    Overrides {
+      Name: "ma:Building_WallInner:color"
+      Color {
+        R: 1
+        G: 0.160000443
+        B: 0.160000026
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:id"
+      AssetReference {
+        Id: 13679493068599210497
+      }
+    }
     Overrides {
       Name: "ma:Building_WallOuter:id"
       AssetReference {
-        Id: 10850472748876015065
+        Id: 2290407761405197447
+      }
+    }
+    Overrides {
+      Name: "ma:Building_UpperTrimOuter:id"
+      AssetReference {
+        Id: 8329339828071933523
       }
     }
   }
@@ -34295,12 +30599,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 254321469594209218
-    SubobjectId: 15260667598677370534
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -34310,7 +30608,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 18236116545952697211
+  Id: 12844208429745195759
   Name: "Sci-Fi Base Wall 02"
   Transform {
     Location {
@@ -34326,12 +30624,39 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
   UnregisteredParameters {
+    Overrides {
+      Name: "ma:Building_WallInner:id"
+      AssetReference {
+        Id: 8389813293955201251
+      }
+    }
+    Overrides {
+      Name: "ma:Building_WallInner:color"
+      Color {
+        R: 1
+        G: 0.160000443
+        B: 0.160000026
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:id"
+      AssetReference {
+        Id: 13679493068599210497
+      }
+    }
     Overrides {
       Name: "ma:Building_WallOuter:id"
       AssetReference {
-        Id: 10850472748876015065
+        Id: 2290407761405197447
+      }
+    }
+    Overrides {
+      Name: "ma:Building_UpperTrimOuter:id"
+      AssetReference {
+        Id: 8329339828071933523
       }
     }
   }
@@ -34359,12 +30684,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 18236116545952697211
-    SubobjectId: 3268754841873360415
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -34374,7 +30693,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 11177012379206732061
+  Id: 1959093796715579356
   Name: "Sci-Fi Base Wall 02"
   Transform {
     Location {
@@ -34390,12 +30709,39 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
   UnregisteredParameters {
+    Overrides {
+      Name: "ma:Building_WallInner:id"
+      AssetReference {
+        Id: 8389813293955201251
+      }
+    }
+    Overrides {
+      Name: "ma:Building_WallInner:color"
+      Color {
+        R: 1
+        G: 0.160000443
+        B: 0.160000026
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:id"
+      AssetReference {
+        Id: 13679493068599210497
+      }
+    }
     Overrides {
       Name: "ma:Building_WallOuter:id"
       AssetReference {
-        Id: 10850472748876015065
+        Id: 2290407761405197447
+      }
+    }
+    Overrides {
+      Name: "ma:Building_UpperTrimOuter:id"
+      AssetReference {
+        Id: 8329339828071933523
       }
     }
   }
@@ -34423,12 +30769,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 11177012379206732061
-    SubobjectId: 5427956709992932473
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -34438,7 +30778,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 11097077714153765104
+  Id: 3291963575714992033
   Name: "Sci-Fi Base Wall 02"
   Transform {
     Location {
@@ -34454,12 +30794,39 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
   UnregisteredParameters {
+    Overrides {
+      Name: "ma:Building_WallInner:id"
+      AssetReference {
+        Id: 8389813293955201251
+      }
+    }
+    Overrides {
+      Name: "ma:Building_WallInner:color"
+      Color {
+        R: 1
+        G: 0.160000443
+        B: 0.160000026
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:id"
+      AssetReference {
+        Id: 13679493068599210497
+      }
+    }
     Overrides {
       Name: "ma:Building_WallOuter:id"
       AssetReference {
-        Id: 10850472748876015065
+        Id: 2290407761405197447
+      }
+    }
+    Overrides {
+      Name: "ma:Building_UpperTrimOuter:id"
+      AssetReference {
+        Id: 8329339828071933523
       }
     }
   }
@@ -34487,12 +30854,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 11097077714153765104
-    SubobjectId: 5354776891387057556
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -34502,7 +30863,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 6811551859912140158
+  Id: 9380981433885402462
   Name: "Sci-Fi Base Wall 02"
   Transform {
     Location {
@@ -34518,12 +30879,39 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
   UnregisteredParameters {
+    Overrides {
+      Name: "ma:Building_WallInner:id"
+      AssetReference {
+        Id: 8389813293955201251
+      }
+    }
+    Overrides {
+      Name: "ma:Building_WallInner:color"
+      Color {
+        R: 1
+        G: 0.160000443
+        B: 0.160000026
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:id"
+      AssetReference {
+        Id: 13679493068599210497
+      }
+    }
     Overrides {
       Name: "ma:Building_WallOuter:id"
       AssetReference {
-        Id: 10850472748876015065
+        Id: 2290407761405197447
+      }
+    }
+    Overrides {
+      Name: "ma:Building_UpperTrimOuter:id"
+      AssetReference {
+        Id: 8329339828071933523
       }
     }
   }
@@ -34551,12 +30939,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 6811551859912140158
-    SubobjectId: 10288541549329877018
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -34566,7 +30948,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 13819533197925684924
+  Id: 4969368198294926378
   Name: "Sci-Fi Base Wall 02"
   Transform {
     Location {
@@ -34582,12 +30964,39 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
   UnregisteredParameters {
+    Overrides {
+      Name: "ma:Building_WallInner:id"
+      AssetReference {
+        Id: 8389813293955201251
+      }
+    }
+    Overrides {
+      Name: "ma:Building_WallInner:color"
+      Color {
+        R: 1
+        G: 0.160000443
+        B: 0.160000026
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:id"
+      AssetReference {
+        Id: 13679493068599210497
+      }
+    }
     Overrides {
       Name: "ma:Building_WallOuter:id"
       AssetReference {
-        Id: 10850472748876015065
+        Id: 2290407761405197447
+      }
+    }
+    Overrides {
+      Name: "ma:Building_UpperTrimOuter:id"
+      AssetReference {
+        Id: 8329339828071933523
       }
     }
   }
@@ -34615,12 +31024,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 13819533197925684924
-    SubobjectId: 8036559656594013144
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -34630,7 +31033,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 1549065118000173527
+  Id: 7166372707702336177
   Name: "Sci-Fi Base Wall 02"
   Transform {
     Location {
@@ -34646,12 +31049,39 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
   UnregisteredParameters {
+    Overrides {
+      Name: "ma:Building_WallInner:id"
+      AssetReference {
+        Id: 8389813293955201251
+      }
+    }
+    Overrides {
+      Name: "ma:Building_WallInner:color"
+      Color {
+        R: 1
+        G: 0.160000443
+        B: 0.160000026
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:id"
+      AssetReference {
+        Id: 13679493068599210497
+      }
+    }
     Overrides {
       Name: "ma:Building_WallOuter:id"
       AssetReference {
-        Id: 10850472748876015065
+        Id: 2290407761405197447
+      }
+    }
+    Overrides {
+      Name: "ma:Building_UpperTrimOuter:id"
+      AssetReference {
+        Id: 8329339828071933523
       }
     }
   }
@@ -34679,12 +31109,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 1549065118000173527
-    SubobjectId: 14208895103783156915
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -34694,7 +31118,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 9227474260305120410
+  Id: 5313712547942086316
   Name: "Sci-Fi Base Wall 02"
   Transform {
     Location {
@@ -34710,12 +31134,39 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
   UnregisteredParameters {
+    Overrides {
+      Name: "ma:Building_WallInner:id"
+      AssetReference {
+        Id: 8389813293955201251
+      }
+    }
+    Overrides {
+      Name: "ma:Building_WallInner:color"
+      Color {
+        R: 1
+        G: 0.160000443
+        B: 0.160000026
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:id"
+      AssetReference {
+        Id: 13679493068599210497
+      }
+    }
     Overrides {
       Name: "ma:Building_WallOuter:id"
       AssetReference {
-        Id: 10850472748876015065
+        Id: 2290407761405197447
+      }
+    }
+    Overrides {
+      Name: "ma:Building_UpperTrimOuter:id"
+      AssetReference {
+        Id: 8329339828071933523
       }
     }
   }
@@ -34743,12 +31194,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 9227474260305120410
-    SubobjectId: 5783135014176514558
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -34758,7 +31203,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 10287876302457617949
+  Id: 14889951122806727362
   Name: "Sci-Fi Base Wall 02"
   Transform {
     Location {
@@ -34773,12 +31218,39 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
   UnregisteredParameters {
+    Overrides {
+      Name: "ma:Building_WallInner:id"
+      AssetReference {
+        Id: 8389813293955201251
+      }
+    }
+    Overrides {
+      Name: "ma:Building_WallInner:color"
+      Color {
+        R: 1
+        G: 0.160000443
+        B: 0.160000026
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:id"
+      AssetReference {
+        Id: 13679493068599210497
+      }
+    }
     Overrides {
       Name: "ma:Building_WallOuter:id"
       AssetReference {
-        Id: 10850472748876015065
+        Id: 2290407761405197447
+      }
+    }
+    Overrides {
+      Name: "ma:Building_UpperTrimOuter:id"
+      AssetReference {
+        Id: 8329339828071933523
       }
     }
   }
@@ -34806,12 +31278,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 10287876302457617949
-    SubobjectId: 6812434037126484857
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -34821,7 +31287,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 759222146881150073
+  Id: 4920026272227511902
   Name: "Sci-Fi Base Wall 02"
   Transform {
     Location {
@@ -34836,12 +31302,39 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
   UnregisteredParameters {
+    Overrides {
+      Name: "ma:Building_WallInner:id"
+      AssetReference {
+        Id: 8389813293955201251
+      }
+    }
+    Overrides {
+      Name: "ma:Building_WallInner:color"
+      Color {
+        R: 1
+        G: 0.160000443
+        B: 0.160000026
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:id"
+      AssetReference {
+        Id: 13679493068599210497
+      }
+    }
     Overrides {
       Name: "ma:Building_WallOuter:id"
       AssetReference {
-        Id: 10850472748876015065
+        Id: 2290407761405197447
+      }
+    }
+    Overrides {
+      Name: "ma:Building_UpperTrimOuter:id"
+      AssetReference {
+        Id: 8329339828071933523
       }
     }
   }
@@ -34869,12 +31362,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 759222146881150073
-    SubobjectId: 15764301640697688349
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -34884,7 +31371,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 13227168854392709789
+  Id: 10244941148735010188
   Name: "Sci-Fi Base Wall 02"
   Transform {
     Location {
@@ -34899,12 +31386,39 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
   UnregisteredParameters {
+    Overrides {
+      Name: "ma:Building_WallInner:id"
+      AssetReference {
+        Id: 8389813293955201251
+      }
+    }
+    Overrides {
+      Name: "ma:Building_WallInner:color"
+      Color {
+        R: 1
+        G: 0.160000443
+        B: 0.160000026
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:id"
+      AssetReference {
+        Id: 13679493068599210497
+      }
+    }
     Overrides {
       Name: "ma:Building_WallOuter:id"
       AssetReference {
-        Id: 10850472748876015065
+        Id: 2290407761405197447
+      }
+    }
+    Overrides {
+      Name: "ma:Building_UpperTrimOuter:id"
+      AssetReference {
+        Id: 8329339828071933523
       }
     }
   }
@@ -34932,12 +31446,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 13227168854392709789
-    SubobjectId: 7484727128745922553
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -34947,7 +31455,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 2370300988440669621
+  Id: 8690215849059608310
   Name: "Sci-fi Base Floor 01 - 4-Way"
   Transform {
     Location {
@@ -34962,7 +31470,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -34987,12 +31495,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 2370300988440669621
-    SubobjectId: 17341744114077663441
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -35002,7 +31504,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 6474146869662134611
+  Id: 14715182257326888146
   Name: "Sci-fi Base Floor 01 - 4-Way"
   Transform {
     Location {
@@ -35017,7 +31519,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -35042,12 +31544,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 6474146869662134611
-    SubobjectId: 9914544915239033911
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -35057,7 +31553,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 10128289546648218226
+  Id: 109124971460253927
   Name: "Sci-fi Base Floor 01 - 4-Way"
   Transform {
     Location {
@@ -35072,7 +31568,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -35097,12 +31593,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 10128289546648218226
-    SubobjectId: 6683810215916570390
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -35112,7 +31602,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 7535621381018462525
+  Id: 1020310122177341318
   Name: "Sci-fi Base Floor 01 - 4-Way"
   Transform {
     Location {
@@ -35127,7 +31617,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -35152,12 +31642,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 7535621381018462525
-    SubobjectId: 13320706432507626585
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -35167,7 +31651,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 12991499962744646156
+  Id: 6598425693382866310
   Name: "Sci-fi Base Floor 01 - 4-Way"
   Transform {
     Location {
@@ -35182,7 +31666,9 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
+  UnregisteredParameters {
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -35207,12 +31693,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 12991499962744646156
-    SubobjectId: 7206977897716008808
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -35222,7 +31702,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 15285581666432953996
+  Id: 12031328329384333778
   Name: "Sci-fi Base Floor 01 - 4-Way"
   Transform {
     Location {
@@ -35237,7 +31717,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -35262,12 +31742,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 15285581666432953996
-    SubobjectId: 319205675582669800
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -35277,7 +31751,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 9093696317309342153
+  Id: 15832523332496142234
   Name: "Sci-fi Base Floor 01 - 4-Way"
   Transform {
     Location {
@@ -35292,7 +31766,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -35317,12 +31791,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 9093696317309342153
-    SubobjectId: 12572938322022841517
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -35332,7 +31800,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 16153851787858797642
+  Id: 17572564451044106839
   Name: "Sci-fi Base Floor 01 - 4-Way"
   Transform {
     Location {
@@ -35347,7 +31815,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -35372,12 +31840,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 16153851787858797642
-    SubobjectId: 3486141020338424110
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -35387,7 +31849,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 1779878359189643627
+  Id: 4319473431245013539
   Name: "Sci-fi Base Floor 01 - 4-Way"
   Transform {
     Location {
@@ -35402,7 +31864,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -35427,12 +31889,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 1779878359189643627
-    SubobjectId: 14482491987300060175
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -35442,7 +31898,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 15519496734738710884
+  Id: 3792911027598117360
   Name: "Sci-fi Base Floor 01 - 4-Way"
   Transform {
     Location {
@@ -35457,7 +31913,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -35482,12 +31938,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 15519496734738710884
-    SubobjectId: 517654854881963008
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -35497,7 +31947,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 11387206874524204076
+  Id: 17465369621007850384
   Name: "Sci-fi Base Floor 01 - 4-Way"
   Transform {
     Location {
@@ -35512,7 +31962,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -35537,12 +31987,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 11387206874524204076
-    SubobjectId: 5640824533514965320
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -35552,7 +31996,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 15816576833063024899
+  Id: 10409323657997417492
   Name: "Sci-fi Base Floor 01 - 4-Way"
   Transform {
     Location {
@@ -35567,7 +32011,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -35592,12 +32036,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 15816576833063024899
-    SubobjectId: 806290021055566951
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -35607,7 +32045,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 5530522747091830155
+  Id: 14600916518566737182
   Name: "Sci-fi Base Floor 01 - 4-Way"
   Transform {
     Location {
@@ -35622,7 +32060,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -35647,12 +32085,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 5530522747091830155
-    SubobjectId: 11281267984518162671
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -35662,7 +32094,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 7038059311169531190
+  Id: 13742509590731844518
   Name: "Sci-fi Base Floor 01 - 4-Way"
   Transform {
     Location {
@@ -35677,7 +32109,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -35702,12 +32134,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 7038059311169531190
-    SubobjectId: 12818218653613981778
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -35717,7 +32143,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 11477482138617745457
+  Id: 7054780537362733689
   Name: "Sci-fi Base Floor 01 - 4-Way"
   Transform {
     Location {
@@ -35732,7 +32158,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -35757,12 +32183,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 11477482138617745457
-    SubobjectId: 5694649331553074517
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -35772,7 +32192,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 17821118952702303312
+  Id: 9101797608096629126
   Name: "Sci-fi Base Floor 01 - 4-Way"
   Transform {
     Location {
@@ -35787,7 +32207,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -35812,12 +32232,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 17821118952702303312
-    SubobjectId: 2818713577397694772
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -35827,7 +32241,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 3470244512844865832
+  Id: 3859707068578422382
   Name: "Sci-fi Base Floor 01 - 4-Way"
   Transform {
     Location {
@@ -35842,7 +32256,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -35867,12 +32281,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 3470244512844865832
-    SubobjectId: 16170043256934796364
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -35882,7 +32290,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 2129745014818824585
+  Id: 9921651437715652737
   Name: "Sci-fi Base Floor 01 - 4-Way"
   Transform {
     Location {
@@ -35897,7 +32305,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -35922,12 +32330,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 2129745014818824585
-    SubobjectId: 14826166196679609581
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -35937,7 +32339,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 15214570080737793109
+  Id: 6254543939678150983
   Name: "Sci-fi Base Floor 01 - 4-Way"
   Transform {
     Location {
@@ -35952,7 +32354,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -35977,12 +32379,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 15214570080737793109
-    SubobjectId: 246082471366031665
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -35992,7 +32388,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 8583368995636036431
+  Id: 14563031315632130073
   Name: "Sci-fi Base Floor 01 - 4-Way"
   Transform {
     Location {
@@ -36007,7 +32403,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -36032,12 +32428,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 8583368995636036431
-    SubobjectId: 12056418549786062379
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -36047,7 +32437,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 16531905593984610825
+  Id: 13488817651239655111
   Name: "Sci-fi Base Floor 01 - 4-Way"
   Transform {
     Location {
@@ -36062,7 +32452,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -36087,12 +32477,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 16531905593984610825
-    SubobjectId: 3828729116835684205
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -36102,7 +32486,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 13272262522005231149
+  Id: 2285566210680898219
   Name: "Sci-fi Base Floor 01 - 4-Way"
   Transform {
     Location {
@@ -36117,7 +32501,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -36142,12 +32526,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 13272262522005231149
-    SubobjectId: 7529961562854619977
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -36157,7 +32535,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 13993429920527416485
+  Id: 9009641746967791029
   Name: "Sci-fi Base Floor 01 - 4-Way"
   Transform {
     Location {
@@ -36172,7 +32550,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -36197,12 +32575,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 13993429920527416485
-    SubobjectId: 1332474002673406401
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -36212,7 +32584,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 17521471962747918541
+  Id: 10975409326829832903
   Name: "Sci-fi Base Floor 01 - 4-Way"
   Transform {
     Location {
@@ -36227,7 +32599,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -36252,12 +32624,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 17521471962747918541
-    SubobjectId: 2551154765994079657
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -36267,7 +32633,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 3727620883153119672
+  Id: 7386518193658693186
   Name: "Sci-fi Base Floor 01 - 4-Way"
   Transform {
     Location {
@@ -36282,7 +32648,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -36307,12 +32673,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 3727620883153119672
-    SubobjectId: 16425871549300081884
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -36322,7 +32682,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 17296726921812432659
+  Id: 3520198450193263893
   Name: "Sci-fi Base Floor 01 - 4-Way"
   Transform {
     Location {
@@ -36337,7 +32697,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -36362,12 +32722,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 17296726921812432659
-    SubobjectId: 2325283657578822263
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -36377,7 +32731,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 17685695443873612400
+  Id: 1618521053351229338
   Name: "Sci-fi Base Floor 01 - 4-Way"
   Transform {
     Location {
@@ -36392,7 +32746,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -36417,12 +32771,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 17685695443873612400
-    SubobjectId: 2683993753928445716
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -36432,7 +32780,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 11237933166033173810
+  Id: 11748356949794767923
   Name: "Sci-fi Base Floor 01 - 4-Way"
   Transform {
     Location {
@@ -36447,7 +32795,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -36472,12 +32820,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 11237933166033173810
-    SubobjectId: 5456789315045396566
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -36487,7 +32829,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 18197930036101049254
+  Id: 12378804153794697533
   Name: "Sci-fi Base Floor 01 - 4-Way"
   Transform {
     Location {
@@ -36502,7 +32844,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -36527,12 +32869,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 18197930036101049254
-    SubobjectId: 3225501642818815682
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -36542,7 +32878,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 3908864028718881405
+  Id: 9443406603043390302
   Name: "Sci-fi Base Floor 01 - 4-Way"
   Transform {
     Location {
@@ -36557,7 +32893,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -36582,12 +32918,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 3908864028718881405
-    SubobjectId: 16604863408248338201
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -36597,7 +32927,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 2433118473798261322
+  Id: 2478772383219294046
   Name: "Sci-fi Base Floor 01 - 4-Way"
   Transform {
     Location {
@@ -36612,7 +32942,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -36637,12 +32967,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 2433118473798261322
-    SubobjectId: 17405123969551365934
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -36652,7 +32976,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 13899974715417982450
+  Id: 5109564804889879748
   Name: "Sci-fi Base Floor 01 - 4-Way"
   Transform {
     Location {
@@ -36667,7 +32991,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -36692,12 +33016,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 13899974715417982450
-    SubobjectId: 1200738230764771478
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -36707,7 +33025,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 6950299149412443446
+  Id: 12263955834274675338
   Name: "Sci-fi Base Floor 01 - 4-Way"
   Transform {
     Location {
@@ -36722,7 +33040,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -36747,12 +33065,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 6950299149412443446
-    SubobjectId: 12698792040473610322
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -36762,7 +33074,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 9167869499401116017
+  Id: 15258219472682261483
   Name: "Sci-fi Base Floor 01 - 4-Way"
   Transform {
     Location {
@@ -36777,7 +33089,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -36802,12 +33114,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 9167869499401116017
-    SubobjectId: 12643170857592583189
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -36817,7 +33123,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 12784925895015077394
+  Id: 15519827002180837671
   Name: "Sci-fi Base Floor 01 - 4-Way"
   Transform {
     Location {
@@ -36832,7 +33138,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -36857,12 +33163,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 12784925895015077394
-    SubobjectId: 6999277759436454774
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -36872,7 +33172,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 14791065197150746412
+  Id: 15477061097257362376
   Name: "Sci-fi Base Floor 01 - 4-Way"
   Transform {
     Location {
@@ -36887,7 +33187,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -36912,12 +33212,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 14791065197150746412
-    SubobjectId: 2092813983412214344
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -36927,7 +33221,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 15643414959871156631
+  Id: 3198557781433452808
   Name: "Sci-fi Base Floor 01 - 4-Way"
   Transform {
     Location {
@@ -36942,7 +33236,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -36967,12 +33261,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 15643414959871156631
-    SubobjectId: 673239022460964083
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -36982,7 +33270,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 7796053308306998791
+  Id: 6393558859952497392
   Name: "Sci-fi Base Floor 01 - 4-Way"
   Transform {
     Location {
@@ -36997,7 +33285,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -37022,12 +33310,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 7796053308306998791
-    SubobjectId: 13582405098041289571
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -37037,7 +33319,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 5527168901264362297
+  Id: 9837667943812281162
   Name: "Sci-fi Base Floor 01 - 4-Way"
   Transform {
     Location {
@@ -37052,7 +33334,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -37077,12 +33359,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 5527168901264362297
-    SubobjectId: 11311690415463442013
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -37092,7 +33368,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 10016402622506077359
+  Id: 18072376555626531390
   Name: "Sci-fi Base Floor 01 - 4-Way"
   Transform {
     Location {
@@ -37107,7 +33383,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -37132,12 +33408,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 10016402622506077359
-    SubobjectId: 6579241500525552075
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -37147,7 +33417,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 6575374569164848178
+  Id: 13182086060092873453
   Name: "Sci-fi Base Floor 01 - 4-Way"
   Transform {
     Location {
@@ -37162,7 +33432,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -37187,12 +33457,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 6575374569164848178
-    SubobjectId: 10020276082347102550
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -37202,7 +33466,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 10719473430934856463
+  Id: 15697257055138638836
   Name: "Sci-fi Base Floor 01 - 4-Way"
   Transform {
     Location {
@@ -37217,7 +33481,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -37242,12 +33506,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 10719473430934856463
-    SubobjectId: 4939454963400920683
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -37257,7 +33515,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 2148599855059266390
+  Id: 16621611030915941080
   Name: "Sci-fi Base Floor 01 - 4-Way"
   Transform {
     Location {
@@ -37272,7 +33530,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -37297,12 +33555,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 2148599855059266390
-    SubobjectId: 14816311142306154034
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -37312,7 +33564,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 5118275277727029060
+  Id: 18157780742330951038
   Name: "Sci-fi Base Floor 01 - 4-Way"
   Transform {
     Location {
@@ -37327,7 +33579,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -37352,12 +33604,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 5118275277727029060
-    SubobjectId: 10901108496032610848
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -37367,7 +33613,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 1956543839706401510
+  Id: 17072750974336945740
   Name: "Sci-fi Base Floor 01 - 4-Way"
   Transform {
     Location {
@@ -37382,7 +33628,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -37407,12 +33653,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 1956543839706401510
-    SubobjectId: 14657046443122796418
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -37422,7 +33662,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 6904747737082991797
+  Id: 9700904187099210510
   Name: "Sci-fi Base Floor 01 - 4-Way"
   Transform {
     Location {
@@ -37437,7 +33677,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -37462,12 +33702,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 6904747737082991797
-    SubobjectId: 10348664115749386705
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -37477,7 +33711,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 18157043629701100879
+  Id: 1283694774770774242
   Name: "Sci-fi Base Floor 01 - 4-Way"
   Transform {
     Location {
@@ -37492,7 +33726,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -37517,12 +33751,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 18157043629701100879
-    SubobjectId: 3149571603881990187
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -37532,7 +33760,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 9132475846209125440
+  Id: 12601762413589696836
   Name: "Sci-fi Base Floor 01 - 4-Way"
   Transform {
     Location {
@@ -37547,7 +33775,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -37572,12 +33800,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 9132475846209125440
-    SubobjectId: 12606228679764234532
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -37587,7 +33809,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 8233887292345838239
+  Id: 7438856407265872486
   Name: "Sci-fi Base Floor 01 - 4-Way"
   Transform {
     Location {
@@ -37602,7 +33824,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -37627,12 +33849,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 8233887292345838239
-    SubobjectId: 11676677744261924859
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -37642,7 +33858,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 14329123605897734872
+  Id: 2962075132137584412
   Name: "Sci-fi Base Floor 01 - 4-Way"
   Transform {
     Location {
@@ -37657,7 +33873,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -37682,12 +33898,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 14329123605897734872
-    SubobjectId: 1626932326651103164
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -37697,7 +33907,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 11729490626836316635
+  Id: 10398591314383641266
   Name: "Sci-fi Base Floor 01 - 4-Way"
   Transform {
     Location {
@@ -37712,7 +33922,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -37737,12 +33947,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 11729490626836316635
-    SubobjectId: 8253063747783568575
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -37752,7 +33956,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 17519692683823630875
+  Id: 15251194645059775093
   Name: "Sci-fi Base Floor 01 - 4-Way"
   Transform {
     Location {
@@ -37767,7 +33971,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -37792,12 +33996,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 17519692683823630875
-    SubobjectId: 2552753707569653631
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -37807,7 +34005,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 17250081633971633939
+  Id: 13101371498598476198
   Name: "Sci-fi Base Floor 01 - 4-Way"
   Transform {
     Location {
@@ -37822,7 +34020,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -37847,12 +34045,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 17250081633971633939
-    SubobjectId: 4551971048149422711
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -37862,7 +34054,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 16170724861021894424
+  Id: 10257476845084197571
   Name: "Sci-fi Base Floor 01 - 4-Way"
   Transform {
     Location {
@@ -37877,7 +34069,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5973142006212069348
+  ParentId: 9575761177890923949
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -37901,12 +34093,6 @@ Objects {
       }
       BoundsScale: 1
     }
-  }
-  InstanceHistory {
-    SelfId: 16170724861021894424
-    SubobjectId: 3469659305540115068
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
   }
   Relevance {
     Value: "mc:eproxyrelevance:critical"

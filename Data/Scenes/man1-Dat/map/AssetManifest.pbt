@@ -26,6 +26,15 @@ Assets {
   }
 }
 Assets {
+  Id: 17454602997626929349
+  Name: "Terrain - Grass"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_terrain_rock-grass-001_wa"
+  }
+}
+Assets {
   Id: 17411449495217333473
   Name: "Sci-fi Base Wall 02 - Doorway 01"
   PlatformAssetType: 1
@@ -107,6 +116,15 @@ Assets {
   }
 }
 Assets {
+  Id: 14930404121609448095
+  Name: "Terrain - Grass Cliffs"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_terrain_cliff-grass-001_wa"
+  }
+}
+Assets {
   Id: 14823448561875281729
   Name: "Military Tank Modern Hull 01 - Mid"
   PlatformAssetType: 1
@@ -167,6 +185,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_mil_tank_mod_light_001_ref"
+  }
+}
+Assets {
+  Id: 13679493068599210497
+  Name: "Animated Neon Sign "
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "fxmi_NeonSign_All"
   }
 }
 Assets {
@@ -284,15 +311,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_mil_tank_mod_turret_001_ref"
-  }
-}
-Assets {
-  Id: 12161561803661806420
-  Name: "Cabinet Door - Narrow"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_urb_counter_cabinet_door_narrow_001"
   }
 }
 Assets {
@@ -503,12 +521,30 @@ Assets {
   }
 }
 Assets {
+  Id: 8389813293955201251
+  Name: "Tech Panel 01"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_sf_gen_tech-panel_001"
+  }
+}
+Assets {
   Id: 8365771066679611572
   Name: "Electrical Arc Volume"
   PlatformAssetType: 8
   PrimaryAsset {
     AssetType: "VfxBlueprintAssetRef"
     AssetId: "fxbp_Electrical_Arc_Volume"
+  }
+}
+Assets {
+  Id: 8329339828071933523
+  Name: "Concrete Basic 01"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_gen_concrete_001"
   }
 }
 Assets {
@@ -593,15 +629,6 @@ Assets {
   }
 }
 Assets {
-  Id: 5942576950294938013
-  Name: "Metal Painted Basic 01"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "mi_painted_metal_basic_001"
-  }
-}
-Assets {
   Id: 5560116840905672437
   Name: "Military Tank Modern Armorplate 03"
   PlatformAssetType: 1
@@ -680,6 +707,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_mil_tank_mod_gun_001_ref"
+  }
+}
+Assets {
+  Id: 3702191406046426907
+  Name: "Emissive Glow Transparent"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_basic_emissive_001"
   }
 }
 Assets {
@@ -815,6 +851,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_ts_scf_base_pillar_002_base_01_ref"
+  }
+}
+Assets {
+  Id: 2290407761405197447
+  Name: "Concrete Panels 01"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_gen_concrete_panels_001"
   }
 }
 Assets {
