@@ -1,10 +1,28 @@
 Assets {
-  Id: 16910278292812118833
-  Name: "Sun Light"
-  PlatformAssetType: 6
+  Id: 18179692530814149946
+  Name: "Rain Splash Volume VFX"
+  PlatformAssetType: 8
   PrimaryAsset {
-    AssetType: "BlueprintAssetRef"
-    AssetId: "CORESKY_SunLight"
+    AssetType: "VfxBlueprintAssetRef"
+    AssetId: "fxbp_rainsplash_volume"
+  }
+}
+Assets {
+  Id: 17195967824148215120
+  Name: "Rain Volume VFX"
+  PlatformAssetType: 8
+  PrimaryAsset {
+    AssetType: "VfxBlueprintAssetRef"
+    AssetId: "fxbp_rain_volume_vfx"
+  }
+}
+Assets {
+  Id: 14523494161843827332
+  Name: "Urban Fence Pole - End"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ts_mil_fence_pole_02_end_001"
   }
 }
 Assets {
@@ -17,20 +35,20 @@ Assets {
   }
 }
 Assets {
-  Id: 11515840070784317904
-  Name: "Skylight"
-  PlatformAssetType: 6
+  Id: 11386151062304365709
+  Name: "Fantasy Castle Floor 01 - Curved 4m "
+  PlatformAssetType: 1
   PrimaryAsset {
-    AssetType: "BlueprintAssetRef"
-    AssetId: "CORESKY_Skylight"
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ts_fan_cas_floor_curve_001"
   }
 }
 Assets {
-  Id: 7887238662729938253
-  Name: "Sky Dome"
-  PlatformAssetType: 6
+  Id: 4730453173094874842
+  Name: "Racing Flag - Square - Edge"
+  PlatformAssetType: 1
   PrimaryAsset {
-    AssetType: "BlueprintAssetRef"
-    AssetId: "CORESKY_Sky"
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_flags_racing_sqr_001_ref"
   }
 }
