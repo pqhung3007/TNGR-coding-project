@@ -8,12 +8,30 @@ Assets {
   }
 }
 Assets {
+  Id: 17526378199950251658
+  Name: "Wallpaper Halloween Ghosts 01"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_hal_wallpaper_001_uv_ref"
+  }
+}
+Assets {
   Id: 17195967824148215120
   Name: "Rain Volume VFX"
   PlatformAssetType: 8
   PrimaryAsset {
     AssetType: "VfxBlueprintAssetRef"
     AssetId: "fxbp_rain_volume_vfx"
+  }
+}
+Assets {
+  Id: 16596824238390243954
+  Name: "Humanoid 1 Kate"
+  PlatformAssetType: 26
+  PrimaryAsset {
+    AssetType: "SkinnedMeshAssetRef"
+    AssetId: "npc_human_gal_head_basic_004_ref"
   }
 }
 Assets {
@@ -26,12 +44,30 @@ Assets {
   }
 }
 Assets {
+  Id: 14495697989891166686
+  Name: "Humanoid 1 Rig"
+  PlatformAssetType: 25
+  PrimaryAsset {
+    AssetType: "SkeletonAssetRef"
+    AssetId: "npc_gal_wireframe_001_ref"
+  }
+}
+Assets {
   Id: 14491267291911834448
   Name: "Vinyl Floor Square 01"
   PlatformAssetType: 2
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "mi_urb_vinyl_floor_001_uv_ref"
+  }
+}
+Assets {
+  Id: 12737098702098414036
+  Name: "Ring Half Z - Beveled - Thick - Large"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ring_faceted_half_z_thick_lg_001_ref"
   }
 }
 Assets {
@@ -68,6 +104,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_ts_fan_cas_stairs_001"
+  }
+}
+Assets {
+  Id: 10728662516150014237
+  Name: "Cylinder"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_cylinder_002"
   }
 }
 Assets {
@@ -125,6 +170,15 @@ Assets {
   }
 }
 Assets {
+  Id: 3188102905179027326
+  Name: "Cane 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_prim_cane_001_ref"
+  }
+}
+Assets {
   Id: 3159990177345922631
   Name: "Main Street Pillar 02"
   PlatformAssetType: 1
@@ -149,6 +203,15 @@ Assets {
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "mi_gen_marble_tiles_002_uv"
+  }
+}
+Assets {
+  Id: 2249794126015640337
+  Name: "Carbon Fiber 01"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_carbon-fiber_001"
   }
 }
 Assets {
