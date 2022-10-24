@@ -17,6 +17,15 @@ Assets {
   }
 }
 Assets {
+  Id: 18189957520821829076
+  Name: "Kelp Tall Bush 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_kelp_tall_bush_01"
+  }
+}
+Assets {
   Id: 17925936272874569886
   Name: "Flower Wild Lily 01"
   PlatformAssetType: 1
@@ -26,12 +35,30 @@ Assets {
   }
 }
 Assets {
+  Id: 17835584281562631280
+  Name: "Ring Half Z - Beveled - Large"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ring_faceted_half_z_lg_001_ref"
+  }
+}
+Assets {
   Id: 17548954076934200023
   Name: "Flower Daisy Patch 01"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_flower_daisy_001"
+  }
+}
+Assets {
+  Id: 17210507094800039034
+  Name: "Waterfall 90 Inner Corner"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "waterfall_90ic"
   }
 }
 Assets {
@@ -62,6 +89,15 @@ Assets {
   }
 }
 Assets {
+  Id: 14930404121609448095
+  Name: "Terrain - Grass Cliffs"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_terrain_cliff-grass-001_wa"
+  }
+}
+Assets {
   Id: 14875586818065257626
   Name: "Japanese Stone Lantern Roof Medium 01"
   PlatformAssetType: 1
@@ -80,12 +116,30 @@ Assets {
   }
 }
 Assets {
+  Id: 14208121595842071849
+  Name: "Rock Flat 02"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_rock_generic_005"
+  }
+}
+Assets {
   Id: 13710161915374590549
   Name: "Rock 03"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_rock_generic_003"
+  }
+}
+Assets {
+  Id: 13395916393413657950
+  Name: "Nature - Mushroom 06"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_nat_fun_mushroom_006_ref"
   }
 }
 Assets {
@@ -107,6 +161,24 @@ Assets {
   }
 }
 Assets {
+  Id: 12242894033550006567
+  Name: "Rock Block 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_rock_generic_006"
+  }
+}
+Assets {
+  Id: 12203375713281195042
+  Name: "Bush 02"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_bush_generic_002"
+  }
+}
+Assets {
   Id: 12095835209017042614
   Name: "Cube"
   PlatformAssetType: 1
@@ -125,12 +197,30 @@ Assets {
   }
 }
 Assets {
+  Id: 11306584573893474514
+  Name: "Nature - Mushroom Cap 06"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_nat_fun_mushroom_cap_006_ref"
+  }
+}
+Assets {
   Id: 11254419523564490977
   Name: "Tree Birch 02"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_tree_birch_003"
+  }
+}
+Assets {
+  Id: 10874108674882860933
+  Name: "Kelp Tile 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_kelp_tile_01"
   }
 }
 Assets {
@@ -149,6 +239,24 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_prop_jpn_lantern_stone_medium_housing_001_ref"
+  }
+}
+Assets {
+  Id: 10161869791628783771
+  Name: "Fern 04"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_fern_generic_004"
+  }
+}
+Assets {
+  Id: 9387448998603056766
+  Name: "Rock Block 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_rock_generic_006"
   }
 }
 Assets {
@@ -215,12 +323,30 @@ Assets {
   }
 }
 Assets {
+  Id: 7860337081218852475
+  Name: "Japanese Tea Set - Whisk Bowl 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_prop_jpn_tea_set_whisk_bowl_001_ref"
+  }
+}
+Assets {
   Id: 7806212056300389910
   Name: "Kelp Bush 02"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_kelp_bush_02"
+  }
+}
+Assets {
+  Id: 7692384600151921426
+  Name: "Rock Flat 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_rock_generic_004"
   }
 }
 Assets {
@@ -302,5 +428,23 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_rocks_small_002"
+  }
+}
+Assets {
+  Id: 2562952145176031311
+  Name: "Rock Hexagonal"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_rock_generic_008"
+  }
+}
+Assets {
+  Id: 1472042501932068531
+  Name: "Fern 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_fern_generic_001"
   }
 }
