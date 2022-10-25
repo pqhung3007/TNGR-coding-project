@@ -746,15 +746,6 @@ Assets {
   }
 }
 Assets {
-  Id: 3574422290324733166
-  Name: "Moss 01"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "mi_moss_001_uv"
-  }
-}
-Assets {
   Id: 3514123805376682357
   Name: "Military Tank Modern Skirt 01 - Front"
   PlatformAssetType: 1

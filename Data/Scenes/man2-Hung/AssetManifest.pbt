@@ -89,6 +89,15 @@ Assets {
   }
 }
 Assets {
+  Id: 15045737450184899927
+  Name: "Bush Leafy Tall 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_foliage_gen_leafy_bush_001"
+  }
+}
+Assets {
   Id: 14930404121609448095
   Name: "Terrain - Grass Cliffs"
   PlatformAssetType: 2
@@ -179,6 +188,15 @@ Assets {
   }
 }
 Assets {
+  Id: 12198189489259110983
+  Name: "Broken Porcelain Vase 02"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_prop_jpn_vase_porcelain_broken_002"
+  }
+}
+Assets {
   Id: 12095835209017042614
   Name: "Cube"
   PlatformAssetType: 1
@@ -194,6 +212,15 @@ Assets {
   PrimaryAsset {
     AssetType: "BlueprintAssetRef"
     AssetId: "CORESKY_Skylight"
+  }
+}
+Assets {
+  Id: 11386151062304365709
+  Name: "Fantasy Castle Floor 01 - Curved 4m "
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ts_fan_cas_floor_curve_001"
   }
 }
 Assets {
@@ -233,6 +260,15 @@ Assets {
   }
 }
 Assets {
+  Id: 10743388163063543353
+  Name: "Bush Leafy Tall 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_foliage_gen_leafy_bush_001"
+  }
+}
+Assets {
   Id: 10279267693390860760
   Name: "Japanese Stone Lantern Housing Medium 01"
   PlatformAssetType: 1
@@ -251,12 +287,39 @@ Assets {
   }
 }
 Assets {
+  Id: 9721149201108993356
+  Name: "Bush Leafy Low 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_foliage_gen_leafy_bush_002"
+  }
+}
+Assets {
+  Id: 9640251466806548103
+  Name: "Porcelain Vase 03"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_prop_jpn_vase_porcelain_003"
+  }
+}
+Assets {
   Id: 9387448998603056766
   Name: "Rock Block 01"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_rock_generic_006"
+  }
+}
+Assets {
+  Id: 9296772115569303294
+  Name: "Porcelain Vase 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_prop_jpn_vase_porcelain_001"
   }
 }
 Assets {
@@ -395,6 +458,15 @@ Assets {
   }
 }
 Assets {
+  Id: 6077141141760079138
+  Name: "Porcelain Vase 02"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_prop_jpn_vase_porcelain_002"
+  }
+}
+Assets {
   Id: 5818051000036987312
   Name: "Bush 01"
   PlatformAssetType: 1
@@ -404,12 +476,30 @@ Assets {
   }
 }
 Assets {
+  Id: 5632516542302584163
+  Name: "Nature Stump 03"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_prop_nat_stump_003_ref"
+  }
+}
+Assets {
   Id: 5021562213080080530
   Name: "Lily Pads 002"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_flower_water_lily_002"
+  }
+}
+Assets {
+  Id: 3673247841710145731
+  Name: "Nature - Mushroom 05"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_nat_fun_mushroom_005_ref"
   }
 }
 Assets {
@@ -431,6 +521,15 @@ Assets {
   }
 }
 Assets {
+  Id: 2634265101409781484
+  Name: "Decal Leaves 01"
+  PlatformAssetType: 14
+  PrimaryAsset {
+    AssetType: "DecalBlueprintAssetRef"
+    AssetId: "bp_decal_leaves_001"
+  }
+}
+Assets {
   Id: 2562952145176031311
   Name: "Rock Hexagonal"
   PlatformAssetType: 1
@@ -440,11 +539,38 @@ Assets {
   }
 }
 Assets {
+  Id: 2510774943105266760
+  Name: "Waterfall Straight"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "fxsm_waterfall_straight"
+  }
+}
+Assets {
   Id: 1472042501932068531
   Name: "Fern 01"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_fern_generic_001"
+  }
+}
+Assets {
+  Id: 851964581738850423
+  Name: "Bush Leafy Low 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_foliage_gen_leafy_bush_002"
+  }
+}
+Assets {
+  Id: 502727010707401055
+  Name: "Clover Patch 02"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_foliage_gen_clover_patch_002"
   }
 }

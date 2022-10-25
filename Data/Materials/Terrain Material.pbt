@@ -21,7 +21,7 @@ Assets {
       Overrides {
         Name: "cmp:Material3"
         AssetReference {
-          Id: 6895450462218297829
+          Id: 15179451711798705611
         }
       }
       Overrides {
@@ -66,12 +66,12 @@ Assets {
       }
     }
     Assets {
-      Id: 6895450462218297829
-      Name: "Rocks River Bed 01"
+      Id: 15179451711798705611
+      Name: "Bricks Chunky Stone 01"
       PlatformAssetType: 2
       PrimaryAsset {
         AssetType: "MaterialAssetRef"
-        AssetId: "puddle_river_bed_001"
+        AssetId: "mi_brick_stone_chunky_001"
       }
     }
     Assets {
