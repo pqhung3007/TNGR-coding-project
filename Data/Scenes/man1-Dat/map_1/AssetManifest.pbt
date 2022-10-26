@@ -1,28 +1,10 @@
 Assets {
-  Id: 18348342505020437805
-  Name: "Military Tank Historic Turret Seal 01"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_mil_tank_hst_turret_001_ring_ref"
-  }
-}
-Assets {
   Id: 18105158013125412176
   Name: "Sci-fi Base Door 02"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_ts_scf_base_door_002_ref"
-  }
-}
-Assets {
-  Id: 17656879326769127107
-  Name: "Military Tank Modern Skirt 01 - Rear"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_mil_tank_mod_skirt_001_rear_ref"
   }
 }
 Assets {
@@ -53,15 +35,6 @@ Assets {
   }
 }
 Assets {
-  Id: 17059500210268236317
-  Name: "Sci-fi Chair Seat 01"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_prop_scf_chair_001_seat_ref"
-  }
-}
-Assets {
   Id: 16701740470968256231
   Name: "Military Tank Historic Container 02"
   PlatformAssetType: 1
@@ -77,15 +50,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_ts_scf_base_door_001_ref"
-  }
-}
-Assets {
-  Id: 16200453037138456273
-  Name: "Sci-fi Base Breakout Box 04"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_ts_scf_base_breakout_004_ref"
   }
 }
 Assets {
@@ -125,30 +89,12 @@ Assets {
   }
 }
 Assets {
-  Id: 14823448561875281729
-  Name: "Military Tank Modern Hull 01 - Mid"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_mil_tank_mod_hull_001_mid_ref"
-  }
-}
-Assets {
   Id: 14803841533992348173
   Name: "Military Crate Hinge 02"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_prop_mil_crate_hinge_002_ref"
-  }
-}
-Assets {
-  Id: 14775225527493723590
-  Name: "Military Tank Modern Gear 02"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_mil_tank_mod_gear_002_ref"
   }
 }
 Assets {
@@ -161,30 +107,12 @@ Assets {
   }
 }
 Assets {
-  Id: 14150131608064648431
-  Name: "Sci-fi Base - Window 01"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_ts_scf_base_win_001_ref"
-  }
-}
-Assets {
   Id: 14078436206544360258
   Name: "Sci-fi Base Wall 02 - Doorway 02 Half"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_ts_scf_base_wall_002_door_02_half_ref"
-  }
-}
-Assets {
-  Id: 13689847373844968359
-  Name: "Military Tank Modern Light 01"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_mil_tank_mod_light_001_ref"
   }
 }
 Assets {
@@ -206,66 +134,12 @@ Assets {
   }
 }
 Assets {
-  Id: 13499870741455156244
-  Name: "Sci-fi Chair Support 01"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_prop_scf_chair_001_middle_ref"
-  }
-}
-Assets {
-  Id: 13373724591692948914
-  Name: "Sci-fi Base Railing 02 - 4m"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_ts_scf_base_railing_002_4m_ref"
-  }
-}
-Assets {
-  Id: 13326279924888959397
-  Name: "Military Tank Modern Armorplate 01"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_mil_tank_mod_armorplate_001_ref"
-  }
-}
-Assets {
   Id: 13324134738449385310
   Name: "Sci-fi Airlock Servo Movement Door Open 01 SFX"
   PlatformAssetType: 7
   PrimaryAsset {
     AssetType: "AudioAssetRef"
     AssetId: "sfx_scifi_airlock_servo_movement_door_open_01_Cue_ref"
-  }
-}
-Assets {
-  Id: 13316526583594249120
-  Name: "Military Tank Modern Hull 01 - Rear"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_mil_tank_mod_hull_001_rear_ref"
-  }
-}
-Assets {
-  Id: 13114847352832521924
-  Name: "Sci-fi Base Wall Interior 01 - Window 01"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_ts_scf_base_wall_int_001_win_01_ref"
-  }
-}
-Assets {
-  Id: 13028932803405216377
-  Name: "Military Tank Modern Hatch 01 Lid"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_mil_tank_mod_hatch_001_lid_ref"
   }
 }
 Assets {
@@ -278,75 +152,12 @@ Assets {
   }
 }
 Assets {
-  Id: 12561909601372583804
-  Name: "Metal Painted 01"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "mi_metal_painted_new_001_uv"
-  }
-}
-Assets {
-  Id: 12479049602930528551
-  Name: "Military Tank Modern Armorplate 02"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_mil_tank_mod_armorplate_002_ref"
-  }
-}
-Assets {
   Id: 12249096810997307758
   Name: "Military Radio Large"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_prop_mil_radio_01_02_ref"
-  }
-}
-Assets {
-  Id: 12172518956958697954
-  Name: "Military Tank Modern Turret 01"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_mil_tank_mod_turret_001_ref"
-  }
-}
-Assets {
-  Id: 12069070197531694690
-  Name: "Ring - Beveled Thick"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_ring_faceted_003"
-  }
-}
-Assets {
-  Id: 12049308644463809621
-  Name: "Fantasy Human Gal 2"
-  PlatformAssetType: 17
-  PrimaryAsset {
-    AssetType: "AnimatedMeshAssetRef"
-    AssetId: "npc_human_gal_fantasy_001_ref"
-  }
-}
-Assets {
-  Id: 11869601244054310388
-  Name: "Metal 9 Slice Frame 004"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "mi_metal_frames_9slice_004"
-  }
-}
-Assets {
-  Id: 11684013993663174550
-  Name: "Military Tank Modern Main Gun 01"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_mil_tank_mod_maingun_001_ref"
   }
 }
 Assets {
@@ -404,60 +215,6 @@ Assets {
   }
 }
 Assets {
-  Id: 10746051325900785529
-  Name: "Military Tank Modern Hull 01 - Front"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_mil_tank_mod_hull_001_front_ref"
-  }
-}
-Assets {
-  Id: 10124763657611866910
-  Name: "Military Tank Modern Hatch 01"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_mil_tank_mod_hatch_001_ref"
-  }
-}
-Assets {
-  Id: 9996725459975783452
-  Name: "Fantasy Human Guy 1"
-  PlatformAssetType: 17
-  PrimaryAsset {
-    AssetType: "AnimatedMeshAssetRef"
-    AssetId: "npc_human_guy_fantasy_001_ref"
-  }
-}
-Assets {
-  Id: 9757629375324072244
-  Name: "Military Tank Historic Periscope 01"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_mil_tank_hst_periscope_001_ref"
-  }
-}
-Assets {
-  Id: 9753656608365610328
-  Name: "Sci-fi Chair Back 01"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_prop_scf_chair_001_back_ref"
-  }
-}
-Assets {
-  Id: 9643743770374877205
-  Name: "Military Tank Historic Container 01"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_mil_tank_hst_container_001_ref"
-  }
-}
-Assets {
   Id: 9522218801527862812
   Name: "Sci-fi Base Wall Interior 01"
   PlatformAssetType: 1
@@ -476,48 +233,12 @@ Assets {
   }
 }
 Assets {
-  Id: 9364547700951045218
-  Name: "Military Tank Modern Mantlet 01"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_mil_tank_mod_mantlet_001_ref"
-  }
-}
-Assets {
   Id: 9275346287798187606
   Name: "Barrier Plastic 01"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_street_barrier_002"
-  }
-}
-Assets {
-  Id: 9152619968203525726
-  Name: "Military Tank Historic Armor Plate 02"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_mil_tank_hst_armorplate_002_ref"
-  }
-}
-Assets {
-  Id: 9039094221355209354
-  Name: "Military Tank Modern U Bracket 01"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_mil_tank_mod_ubracket_001_ref"
-  }
-}
-Assets {
-  Id: 9036435396988035792
-  Name: "Sci-fi Chair Armrest 01"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_prop_scf_chair_001_arms_ref"
   }
 }
 Assets {
@@ -548,15 +269,6 @@ Assets {
   }
 }
 Assets {
-  Id: 8105941569596900735
-  Name: "Military Tank Modern Light 02"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_mil_tank_mod_light_002_ref"
-  }
-}
-Assets {
   Id: 7917643843895697114
   Name: "Sci-fi Console Screen 03"
   PlatformAssetType: 1
@@ -584,24 +296,6 @@ Assets {
   }
 }
 Assets {
-  Id: 7444698281278331687
-  Name: "Military Tank Historic Antenna 01"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_mil_tank_hst_antenna_001_ref"
-  }
-}
-Assets {
-  Id: 7055352548381696729
-  Name: "Sci-fi Base HVAC 01"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_ts_scf_acc_hvac_001_ref"
-  }
-}
-Assets {
   Id: 6648688902516484551
   Name: "Military Rare Crate Lid"
   PlatformAssetType: 1
@@ -611,30 +305,21 @@ Assets {
   }
 }
 Assets {
+  Id: 6569291630588552400
+  Name: "Decal Numbers and Symbols 01"
+  PlatformAssetType: 14
+  PrimaryAsset {
+    AssetType: "DecalBlueprintAssetRef"
+    AssetId: "bp_decal_numbers_002"
+  }
+}
+Assets {
   Id: 6119047050679614913
   Name: "Sci-fi Base Pillar 01"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_ts_scf_base_pillar_001_ref"
-  }
-}
-Assets {
-  Id: 6040461109962236062
-  Name: "Military Tank Modern Mudflap 01"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_mil_tank_mod_mudflap_001_ref"
-  }
-}
-Assets {
-  Id: 5560116840905672437
-  Name: "Military Tank Modern Armorplate 03"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_mil_tank_mod_armorplate_003_ref"
   }
 }
 Assets {
@@ -674,15 +359,6 @@ Assets {
   }
 }
 Assets {
-  Id: 4747949313155733059
-  Name: "Military Tank Modern Gear 01"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_mil_tank_mod_gear_001_ref"
-  }
-}
-Assets {
   Id: 4127089497640646056
   Name: "Sci-fi Console Screen 04"
   PlatformAssetType: 1
@@ -698,15 +374,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_ts_scf_base_roof_001_ref"
-  }
-}
-Assets {
-  Id: 3746002661820689319
-  Name: "Military Tank Modern Gun 01"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_mil_tank_mod_gun_001_ref"
   }
 }
 Assets {
@@ -746,21 +413,12 @@ Assets {
   }
 }
 Assets {
-  Id: 3514123805376682357
-  Name: "Military Tank Modern Skirt 01 - Front"
-  PlatformAssetType: 1
+  Id: 3574422290324733166
+  Name: "Moss 01"
+  PlatformAssetType: 2
   PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_mil_tank_mod_skirt_001_front_ref"
-  }
-}
-Assets {
-  Id: 3453125660196790227
-  Name: "Military Tank Modern Tread Frame 01 - Mid"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_mil_tank_mod_tread_frame_001_mid_ref"
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_moss_001_uv"
   }
 }
 Assets {
@@ -809,24 +467,6 @@ Assets {
   }
 }
 Assets {
-  Id: 2612619702971599303
-  Name: "Tank Tread"
-  PlatformAssetType: 6
-  PrimaryAsset {
-    AssetType: "BlueprintAssetRef"
-    AssetId: "fxbp_env_tank_treads"
-  }
-}
-Assets {
-  Id: 2596546045931801018
-  Name: "Military Tank Modern Tread Frame 01 - End"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_mil_tank_mod_tread_frame_001_end_ref"
-  }
-}
-Assets {
   Id: 2532081469980367305
   Name: "Sci-fi Base Ceiling Light 01"
   PlatformAssetType: 1
@@ -863,15 +503,6 @@ Assets {
   }
 }
 Assets {
-  Id: 2249012237014100713
-  Name: "Military Tank Modern Skirt 01 - Mid"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_mil_tank_mod_skirt_001_mid_ref"
-  }
-}
-Assets {
   Id: 1965006874885449622
   Name: "Sci-fi Chair Base 02"
   PlatformAssetType: 1
@@ -881,29 +512,11 @@ Assets {
   }
 }
 Assets {
-  Id: 1748985416970121260
-  Name: "Military Tank Modern Tread Frame 01 - Mid 1m"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_mil_tank_mod_tread_frame_001_mid_1m_ref"
-  }
-}
-Assets {
   Id: 405236317939450680
   Name: "Sci-fi Ship Nacelle 04"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_scf_ship_nacelle_004_ref"
-  }
-}
-Assets {
-  Id: 198353679974341757
-  Name: "Cube - Bottom-Aligned"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_cube_001"
   }
 }

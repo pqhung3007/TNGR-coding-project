@@ -161,15 +161,6 @@ Assets {
   }
 }
 Assets {
-  Id: 14150131608064648431
-  Name: "Sci-fi Base - Window 01"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_ts_scf_base_win_001_ref"
-  }
-}
-Assets {
   Id: 14078436206544360258
   Name: "Sci-fi Base Wall 02 - Doorway 02 Half"
   PlatformAssetType: 1
@@ -584,6 +575,15 @@ Assets {
   }
 }
 Assets {
+  Id: 7670073370455677982
+  Name: "Sci-fi Base Wall Interior 01 - Doorway 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ts_scf_base_wall_int_001_door_01_ref"
+  }
+}
+Assets {
   Id: 7444698281278331687
   Name: "Military Tank Historic Antenna 01"
   PlatformAssetType: 1
@@ -608,6 +608,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_prop_mil_crate_lid_002_ref"
+  }
+}
+Assets {
+  Id: 6569291630588552400
+  Name: "Decal Numbers and Symbols 01"
+  PlatformAssetType: 14
+  PrimaryAsset {
+    AssetType: "DecalBlueprintAssetRef"
+    AssetId: "bp_decal_numbers_002"
   }
 }
 Assets {
@@ -653,15 +662,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_prop_scf_leg_001_ref"
-  }
-}
-Assets {
-  Id: 5183250353812937636
-  Name: "Sci-fi Cockpit Sideguard 01"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_scf_ship_cockpit_sideguard_001_ref"
   }
 }
 Assets {
@@ -746,6 +746,15 @@ Assets {
   }
 }
 Assets {
+  Id: 3574422290324733166
+  Name: "Moss 01"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_moss_001_uv"
+  }
+}
+Assets {
   Id: 3514123805376682357
   Name: "Military Tank Modern Skirt 01 - Front"
   PlatformAssetType: 1
@@ -761,24 +770,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_mil_tank_mod_tread_frame_001_mid_ref"
-  }
-}
-Assets {
-  Id: 3350581364753243189
-  Name: "Sci-fi Cockpit Console 001"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_scf_ship_cockpit_console_001_ref"
-  }
-}
-Assets {
-  Id: 2902285227154202651
-  Name: "Sci-fi Base Sconce 01"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_ts_scf_base_sconce_001_ref"
   }
 }
 Assets {

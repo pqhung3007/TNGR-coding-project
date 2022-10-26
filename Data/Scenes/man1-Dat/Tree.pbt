@@ -22,6 +22,7 @@ Objects {
   ChildIds: 13516681107950879855
   ChildIds: 3005502271887988623
   ChildIds: 9575761177890923949
+  ChildIds: 12181262984394116696
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -41,11 +42,45 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
+  Id: 12181262984394116696
+  Name: "Military Tank Modern 01 (Prop)"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 5925358121659418933
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Military Tank Modern 01 (Prop)"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -6893
+            Y: -4036
+            Z: 0.0562400818
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 13734626443249430356
+    }
+  }
+}
+Objects {
   Id: 9575761177890923949
   Name: "map"
   Transform {
     Location {
-      X: 1600
+      X: -5575
       Y: -625
     }
     Rotation {
@@ -284,7 +319,7 @@ Objects {
   Name: "Spawn Point"
   Transform {
     Location {
-      X: 2300
+      X: -2697
       Y: -5750
       Z: 115
     }
