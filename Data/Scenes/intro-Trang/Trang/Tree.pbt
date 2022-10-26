@@ -6782,7 +6782,6 @@ Objects {
     }
   }
   ParentId: 3358439216971680634
-  ChildIds: 12836613960962532659
   UnregisteredParameters {
   }
   WantsNetworking: true
@@ -6803,84 +6802,6 @@ Objects {
     SubobjectId: 18366290033093100996
     InstanceId: 8329643001470052683
     TemplateId: 17355299255943220821
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  IsReplicationEnabledByDefault: true
-}
-Objects {
-  Id: 12836613960962532659
-  Name: "Whitebox Door 01"
-  Transform {
-    Location {
-      X: 9.99999714
-      Y: -10.1745558
-      Z: -10
-    }
-    Rotation {
-      Yaw: 89.9996109
-    }
-    Scale {
-      X: 1.09920108
-      Y: 1.00921881
-      Z: 1.13933718
-    }
-  }
-  ParentId: 10273487222201586665
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:id"
-      AssetReference {
-        Id: 12907210925096798899
-      }
-    }
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:smart"
-      Bool: false
-    }
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:color"
-      Color {
-        R: 0.546875
-        G: 0.225472942
-        B: 0.0928580314
-        A: 1
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:forceon"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 2321448203677525457
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    InteractWithTriggers: true
-    StaticMesh {
-      Physics {
-      }
-      BoundsScale: 1
-    }
-  }
-  InstanceHistory {
-    SelfId: 12836613960962532659
-    SubobjectId: 14002879992584024862
-    InstanceId: 8329643001470052683
-    TemplateId: 17355299255943220821
-  }
-  Relevance {
-    Value: "mc:eproxyrelevance:critical"
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
