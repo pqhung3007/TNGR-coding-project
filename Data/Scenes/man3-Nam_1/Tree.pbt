@@ -15,7 +15,6 @@ Objects {
     }
   }
   ChildIds: 9086936746104183945
-  ChildIds: 16813558807825262224
   ChildIds: 2398767407564055776
   ChildIds: 17282988699698740929
   ChildIds: 472861421696781456
@@ -29,6 +28,7 @@ Objects {
   ChildIds: 9277888833870800416
   ChildIds: 2948004256881607958
   ChildIds: 17157769356519577482
+  ChildIds: 2633421043813445477
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -46,6 +46,64 @@ Objects {
     Value: "mc:eproxyrelevance:critical"
   }
   IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 2633421043813445477
+  Name: "NPCs and Dialogs"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 14859362854836943051
+      value {
+        Overrides {
+          Name: "Name"
+          String: "NPCs and Dialogs"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 6600
+            Y: 1400
+            Z: 750
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 17074539370557695780
+      value {
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: 90
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 17467136924413857446
+      value {
+        Overrides {
+          Name: "cs:Name"
+          String: "Th\341\272\277 Nam"
+        }
+        Overrides {
+          Name: "cs:StartDialogId"
+          String: "NPC6"
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 9540496414167045528
+    }
+  }
 }
 Objects {
   Id: 17157769356519577482
@@ -73236,52 +73294,6 @@ Objects {
       Id: 3625054681716107081
     }
   }
-}
-Objects {
-  Id: 16813558807825262224
-  Name: "Spawn Point"
-  Transform {
-    Location {
-      X: 6400
-      Y: 1150
-      Z: 950
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  UnregisteredParameters {
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:alwaysvisible"
-  }
-  PlayerSpawnPoint {
-    TeamInt: 1
-    PlayerScaleMultiplier: 1
-    SpawnKey: "Player1"
-    SpawnEffectsTemplate {
-      Id: 841534158063459245
-    }
-    ShouldDecrowdPlayers: true
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  IsReplicationEnabledByDefault: true
 }
 Objects {
   Id: 9086936746104183945

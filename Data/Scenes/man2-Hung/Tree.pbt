@@ -561,6 +561,12 @@ Objects {
   ChildIds: 16275078598818156620
   ChildIds: 15510433596558802899
   ChildIds: 6018445666794186676
+  ChildIds: 12900230113687765042
+  ChildIds: 16020194499730356496
+  ChildIds: 12615026342809027666
+  ChildIds: 2993921092229554891
+  ChildIds: 18057525837006466599
+  ChildIds: 10486886910858924090
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -573,6 +579,581 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Folder {
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 10486886910858924090
+  Name: "UI Container"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Control {
+    RenderTransformPivot {
+      Anchor {
+        Value: "mc:euianchor:middlecenter"
+      }
+    }
+    Canvas {
+      ContentType {
+        Value: "mc:ecanvascontenttype:dynamic"
+      }
+      Opacity: 1
+      IsHUD: true
+      CanvasWorldSize {
+        X: 1024
+        Y: 1024
+      }
+      RedrawTime: 30
+      UseSafeZoneAdjustment: true
+    }
+    AnchorLayout {
+      SelfAnchor {
+        Anchor {
+          Value: "mc:euianchor:topleft"
+        }
+      }
+      TargetAnchor {
+        Anchor {
+          Value: "mc:euianchor:topleft"
+        }
+      }
+    }
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 18057525837006466599
+  Name: "NPC 5"
+  Transform {
+    Location {
+      X: -350
+      Y: 2550
+      Z: 2.28881836e-05
+    }
+    Rotation {
+      Yaw: -22.5466309
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "NPCs and Dialogs"
+  }
+  InstanceHistory {
+    SelfId: 18057525837006466599
+    SubobjectId: 14859362854836943051
+    InstanceId: 12251434671315761114
+    TemplateId: 9540496414167045528
+    WasRoot: true
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 2993921092229554891
+  Name: "NPCs and Dialogs"
+  Transform {
+    Location {
+      X: -31.1061096
+      Y: 191.2771
+    }
+    Rotation {
+      Yaw: -70.7967758
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 7478788149524904355
+      value {
+        Overrides {
+          Name: "UIY"
+          Float: -173.087021
+        }
+        Overrides {
+          Name: "UIX"
+          Float: -480.525513
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 9184880900479379355
+      value {
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Pitch: 53.4539185
+            Yaw: 85.5218887
+            Roll: 72.100441
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: -10.5
+            Y: 1.75000036
+            Z: 2
+          }
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 14859362854836943051
+      value {
+        Overrides {
+          Name: "Name"
+          String: "NPC 1"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -2650
+            Y: -2900
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Pitch: 2
+            Yaw: 130
+            Roll: 2
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 17467136924413857446
+      value {
+        Overrides {
+          Name: "cs:Name"
+          String: "Quang H\306\260ng"
+        }
+        Overrides {
+          Name: "cs:StartDialogId"
+          String: "NPC1"
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 9540496414167045528
+    }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 12615026342809027666
+  Name: "NPCs and Dialogs"
+  Transform {
+    Location {
+      X: 550
+      Y: 50
+      Z: 2.28881836e-05
+    }
+    Rotation {
+      Yaw: -22.5466766
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 7478788149524904355
+      value {
+        Overrides {
+          Name: "UIY"
+          Float: -173.087021
+        }
+        Overrides {
+          Name: "UIX"
+          Float: -480.525513
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 9184880900479379355
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 14859362854836943051
+      value {
+        Overrides {
+          Name: "Name"
+          String: "NPC 4"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 300
+            Y: 2550
+            Z: 2.28881836e-05
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: -22.5466614
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 17074539370557695780
+      value {
+        Overrides {
+          Name: "AnimatedMesh"
+          AssetReference {
+            Id: 6538713807037947165
+          }
+        }
+        Overrides {
+          Name: "Name"
+          String: "Military Human Guy"
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 17467136924413857446
+      value {
+        Overrides {
+          Name: "cs:Name"
+          String: "Cao \304\220\341\272\241t"
+        }
+        Overrides {
+          Name: "cs:StartDialogId"
+          String: "NPC4"
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 9540496414167045528
+    }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 16020194499730356496
+  Name: "NPCs and Dialogs"
+  Transform {
+    Location {
+      X: 239.014984
+      Y: 417.514679
+    }
+    Rotation {
+      Yaw: -21.1637478
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 4061575510561238973
+      value {
+        Overrides {
+          Name: "Volume"
+          Float: 0.324833274
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 5357975278853717933
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 90.2585602
+            Y: -233.138138
+            Z: 100
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: 45
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 7478788149524904355
+      value {
+        Overrides {
+          Name: "UIY"
+          Float: -173.087021
+        }
+        Overrides {
+          Name: "UIX"
+          Float: -480.525513
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 8978811988017286472
+      value {
+        Overrides {
+          Name: "Volume"
+          Float: 0.236528516
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 9184880900479379355
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Pitch: 7.84252501
+            Yaw: 68.3439102
+            Roll: -23.813446
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 10272123929275590564
+      value {
+        Overrides {
+          Name: "Volume"
+          Float: 0.0304841083
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 14859362854836943051
+      value {
+        Overrides {
+          Name: "Name"
+          String: "NPC 2"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            Y: -1750
+            Z: 50
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: -21.1637268
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 16929770842877126189
+      value {
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: 120
+          }
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            Z: 196
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 17074539370557695780
+      value {
+        Overrides {
+          Name: "AnimatedMesh"
+          AssetReference {
+            Id: 8145824212729518408
+          }
+        }
+        Overrides {
+          Name: "Name"
+          String: "Fantasy Human Gal"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            Z: 150
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: -127.52951
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 17467136924413857446
+      value {
+        Overrides {
+          Name: "cs:Name"
+          String: "Th\303\271y Trang"
+        }
+        Overrides {
+          Name: "cs:StartDialogId"
+          String: "NPC2"
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 9540496414167045528
+    }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 12900230113687765042
+  Name: "NPC 3"
+  Transform {
+    Location {
+      X: -100
+      Y: 350
+      Z: 2.28881836e-05
+    }
+    Rotation {
+      Yaw: -110
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "NPC 3"
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
@@ -100044,7 +100625,7 @@ Objects {
   Name: "Fantasy Castle Floor 01 - Curved 4m "
   Transform {
     Location {
-      X: -2957.00659
+      X: -2950
       Y: -662.719177
       Z: 0.000122070312
     }
@@ -100098,8 +100679,8 @@ Objects {
   Name: "Fantasy Castle Floor 01 - Curved 4m "
   Transform {
     Location {
-      X: -2041.05542
-      Y: -991.340149
+      X: -1941.05542
+      Y: -3191.34
     }
     Rotation {
       Yaw: -90
@@ -100152,8 +100733,8 @@ Objects {
   Name: "Fantasy Castle Floor 01 - Curved 4m "
   Transform {
     Location {
-      X: -2041.05542
-      Y: -991.340149
+      X: -1941.05542
+      Y: -3191.34
     }
     Rotation {
       Yaw: -179.999985
@@ -100206,8 +100787,8 @@ Objects {
   Name: "Fantasy Castle Floor 01 - Curved 4m "
   Transform {
     Location {
-      X: -2041.05542
-      Y: -991.340149
+      X: -1941.05542
+      Y: -3191.34
       Z: 0.000122070312
     }
     Rotation {
@@ -100261,8 +100842,8 @@ Objects {
   Name: "Fantasy Castle Floor 01 - Curved 4m "
   Transform {
     Location {
-      X: -2041.05542
-      Y: -991.340149
+      X: -1941.05542
+      Y: -3191.34
       Z: 0.000122070312
     }
     Rotation {
@@ -106736,8 +107317,8 @@ Objects {
   Name: "Cube"
   Transform {
     Location {
-      X: -491.322388
-      Y: -1865.97803
+      X: -391.322388
+      Y: -4065.97803
       Z: -283.522095
     }
     Rotation {
@@ -140763,7 +141344,6 @@ Objects {
   }
   ParentId: 5440458751821590232
   ChildIds: 9817191552851797358
-  ChildIds: 9396053737321299796
   ChildIds: 3683480370196038110
   ChildIds: 14672820703325977204
   ChildIds: 5542719625747224995
@@ -141233,96 +141813,6 @@ Objects {
   InstanceHistory {
     SelfId: 3683480370196038110
     SubobjectId: 5459274941408126180
-    InstanceId: 538854407234479171
-    TemplateId: 9170031311677341828
-  }
-  Relevance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  IsReplicationEnabledByDefault: true
-}
-Objects {
-  Id: 9396053737321299796
-  Name: "Craftsman Floor 01 8m x 8m"
-  Transform {
-    Location {
-      X: 2400
-      Y: -800
-      Z: -75
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 7835811913738204359
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Shared_Trim:color"
-      Color {
-        R: 0.286458
-        G: 0.189479992
-        B: 0.092502
-        A: 1
-      }
-    }
-    Overrides {
-      Name: "ma:Building_Floor:id"
-      AssetReference {
-        Id: 14417236661970495418
-      }
-    }
-    Overrides {
-      Name: "ma:Building_Floor:color"
-      Color {
-        R: 0.447916657
-        G: 0.447916657
-        B: 0.447916657
-        A: 1
-      }
-    }
-    Overrides {
-      Name: "ma:Building_Floor:smart"
-      Bool: true
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 15363960962711120915
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-      BoundsScale: 1
-    }
-  }
-  InstanceHistory {
-    SelfId: 9396053737321299796
-    SubobjectId: 18066217755660393070
     InstanceId: 538854407234479171
     TemplateId: 9170031311677341828
   }
@@ -142018,7 +142508,6 @@ Objects {
   ChildIds: 17979716607903859126
   ChildIds: 381359857208722935
   ChildIds: 10445621186623845373
-  ChildIds: 1942254137443277415
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -142039,64 +142528,6 @@ Objects {
     SubobjectId: 17895385292260677515
     InstanceId: 538854407234479171
     TemplateId: 9170031311677341828
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  IsReplicationEnabledByDefault: true
-}
-Objects {
-  Id: 1942254137443277415
-  Name: "Japanese Temple Torii Gate Ornament 01"
-  Transform {
-    Location {
-      Y: -1305.75293
-      Z: 675
-    }
-    Rotation {
-      Pitch: 68.3030777
-      Yaw: -88.6231384
-      Roll: 91.767128
-    }
-    Scale {
-      X: 2
-      Y: 1
-      Z: 3
-    }
-  }
-  ParentId: 9260608505671905969
-  UnregisteredParameters {
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 11285795607111097174
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-      BoundsScale: 1
-    }
-  }
-  Relevance {
-    Value: "mc:eproxyrelevance:critical"
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
@@ -187838,11 +188269,12 @@ Objects {
   Name: "Spawn Point"
   Transform {
     Location {
-      X: -10.4118652
-      Y: 1128.73535
-      Z: 261.939514
+      X: -50
+      Y: -3950
+      Z: 150
     }
     Rotation {
+      Yaw: 90
     }
     Scale {
       X: 1

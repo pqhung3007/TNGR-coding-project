@@ -827,6 +827,15 @@ Assets {
   }
 }
 Assets {
+  Id: 8145824212729518408
+  Name: "Human Gal 2"
+  PlatformAssetType: 17
+  PrimaryAsset {
+    AssetType: "AnimatedMeshAssetRef"
+    AssetId: "npc_human_gal_basic_002_ref"
+  }
+}
+Assets {
   Id: 7905923248328022453
   Name: "Grass Short"
   PlatformAssetType: 1
@@ -950,6 +959,15 @@ Assets {
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "mi_wood_planks_dark_001_uv"
+  }
+}
+Assets {
+  Id: 6538713807037947165
+  Name: "Military Guy 1"
+  PlatformAssetType: 17
+  PrimaryAsset {
+    AssetType: "AnimatedMeshAssetRef"
+    AssetId: "npc_guy_military_001_ref"
   }
 }
 Assets {
