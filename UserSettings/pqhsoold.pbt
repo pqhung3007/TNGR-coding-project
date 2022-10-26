@@ -5,7 +5,7 @@ ObjectSettings {
     }
   }
 }
-LastSavedScene: "man2-Hung"
+LastSavedScene: "intro-Trang"
 PreviewDetailLevelPerScene {
   key: "man2-Hung"
   value: 1
