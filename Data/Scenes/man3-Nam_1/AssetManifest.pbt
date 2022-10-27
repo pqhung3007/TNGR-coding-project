@@ -35,6 +35,15 @@ Assets {
   }
 }
 Assets {
+  Id: 17217740702496931093
+  Name: "Sign Font 4 Katakana: \343\202\242 (A)"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "meyirobold_katakana_01_Text_000"
+  }
+}
+Assets {
   Id: 16965777294932964901
   Name: "Cube - Chamfered Large Polished"
   PlatformAssetType: 1
@@ -86,6 +95,24 @@ Assets {
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "camo_woodland_001"
+  }
+}
+Assets {
+  Id: 14539534702497112707
+  Name: "Sign Font 4 Katakana: \343\202\250 (E)"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "meyirobold_katakana_01_Text_003"
+  }
+}
+Assets {
+  Id: 14378008229989160030
+  Name: "Sign Font 4 Hiragana: \343\201\253 (NI)"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "meyirobold_01_Text_036"
   }
 }
 Assets {
@@ -197,12 +224,30 @@ Assets {
   }
 }
 Assets {
+  Id: 12520300416227761562
+  Name: "Sign Font 4 Hiragana: \343\201\273 (HO)"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "meyirobold_01_Text_044"
+  }
+}
+Assets {
   Id: 12455293356321247304
   Name: "Modern Weapon - Magazine 02"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_weap_modern_mag_002"
+  }
+}
+Assets {
+  Id: 12368359991344066298
+  Name: "Sign Font 4 Katakana: \343\203\263 (N)"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "meyirobold_katakana_01_Text_058"
   }
 }
 Assets {
@@ -278,12 +323,39 @@ Assets {
   }
 }
 Assets {
+  Id: 7928381657498251527
+  Name: "Text 01: 1"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "F1_Text_027"
+  }
+}
+Assets {
   Id: 7866176206806313738
   Name: "Modern Weapon - Scope 01"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_weap_modern_scope_001"
+  }
+}
+Assets {
+  Id: 7757803965134535800
+  Name: "Sign Font 4 Katakana: \343\202\270 (ZI)"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "meyirobold_katagana_01a_Text_011"
+  }
+}
+Assets {
+  Id: 7630525563517713473
+  Name: "Sign Font 4 Hiragana: \343\202\223 (N)"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "meyirobold_01_Text_074"
   }
 }
 Assets {
@@ -311,6 +383,15 @@ Assets {
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "mi_stainless-steel_001_uv"
+  }
+}
+Assets {
+  Id: 6539358019453630426
+  Name: "Sign Font 4 Katakana: \343\203\213 (NI)"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "meyirobold_katakana_01_Text_021"
   }
 }
 Assets {
@@ -413,15 +494,6 @@ Assets {
   }
 }
 Assets {
-  Id: 3363730108674555478
-  Name: "Door Large"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_door_3x6_001"
-  }
-}
-Assets {
   Id: 3240158528397641148
   Name: "Modern Weapon - Barrel 02"
   PlatformAssetType: 1
@@ -500,6 +572,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_weap_modern_body_004"
+  }
+}
+Assets {
+  Id: 1214279261091938116
+  Name: "Sign Font 4 Hiragana: \343\201\256 (NO)"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "meyirobold_01_Text_039"
   }
 }
 Assets {
