@@ -83,6 +83,7 @@ Objects {
   ChildIds: 16858612787526193739
   ChildIds: 5392051543820022992
   ChildIds: 15486164182548991912
+  ChildIds: 3626433345043942665
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -95,6 +96,127 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Folder {
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 3626433345043942665
+  Name: "NPCs and Dialogs"
+  Transform {
+    Location {
+      X: -2650
+      Y: -2900
+    }
+    Rotation {
+      Pitch: 1.99999535
+      Yaw: 129.999985
+      Roll: 1.99999964
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 7478788149524904355
+      value {
+        Overrides {
+          Name: "UIY"
+          Float: -173.087021
+        }
+        Overrides {
+          Name: "UIX"
+          Float: -480.525513
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 9184880900479379355
+      value {
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Pitch: 53.4539185
+            Yaw: 85.5218887
+            Roll: 72.100441
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: -10.5
+            Y: 1.75000036
+            Z: 2
+          }
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 14859362854836943051
+      value {
+        Overrides {
+          Name: "Name"
+          String: "NPC 1"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -3350
+            Y: 1950
+            Z: -700
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Pitch: 1.99999535
+            Yaw: 40
+            Roll: 1.9999994
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 17467136924413857446
+      value {
+        Overrides {
+          Name: "cs:Name"
+          String: "L\303\252 Thanh B\303\254nh"
+        }
+        Overrides {
+          Name: "cs:StartDialogId"
+          String: "NPC7"
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 9540496414167045528
+    }
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
@@ -14065,6 +14187,11 @@ Objects {
         Overrides {
           Name: "Name"
           String: "Sky Core default"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+          }
         }
       }
     }
