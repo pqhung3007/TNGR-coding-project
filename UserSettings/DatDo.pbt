@@ -1324,6 +1324,12 @@ ObjectSettings {
     }
   }
   ObjectStates {
+    key: 1235787465988707332
+    value {
+      IsHidden: true
+    }
+  }
+  ObjectStates {
     key: 1238015949621322656
     value {
     }
@@ -3888,6 +3894,12 @@ ObjectSettings {
     }
   }
   ObjectStates {
+    key: 3512319853622266915
+    value {
+      IsHidden: true
+    }
+  }
+  ObjectStates {
     key: 3520198450193263893
     value {
     }
@@ -4544,6 +4556,12 @@ ObjectSettings {
   ObjectStates {
     key: 4137951778484053615
     value {
+    }
+  }
+  ObjectStates {
+    key: 4139832932026609481
+    value {
+      IsHidden: true
     }
   }
   ObjectStates {
@@ -6309,6 +6327,12 @@ ObjectSettings {
   ObjectStates {
     key: 5646548136580415862
     value {
+    }
+  }
+  ObjectStates {
+    key: 5654559444923473568
+    value {
+      IsHidden: true
     }
   }
   ObjectStates {
@@ -9097,6 +9121,12 @@ ObjectSettings {
   ObjectStates {
     key: 8279866079041013017
     value {
+    }
+  }
+  ObjectStates {
+    key: 8288963132072762784
+    value {
+      IsHidden: true
     }
   }
   ObjectStates {
@@ -15545,6 +15575,12 @@ ObjectSettings {
     }
   }
   ObjectStates {
+    key: 13720020543978294454
+    value {
+      IsHidden: true
+    }
+  }
+  ObjectStates {
     key: 13721028705257134763
     value {
     }
@@ -17729,6 +17765,12 @@ ObjectSettings {
     }
   }
   ObjectStates {
+    key: 15723369638150511571
+    value {
+      IsHidden: true
+    }
+  }
+  ObjectStates {
     key: 15723631779810586243
     value {
     }
@@ -19216,6 +19258,12 @@ ObjectSettings {
     }
   }
   ObjectStates {
+    key: 17035620869242480415
+    value {
+      IsHidden: true
+    }
+  }
+  ObjectStates {
     key: 17044618262432821977
     value {
     }
@@ -19538,6 +19586,12 @@ ObjectSettings {
   ObjectStates {
     key: 17378634702117709560
     value {
+    }
+  }
+  ObjectStates {
+    key: 17382097771369956069
+    value {
+      IsHidden: true
     }
   }
   ObjectStates {
@@ -20556,6 +20610,12 @@ ObjectSettings {
     }
   }
   ObjectStates {
+    key: 18312841475093474980
+    value {
+      IsHidden: true
+    }
+  }
+  ObjectStates {
     key: 18315817170364700199
     value {
     }
@@ -20753,7 +20813,7 @@ ObjectSettings {
     }
   }
 }
-LastSavedScene: "man2-Hung"
+LastSavedScene: "man1-Dat"
 PreviewDetailLevelPerScene {
   key: "Level1"
   value: 2

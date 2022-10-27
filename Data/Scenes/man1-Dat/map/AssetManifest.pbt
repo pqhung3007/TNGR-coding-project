@@ -53,15 +53,6 @@ Assets {
   }
 }
 Assets {
-  Id: 17059500210268236317
-  Name: "Sci-fi Chair Seat 01"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_prop_scf_chair_001_seat_ref"
-  }
-}
-Assets {
   Id: 16701740470968256231
   Name: "Military Tank Historic Container 02"
   PlatformAssetType: 1
@@ -197,15 +188,6 @@ Assets {
   }
 }
 Assets {
-  Id: 13499870741455156244
-  Name: "Sci-fi Chair Support 01"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_prop_scf_chair_001_middle_ref"
-  }
-}
-Assets {
   Id: 13373724591692948914
   Name: "Sci-fi Base Railing 02 - 4m"
   PlatformAssetType: 1
@@ -314,15 +296,6 @@ Assets {
   }
 }
 Assets {
-  Id: 12049308644463809621
-  Name: "Fantasy Human Gal 2"
-  PlatformAssetType: 17
-  PrimaryAsset {
-    AssetType: "AnimatedMeshAssetRef"
-    AssetId: "npc_human_gal_fantasy_001_ref"
-  }
-}
-Assets {
   Id: 11869601244054310388
   Name: "Metal 9 Slice Frame 004"
   PlatformAssetType: 2
@@ -413,30 +386,12 @@ Assets {
   }
 }
 Assets {
-  Id: 9996725459975783452
-  Name: "Fantasy Human Guy 1"
-  PlatformAssetType: 17
-  PrimaryAsset {
-    AssetType: "AnimatedMeshAssetRef"
-    AssetId: "npc_human_guy_fantasy_001_ref"
-  }
-}
-Assets {
   Id: 9757629375324072244
   Name: "Military Tank Historic Periscope 01"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_mil_tank_hst_periscope_001_ref"
-  }
-}
-Assets {
-  Id: 9753656608365610328
-  Name: "Sci-fi Chair Back 01"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_prop_scf_chair_001_back_ref"
   }
 }
 Assets {
@@ -500,15 +455,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_mil_tank_mod_ubracket_001_ref"
-  }
-}
-Assets {
-  Id: 9036435396988035792
-  Name: "Sci-fi Chair Armrest 01"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_prop_scf_chair_001_arms_ref"
   }
 }
 Assets {
