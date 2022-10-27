@@ -1,22 +1,4 @@
 Assets {
-  Id: 18105158013125412176
-  Name: "Sci-fi Base Door 02"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_ts_scf_base_door_002_ref"
-  }
-}
-Assets {
-  Id: 17454602997626929349
-  Name: "Terrain - Grass"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "mi_terrain_rock-grass-001_wa"
-  }
-}
-Assets {
   Id: 17411449495217333473
   Name: "Sci-fi Base Wall 02 - Doorway 01"
   PlatformAssetType: 1
@@ -71,24 +53,6 @@ Assets {
   }
 }
 Assets {
-  Id: 15314185181719204411
-  Name: "Human Gal 3"
-  PlatformAssetType: 17
-  PrimaryAsset {
-    AssetType: "AnimatedMeshAssetRef"
-    AssetId: "npc_human_gal_basic_003_ref"
-  }
-}
-Assets {
-  Id: 14930404121609448095
-  Name: "Terrain - Grass Cliffs"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "mi_terrain_cliff-grass-001_wa"
-  }
-}
-Assets {
   Id: 14803841533992348173
   Name: "Military Crate Hinge 02"
   PlatformAssetType: 1
@@ -104,15 +68,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_ts_scf_base_girder_002_ref"
-  }
-}
-Assets {
-  Id: 14078436206544360258
-  Name: "Sci-fi Base Wall 02 - Doorway 02 Half"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_ts_scf_base_wall_002_door_02_half_ref"
   }
 }
 Assets {
@@ -140,15 +95,6 @@ Assets {
   PrimaryAsset {
     AssetType: "AudioAssetRef"
     AssetId: "sfx_scifi_airlock_servo_movement_door_open_01_Cue_ref"
-  }
-}
-Assets {
-  Id: 12804143798758931548
-  Name: "Fantasy Human Gal 1"
-  PlatformAssetType: 17
-  PrimaryAsset {
-    AssetType: "AnimatedMeshAssetRef"
-    AssetId: "npc_human_gal_fantasy_003_ref"
   }
 }
 Assets {
@@ -212,15 +158,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_prop_scifi_keyboard_001_ref"
-  }
-}
-Assets {
-  Id: 9522218801527862812
-  Name: "Sci-fi Base Wall Interior 01"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_ts_scf_base_wall_int_001_ref"
   }
 }
 Assets {
@@ -302,15 +239,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_prop_mil_crate_lid_002_ref"
-  }
-}
-Assets {
-  Id: 6569291630588552400
-  Name: "Decal Numbers and Symbols 01"
-  PlatformAssetType: 14
-  PrimaryAsset {
-    AssetType: "DecalBlueprintAssetRef"
-    AssetId: "bp_decal_numbers_002"
   }
 }
 Assets {
@@ -413,15 +341,6 @@ Assets {
   }
 }
 Assets {
-  Id: 3574422290324733166
-  Name: "Moss 01"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "mi_moss_001_uv"
-  }
-}
-Assets {
   Id: 3350581364753243189
   Name: "Sci-fi Cockpit Console 001"
   PlatformAssetType: 1
@@ -455,15 +374,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_scf_ship_cockpit_ctrl_throttle_001_ref"
-  }
-}
-Assets {
-  Id: 2616408776777529629
-  Name: "Fantasy Human Guy 2"
-  PlatformAssetType: 17
-  PrimaryAsset {
-    AssetType: "AnimatedMeshAssetRef"
-    AssetId: "npc_human_guy_fantasy_003_ref"
   }
 }
 Assets {
@@ -509,14 +419,5 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_prop_scf_chair_001_base_ref"
-  }
-}
-Assets {
-  Id: 405236317939450680
-  Name: "Sci-fi Ship Nacelle 04"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_scf_ship_nacelle_004_ref"
   }
 }

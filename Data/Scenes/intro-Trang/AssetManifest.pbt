@@ -1,4 +1,13 @@
 Assets {
+  Id: 18105158013125412176
+  Name: "Sci-fi Base Door 02"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ts_scf_base_door_002_ref"
+  }
+}
+Assets {
   Id: 18063841500612993445
   Name: "Fantasy Castle Stairs Spiral Wall 01 - Straight"
   PlatformAssetType: 1
@@ -23,6 +32,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_urb_sub_craftsman_part_wall_001"
+  }
+}
+Assets {
+  Id: 14078436206544360258
+  Name: "Sci-fi Base Wall 02 - Doorway 02 Half"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ts_scf_base_wall_002_door_02_half_ref"
   }
 }
 Assets {
