@@ -197171,7 +197171,7 @@ Objects {
   Name: "Spawn Point"
   Transform {
     Location {
-      X: 13844.2842
+      X: 13506
       Y: 280.313
       Z: 115
     }
@@ -197185,6 +197185,7 @@ Objects {
     }
   }
   ParentId: 4781671109827199097
+  ChildIds: 9757183441255155764
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -197210,6 +197211,49 @@ Objects {
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 9757183441255155764
+  Name: "Spawn Settings"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 16813558807825262224
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Settings {
+    RespawnSettings {
+      RespawnDelay: 2
+      RespawnMode_v2 {
+        Value: "mc:erespawnmode:atclosestspawnpoint"
+      }
+      StartSpawned: true
+      SpawnMode {
+        Value: "mc:espawnmode:random"
+      }
+      SpawnKey: "map4togoodending"
+      RespawnKey: "map4togoodending"
+    }
   }
   IsReplicationEnabledByDefault: true
 }

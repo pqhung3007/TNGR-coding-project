@@ -6,14 +6,14 @@ Objects {
   Transform {
     Location {
       X: -100
-      Y: -5450
+      Y: -5426
     }
     Rotation {
       Yaw: -90
     }
     Scale {
-      X: 0.5
-      Y: 1.00000012
+      X: 0.554584265
+      Y: 1
       Z: 1
     }
   }
@@ -10861,8 +10861,8 @@ Objects {
   Name: "Sci-fi Base Wall 02 - Double Sliding Door Template"
   Transform {
     Location {
-      X: -50
-      Y: -4625
+      X: -110
+      Y: -4626
     }
     Rotation {
       Yaw: -90
@@ -10904,7 +10904,7 @@ Objects {
   Name: "Sci-fi Base Sliding Door 01 Double - 30cm Z Offset"
   Transform {
     Location {
-      X: 220
+      X: 219.999985
     }
     Rotation {
     }
@@ -11518,7 +11518,7 @@ Objects {
       Z: 30
     }
     Rotation {
-      Yaw: -89.9999924
+      Yaw: -90
     }
     Scale {
       X: 1
@@ -12085,7 +12085,8 @@ Objects {
   Name: "Trigger"
   Transform {
     Location {
-      Y: 179.999466
+      X: -2.14576121e-05
+      Y: 179.999451
       Z: 180
     }
     Rotation {

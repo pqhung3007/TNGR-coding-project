@@ -1,4 +1,13 @@
 Assets {
+  Id: 18274476978225951717
+  Name: "Flower Wild Lily Patch 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_foliage_gen_flower_wild_lily_patch_001_ref"
+  }
+}
+Assets {
   Id: 18105158013125412176
   Name: "Sci-fi Base Door 02"
   PlatformAssetType: 1
@@ -17,12 +26,30 @@ Assets {
   }
 }
 Assets {
+  Id: 17548954076934200023
+  Name: "Flower Daisy Patch 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_flower_daisy_001"
+  }
+}
+Assets {
   Id: 17303309681098839925
   Name: "Whitebox Door 01"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_ts_gen_whitebox_door_001"
+  }
+}
+Assets {
+  Id: 17097058178587740717
+  Name: "Flower Wild Lily 02"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_foliage_gen_flower_wild_lily_002_ref"
   }
 }
 Assets {
@@ -80,6 +107,15 @@ Assets {
   }
 }
 Assets {
+  Id: 13152204245951513896
+  Name: "Flower Bellflower Patch 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_foliage_gen_flower_bell_patch_001_ref"
+  }
+}
+Assets {
   Id: 12515881611144914612
   Name: "Flower Wild Lily 01"
   PlatformAssetType: 1
@@ -104,6 +140,24 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_prop_jpn_vase_porcelain_001"
+  }
+}
+Assets {
+  Id: 9135206421299978471
+  Name: "Grass Tall"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_grass_generic_001"
+  }
+}
+Assets {
+  Id: 7905923248328022453
+  Name: "Grass Short"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_grass_generic_002"
   }
 }
 Assets {

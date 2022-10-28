@@ -27,7 +27,6 @@ Objects {
   ChildIds: 5975494323854520937
   ChildIds: 2633421043813445477
   ChildIds: 16891183098971448525
-  ChildIds: 7132096697904950329
   ChildIds: 5944940524096869030
   ChildIds: 935659048396594892
   ChildIds: 7859911483962629868
@@ -1561,50 +1560,6 @@ Objects {
   }
 }
 Objects {
-  Id: 7132096697904950329
-  Name: "Spawn Settings"
-  Transform {
-    Location {
-      X: 6200
-      Y: 1050
-      Z: 750
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  Settings {
-    RespawnSettings {
-      RespawnDelay: 10
-      RespawnMode_v2 {
-        Value: "mc:erespawnmode:random"
-      }
-      StartSpawned: true
-      SpawnMode {
-        Value: "mc:espawnmode:random"
-      }
-    }
-  }
-  IsReplicationEnabledByDefault: true
-}
-Objects {
   Id: 16891183098971448525
   Name: "Spawn Point"
   Transform {
@@ -1622,6 +1577,7 @@ Objects {
     }
   }
   ParentId: 4781671109827199097
+  ChildIds: 16362855850509415686
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -1645,6 +1601,47 @@ Objects {
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 16362855850509415686
+  Name: "Spawn Settings"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 16891183098971448525
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Settings {
+    RespawnSettings {
+      RespawnDelay: 10
+      RespawnMode_v2 {
+        Value: "mc:erespawnmode:atclosestspawnpoint"
+      }
+      StartSpawned: true
+      SpawnMode {
+        Value: "mc:espawnmode:random"
+      }
+    }
   }
   IsReplicationEnabledByDefault: true
 }
@@ -1683,7 +1680,7 @@ Objects {
           Vector {
             X: 6600
             Y: 1400
-            Z: 750
+            Z: 730
           }
         }
       }

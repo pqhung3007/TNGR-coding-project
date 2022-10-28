@@ -67,7 +67,6 @@ Objects {
   ChildIds: 15511118762305524517
   ChildIds: 18033425849159042559
   ChildIds: 11813061568895008410
-  ChildIds: 7037868705455730904
   ChildIds: 9376674429621110076
   ChildIds: 8000414387994958233
   ChildIds: 6552433500638332765
@@ -419,7 +418,7 @@ Objects {
     Location {
       X: -10100
       Y: 9050
-      Z: 1550
+      Z: 1539.3114
     }
     Scale {
       X: 1
@@ -486,7 +485,7 @@ Objects {
     Location {
       X: -10260.1377
       Y: 8995.86719
-      Z: 1596.6886
+      Z: 1586
     }
     Rotation {
     }
@@ -548,7 +547,7 @@ Objects {
     Location {
       X: -10269.21
       Y: 8966.73828
-      Z: 1768.21826
+      Z: 1757.52966
     }
     Rotation {
     }
@@ -1225,15 +1224,15 @@ Objects {
   Transform {
     Location {
       X: -10000
-      Y: 9000
-      Z: 1525
+      Y: 9132
+      Z: 1507
     }
     Rotation {
     }
     Scale {
-      X: 1
-      Y: 1
-      Z: 1
+      X: 1.2
+      Y: 1.2
+      Z: 1.2
     }
   }
   ParentId: 4781671109827199097
@@ -1281,16 +1280,16 @@ Objects {
   Transform {
     Location {
       X: -10000
-      Y: 9000
-      Z: 1525
+      Y: 9132
+      Z: 1507
     }
     Rotation {
       Yaw: 180
     }
     Scale {
-      X: 1
-      Y: 1
-      Z: 1
+      X: 1.2
+      Y: 1.2
+      Z: 1.2
     }
   }
   ParentId: 4781671109827199097
@@ -1338,16 +1337,16 @@ Objects {
   Transform {
     Location {
       X: -10000
-      Y: 9000
-      Z: 1525
+      Y: 9132
+      Z: 1507
     }
     Rotation {
       Yaw: -90
     }
     Scale {
-      X: 1
-      Y: 1
-      Z: 1
+      X: 1.2
+      Y: 1.2
+      Z: 1.2
     }
   }
   ParentId: 4781671109827199097
@@ -1395,75 +1394,21 @@ Objects {
   Transform {
     Location {
       X: -10000
-      Y: 9000
-      Z: 1525
+      Y: 9132
+      Z: 1507
     }
     Rotation {
       Yaw: 90
     }
     Scale {
-      X: 1
-      Y: 1
-      Z: 1
+      X: 1.2
+      Y: 1.2
+      Z: 1.2
     }
   }
   ParentId: 4781671109827199097
   UnregisteredParameters {
   }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 11386151062304365709
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-      BoundsScale: 1
-    }
-  }
-  Relevance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  IsReplicationEnabledByDefault: true
-}
-Objects {
-  Id: 7037868705455730904
-  Name: "Fantasy Castle Floor 01 - Curved 4m "
-  Transform {
-    Location {
-      X: -10000
-      Y: 9000
-      Z: 1525
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -4446,11 +4391,12 @@ Objects {
   Name: "Spawn Point"
   Transform {
     Location {
-      X: -9975.62
-      Y: 9020.625
+      X: -10001
+      Y: 8883
       Z: 1774.12781
     }
     Rotation {
+      Yaw: 135
     }
     Scale {
       X: 1
@@ -4459,6 +4405,7 @@ Objects {
     }
   }
   ParentId: 4781671109827199097
+  ChildIds: 1113745808915878373
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -4484,6 +4431,47 @@ Objects {
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 1113745808915878373
+  Name: "Spawn Settings"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 16813558807825262224
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Settings {
+    RespawnSettings {
+      RespawnDelay: 10
+      RespawnMode_v2 {
+        Value: "mc:erespawnmode:atclosestspawnpoint"
+      }
+      StartSpawned: true
+      SpawnMode {
+        Value: "mc:espawnmode:roundrobin"
+      }
+    }
   }
   IsReplicationEnabledByDefault: true
 }

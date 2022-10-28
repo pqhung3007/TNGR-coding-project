@@ -8,6 +8,15 @@ Assets {
   }
 }
 Assets {
+  Id: 18223606249336452251
+  Name: "Composite Triplanar Blend"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_composite_triplanar_wa"
+  }
+}
+Assets {
   Id: 17683814330151529420
   Name: "Office Chair Seat"
   PlatformAssetType: 1
@@ -50,6 +59,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_cube_hq_002"
+  }
+}
+Assets {
+  Id: 16807247169446762079
+  Name: "Flower Bellflower 02"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_foliage_gen_flower_bell_002_ref"
   }
 }
 Assets {
@@ -359,6 +377,15 @@ Assets {
   }
 }
 Assets {
+  Id: 9135206421299978471
+  Name: "Grass Tall"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_grass_generic_001"
+  }
+}
+Assets {
   Id: 8658922277224758950
   Name: "Text 01: 0"
   PlatformAssetType: 1
@@ -413,6 +440,15 @@ Assets {
   }
 }
 Assets {
+  Id: 7905923248328022453
+  Name: "Grass Short"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_grass_generic_002"
+  }
+}
+Assets {
   Id: 7635804270466146643
   Name: "Prism - 6-Sided Half"
   PlatformAssetType: 1
@@ -458,6 +494,15 @@ Assets {
   }
 }
 Assets {
+  Id: 6315330769936069977
+  Name: "Fern 03"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_fern_generic_003"
+  }
+}
+Assets {
   Id: 6201098066527333077
   Name: "Sci-fi Base Stairs 01 150cm"
   PlatformAssetType: 1
@@ -473,6 +518,15 @@ Assets {
   PrimaryAsset {
     AssetType: "DecalBlueprintAssetRef"
     AssetId: "bp_decal_soil_cracks_002"
+  }
+}
+Assets {
+  Id: 5818051000036987312
+  Name: "Bush 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_bush_generic_001"
   }
 }
 Assets {
@@ -620,12 +674,30 @@ Assets {
   }
 }
 Assets {
+  Id: 1472042501932068531
+  Name: "Fern 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_fern_generic_001"
+  }
+}
+Assets {
   Id: 890442874131206195
   Name: "Office Cubicle Desk Leg 01"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_prop_off_cubicle_deskleg_001_ref"
+  }
+}
+Assets {
+  Id: 874953778595466263
+  Name: "Tree Redwood Big"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_tree_redwood_001"
   }
 }
 Assets {
