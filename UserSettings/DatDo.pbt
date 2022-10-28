@@ -22338,7 +22338,7 @@ ObjectSettings {
     }
   }
 }
-LastSavedScene: "man1-Dat"
+LastSavedScene: "Ending2"
 PreviewDetailLevelPerScene {
   key: "Level1"
   value: 2
