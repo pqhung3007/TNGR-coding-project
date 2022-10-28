@@ -62,6 +62,33 @@ Assets {
   }
 }
 Assets {
+  Id: 16360286071481718484
+  Name: "Text 01: A"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "F1_Text_000"
+  }
+}
+Assets {
+  Id: 16281989283233682780
+  Name: "Sci-fi Base Antenna 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ts_scf_base_antenna_001_ref"
+  }
+}
+Assets {
+  Id: 15966931240744468586
+  Name: "Sci-fi Cargo Crate 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_prop_scf_crate_cargo_001"
+  }
+}
+Assets {
   Id: 15897705887741699672
   Name: "Urban Pipe Straight"
   PlatformAssetType: 1
@@ -116,6 +143,15 @@ Assets {
   }
 }
 Assets {
+  Id: 14310493413349361150
+  Name: "Text 01: B"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "F1_Text_001"
+  }
+}
+Assets {
   Id: 14211791492953122997
   Name: "Text 03: I"
   PlatformAssetType: 1
@@ -158,6 +194,15 @@ Assets {
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "fxma_opaque_emissive"
+  }
+}
+Assets {
+  Id: 12788628322114493447
+  Name: "Text 01: L"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "F1_Text_011"
   }
 }
 Assets {
@@ -278,6 +323,15 @@ Assets {
   }
 }
 Assets {
+  Id: 8658922277224758950
+  Name: "Text 01: 0"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "F1_Text_026"
+  }
+}
+Assets {
   Id: 8582587059167915120
   Name: "Text 01: Y"
   PlatformAssetType: 1
@@ -293,6 +347,24 @@ Assets {
   PrimaryAsset {
     AssetType: "DecalBlueprintAssetRef"
     AssetId: "bp_decal_urb_office_debris_desk_001"
+  }
+}
+Assets {
+  Id: 7928381657498251527
+  Name: "Text 01: 1"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "F1_Text_027"
+  }
+}
+Assets {
+  Id: 7917643843895697114
+  Name: "Sci-fi Console Screen 03"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_prop_scf_screen_003_ref"
   }
 }
 Assets {
@@ -314,6 +386,15 @@ Assets {
   }
 }
 Assets {
+  Id: 7252931838102310953
+  Name: "Sci-fi Cargo Crate 02"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_prop_scf_crate_cargo_002"
+  }
+}
+Assets {
   Id: 6982568090335029158
   Name: "Cylinder"
   PlatformAssetType: 1
@@ -329,6 +410,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_scf_ship_engine_001_ref"
+  }
+}
+Assets {
+  Id: 6569291630588552400
+  Name: "Decal Numbers and Symbols 01"
+  PlatformAssetType: 14
+  PrimaryAsset {
+    AssetType: "DecalBlueprintAssetRef"
+    AssetId: "bp_decal_numbers_002"
   }
 }
 Assets {
@@ -356,6 +446,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_prop_urb_pipes_elbow_001_ref"
+  }
+}
+Assets {
+  Id: 5336603631875952489
+  Name: "Text 01: 2"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "F1_Text_028"
   }
 }
 Assets {
@@ -473,6 +572,15 @@ Assets {
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "mi_metal_basic_001"
+  }
+}
+Assets {
+  Id: 1235261894908198881
+  Name: "Text 01: J"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "F1_Text_009"
   }
 }
 Assets {

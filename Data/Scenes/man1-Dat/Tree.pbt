@@ -44,6 +44,37 @@ Objects {
   ChildIds: 5012330686365433285
   ChildIds: 9831034047953295274
   ChildIds: 5651732776159640090
+  ChildIds: 15450246167385594017
+  ChildIds: 1740762176910812824
+  ChildIds: 2963459984892254531
+  ChildIds: 12552687822735608400
+  ChildIds: 5568587982548339957
+  ChildIds: 7443392957397166622
+  ChildIds: 13367239701523610263
+  ChildIds: 14014656773611639527
+  ChildIds: 5219033709962334787
+  ChildIds: 10667200597890137779
+  ChildIds: 2395058935100244743
+  ChildIds: 12199384487906997422
+  ChildIds: 17397855472519156089
+  ChildIds: 12117005526658530405
+  ChildIds: 5629222286247709008
+  ChildIds: 1224448900068010751
+  ChildIds: 15151434106603596843
+  ChildIds: 11647974369675910429
+  ChildIds: 1767839209493606856
+  ChildIds: 4157014376343137304
+  ChildIds: 9776175722009116727
+  ChildIds: 16953068677845964461
+  ChildIds: 11960611521661965239
+  ChildIds: 4194152110279797553
+  ChildIds: 12462612440988889707
+  ChildIds: 6664848442098888430
+  ChildIds: 7927548836455895299
+  ChildIds: 3765606392928236697
+  ChildIds: 1307073919751306992
+  ChildIds: 10933860221673603919
+  ChildIds: 5914450897814318421
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -61,6 +92,3492 @@ Objects {
     Value: "mc:eproxyrelevance:critical"
   }
   IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 5914450897814318421
+  Name: "Decal Numbers and Symbols 01"
+  Transform {
+    Location {
+      X: -9374
+      Y: -6840
+      Z: 312
+    }
+    Rotation {
+      Yaw: -90
+      Roll: 89.9999924
+    }
+    Scale {
+      X: 0.75
+      Y: 0.75
+      Z: 0.75
+    }
+  }
+  ParentId: 4781671109827199097
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:Shape Index"
+      Int: 1
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 6569291630588552400
+    }
+    TeamSettings {
+    }
+    DecalBP {
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:medium"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 10933860221673603919
+  Name: "Decal Numbers and Symbols 01"
+  Transform {
+    Location {
+      X: -12428
+      Y: -9069
+      Z: 20
+    }
+    Rotation {
+      Yaw: -90.7702637
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:Shape Index"
+      Int: 8
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 6569291630588552400
+    }
+    TeamSettings {
+    }
+    DecalBP {
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:medium"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 1307073919751306992
+  Name: "Decal Numbers and Symbols 01"
+  Transform {
+    Location {
+      X: -12428
+      Y: -8311
+      Z: 20
+    }
+    Rotation {
+      Yaw: -90.7702637
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:Shape Index"
+      Int: 6
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 6569291630588552400
+    }
+    TeamSettings {
+    }
+    DecalBP {
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:medium"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 3765606392928236697
+  Name: "Decal Numbers and Symbols 01"
+  Transform {
+    Location {
+      X: -12428
+      Y: -7671
+      Z: 20
+    }
+    Rotation {
+      Yaw: -90.7702637
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:Shape Index"
+      Int: 4
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 6569291630588552400
+    }
+    TeamSettings {
+    }
+    DecalBP {
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:medium"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 7927548836455895299
+  Name: "Decal Numbers and Symbols 01"
+  Transform {
+    Location {
+      X: -12428
+      Y: -6868
+      Z: 20
+    }
+    Rotation {
+      Yaw: -90.7702637
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:Shape Index"
+      Int: 2
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 6569291630588552400
+    }
+    TeamSettings {
+    }
+    DecalBP {
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:medium"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 6664848442098888430
+  Name: "Decal Numbers and Symbols 01"
+  Transform {
+    Location {
+      X: -12428
+      Y: -4492
+      Z: 20
+    }
+    Rotation {
+      Yaw: -90.7702637
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:Shape Index"
+      Int: 1
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 6569291630588552400
+    }
+    TeamSettings {
+    }
+    DecalBP {
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:medium"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 12462612440988889707
+  Name: "Decal Numbers and Symbols 01"
+  Transform {
+    Location {
+      X: -12428
+      Y: -3683
+      Z: 20
+    }
+    Rotation {
+      Yaw: -90.7702637
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:Shape Index"
+      Int: 3
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 6569291630588552400
+    }
+    TeamSettings {
+    }
+    DecalBP {
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:medium"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 4194152110279797553
+  Name: "Decal Numbers and Symbols 01"
+  Transform {
+    Location {
+      X: -12428
+      Y: -3025
+      Z: 20
+    }
+    Rotation {
+      Yaw: -90.7702637
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:Shape Index"
+      Int: 5
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 6569291630588552400
+    }
+    TeamSettings {
+    }
+    DecalBP {
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:medium"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 11960611521661965239
+  Name: "Decal Numbers and Symbols 01"
+  Transform {
+    Location {
+      X: -12428
+      Y: -2243
+      Z: 20
+    }
+    Rotation {
+      Yaw: -90.7702637
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:Shape Index"
+      Int: 7
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 6569291630588552400
+    }
+    TeamSettings {
+    }
+    DecalBP {
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:medium"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 16953068677845964461
+  Name: "Decal Numbers and Symbols 01"
+  Transform {
+    Location {
+      X: -12428
+      Y: -1565
+      Z: 20
+    }
+    Rotation {
+      Yaw: -90.7702637
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:Shape Index"
+      Int: 9
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 6569291630588552400
+    }
+    TeamSettings {
+    }
+    DecalBP {
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:medium"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 9776175722009116727
+  Name: "CostumeTrigger - Place Me In The World"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 18265009736485326563
+      value {
+        Overrides {
+          Name: "Name"
+          String: "CostumeTrigger - Place Me In The World"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -8584
+            Y: -7087
+            Z: 25
+          }
+        }
+        Overrides {
+          Name: "cs:CostumeHidesPlayer"
+          Bool: false
+        }
+        Overrides {
+          Name: "cs:CostumeGEO"
+          AssetReference {
+            Id: 4249831922790898544
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: 170
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 324608175634541092
+    }
+  }
+}
+Objects {
+  Id: 4157014376343137304
+  Name: "Temporary_science_lab"
+  Transform {
+    Location {
+      X: -8336
+      Y: -7604
+      Z: 20
+    }
+    Rotation {
+      Yaw: 89.9999924
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 16145081807410758600
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Temporary_science_lab"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -8336
+            Y: -7083
+            Z: 20
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: 89.9999847
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 9927492773155037534
+    }
+  }
+}
+Objects {
+  Id: 1767839209493606856
+  Name: "Temporary_science_lab"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 16145081807410758600
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Temporary_science_lab"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -8336
+            Y: -7604
+            Z: 20
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: 90
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 9927492773155037534
+    }
+  }
+}
+Objects {
+  Id: 11647974369675910429
+  Name: "Sci-fi Cargo Crate 01"
+  Transform {
+    Location {
+      X: -9095
+      Y: -3664
+      Z: 20
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 15966931240744468586
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 15151434106603596843
+  Name: "Sci-fi Cargo Crate 01"
+  Transform {
+    Location {
+      X: -9238
+      Y: -3664
+      Z: 20
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 15966931240744468586
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 1224448900068010751
+  Name: "Sci-fi Cargo Crate 01"
+  Transform {
+    Location {
+      X: -9102
+      Y: -3793
+      Z: 20
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 15966931240744468586
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 5629222286247709008
+  Name: "Sci-fi Cargo Crate 01"
+  Transform {
+    Location {
+      X: -9241
+      Y: -3794
+      Z: 20
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 15966931240744468586
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 12117005526658530405
+  Name: "Sci-fi Cargo Crate 02"
+  Transform {
+    Location {
+      X: -8370
+      Y: -4351
+      Z: 20
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 7252931838102310953
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 17397855472519156089
+  Name: "Sci-fi Cargo Crate 02"
+  Transform {
+    Location {
+      X: -8522
+      Y: -4355
+      Z: 20
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 7252931838102310953
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 12199384487906997422
+  Name: "Sci-fi Chair 02 (Prop)"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 16395620497066319746
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Sci-fi Chair 02 (Prop)"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -9108
+            Y: -4083
+            Z: 57
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: 75
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 5818108529679185888
+    }
+  }
+}
+Objects {
+  Id: 2395058935100244743
+  Name: "Sci-fi Chair 02 (Prop)"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 9279175518869359492
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            Y: -5
+            Z: 30
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 16395620497066319746
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Sci-fi Chair 02 (Prop)"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -9135
+            Y: -4241
+            Z: 20
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: 110
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 5818108529679185888
+    }
+  }
+}
+Objects {
+  Id: 10667200597890137779
+  Name: "Sci-fi Console 01 (Prop)"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 6585088747016702642
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Sci-fi Console 01 (Prop)"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -9241
+            Y: -4164
+            Z: 20
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: -90
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 11591709269337059091
+    }
+  }
+}
+Objects {
+  Id: 5219033709962334787
+  Name: "Sci-fi Satellite (Prop)"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 8921263703593008213
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Sci-fi Satellite (Prop)"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -8357
+            Y: -3663
+            Z: 20
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 0.25
+            Y: 0.25
+            Z: 0.25
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: 125
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 13763894673691222175
+    }
+  }
+}
+Objects {
+  Id: 14014656773611639527
+  Name: "Urban Dumpster - Full Template"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 12934892977651872892
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Urban Dumpster - Full Template"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -7283
+            Y: -3439
+            Z: 20
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 15075333906178474295
+    }
+  }
+}
+Objects {
+  Id: 13367239701523610263
+  Name: "Urban Dumpster Template"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 2494763795564337813
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Urban Dumpster Template"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -10022
+            Y: -4784
+            Z: 20
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 5879026996129605627
+    }
+  }
+}
+Objects {
+  Id: 7443392957397166622
+  Name: "Urban Car - Sedan SRT 01 (Prop)"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 4361057572073814022
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Urban Car - Sedan SRT 01 (Prop)"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -10099
+            Y: -4136
+            Z: 20
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 10875988967189898637
+    }
+  }
+}
+Objects {
+  Id: 5568587982548339957
+  Name: "Sci-fi Base Antenna 01"
+  Transform {
+    Location {
+      X: -10417
+      Y: -3655
+      Z: 20
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 16281989283233682780
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 12552687822735608400
+  Name: "Mecha Variant 01 (Poseable)"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 106627945023083155
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Mecha Variant 01 (Poseable)"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -10454
+            Y: -3860
+            Z: 20
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1.25
+            Y: 1.25
+            Z: 1.25
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 1522784910343025948
+      value {
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 0.4
+            Y: 0.4
+            Z: 0.4
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: 55
+          }
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -454.4
+            Y: -495.2
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 16407391887738873832
+    }
+  }
+}
+Objects {
+  Id: 2963459984892254531
+  Name: "Sci-fi Cryo Chamber (Prop)"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 774406426323240288
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Sci-fi Cryo Chamber (Prop)"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -3287
+            Y: -7585
+            Z: 25
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 5815814445835127423
+    }
+  }
+}
+Objects {
+  Id: 1740762176910812824
+  Name: "Text 01: J"
+  Transform {
+    Location {
+      X: -9400
+      Y: -4163
+      Z: 229
+    }
+    Rotation {
+      Yaw: 90
+    }
+    Scale {
+      X: 3
+      Y: 1
+      Z: 2.5
+    }
+  }
+  ParentId: 4781671109827199097
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Font.Bevel:id"
+      AssetReference {
+        Id: 3702191406046426907
+      }
+    }
+    Overrides {
+      Name: "ma:Font.Faces:id"
+      AssetReference {
+        Id: 13679493068599210497
+      }
+    }
+    Overrides {
+      Name: "ma:Font.Sides:id"
+      AssetReference {
+        Id: 3702191406046426907
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 1235261894908198881
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 15450246167385594017
+  Name: "Lab201"
+  Transform {
+    Location {
+      X: -10818
+      Y: -7217
+      Z: 20
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  ChildIds: 7030046909966565612
+  ChildIds: 7654496510165363569
+  ChildIds: 250169982712272247
+  ChildIds: 5531181916593636749
+  ChildIds: 16646038628864448902
+  ChildIds: 18191804591164309633
+  ChildIds: 9935826673762444866
+  ChildIds: 16993714333986615660
+  ChildIds: 14290220857532432297
+  ChildIds: 7917859690061046117
+  ChildIds: 16322401826288217224
+  ChildIds: 16465374385319693599
+  ChildIds: 15907468612652399279
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Folder {
+    IsGroup: true
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 15907468612652399279
+  Name: "Text 01: 1"
+  Transform {
+    Location {
+      X: -645
+      Y: -426
+      Z: 229
+    }
+    Rotation {
+      Yaw: -89.9999924
+    }
+    Scale {
+      X: 3
+      Y: 2
+      Z: 2.25
+    }
+  }
+  ParentId: 15450246167385594017
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Font.Bevel:id"
+      AssetReference {
+        Id: 3702191406046426907
+      }
+    }
+    Overrides {
+      Name: "ma:Font.Bevel:color"
+      Color {
+        R: 1
+        B: 0.005
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Font.Faces:id"
+      AssetReference {
+        Id: 3702191406046426907
+      }
+    }
+    Overrides {
+      Name: "ma:Font.Faces:color"
+      Color {
+        R: 1
+        B: 0.005
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Font.Sides:id"
+      AssetReference {
+        Id: 3702191406046426907
+      }
+    }
+    Overrides {
+      Name: "ma:Font.Sides:color"
+      Color {
+        R: 1
+        B: 0.005
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 7928381657498251527
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 16465374385319693599
+  Name: "Text 01: 0"
+  Transform {
+    Location {
+      X: -645
+      Y: -278
+      Z: 229
+    }
+    Rotation {
+      Yaw: -89.9999924
+    }
+    Scale {
+      X: 3
+      Y: 2
+      Z: 2.25
+    }
+  }
+  ParentId: 15450246167385594017
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Font.Bevel:id"
+      AssetReference {
+        Id: 3702191406046426907
+      }
+    }
+    Overrides {
+      Name: "ma:Font.Bevel:color"
+      Color {
+        R: 1
+        B: 0.005
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Font.Faces:id"
+      AssetReference {
+        Id: 3702191406046426907
+      }
+    }
+    Overrides {
+      Name: "ma:Font.Faces:color"
+      Color {
+        R: 1
+        B: 0.005
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Font.Sides:id"
+      AssetReference {
+        Id: 3702191406046426907
+      }
+    }
+    Overrides {
+      Name: "ma:Font.Sides:color"
+      Color {
+        R: 1
+        B: 0.005
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 8658922277224758950
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 16322401826288217224
+  Name: "Text 01: 2"
+  Transform {
+    Location {
+      X: -645
+      Y: -152
+      Z: 229
+    }
+    Rotation {
+      Yaw: -89.9999924
+    }
+    Scale {
+      X: 3
+      Y: 2
+      Z: 2.25
+    }
+  }
+  ParentId: 15450246167385594017
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Font.Bevel:id"
+      AssetReference {
+        Id: 3702191406046426907
+      }
+    }
+    Overrides {
+      Name: "ma:Font.Bevel:color"
+      Color {
+        R: 1
+        B: 0.005
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Font.Faces:id"
+      AssetReference {
+        Id: 3702191406046426907
+      }
+    }
+    Overrides {
+      Name: "ma:Font.Faces:color"
+      Color {
+        R: 1
+        B: 0.005
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Font.Sides:id"
+      AssetReference {
+        Id: 3702191406046426907
+      }
+    }
+    Overrides {
+      Name: "ma:Font.Sides:color"
+      Color {
+        R: 1
+        B: 0.005
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 5336603631875952489
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 7917859690061046117
+  Name: "Text 01: B"
+  Transform {
+    Location {
+      X: -645
+      Y: 28
+      Z: 229
+    }
+    Rotation {
+      Yaw: -89.9999924
+    }
+    Scale {
+      X: 3
+      Y: 2
+      Z: 2.25
+    }
+  }
+  ParentId: 15450246167385594017
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Font.Bevel:id"
+      AssetReference {
+        Id: 3702191406046426907
+      }
+    }
+    Overrides {
+      Name: "ma:Font.Bevel:color"
+      Color {
+        R: 1
+        B: 0.005
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Font.Faces:id"
+      AssetReference {
+        Id: 3702191406046426907
+      }
+    }
+    Overrides {
+      Name: "ma:Font.Faces:color"
+      Color {
+        R: 1
+        B: 0.005
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Font.Sides:id"
+      AssetReference {
+        Id: 3702191406046426907
+      }
+    }
+    Overrides {
+      Name: "ma:Font.Sides:color"
+      Color {
+        R: 1
+        B: 0.005
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 14310493413349361150
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 14290220857532432297
+  Name: "Text 01: A"
+  Transform {
+    Location {
+      X: -645
+      Y: 251
+      Z: 229
+    }
+    Rotation {
+      Yaw: -89.9999924
+    }
+    Scale {
+      X: 3
+      Y: 2
+      Z: 2.25
+    }
+  }
+  ParentId: 15450246167385594017
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Font.Bevel:id"
+      AssetReference {
+        Id: 3702191406046426907
+      }
+    }
+    Overrides {
+      Name: "ma:Font.Bevel:color"
+      Color {
+        R: 1
+        B: 0.005
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Font.Faces:id"
+      AssetReference {
+        Id: 3702191406046426907
+      }
+    }
+    Overrides {
+      Name: "ma:Font.Faces:color"
+      Color {
+        R: 1
+        B: 0.005
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Font.Sides:id"
+      AssetReference {
+        Id: 3702191406046426907
+      }
+    }
+    Overrides {
+      Name: "ma:Font.Sides:color"
+      Color {
+        R: 1
+        B: 0.005
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 16360286071481718484
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 16993714333986615660
+  Name: "Text 01: L"
+  Transform {
+    Location {
+      X: -645
+      Y: 399
+      Z: 229
+    }
+    Rotation {
+      Yaw: -89.9999924
+    }
+    Scale {
+      X: 3
+      Y: 2
+      Z: 2.25
+    }
+  }
+  ParentId: 15450246167385594017
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Font.Bevel:id"
+      AssetReference {
+        Id: 3702191406046426907
+      }
+    }
+    Overrides {
+      Name: "ma:Font.Faces:id"
+      AssetReference {
+        Id: 3702191406046426907
+      }
+    }
+    Overrides {
+      Name: "ma:Font.Sides:id"
+      AssetReference {
+        Id: 3702191406046426907
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 12788628322114493447
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 9935826673762444866
+  Name: "Sci-fi Console Screen 03"
+  Transform {
+    Location {
+      X: 1394
+      Y: 46
+      Z: 84
+    }
+    Rotation {
+      Yaw: 89.9999924
+    }
+    Scale {
+      X: 6.75
+      Y: 1
+      Z: 4.00000048
+    }
+  }
+  ParentId: 15450246167385594017
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 7917643843895697114
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 18191804591164309633
+  Name: "Room"
+  Transform {
+    Location {
+      X: 1
+      Y: 283
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 15450246167385594017
+  ChildIds: 12980967522364626877
+  ChildIds: 11231288133238178016
+  ChildIds: 8253163309703929904
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Folder {
+    IsGroup: true
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 8253163309703929904
+  Name: "Sci-fi Chair 01 (Prop)"
+  Transform {
+    Location {
+      X: -9780
+      Y: -7130
+      Z: 25
+    }
+    Rotation {
+      Yaw: -105.000015
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 18191804591164309633
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 12175462226979222269
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Sci-fi Chair 01 (Prop)"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -48
+            Y: 81
+            Z: 5
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: -74.9999695
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 11734994823023391481
+    }
+  }
+}
+Objects {
+  Id: 11231288133238178016
+  Name: "Sci-fi Chair 01 (Prop)"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 18191804591164309633
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 12175462226979222269
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Sci-fi Chair 01 (Prop)"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -49
+            Y: -80
+            Z: 5
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: -105.000015
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 11734994823023391481
+    }
+  }
+}
+Objects {
+  Id: 12980967522364626877
+  Name: "Sci-fi Console 01 (Prop)"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 18191804591164309633
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 6585088747016702642
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Sci-fi Console 01 (Prop)"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 98
+            Y: -1
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: 89.9999924
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 11591709269337059091
+    }
+  }
+}
+Objects {
+  Id: 16646038628864448902
+  Name: "Room"
+  Transform {
+    Location {
+      X: 1
+      Y: -238
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 15450246167385594017
+  ChildIds: 69758164906427996
+  ChildIds: 18041468704855898329
+  ChildIds: 12472852132372107241
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Folder {
+    IsGroup: true
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 12472852132372107241
+  Name: "Sci-fi Chair 01 (Prop)"
+  Transform {
+    Location {
+      X: -9780
+      Y: -7130
+      Z: 25
+    }
+    Rotation {
+      Yaw: -105.000015
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 16646038628864448902
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 12175462226979222269
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Sci-fi Chair 01 (Prop)"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -48
+            Y: 81
+            Z: 5
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: -74.9999695
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 11734994823023391481
+    }
+  }
+}
+Objects {
+  Id: 18041468704855898329
+  Name: "Sci-fi Chair 01 (Prop)"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 16646038628864448902
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 12175462226979222269
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Sci-fi Chair 01 (Prop)"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -49
+            Y: -80
+            Z: 5
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: -105.000015
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 11734994823023391481
+    }
+  }
+}
+Objects {
+  Id: 69758164906427996
+  Name: "Sci-fi Console 01 (Prop)"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 16646038628864448902
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 6585088747016702642
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Sci-fi Console 01 (Prop)"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 98
+            Y: -1
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: 89.9999924
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 11591709269337059091
+    }
+  }
+}
+Objects {
+  Id: 5531181916593636749
+  Name: "Room"
+  Transform {
+    Location {
+      X: 405
+      Y: 283
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 15450246167385594017
+  ChildIds: 8592800747253162780
+  ChildIds: 8509040220422637418
+  ChildIds: 4786146151466297249
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Folder {
+    IsGroup: true
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 4786146151466297249
+  Name: "Sci-fi Chair 01 (Prop)"
+  Transform {
+    Location {
+      X: -9780
+      Y: -7130
+      Z: 25
+    }
+    Rotation {
+      Yaw: -105.000015
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 5531181916593636749
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 12175462226979222269
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Sci-fi Chair 01 (Prop)"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -48
+            Y: 81
+            Z: 5
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: -74.9999695
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 11734994823023391481
+    }
+  }
+}
+Objects {
+  Id: 8509040220422637418
+  Name: "Sci-fi Chair 01 (Prop)"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 5531181916593636749
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 12175462226979222269
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Sci-fi Chair 01 (Prop)"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -49
+            Y: -80
+            Z: 5
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: -105.000015
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 11734994823023391481
+    }
+  }
+}
+Objects {
+  Id: 8592800747253162780
+  Name: "Sci-fi Console 01 (Prop)"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 5531181916593636749
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 6585088747016702642
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Sci-fi Console 01 (Prop)"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 98
+            Y: -1
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: 89.9999924
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 11591709269337059091
+    }
+  }
+}
+Objects {
+  Id: 250169982712272247
+  Name: "Room"
+  Transform {
+    Location {
+      X: 405
+      Y: -238
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 15450246167385594017
+  ChildIds: 1366460603761271334
+  ChildIds: 12186393906356960753
+  ChildIds: 3579252677188878469
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Folder {
+    IsGroup: true
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 3579252677188878469
+  Name: "Sci-fi Chair 01 (Prop)"
+  Transform {
+    Location {
+      X: -9780
+      Y: -7130
+      Z: 25
+    }
+    Rotation {
+      Yaw: -105.000015
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 250169982712272247
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 12175462226979222269
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Sci-fi Chair 01 (Prop)"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -48
+            Y: 81
+            Z: 5
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: -74.9999695
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 11734994823023391481
+    }
+  }
+}
+Objects {
+  Id: 12186393906356960753
+  Name: "Sci-fi Chair 01 (Prop)"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 250169982712272247
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 12175462226979222269
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Sci-fi Chair 01 (Prop)"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -49
+            Y: -80
+            Z: 5
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: -105.000015
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 11734994823023391481
+    }
+  }
+}
+Objects {
+  Id: 1366460603761271334
+  Name: "Sci-fi Console 01 (Prop)"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 250169982712272247
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 6585088747016702642
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Sci-fi Console 01 (Prop)"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 98
+            Y: -1
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: 89.9999924
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 11591709269337059091
+    }
+  }
+}
+Objects {
+  Id: 7654496510165363569
+  Name: "Room"
+  Transform {
+    Location {
+      X: 830
+      Y: 283
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 15450246167385594017
+  ChildIds: 14368981737884090492
+  ChildIds: 6751920357316181088
+  ChildIds: 5543887947034049803
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Folder {
+    IsGroup: true
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 5543887947034049803
+  Name: "Sci-fi Chair 01 (Prop)"
+  Transform {
+    Location {
+      X: -9780
+      Y: -7130
+      Z: 25
+    }
+    Rotation {
+      Yaw: -105.000015
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 7654496510165363569
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 12175462226979222269
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Sci-fi Chair 01 (Prop)"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -48
+            Y: 81
+            Z: 5
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: -74.9999695
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 11734994823023391481
+    }
+  }
+}
+Objects {
+  Id: 6751920357316181088
+  Name: "Sci-fi Chair 01 (Prop)"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 7654496510165363569
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 12175462226979222269
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Sci-fi Chair 01 (Prop)"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -49
+            Y: -80
+            Z: 5
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: -105.000015
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 11734994823023391481
+    }
+  }
+}
+Objects {
+  Id: 14368981737884090492
+  Name: "Sci-fi Console 01 (Prop)"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 7654496510165363569
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 6585088747016702642
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Sci-fi Console 01 (Prop)"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 98
+            Y: -1
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: 89.9999924
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 11591709269337059091
+    }
+  }
+}
+Objects {
+  Id: 7030046909966565612
+  Name: "Room"
+  Transform {
+    Location {
+      X: 830
+      Y: -238
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 15450246167385594017
+  ChildIds: 16999821664398725115
+  ChildIds: 7538252375378931588
+  ChildIds: 4747513224363880835
+  ChildIds: 3500751818785302036
+  ChildIds: 12125665076552993303
+  ChildIds: 16617459010472900468
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Folder {
+    IsGroup: true
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 16617459010472900468
+  Name: "Sci-fi Console 01 (Prop)"
+  Transform {
+    Location {
+      X: -9890
+      Y: -7456
+      Z: 20
+    }
+    Rotation {
+      Yaw: 89.9999847
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 7030046909966565612
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 6585088747016702642
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Sci-fi Console 01 (Prop)"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 736
+            Y: -134
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: -85
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 11591709269337059091
+    }
+  }
+}
+Objects {
+  Id: 12125665076552993303
+  Name: "Sci-fi Chair 01 (Prop)"
+  Transform {
+    Location {
+      X: -10036
+      Y: -7374
+      Z: 25
+    }
+    Rotation {
+      Yaw: -74.999939
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 7030046909966565612
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 12175462226979222269
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Sci-fi Chair 01 (Prop)"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 888.59082
+            Y: -202.964355
+            Z: 5
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: 110
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 11734994823023391481
+    }
+  }
+}
+Objects {
+  Id: 3500751818785302036
+  Name: "Sci-fi Chair 01 (Prop)"
+  Transform {
+    Location {
+      X: -10037
+      Y: -7535
+      Z: 25
+    }
+    Rotation {
+      Yaw: -105.000038
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 7030046909966565612
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 12175462226979222269
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Sci-fi Chair 01 (Prop)"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 875.555664
+            Y: -42.4892578
+            Z: 5
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: 80
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 11734994823023391481
+    }
+  }
+}
+Objects {
+  Id: 4747513224363880835
+  Name: "Sci-fi Chair 01 (Prop)"
+  Transform {
+    Location {
+      X: -9780
+      Y: -7130
+      Z: 25
+    }
+    Rotation {
+      Yaw: -105.000015
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 7030046909966565612
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 12175462226979222269
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Sci-fi Chair 01 (Prop)"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -48
+            Y: 81
+            Z: 5
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: -74.9999695
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 11734994823023391481
+    }
+  }
+}
+Objects {
+  Id: 7538252375378931588
+  Name: "Sci-fi Chair 01 (Prop)"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 7030046909966565612
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 12175462226979222269
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Sci-fi Chair 01 (Prop)"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -49
+            Y: -80
+            Z: 5
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: -105.000015
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 11734994823023391481
+    }
+  }
+}
+Objects {
+  Id: 16999821664398725115
+  Name: "Sci-fi Console 01 (Prop)"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 7030046909966565612
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 6585088747016702642
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Sci-fi Console 01 (Prop)"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 98
+            Y: -1
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: 89.9999924
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 11591709269337059091
+    }
+  }
 }
 Objects {
   Id: 5651732776159640090

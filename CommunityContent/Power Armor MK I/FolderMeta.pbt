@@ -1,0 +1,63 @@
+MetaVersion: 1
+MarketplaceDetails {
+  Id: "ff44d65800c04e6da8ff658af389a282"
+  OwnerAccountId: "969400f2073c4d9592c258b264cd9a72"
+  OwnerName: "Antropy"
+  Version: "1.4.0"
+}
+AssetIdsOriginalToNew {
+  key: 756418935710762795
+  value: 17120819986947988796
+}
+AssetIdsOriginalToNew {
+  key: 1653836607400961474
+  value: 17756270150382504678
+}
+AssetIdsOriginalToNew {
+  key: 3589333058016471999
+  value: 11268440900525880674
+}
+AssetIdsOriginalToNew {
+  key: 5977145710920373267
+  value: 11266607667093466254
+}
+AssetIdsOriginalToNew {
+  key: 7890714988370591995
+  value: 9243288396340661339
+}
+AssetIdsOriginalToNew {
+  key: 8026359443068922698
+  value: 5498015417330638064
+}
+AssetIdsOriginalToNew {
+  key: 11391165146332164000
+  value: 15832283055480391017
+}
+AssetIdsOriginalToNew {
+  key: 11544076029380565377
+  value: 7417405123426673768
+}
+AssetIdsOriginalToNew {
+  key: 13218620032898090629
+  value: 5912050393960392729
+}
+AssetIdsOriginalToNew {
+  key: 13492328669774598326
+  value: 3757182487370463350
+}
+AssetIdsOriginalToNew {
+  key: 13824629022211509582
+  value: 2032638284274921744
+}
+AssetIdsOriginalToNew {
+  key: 16734868139118224662
+  value: 16925118751010481135
+}
+AssetIdsOriginalToNew {
+  key: 17214145347312935783
+  value: 9072657237098771437
+}
+AssetIdsOriginalToNew {
+  key: 17814331612761401404
+  value: 2644842179717729111
+}

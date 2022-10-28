@@ -197,15 +197,6 @@ Assets {
   }
 }
 Assets {
-  Id: 9275346287798187606
-  Name: "Barrier Plastic 01"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_street_barrier_002"
-  }
-}
-Assets {
   Id: 8389813293955201251
   Name: "Tech Panel 01"
   PlatformAssetType: 2

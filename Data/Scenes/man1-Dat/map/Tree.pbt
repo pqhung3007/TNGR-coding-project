@@ -1,6 +1,397 @@
 Name: "map"
 RootId: 9575761177890923949
 Objects {
+  Id: 17241941990388548870
+  Name: "Sci-fi Terminal 01(Prop)"
+  Transform {
+    Location {
+      X: -3439
+      Y: -2800
+      Z: 25
+    }
+    Rotation {
+      Yaw: -179.999954
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 9575761177890923949
+  ChildIds: 3874793381313535626
+  ChildIds: 16379794612605213703
+  ChildIds: 6016051859375742595
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 6016051859375742595
+  Name: "Sci-fi Terminal Keyboard 01"
+  Transform {
+    Location {
+      Y: 5
+      Z: 142
+    }
+    Rotation {
+      Roll: 33.7501144
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 17241941990388548870
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 10869945471657645318
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+      }
+      BoundsScale: 1
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 16379794612605213703
+  Name: "Sci-fi Console Screen 01"
+  Transform {
+    Location {
+      Y: -5
+      Z: 117
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 17241941990388548870
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_Detail3:id"
+      AssetReference {
+        Id: 4030275142858042677
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 10993237832432372474
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+      }
+      BoundsScale: 1
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 3874793381313535626
+  Name: "Sci-fi Terminal Base 01"
+  Transform {
+    Location {
+      Y: 5
+      Z: 0.000122070312
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 17241941990388548870
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 13613791909257878711
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+      }
+      BoundsScale: 1
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 1142201920877349320
+  Name: "Sci-fi Terminal 01(Prop)"
+  Transform {
+    Location {
+      X: -3339
+      Y: -2800
+      Z: 25
+    }
+    Rotation {
+      Yaw: -179.999954
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 9575761177890923949
+  ChildIds: 18232024554281278309
+  ChildIds: 12528291187487094386
+  ChildIds: 13293810770365629801
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 13293810770365629801
+  Name: "Sci-fi Terminal Keyboard 01"
+  Transform {
+    Location {
+      X: 20
+      Y: 18.9999847
+      Z: 161.171677
+    }
+    Rotation {
+      Roll: 33.7501144
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 1142201920877349320
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 10869945471657645318
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+      }
+      BoundsScale: 1
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 12528291187487094386
+  Name: "Sci-fi Console Screen 01"
+  Transform {
+    Location {
+      Y: -5
+      Z: 117
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 1142201920877349320
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_Detail3:id"
+      AssetReference {
+        Id: 4030275142858042677
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 10993237832432372474
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+      }
+      BoundsScale: 1
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 18232024554281278309
+  Name: "Sci-fi Terminal Base 01"
+  Transform {
+    Location {
+      Y: 5
+      Z: 0.000122070312
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 1142201920877349320
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 13613791909257878711
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+      }
+      BoundsScale: 1
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
   Id: 13720020543978294454
   Name: "Sci-fi Base Roof 01 - 8m"
   Transform {
@@ -7507,55 +7898,6 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 3656597691879274970
-  Name: "Sci-fi Base Floor 01 - 4-Way"
-  Transform {
-    Location {
-      X: -7250
-      Y: -1055
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 9575761177890923949
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:forceon"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 15339202924385207836
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    InteractWithTriggers: true
-    StaticMesh {
-      Physics {
-      }
-      BoundsScale: 1
-    }
-  }
-  Relevance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  IsReplicationEnabledByDefault: true
-}
-Objects {
   Id: 2759060707129157069
   Name: "Sci-fi Base Floor 01 - 4-Way"
   Transform {
@@ -13772,111 +14114,6 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 1719902420198187734
-  Name: "Barrier Plastic 01"
-  Transform {
-    Location {
-      X: -4075
-      Y: -6425
-      Z: 25
-    }
-    Rotation {
-      Yaw: -89.9999924
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 9575761177890923949
-  UnregisteredParameters {
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:forceon"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 9275346287798187606
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    InteractWithTriggers: true
-    StaticMesh {
-      Physics {
-      }
-      BoundsScale: 1
-    }
-  }
-  Relevance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  IsReplicationEnabledByDefault: true
-}
-Objects {
-  Id: 2238000257944509963
-  Name: "Barrier Plastic 01"
-  Transform {
-    Location {
-      X: -4850
-      Y: -6725
-      Z: 25
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 9575761177890923949
-  UnregisteredParameters {
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:forceon"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 9275346287798187606
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    InteractWithTriggers: true
-    StaticMesh {
-      Physics {
-      }
-      BoundsScale: 1
-    }
-  }
-  Relevance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  IsReplicationEnabledByDefault: true
-}
-Objects {
   Id: 6063648553180884978
   Name: "Military Rare Crate Template"
   Transform {
@@ -17670,8 +17907,9 @@ Objects {
   Name: "Sci-fi Terminal Keyboard 01"
   Transform {
     Location {
-      Y: 5
-      Z: 142
+      X: 20
+      Y: 18.9999847
+      Z: 161.171677
     }
     Rotation {
       Roll: 33.7501144

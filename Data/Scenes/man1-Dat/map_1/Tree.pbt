@@ -2775,64 +2775,6 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 1042152931605585172
-  Name: "Barrier Plastic 01"
-  Transform {
-    Location {
-      X: -4850
-      Y: -6725
-      Z: 25
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 5973142006212069348
-  UnregisteredParameters {
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:forceon"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 9275346287798187606
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    InteractWithTriggers: true
-    StaticMesh {
-      Physics {
-      }
-      BoundsScale: 1
-    }
-  }
-  InstanceHistory {
-    SelfId: 1042152931605585172
-    SubobjectId: 16012892369832308848
-    InstanceId: 16398007997991698516
-    TemplateId: 8713794350897080925
-  }
-  Relevance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  IsReplicationEnabledByDefault: true
-}
-Objects {
   Id: 8840686014535204844
   Name: "Military Rare Crate Template"
   Transform {
