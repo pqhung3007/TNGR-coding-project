@@ -74,6 +74,9 @@ Objects {
   ChildIds: 1307073919751306992
   ChildIds: 10933860221673603919
   ChildIds: 5914450897814318421
+  ChildIds: 17385325025917974956
+  ChildIds: 13326912067292055099
+  ChildIds: 14128108207682589040
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -86,6 +89,162 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Folder {
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 14128108207682589040
+  Name: "Sci-fi Ambience Alien Designed 02 SFX"
+  Transform {
+    Location {
+      X: -6950
+      Y: -5800
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  AudioInstance {
+    AudioAsset {
+      Id: 15577852596620924844
+    }
+    AutoPlay: true
+    Repeat: true
+    Volume: 1.71741736
+    Falloff: -1
+    Radius: 10000
+    EnableOcclusion: true
+    IsSpatializationEnabled: true
+    IsAttenuationEnabled: true
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 13326912067292055099
+  Name: "Humanoid 1 Rig"
+  Transform {
+    Location {
+      X: 950
+      Y: -5700
+      Z: 155
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 14495697989891166686
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    AnimatedMesh {
+      AnimationStance: "unarmed_idle_relaxed"
+      AnimationStancePlaybackRate: 1
+      AnimationStanceShouldLoop: true
+      AnimationPlaybackRateMultiplier: 1
+      PlayOnStartAnimation {
+        PlaybackRate: 1
+      }
+      SkinnedMeshes {
+        Id: 10084580450922415316
+      }
+      SkinnedMeshes {
+        Id: 15967261340605655959
+      }
+      SkinnedMeshes {
+        Id: 5739273322305615428
+      }
+      SkinnedMeshes {
+        Id: 841534158063459245
+      }
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 17385325025917974956
+  Name: "NPCs and Dialogs"
+  Transform {
+    Location {
+      X: 950
+      Y: -5700
+      Z: 50
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "NPCs and Dialogs"
+  }
+  InstanceHistory {
+    SelfId: 17385325025917974956
+    SubobjectId: 14859362854836943051
+    InstanceId: 3295510570286062390
+    TemplateId: 9540496414167045528
+    WasRoot: true
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
@@ -25514,9 +25673,9 @@ Objects {
   Name: "Spawn Point"
   Transform {
     Location {
-      X: -12090
-      Y: -5170
-      Z: 115
+      X: 1950
+      Y: -5650
+      Z: 200
     }
     Rotation {
       Yaw: 95

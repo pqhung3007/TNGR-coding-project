@@ -1268,6 +1268,15 @@ Assets {
   }
 }
 Assets {
+  Id: 1121428356069467339
+  Name: "Nature Ambience Active Birds Summer Loop 01 SFX"
+  PlatformAssetType: 7
+  PrimaryAsset {
+    AssetType: "AudioAssetRef"
+    AssetId: "sfx_nature_ambience_active_birds_summer_loop_01_Cue_ref"
+  }
+}
+Assets {
   Id: 1097686129706546805
   Name: "Japanese Temple Wall 01 "
   PlatformAssetType: 1

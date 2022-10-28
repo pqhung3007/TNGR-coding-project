@@ -26,30 +26,12 @@ Assets {
   }
 }
 Assets {
-  Id: 16596824238390243954
-  Name: "Humanoid 1 Kate"
-  PlatformAssetType: 26
-  PrimaryAsset {
-    AssetType: "SkinnedMeshAssetRef"
-    AssetId: "npc_human_gal_head_basic_004_ref"
-  }
-}
-Assets {
   Id: 14523494161843827332
   Name: "Urban Fence Pole - End"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_ts_mil_fence_pole_02_end_001"
-  }
-}
-Assets {
-  Id: 14495697989891166686
-  Name: "Humanoid 1 Rig"
-  PlatformAssetType: 25
-  PrimaryAsset {
-    AssetType: "SkeletonAssetRef"
-    AssetId: "npc_gal_wireframe_001_ref"
   }
 }
 Assets {
@@ -149,6 +131,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "fxsm_candleflame"
+  }
+}
+Assets {
+  Id: 5912519935013721786
+  Name: "\"Dark Cryptic Ambient Horror\" Music Construction Kit (Layers) 01"
+  PlatformAssetType: 10
+  PrimaryAsset {
+    AssetType: "AudioBlueprintAssetRef"
+    AssetId: "abp_dark_cryptic_ambient_horror_layers_kit_ref"
   }
 }
 Assets {

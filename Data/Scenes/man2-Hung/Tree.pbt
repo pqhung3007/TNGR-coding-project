@@ -567,6 +567,8 @@ Objects {
   ChildIds: 2993921092229554891
   ChildIds: 18057525837006466599
   ChildIds: 10486886910858924090
+  ChildIds: 15784809985631364060
+  ChildIds: 5639014436174986934
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -584,6 +586,76 @@ Objects {
     Value: "mc:eproxyrelevance:critical"
   }
   IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 5639014436174986934
+  Name: "Nature Ambience Active Birds Summer Loop 01 SFX"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  AudioInstance {
+    AudioAsset {
+      Id: 1121428356069467339
+    }
+    AutoPlay: true
+    Volume: 1.65125644
+    Falloff: -1
+    Radius: 5000
+    EnableOcclusion: true
+    IsSpatializationEnabled: true
+    IsAttenuationEnabled: true
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 15784809985631364060
+  Name: "Respawn on Fall by InsertYourself"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 7083840006275311224
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Respawn on Fall by InsertYourself"
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 6421710140357319517
+    }
+  }
 }
 Objects {
   Id: 10486886910858924090

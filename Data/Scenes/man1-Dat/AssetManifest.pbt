@@ -80,6 +80,15 @@ Assets {
   }
 }
 Assets {
+  Id: 15967261340605655959
+  Name: "Humanoid 1 Sonia Hair"
+  PlatformAssetType: 26
+  PrimaryAsset {
+    AssetType: "SkinnedMeshAssetRef"
+    AssetId: "npc_human_gal_hair_sport_001_ref"
+  }
+}
+Assets {
   Id: 15966931240744468586
   Name: "Sci-fi Cargo Crate 01"
   PlatformAssetType: 1
@@ -104,6 +113,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_ts_scf_base_acc_cap_top_001_ref"
+  }
+}
+Assets {
+  Id: 15577852596620924844
+  Name: "Sci-fi Ambience Alien Designed 02 SFX"
+  PlatformAssetType: 7
+  PrimaryAsset {
+    AssetType: "AudioAssetRef"
+    AssetId: "sfx_ambience_alien_designed_02_Cue_ref"
   }
 }
 Assets {
@@ -140,6 +158,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_ts_scf_base_trim_002_4m_ref"
+  }
+}
+Assets {
+  Id: 14495697989891166686
+  Name: "Humanoid 1 Rig"
+  PlatformAssetType: 25
+  PrimaryAsset {
+    AssetType: "SkeletonAssetRef"
+    AssetId: "npc_gal_wireframe_001_ref"
   }
 }
 Assets {
@@ -305,6 +332,15 @@ Assets {
   }
 }
 Assets {
+  Id: 10084580450922415316
+  Name: "Humanoid 1 Peasant Shirt"
+  PlatformAssetType: 26
+  PrimaryAsset {
+    AssetType: "SkinnedMeshAssetRef"
+    AssetId: "npc_human_gal_upper_fantasy_000_ref"
+  }
+}
+Assets {
   Id: 9691585235102710834
   Name: "Metal Iron 01"
   PlatformAssetType: 2
@@ -437,6 +473,15 @@ Assets {
   PrimaryAsset {
     AssetType: "DecalBlueprintAssetRef"
     AssetId: "bp_decal_soil_cracks_002"
+  }
+}
+Assets {
+  Id: 5739273322305615428
+  Name: "Humanoid 1 Peasant Pants"
+  PlatformAssetType: 26
+  PrimaryAsset {
+    AssetType: "SkinnedMeshAssetRef"
+    AssetId: "npc_human_gal_lower_fantasy_000_ref"
   }
 }
 Assets {

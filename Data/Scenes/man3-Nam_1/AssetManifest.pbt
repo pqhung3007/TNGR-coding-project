@@ -62,6 +62,15 @@ Assets {
   }
 }
 Assets {
+  Id: 16376165365867837124
+  Name: "Country & Western Music Score Set 01"
+  PlatformAssetType: 10
+  PrimaryAsset {
+    AssetType: "AudioBlueprintAssetRef"
+    AssetId: "abp_CountryWesternMusic_ref"
+  }
+}
+Assets {
   Id: 16083030615302796480
   Name: "Sign Font 1: J"
   PlatformAssetType: 1
@@ -311,6 +320,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_weap_modern_barreltip_002"
+  }
+}
+Assets {
+  Id: 9378173140842174986
+  Name: "\"Core Legends Upbeat Bash\" Music Construction Kit (Sections)  01"
+  PlatformAssetType: 10
+  PrimaryAsset {
+    AssetType: "AudioBlueprintAssetRef"
+    AssetId: "abp_core_legends_upbeat_bash_sections_kit_ref"
   }
 }
 Assets {
