@@ -77,6 +77,15 @@ Objects {
   ChildIds: 17385325025917974956
   ChildIds: 13326912067292055099
   ChildIds: 14128108207682589040
+  ChildIds: 6986233589145401926
+  ChildIds: 7083341734880427685
+  ChildIds: 5231907909183699829
+  ChildIds: 7399510698725969140
+  ChildIds: 12105889204087136440
+  ChildIds: 14451276260302610599
+  ChildIds: 11093317707776986338
+  ChildIds: 7404769220090710589
+  ChildIds: 89347367568518728
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -89,6 +98,816 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Folder {
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 89347367568518728
+  Name: "Trigger"
+  Transform {
+    Location {
+      X: -12816.1367
+      Y: -3032.66284
+      Z: 226.190262
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1.92029583
+      Y: 1.92029583
+      Z: 1.92029583
+    }
+  }
+  ParentId: 4781671109827199097
+  ChildIds: 10001236447747754139
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Trigger {
+    Interactable: true
+    InteractionLabel: "Interact!"
+    TeamSettings {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    TriggerShape_v2 {
+      Value: "mc:etriggershape:box"
+    }
+    InteractionTemplate {
+      Id: 841534158063459245
+    }
+    BreadcrumbTemplate {
+      Id: 841534158063459245
+    }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 10001236447747754139
+  Name: "map1tomap2"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 0.520753086
+      Y: 0.520753086
+      Z: 0.520753086
+    }
+  }
+  ParentId: 89347367568518728
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Script {
+    ScriptAsset {
+      Id: 2080907105515057997
+    }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 7404769220090710589
+  Name: "Trigger"
+  Transform {
+    Location {
+      X: -12816.0859
+      Y: -9081.91602
+      Z: 224.125916
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1.67691827
+      Y: 1.67691827
+      Z: 1.67691827
+    }
+  }
+  ParentId: 4781671109827199097
+  ChildIds: 8224050085217024862
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Trigger {
+    Interactable: true
+    InteractionLabel: "Interact!"
+    TeamSettings {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    TriggerShape_v2 {
+      Value: "mc:etriggershape:box"
+    }
+    InteractionTemplate {
+      Id: 841534158063459245
+    }
+    BreadcrumbTemplate {
+      Id: 841534158063459245
+    }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 8224050085217024862
+  Name: "maptobadending"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 0.596332
+      Y: 0.596332
+      Z: 0.596332
+    }
+  }
+  ParentId: 7404769220090710589
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Script {
+    ScriptAsset {
+      Id: 7160677777585971467
+    }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 11093317707776986338
+  Name: "Trigger"
+  Transform {
+    Location {
+      X: -12816.9072
+      Y: -8296.59863
+      Z: 219.658279
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1.66295552
+      Y: 1.66295552
+      Z: 1.66295552
+    }
+  }
+  ParentId: 4781671109827199097
+  ChildIds: 18342543254423118690
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Trigger {
+    Interactable: true
+    InteractionLabel: "Interact!"
+    TeamSettings {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    TriggerShape_v2 {
+      Value: "mc:etriggershape:box"
+    }
+    InteractionTemplate {
+      Id: 841534158063459245
+    }
+    BreadcrumbTemplate {
+      Id: 841534158063459245
+    }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 18342543254423118690
+  Name: "maptobadending"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 0.601339
+      Y: 0.601339
+      Z: 0.601339
+    }
+  }
+  ParentId: 11093317707776986338
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Script {
+    ScriptAsset {
+      Id: 7160677777585971467
+    }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 14451276260302610599
+  Name: "Trigger"
+  Transform {
+    Location {
+      X: -12816.5352
+      Y: -7667.1123
+      Z: 210.753403
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1.75528514
+      Y: 1.75528514
+      Z: 1.75528514
+    }
+  }
+  ParentId: 4781671109827199097
+  ChildIds: 16278865630843214155
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Trigger {
+    Interactable: true
+    InteractionLabel: "Interact!"
+    TeamSettings {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    TriggerShape_v2 {
+      Value: "mc:etriggershape:box"
+    }
+    InteractionTemplate {
+      Id: 841534158063459245
+    }
+    BreadcrumbTemplate {
+      Id: 841534158063459245
+    }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 16278865630843214155
+  Name: "maptobadending"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 0.569708
+      Y: 0.569708
+      Z: 0.569708
+    }
+  }
+  ParentId: 14451276260302610599
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Script {
+    ScriptAsset {
+      Id: 7160677777585971467
+    }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 12105889204087136440
+  Name: "Trigger"
+  Transform {
+    Location {
+      X: -12816.0859
+      Y: -6878.60205
+      Z: 213.328049
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1.77479982
+      Y: 1.77479982
+      Z: 1.77479982
+    }
+  }
+  ParentId: 4781671109827199097
+  ChildIds: 18263127147555737150
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Trigger {
+    Interactable: true
+    InteractionLabel: "Interact!"
+    TeamSettings {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    TriggerShape_v2 {
+      Value: "mc:etriggershape:box"
+    }
+    InteractionTemplate {
+      Id: 841534158063459245
+    }
+    BreadcrumbTemplate {
+      Id: 841534158063459245
+    }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 18263127147555737150
+  Name: "maptobadending"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 0.56344384
+      Y: 0.56344384
+      Z: 0.56344384
+    }
+  }
+  ParentId: 12105889204087136440
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Script {
+    ScriptAsset {
+      Id: 7160677777585971467
+    }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 7399510698725969140
+  Name: "Trigger"
+  Transform {
+    Location {
+      X: -12817.8301
+      Y: -4474.67676
+      Z: 215.056244
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1.71891117
+      Y: 1.71891117
+      Z: 1.71891117
+    }
+  }
+  ParentId: 4781671109827199097
+  ChildIds: 13184333241466277632
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Trigger {
+    Interactable: true
+    InteractionLabel: "Interact!"
+    TeamSettings {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    TriggerShape_v2 {
+      Value: "mc:etriggershape:box"
+    }
+    InteractionTemplate {
+      Id: 841534158063459245
+    }
+    BreadcrumbTemplate {
+      Id: 841534158063459245
+    }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 13184333241466277632
+  Name: "maptobadending"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 0.581763625
+      Y: 0.581763625
+      Z: 0.581763625
+    }
+  }
+  ParentId: 7399510698725969140
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Script {
+    ScriptAsset {
+      Id: 7160677777585971467
+    }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 5231907909183699829
+  Name: "Trigger"
+  Transform {
+    Location {
+      X: -12817.7422
+      Y: -3675.44556
+      Z: 238.869034
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1.99573755
+      Y: 1.99573755
+      Z: 1.99573755
+    }
+  }
+  ParentId: 4781671109827199097
+  ChildIds: 1541312302653192852
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Trigger {
+    Interactable: true
+    InteractionLabel: "Interact!"
+    TeamSettings {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    TriggerShape_v2 {
+      Value: "mc:etriggershape:box"
+    }
+    InteractionTemplate {
+      Id: 841534158063459245
+    }
+    BreadcrumbTemplate {
+      Id: 841534158063459245
+    }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 1541312302653192852
+  Name: "maptobadending"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 0.501067877
+      Y: 0.501067877
+      Z: 0.501067877
+    }
+  }
+  ParentId: 5231907909183699829
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Script {
+    ScriptAsset {
+      Id: 7160677777585971467
+    }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 7083341734880427685
+  Name: "Trigger"
+  Transform {
+    Location {
+      X: -12816.0859
+      Y: -1578.35266
+      Z: 217.986115
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1.65739179
+      Y: 1.65739179
+      Z: 1.65739179
+    }
+  }
+  ParentId: 4781671109827199097
+  ChildIds: 7549021425085500254
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Trigger {
+    Interactable: true
+    InteractionLabel: "Interact!"
+    TeamSettings {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    TriggerShape_v2 {
+      Value: "mc:etriggershape:box"
+    }
+    InteractionTemplate {
+      Id: 841534158063459245
+    }
+    BreadcrumbTemplate {
+      Id: 841534158063459245
+    }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 7549021425085500254
+  Name: "maptobadending"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 0.603357613
+      Y: 0.603357613
+      Z: 0.603357613
+    }
+  }
+  ParentId: 7083341734880427685
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Script {
+    ScriptAsset {
+      Id: 7160677777585971467
+    }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 6986233589145401926
+  Name: "Trigger"
+  Transform {
+    Location {
+      X: -12823.6123
+      Y: -2234.30786
+      Z: 210.952087
+    }
+    Rotation {
+    }
+    Scale {
+      X: 2.20838857
+      Y: 2.20838857
+      Z: 2.20838857
+    }
+  }
+  ParentId: 4781671109827199097
+  ChildIds: 6706100004264787972
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Trigger {
+    Interactable: true
+    InteractionLabel: "Interact!"
+    TeamSettings {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    TriggerShape_v2 {
+      Value: "mc:etriggershape:box"
+    }
+    InteractionTemplate {
+      Id: 841534158063459245
+    }
+    BreadcrumbTemplate {
+      Id: 841534158063459245
+    }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 6706100004264787972
+  Name: "maptobadending"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 0.452818871
+      Y: 0.452818871
+      Z: 0.452818871
+    }
+  }
+  ParentId: 6986233589145401926
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Script {
+    ScriptAsset {
+      Id: 7160677777585971467
+    }
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
@@ -25675,7 +26494,7 @@ Objects {
     Location {
       X: 1950
       Y: -5650
-      Z: 200
+      Z: 287.565857
     }
     Rotation {
       Yaw: 95
@@ -25687,6 +26506,7 @@ Objects {
     }
   }
   ParentId: 4781671109827199097
+  ChildIds: 6911250468514772201
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -25704,6 +26524,7 @@ Objects {
   PlayerSpawnPoint {
     TeamInt: 1
     PlayerScaleMultiplier: 1
+    SpawnKey: "introtomap1"
     SpawnEffectsTemplate {
       Id: 841534158063459245
     }
@@ -25711,6 +26532,47 @@ Objects {
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 6911250468514772201
+  Name: "Spawn Settings"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 16813558807825262224
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Settings {
+    RespawnSettings {
+      RespawnDelay: 10
+      RespawnMode_v2 {
+        Value: "mc:erespawnmode:random"
+      }
+      StartSpawned: true
+      SpawnMode {
+        Value: "mc:espawnmode:random"
+      }
+    }
   }
   IsReplicationEnabledByDefault: true
 }

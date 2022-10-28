@@ -99,6 +99,7 @@ Objects {
   ChildIds: 12396502195236688990
   ChildIds: 3695461503332325043
   ChildIds: 1101358199667966825
+  ChildIds: 465311421469986406
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -111,6 +112,99 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Folder {
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 465311421469986406
+  Name: "Trigger"
+  Transform {
+    Location {
+      X: -23881.498
+      Y: 2105.70459
+      Z: -673.719299
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  ChildIds: 263603675906735102
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Trigger {
+    Interactable: true
+    InteractionLabel: "Interact!"
+    TeamSettings {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    TriggerShape_v2 {
+      Value: "mc:etriggershape:box"
+    }
+    InteractionTemplate {
+      Id: 841534158063459245
+    }
+    BreadcrumbTemplate {
+      Id: 841534158063459245
+    }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 263603675906735102
+  Name: "introtomap1"
+  Transform {
+    Location {
+      X: 23881.498
+      Y: -2105.70459
+      Z: 673.719299
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 465311421469986406
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Script {
+    ScriptAsset {
+      Id: 2258424046098334291
+    }
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"

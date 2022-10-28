@@ -8,6 +8,15 @@ Assets {
   }
 }
 Assets {
+  Id: 18105158013125412176
+  Name: "Sci-fi Base Door 02"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ts_scf_base_door_002_ref"
+  }
+}
+Assets {
   Id: 17526378199950251658
   Name: "Wallpaper Halloween Ghosts 01"
   PlatformAssetType: 2
@@ -212,5 +221,14 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_ts_fan_cas_stairs_001_L_ref"
+  }
+}
+Assets {
+  Id: 502748734764283331
+  Name: "Sci-fi Base Wall Interior 01 Half - Doorway 02"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ts_scf_base_wall_int_001_door_02_half_ref"
   }
 }

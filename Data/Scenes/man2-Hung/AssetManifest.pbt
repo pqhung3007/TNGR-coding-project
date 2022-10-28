@@ -287,6 +287,15 @@ Assets {
   }
 }
 Assets {
+  Id: 14342217264929553520
+  Name: "Text 02: 1"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "Text_027"
+  }
+}
+Assets {
   Id: 14208121595842071849
   Name: "Rock Flat 02"
   PlatformAssetType: 1
@@ -332,12 +341,30 @@ Assets {
   }
 }
 Assets {
+  Id: 13860083455426281179
+  Name: "Text 02: 9"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "Text_035"
+  }
+}
+Assets {
   Id: 13710161915374590549
   Name: "Rock 03"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_rock_generic_003"
+  }
+}
+Assets {
+  Id: 13653543951252471024
+  Name: "Japanese Temple Door Shoji 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ts_jpn_tem_door_shoji_01_ref"
   }
 }
 Assets {
@@ -356,6 +383,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_nat_fun_mushroom_006_ref"
+  }
+}
+Assets {
+  Id: 13213873214410152468
+  Name: "Text 02: 4"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "Text_030"
   }
 }
 Assets {
@@ -467,6 +503,15 @@ Assets {
   }
 }
 Assets {
+  Id: 12190473101677357428
+  Name: "Text 02: 3"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "Text_029"
+  }
+}
+Assets {
   Id: 12095835209017042614
   Name: "Cube"
   PlatformAssetType: 1
@@ -500,6 +545,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_prop_jpn_chest_small_lid_001_ref"
+  }
+}
+Assets {
+  Id: 11527968405242309736
+  Name: "Object On Carpet Floor Slide 01 SFX"
+  PlatformAssetType: 7
+  PrimaryAsset {
+    AssetType: "AudioAssetRef"
+    AssetId: "sfx_object_on_carpet_floor_slide_01_Cue_ref"
   }
 }
 Assets {
@@ -608,6 +662,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_foliage_gen_leafy_bush_001"
+  }
+}
+Assets {
+  Id: 10501982238198954996
+  Name: "Shoji Screen 03"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_jpn_wood_shoji_screen_003_uv"
   }
 }
 Assets {
@@ -953,12 +1016,30 @@ Assets {
   }
 }
 Assets {
+  Id: 7054708157292993753
+  Name: "Text 02: 0"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "Text_026"
+  }
+}
+Assets {
   Id: 6680195274934306432
   Name: "Wood Planks"
   PlatformAssetType: 2
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "mi_wood_planks_dark_001_uv"
+  }
+}
+Assets {
+  Id: 6548996511167555593
+  Name: "Japanese Temple Wall Interior 01 - Doorway 01 Half"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ts_jpn_tem_wall_int_001_door_01_half_ref"
   }
 }
 Assets {
@@ -1247,6 +1328,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_ts_jpn_tem_roof_001_eaves_02_ref"
+  }
+}
+Assets {
+  Id: 1339359738354876282
+  Name: "Text 02: 2"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "Text_028"
   }
 }
 Assets {

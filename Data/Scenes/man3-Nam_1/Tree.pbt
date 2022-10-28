@@ -55,6 +55,8 @@ Objects {
   ChildIds: 16821486381905223898
   ChildIds: 11011804632044904788
   ChildIds: 11525727805306121680
+  ChildIds: 18153976915803392868
+  ChildIds: 13056887660783698935
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -67,6 +69,144 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Folder {
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 13056887660783698935
+  Name: "Magic Circle Sci-fi Example 1"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 289693382909006053
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Magic Circle Sci-fi Example 1"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 7307.77148
+            Y: -282.029724
+            Z: 949.077576
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1.84190881
+            Y: 1.84190881
+            Z: 1.84190881
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Roll: 90
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 815881325095360989
+    }
+  }
+}
+Objects {
+  Id: 18153976915803392868
+  Name: "Trigger"
+  Transform {
+    Location {
+      X: 7314.92188
+      Y: -19.1037598
+      Z: 928.46283
+    }
+    Rotation {
+    }
+    Scale {
+      X: 4.01689291
+      Y: 4.01689291
+      Z: 4.01689291
+    }
+  }
+  ParentId: 4781671109827199097
+  ChildIds: 15498028296725508399
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Trigger {
+    Interactable: true
+    InteractionLabel: "Interact!"
+    TeamSettings {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    TriggerShape_v2 {
+      Value: "mc:etriggershape:box"
+    }
+    InteractionTemplate {
+      Id: 841534158063459245
+    }
+    BreadcrumbTemplate {
+      Id: 841534158063459245
+    }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 15498028296725508399
+  Name: "map3tomap4"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 0.248948634
+      Y: 0.248948634
+      Z: 0.248948634
+    }
+  }
+  ParentId: 18153976915803392868
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Script {
+    ScriptAsset {
+      Id: 9550976095713144827
+    }
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
@@ -1497,6 +1637,7 @@ Objects {
   PlayerSpawnPoint {
     TeamInt: 1
     PlayerScaleMultiplier: 1
+    SpawnKey: "map2tomap3"
     SpawnEffectsTemplate {
       Id: 841534158063459245
     }

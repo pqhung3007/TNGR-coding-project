@@ -21,4 +21,4 @@ ObjectSettings {
     }
   }
 }
-LastSavedScene: "Ending2"
+LastSavedScene: "Ending1"

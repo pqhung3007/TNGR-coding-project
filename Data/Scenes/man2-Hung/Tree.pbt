@@ -569,6 +569,25 @@ Objects {
   ChildIds: 10486886910858924090
   ChildIds: 15784809985631364060
   ChildIds: 5639014436174986934
+  ChildIds: 6240768017642285278
+  ChildIds: 10388199286102451577
+  ChildIds: 3991417245438289248
+  ChildIds: 11690955844037336713
+  ChildIds: 2903112669056347334
+  ChildIds: 9455912772536110424
+  ChildIds: 3957166794510357927
+  ChildIds: 13955028055143869468
+  ChildIds: 14488971666391718309
+  ChildIds: 6318079036839533506
+  ChildIds: 1218392241490945308
+  ChildIds: 10531865663814987471
+  ChildIds: 7767578325566876540
+  ChildIds: 6743277216738552374
+  ChildIds: 8901004734095566128
+  ChildIds: 6769819193678806350
+  ChildIds: 3140351911415755737
+  ChildIds: 4977588250696449270
+  ChildIds: 11118180970276657758
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -581,6 +600,4765 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Folder {
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 11118180970276657758
+  Name: "Trigger"
+  Transform {
+    Location {
+      X: -4688.78174
+      Y: 4676.30371
+      Z: 249.33757
+    }
+    Rotation {
+    }
+    Scale {
+      X: 2.68950963
+      Y: 2.68950963
+      Z: 2.68950963
+    }
+  }
+  ParentId: 4781671109827199097
+  ChildIds: 4844588403850244826
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Trigger {
+    Interactable: true
+    InteractionLabel: "Interact!"
+    TeamSettings {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    TriggerShape_v2 {
+      Value: "mc:etriggershape:box"
+    }
+    InteractionTemplate {
+      Id: 841534158063459245
+    }
+    BreadcrumbTemplate {
+      Id: 841534158063459245
+    }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 4844588403850244826
+  Name: "maptobadending"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 0.371815
+      Y: 0.371815
+      Z: 0.371815
+    }
+  }
+  ParentId: 11118180970276657758
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Script {
+    ScriptAsset {
+      Id: 7160677777585971467
+    }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 4977588250696449270
+  Name: "Trigger"
+  Transform {
+    Location {
+      X: -2159.34814
+      Y: 4821.88721
+      Z: 234.725861
+    }
+    Rotation {
+    }
+    Scale {
+      X: 2.6978631
+      Y: 2.6978631
+      Z: 2.6978631
+    }
+  }
+  ParentId: 4781671109827199097
+  ChildIds: 17607595878667676069
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Trigger {
+    Interactable: true
+    InteractionLabel: "Interact!"
+    TeamSettings {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    TriggerShape_v2 {
+      Value: "mc:etriggershape:box"
+    }
+    InteractionTemplate {
+      Id: 841534158063459245
+    }
+    BreadcrumbTemplate {
+      Id: 841534158063459245
+    }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 17607595878667676069
+  Name: "map4togoodending"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 0.370663732
+      Y: 0.370663732
+      Z: 0.370663732
+    }
+  }
+  ParentId: 4977588250696449270
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Script {
+    ScriptAsset {
+      Id: 8947592070040252319
+    }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 3140351911415755737
+  Name: "Trigger"
+  Transform {
+    Location {
+      X: -5.90193653
+      Y: 4828.53809
+      Z: 255.938126
+    }
+    Rotation {
+    }
+    Scale {
+      X: 3.08388495
+      Y: 3.08388495
+      Z: 3.08388495
+    }
+  }
+  ParentId: 4781671109827199097
+  ChildIds: 6797499359302384886
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Trigger {
+    Interactable: true
+    InteractionLabel: "Interact!"
+    TeamSettings {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    TriggerShape_v2 {
+      Value: "mc:etriggershape:box"
+    }
+    InteractionTemplate {
+      Id: 841534158063459245
+    }
+    BreadcrumbTemplate {
+      Id: 841534158063459245
+    }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 6797499359302384886
+  Name: "maptobadending"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 0.324266315
+      Y: 0.324266315
+      Z: 0.324266315
+    }
+  }
+  ParentId: 3140351911415755737
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Script {
+    ScriptAsset {
+      Id: 7160677777585971467
+    }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 6769819193678806350
+  Name: "Trigger"
+  Transform {
+    Location {
+      X: 2098.8562
+      Y: 4805.07861
+      Z: 255.830231
+    }
+    Rotation {
+    }
+    Scale {
+      X: 2.78738213
+      Y: 2.78738213
+      Z: 2.78738213
+    }
+  }
+  ParentId: 4781671109827199097
+  ChildIds: 13405823489113881978
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Trigger {
+    Interactable: true
+    InteractionLabel: "Interact!"
+    TeamSettings {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    TriggerShape_v2 {
+      Value: "mc:etriggershape:box"
+    }
+    InteractionTemplate {
+      Id: 841534158063459245
+    }
+    BreadcrumbTemplate {
+      Id: 841534158063459245
+    }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 13405823489113881978
+  Name: "maptobadending"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 0.358759552
+      Y: 0.358759552
+      Z: 0.358759552
+    }
+  }
+  ParentId: 6769819193678806350
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Script {
+    ScriptAsset {
+      Id: 7160677777585971467
+    }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 8901004734095566128
+  Name: "Trigger"
+  Transform {
+    Location {
+      X: 4699.74609
+      Y: 4683.70166
+      Z: 234.711029
+    }
+    Rotation {
+    }
+    Scale {
+      X: 2.46297407
+      Y: 2.46297407
+      Z: 2.46297407
+    }
+  }
+  ParentId: 4781671109827199097
+  ChildIds: 7728817569847866426
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Trigger {
+    Interactable: true
+    InteractionLabel: "Interact!"
+    TeamSettings {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    TriggerShape_v2 {
+      Value: "mc:etriggershape:box"
+    }
+    InteractionTemplate {
+      Id: 841534158063459245
+    }
+    BreadcrumbTemplate {
+      Id: 841534158063459245
+    }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 7728817569847866426
+  Name: "maptobadending"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 0.406013221
+      Y: 0.406013221
+      Z: 0.406013221
+    }
+  }
+  ParentId: 8901004734095566128
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Script {
+    ScriptAsset {
+      Id: 7160677777585971467
+    }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 6743277216738552374
+  Name: "Text 02: 4"
+  Transform {
+    Location {
+      X: -4689.10107
+      Y: 4666.85938
+      Z: 478.810822
+    }
+    Rotation {
+      Yaw: -135
+    }
+    Scale {
+      X: 0.5859918
+      Y: 0.5859918
+      Z: 0.5859918
+    }
+  }
+  ParentId: 4781671109827199097
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Font.Faces:id"
+      AssetReference {
+        Id: 3702191406046426907
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 13213873214410152468
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 7767578325566876540
+  Name: "Text 02: 2"
+  Transform {
+    Location {
+      X: -4649.44775
+      Y: 4705.75391
+      Z: 478.810822
+    }
+    Rotation {
+      Yaw: -135
+    }
+    Scale {
+      X: 0.5859918
+      Y: 0.5859918
+      Z: 0.5859918
+    }
+  }
+  ParentId: 4781671109827199097
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Font.Faces:id"
+      AssetReference {
+        Id: 3702191406046426907
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 1339359738354876282
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 10531865663814987471
+  Name: "Text 02: 0"
+  Transform {
+    Location {
+      X: -2188.59717
+      Y: 4792.00439
+      Z: 491.043762
+    }
+    Rotation {
+    }
+    Scale {
+      X: 0.644757092
+      Y: 0.644757092
+      Z: 0.644757092
+    }
+  }
+  ParentId: 4781671109827199097
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Font.Faces:id"
+      AssetReference {
+        Id: 3702191406046426907
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 7054708157292993753
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 1218392241490945308
+  Name: "Text 02: 3"
+  Transform {
+    Location {
+      X: -2104.15479
+      Y: 4813.86621
+      Z: 489.754791
+    }
+    Rotation {
+      Yaw: 180
+    }
+    Scale {
+      X: 0.644757092
+      Y: 0.644757092
+      Z: 0.644757092
+    }
+  }
+  ParentId: 4781671109827199097
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Font.Faces:id"
+      AssetReference {
+        Id: 3702191406046426907
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 12190473101677357428
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 6318079036839533506
+  Name: "Text 02: 1"
+  Transform {
+    Location {
+      X: -29.9918251
+      Y: 4814.02637
+      Z: 486.821289
+    }
+    Rotation {
+      Yaw: 180
+    }
+    Scale {
+      X: 0.636372566
+      Y: 0.636372566
+      Z: 0.636372566
+    }
+  }
+  ParentId: 4781671109827199097
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Font.Faces:id"
+      AssetReference {
+        Id: 3702191406046426907
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 14342217264929553520
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 14488971666391718309
+  Name: "Text 02: 0"
+  Transform {
+    Location {
+      X: 10.7304325
+      Y: 4789.03174
+      Z: 487.344727
+    }
+    Rotation {
+    }
+    Scale {
+      X: 0.636372566
+      Y: 0.636372566
+      Z: 0.636372566
+    }
+  }
+  ParentId: 4781671109827199097
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Font.Faces:id"
+      AssetReference {
+        Id: 3702191406046426907
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 7054708157292993753
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 13955028055143869468
+  Name: "Text 02: 9"
+  Transform {
+    Location {
+      X: 2095.40088
+      Y: 4816.34375
+      Z: 480.865295
+    }
+    Rotation {
+      Yaw: 180
+    }
+    Scale {
+      X: 0.664381385
+      Y: 0.664381385
+      Z: 0.664381385
+    }
+  }
+  ParentId: 4781671109827199097
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Font.Faces:id"
+      AssetReference {
+        Id: 3702191406046426907
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 13860083455426281179
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 3957166794510357927
+  Name: "Text 02: 3"
+  Transform {
+    Location {
+      X: 2149.83521
+      Y: 4821.48047
+      Z: 482.146057
+    }
+    Rotation {
+      Yaw: 180
+    }
+    Scale {
+      X: 0.664381385
+      Y: 0.664381385
+      Z: 0.664381385
+    }
+  }
+  ParentId: 4781671109827199097
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Font.Faces:id"
+      AssetReference {
+        Id: 3702191406046426907
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 12190473101677357428
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 9455912772536110424
+  Name: "Text 02: 0"
+  Transform {
+    Location {
+      X: 4695.54639
+      Y: 4663.53271
+      Z: 484.859406
+    }
+    Rotation {
+      Yaw: 135
+    }
+    Scale {
+      X: 0.616789818
+      Y: 0.616789818
+      Z: 0.616789818
+    }
+  }
+  ParentId: 4781671109827199097
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Font.Faces:id"
+      AssetReference {
+        Id: 3702191406046426907
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 7054708157292993753
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 2903112669056347334
+  Name: "Text 02: 2"
+  Transform {
+    Location {
+      X: 4746.8916
+      Y: 4612.1875
+      Z: 482.975555
+    }
+    Rotation {
+      Yaw: 135
+    }
+    Scale {
+      X: 0.616789818
+      Y: 0.616789818
+      Z: 0.616789818
+    }
+  }
+  ParentId: 4781671109827199097
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Font.Faces:id"
+      AssetReference {
+        Id: 3702191406046426907
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 1339359738354876282
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 11690955844037336713
+  Name: "Japanese Temple Wall Interior 01 - Shoji Sliding Door 01 Half Template"
+  Transform {
+    Location {
+      X: 1908.53345
+      Y: 4831.30664
+      Z: 9.04888916
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  ChildIds: 3346883573364588970
+  ChildIds: 2237288894079817686
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Folder {
+    IsGroup: true
+  }
+  InstanceHistory {
+    SelfId: 11690955844037336713
+    SubobjectId: 9867667800645398119
+    InstanceId: 8905922062603674099
+    TemplateId: 13710265138944986238
+    WasRoot: true
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 2237288894079817686
+  Name: "Sliding Door"
+  Transform {
+    Location {
+      X: 100
+      Z: 30
+    }
+    Rotation {
+      Yaw: 89.999939
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 11690955844037336713
+  ChildIds: 1436832981803589379
+  ChildIds: 14896972520680298489
+  ChildIds: 5389289124813401420
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+  InstanceHistory {
+    SelfId: 2237288894079817686
+    SubobjectId: 3873680165600356152
+    InstanceId: 8905922062603674099
+    TemplateId: 13710265138944986238
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 5389289124813401420
+  Name: "DoorRoot"
+  Transform {
+    Location {
+    }
+    Rotation {
+      Yaw: -179.999954
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 2237288894079817686
+  ChildIds: 7261496165237476151
+  UnregisteredParameters {
+  }
+  WantsNetworking: true
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+  InstanceHistory {
+    SelfId: 5389289124813401420
+    SubobjectId: 6918927695551716770
+    InstanceId: 8905922062603674099
+    TemplateId: 13710265138944986238
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 7261496165237476151
+  Name: "Geo_StaticContext"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 5389289124813401420
+  ChildIds: 6080249763803982047
+  UnregisteredParameters {
+  }
+  WantsNetworking: true
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  NetworkContext {
+    Type: RuntimeStatic
+  }
+  InstanceHistory {
+    SelfId: 7261496165237476151
+    SubobjectId: 5622855981916453849
+    InstanceId: 8905922062603674099
+    TemplateId: 13710265138944986238
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 6080249763803982047
+  Name: "Japanese Temple Door Shoji 01"
+  Transform {
+    Location {
+      X: 3.81471182e-06
+      Y: 0.000244140596
+    }
+    Rotation {
+      Yaw: 89.9999924
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 7261496165237476151
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_Detail1:id"
+      AssetReference {
+        Id: 10501982238198954996
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 13653543951252471024
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  InstanceHistory {
+    SelfId: 6080249763803982047
+    SubobjectId: 9128518274389661745
+    InstanceId: 8905922062603674099
+    TemplateId: 13710265138944986238
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 14896972520680298489
+  Name: "Sounds (ClientContext)"
+  Transform {
+    Location {
+      X: 15.0001068
+      Y: -99.9999771
+      Z: 175
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 2237288894079817686
+  ChildIds: 11999887140649835821
+  ChildIds: 11656106763460716324
+  ChildIds: 5188395801225351933
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  NetworkContext {
+    MinDetailLevel {
+      Value: "mc:edetaillevel:low"
+    }
+    MaxDetailLevel {
+      Value: "mc:edetaillevel:ultra"
+    }
+  }
+  InstanceHistory {
+    SelfId: 14896972520680298489
+    SubobjectId: 16461444330754647831
+    InstanceId: 8905922062603674099
+    TemplateId: 13710265138944986238
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 5188395801225351933
+  Name: "Object On Carpet Floor Slide 01 SFX"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 14896972520680298489
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  AudioInstance {
+    AudioAsset {
+      Id: 11527968405242309736
+    }
+    Pitch: -500
+    Volume: 1
+    Falloff: 3600
+    Radius: 400
+    EnableOcclusion: true
+    IsSpatializationEnabled: true
+    IsAttenuationEnabled: true
+  }
+  InstanceHistory {
+    SelfId: 5188395801225351933
+    SubobjectId: 7119772709339423251
+    InstanceId: 8905922062603674099
+    TemplateId: 13710265138944986238
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 11656106763460716324
+  Name: "Object On Carpet Floor Slide 02 SFX"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 14896972520680298489
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  AudioInstance {
+    AudioAsset {
+      Id: 8172299360702839483
+    }
+    Pitch: 200
+    Volume: 1
+    Falloff: 3600
+    Radius: 400
+    EnableOcclusion: true
+    IsSpatializationEnabled: true
+    IsAttenuationEnabled: true
+  }
+  InstanceHistory {
+    SelfId: 11656106763460716324
+    SubobjectId: 10019575321654892490
+    InstanceId: 8905922062603674099
+    TemplateId: 13710265138944986238
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 11999887140649835821
+  Name: "ShojiScreenClose"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 14896972520680298489
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  AudioInstance {
+    AudioAsset {
+      Id: 17199255624527690609
+    }
+    Pitch: 2400
+    Volume: 1
+    Falloff: 3600
+    Radius: 400
+    EnableOcclusion: true
+    IsSpatializationEnabled: true
+    IsAttenuationEnabled: true
+  }
+  InstanceHistory {
+    SelfId: 11999887140649835821
+    SubobjectId: 10107845809382763971
+    InstanceId: 8905922062603674099
+    TemplateId: 13710265138944986238
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 1436832981803589379
+  Name: "AdvancedDoorController"
+  Transform {
+    Scale {
+      X: 3.25
+      Y: 3.25
+      Z: 3.25
+    }
+  }
+  ParentId: 2237288894079817686
+  ChildIds: 1819175957729417844
+  ChildIds: 3722695098557148991
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:OpenOffset"
+      Vector {
+        Y: 180
+      }
+    }
+    Overrides {
+      Name: "cs:OpenRotation"
+      Rotator {
+      }
+    }
+    Overrides {
+      Name: "cs:TimeToOpen"
+      Float: 0.6
+    }
+    Overrides {
+      Name: "cs:StartOpen"
+      Bool: false
+    }
+    Overrides {
+      Name: "cs:FlipRotationBasedOnSide"
+      Bool: false
+    }
+    Overrides {
+      Name: "cs:RequireInteraction"
+      Bool: false
+    }
+    Overrides {
+      Name: "cs:TriggerCanCloseDoor"
+      Bool: false
+    }
+    Overrides {
+      Name: "cs:OpenInteractionLabel"
+      String: "Open Door"
+    }
+    Overrides {
+      Name: "cs:CloseInteractionLabel"
+      String: "Close Door"
+    }
+    Overrides {
+      Name: "cs:AutoCloseTime"
+      Float: 3
+    }
+    Overrides {
+      Name: "cs:DoorGeometry"
+      ObjectReference {
+        SelfId: 5389289124813401420
+      }
+    }
+    Overrides {
+      Name: "cs:DoorTrigger"
+      ObjectReference {
+        SelfId: 841534158063459245
+      }
+    }
+    Overrides {
+      Name: "cs:ResetOnRoundStart"
+      Bool: true
+    }
+    Overrides {
+      Name: "cs:FlipRotationBasedOnSide:tooltip"
+      String: "If checked, direction door will rotate is determined by player\'s approach angle."
+    }
+    Overrides {
+      Name: "cs:RequireInteraction:tooltip"
+      String: "Checked = requires player interaction (keypress) to open. Unchecked = door opens automatically when player enters trigger volume."
+    }
+    Overrides {
+      Name: "cs:TriggerCanCloseDoor:tooltip"
+      String: "Entering the trigger volume closes the door. Recommended if the trigger is attached to the door and \"RequireInteraction\" is unchecked. Useful in situations where door would block a path when open."
+    }
+    Overrides {
+      Name: "cs:AutoCloseTime:tooltip"
+      String: "Time in seconds before door automatically closes. Set to 0 or negative to force door to stay open (unless triggered)."
+    }
+    Overrides {
+      Name: "cs:OpenOffset:tooltip"
+      String: "Move DoorGeometry to this (relative local) position when opened."
+    }
+    Overrides {
+      Name: "cs:OpenRotation:tooltip"
+      String: "Rotate DoorGeometry by this amount when opened."
+    }
+    Overrides {
+      Name: "cs:TimeToOpen:tooltip"
+      String: "Time in seconds it takes for door to move completely."
+    }
+    Overrides {
+      Name: "cs:StartOpen:tooltip"
+      String: "Door will start in open position. If RequireInteraction or TriggerCanCloseDoor is checked it can be closed."
+    }
+    Overrides {
+      Name: "cs:DoorTrigger:tooltip"
+      String: "Trigger that triggers this door."
+    }
+    Overrides {
+      Name: "cs:DoorGeometry:tooltip"
+      String: "This is what will actually get moved! Must be networked, Static Context recommended."
+    }
+    Overrides {
+      Name: "cs:ResetOnRoundStart:tooltip"
+      String: "Returns the door to its initial state if a script calls Game.StartRound()"
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Folder {
+    IsGroup: true
+  }
+  InstanceHistory {
+    SelfId: 1436832981803589379
+    SubobjectId: 4124952048568365037
+    InstanceId: 8905922062603674099
+    TemplateId: 13710265138944986238
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 3722695098557148991
+  Name: "SetSoundsHere"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 1436832981803589379
+  ChildIds: 14456594407120910775
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceoff"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  NetworkContext {
+    MinDetailLevel {
+      Value: "mc:edetaillevel:low"
+    }
+    MaxDetailLevel {
+      Value: "mc:edetaillevel:ultra"
+    }
+  }
+  InstanceHistory {
+    SelfId: 3722695098557148991
+    SubobjectId: 1830654444368175057
+    InstanceId: 8905922062603674099
+    TemplateId: 13710265138944986238
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 14456594407120910775
+  Name: "DoorControllerClient"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 0.307692319
+      Y: 0.307692319
+      Z: 0.307692319
+    }
+  }
+  ParentId: 3722695098557148991
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:DoorController"
+      ObjectReference {
+        SelfId: 1436832981803589379
+      }
+    }
+    Overrides {
+      Name: "cs:ServerScript"
+      ObjectReference {
+        SelfId: 1819175957729417844
+      }
+    }
+    Overrides {
+      Name: "cs:OpeningSFX"
+      ObjectReference {
+        SelfId: 11656106763460716324
+      }
+    }
+    Overrides {
+      Name: "cs:FullyOpenSFX"
+      ObjectReference {
+      }
+    }
+    Overrides {
+      Name: "cs:ClosingSFX"
+      ObjectReference {
+        SelfId: 5188395801225351933
+      }
+    }
+    Overrides {
+      Name: "cs:FullyClosedSFX"
+      ObjectReference {
+        SelfId: 11999887140649835821
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Script {
+    ScriptAsset {
+      Id: 17269355720156759727
+    }
+  }
+  InstanceHistory {
+    SelfId: 14456594407120910775
+    SubobjectId: 16316055429883824473
+    InstanceId: 8905922062603674099
+    TemplateId: 13710265138944986238
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 1819175957729417844
+  Name: "DoorControllerServer"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 0.307692319
+      Y: 0.307692319
+      Z: 0.307692319
+    }
+  }
+  ParentId: 1436832981803589379
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:DoorController"
+      ObjectReference {
+        SelfId: 1436832981803589379
+      }
+    }
+    Overrides {
+      Name: "cs:OpenPosition"
+      Vector {
+      }
+    }
+    Overrides {
+      Name: "cs:ClosedPosition"
+      Vector {
+      }
+    }
+    Overrides {
+      Name: "cs:OpenRotation"
+      Rotator {
+      }
+    }
+    Overrides {
+      Name: "cs:ClosedRotation"
+      Rotator {
+      }
+    }
+    Overrides {
+      Name: "cs:ReversedOpenRotation"
+      Rotator {
+      }
+    }
+    Overrides {
+      Name: "cs:OpenPosition:isrep"
+      Bool: true
+    }
+    Overrides {
+      Name: "cs:OpenRotation:isrep"
+      Bool: true
+    }
+    Overrides {
+      Name: "cs:ClosedRotation:isrep"
+      Bool: true
+    }
+    Overrides {
+      Name: "cs:ClosedPosition:isrep"
+      Bool: true
+    }
+    Overrides {
+      Name: "cs:ReversedOpenRotation:isrep"
+      Bool: true
+    }
+    Overrides {
+      Name: "cs:OpenPosition:tooltip"
+      String: "Used to ensure proper client-server communication. Safe to ignore."
+    }
+    Overrides {
+      Name: "cs:ClosedPosition:tooltip"
+      String: "Used to ensure proper client-server communication. Safe to ignore."
+    }
+    Overrides {
+      Name: "cs:OpenRotation:tooltip"
+      String: "Used to ensure proper client-server communication. Safe to ignore."
+    }
+    Overrides {
+      Name: "cs:ClosedRotation:tooltip"
+      String: "Used to ensure proper client-server communication. Safe to ignore."
+    }
+    Overrides {
+      Name: "cs:ReversedOpenRotation:tooltip"
+      String: "Used to ensure proper client-server communication. Safe to ignore."
+    }
+  }
+  WantsNetworking: true
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Script {
+    ScriptAsset {
+      Id: 3259739974738216130
+    }
+  }
+  InstanceHistory {
+    SelfId: 1819175957729417844
+    SubobjectId: 3742881712871090842
+    InstanceId: 8905922062603674099
+    TemplateId: 13710265138944986238
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 3346883573364588970
+  Name: "Japanese Temple Wall Interior 01 - Doorway 01 Half"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 11690955844037336713
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6548996511167555593
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  InstanceHistory {
+    SelfId: 3346883573364588970
+    SubobjectId: 341399545389035844
+    InstanceId: 8905922062603674099
+    TemplateId: 13710265138944986238
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 3991417245438289248
+  Name: "Japanese Temple Wall Interior 01 - Shoji Sliding Door 01 Half Template"
+  Transform {
+    Location {
+      X: -2358.95654
+      Y: 4831.30664
+      Z: 9.04888916
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  ChildIds: 13486106397310745155
+  ChildIds: 9968349256247225407
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Folder {
+    IsGroup: true
+  }
+  InstanceHistory {
+    SelfId: 3991417245438289248
+    SubobjectId: 9867667800645398119
+    InstanceId: 4301160878278222659
+    TemplateId: 13710265138944986238
+    WasRoot: true
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 9968349256247225407
+  Name: "Sliding Door"
+  Transform {
+    Location {
+      X: 100
+      Z: 30
+    }
+    Rotation {
+      Yaw: 89.999939
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 3991417245438289248
+  ChildIds: 9703679723038516458
+  ChildIds: 6622102503507848208
+  ChildIds: 16109476298543863461
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+  InstanceHistory {
+    SelfId: 9968349256247225407
+    SubobjectId: 3873680165600356152
+    InstanceId: 4301160878278222659
+    TemplateId: 13710265138944986238
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 16109476298543863461
+  Name: "DoorRoot"
+  Transform {
+    Location {
+    }
+    Rotation {
+      Yaw: -179.999954
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 9968349256247225407
+  ChildIds: 17410009037809889502
+  UnregisteredParameters {
+  }
+  WantsNetworking: true
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+  InstanceHistory {
+    SelfId: 16109476298543863461
+    SubobjectId: 6918927695551716770
+    InstanceId: 4301160878278222659
+    TemplateId: 13710265138944986238
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 17410009037809889502
+  Name: "Geo_StaticContext"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 16109476298543863461
+  ChildIds: 13923898879701979958
+  UnregisteredParameters {
+  }
+  WantsNetworking: true
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  NetworkContext {
+    Type: RuntimeStatic
+  }
+  InstanceHistory {
+    SelfId: 17410009037809889502
+    SubobjectId: 5622855981916453849
+    InstanceId: 4301160878278222659
+    TemplateId: 13710265138944986238
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 13923898879701979958
+  Name: "Japanese Temple Door Shoji 01"
+  Transform {
+    Location {
+      X: 3.81471182e-06
+      Y: 0.000244140596
+    }
+    Rotation {
+      Yaw: 89.9999924
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 17410009037809889502
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_Detail1:id"
+      AssetReference {
+        Id: 10501982238198954996
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 13653543951252471024
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  InstanceHistory {
+    SelfId: 13923898879701979958
+    SubobjectId: 9128518274389661745
+    InstanceId: 4301160878278222659
+    TemplateId: 13710265138944986238
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 6622102503507848208
+  Name: "Sounds (ClientContext)"
+  Transform {
+    Location {
+      X: 15.0001068
+      Y: -99.9999771
+      Z: 175
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 9968349256247225407
+  ChildIds: 3734305937295337156
+  ChildIds: 3789794378599521485
+  ChildIds: 15950097098045827348
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  NetworkContext {
+    MinDetailLevel {
+      Value: "mc:edetaillevel:low"
+    }
+    MaxDetailLevel {
+      Value: "mc:edetaillevel:ultra"
+    }
+  }
+  InstanceHistory {
+    SelfId: 6622102503507848208
+    SubobjectId: 16461444330754647831
+    InstanceId: 4301160878278222659
+    TemplateId: 13710265138944986238
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 15950097098045827348
+  Name: "Object On Carpet Floor Slide 01 SFX"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 6622102503507848208
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  AudioInstance {
+    AudioAsset {
+      Id: 11527968405242309736
+    }
+    Pitch: -500
+    Volume: 1
+    Falloff: 3600
+    Radius: 400
+    EnableOcclusion: true
+    IsSpatializationEnabled: true
+    IsAttenuationEnabled: true
+  }
+  InstanceHistory {
+    SelfId: 15950097098045827348
+    SubobjectId: 7119772709339423251
+    InstanceId: 4301160878278222659
+    TemplateId: 13710265138944986238
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 3789794378599521485
+  Name: "Object On Carpet Floor Slide 02 SFX"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 6622102503507848208
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  AudioInstance {
+    AudioAsset {
+      Id: 8172299360702839483
+    }
+    Pitch: 200
+    Volume: 1
+    Falloff: 3600
+    Radius: 400
+    EnableOcclusion: true
+    IsSpatializationEnabled: true
+    IsAttenuationEnabled: true
+  }
+  InstanceHistory {
+    SelfId: 3789794378599521485
+    SubobjectId: 10019575321654892490
+    InstanceId: 4301160878278222659
+    TemplateId: 13710265138944986238
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 3734305937295337156
+  Name: "ShojiScreenClose"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 6622102503507848208
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  AudioInstance {
+    AudioAsset {
+      Id: 17199255624527690609
+    }
+    Pitch: 2400
+    Volume: 1
+    Falloff: 3600
+    Radius: 400
+    EnableOcclusion: true
+    IsSpatializationEnabled: true
+    IsAttenuationEnabled: true
+  }
+  InstanceHistory {
+    SelfId: 3734305937295337156
+    SubobjectId: 10107845809382763971
+    InstanceId: 4301160878278222659
+    TemplateId: 13710265138944986238
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 9703679723038516458
+  Name: "AdvancedDoorController"
+  Transform {
+    Scale {
+      X: 3.25
+      Y: 3.25
+      Z: 3.25
+    }
+  }
+  ParentId: 9968349256247225407
+  ChildIds: 10116703611012276637
+  ChildIds: 12030075335954322646
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:OpenOffset"
+      Vector {
+        Y: 180
+      }
+    }
+    Overrides {
+      Name: "cs:OpenRotation"
+      Rotator {
+      }
+    }
+    Overrides {
+      Name: "cs:TimeToOpen"
+      Float: 0.6
+    }
+    Overrides {
+      Name: "cs:StartOpen"
+      Bool: false
+    }
+    Overrides {
+      Name: "cs:FlipRotationBasedOnSide"
+      Bool: false
+    }
+    Overrides {
+      Name: "cs:RequireInteraction"
+      Bool: false
+    }
+    Overrides {
+      Name: "cs:TriggerCanCloseDoor"
+      Bool: false
+    }
+    Overrides {
+      Name: "cs:OpenInteractionLabel"
+      String: "Open Door"
+    }
+    Overrides {
+      Name: "cs:CloseInteractionLabel"
+      String: "Close Door"
+    }
+    Overrides {
+      Name: "cs:AutoCloseTime"
+      Float: 3
+    }
+    Overrides {
+      Name: "cs:DoorGeometry"
+      ObjectReference {
+        SelfId: 16109476298543863461
+      }
+    }
+    Overrides {
+      Name: "cs:DoorTrigger"
+      ObjectReference {
+        SelfId: 841534158063459245
+      }
+    }
+    Overrides {
+      Name: "cs:ResetOnRoundStart"
+      Bool: true
+    }
+    Overrides {
+      Name: "cs:FlipRotationBasedOnSide:tooltip"
+      String: "If checked, direction door will rotate is determined by player\'s approach angle."
+    }
+    Overrides {
+      Name: "cs:RequireInteraction:tooltip"
+      String: "Checked = requires player interaction (keypress) to open. Unchecked = door opens automatically when player enters trigger volume."
+    }
+    Overrides {
+      Name: "cs:TriggerCanCloseDoor:tooltip"
+      String: "Entering the trigger volume closes the door. Recommended if the trigger is attached to the door and \"RequireInteraction\" is unchecked. Useful in situations where door would block a path when open."
+    }
+    Overrides {
+      Name: "cs:AutoCloseTime:tooltip"
+      String: "Time in seconds before door automatically closes. Set to 0 or negative to force door to stay open (unless triggered)."
+    }
+    Overrides {
+      Name: "cs:OpenOffset:tooltip"
+      String: "Move DoorGeometry to this (relative local) position when opened."
+    }
+    Overrides {
+      Name: "cs:OpenRotation:tooltip"
+      String: "Rotate DoorGeometry by this amount when opened."
+    }
+    Overrides {
+      Name: "cs:TimeToOpen:tooltip"
+      String: "Time in seconds it takes for door to move completely."
+    }
+    Overrides {
+      Name: "cs:StartOpen:tooltip"
+      String: "Door will start in open position. If RequireInteraction or TriggerCanCloseDoor is checked it can be closed."
+    }
+    Overrides {
+      Name: "cs:DoorTrigger:tooltip"
+      String: "Trigger that triggers this door."
+    }
+    Overrides {
+      Name: "cs:DoorGeometry:tooltip"
+      String: "This is what will actually get moved! Must be networked, Static Context recommended."
+    }
+    Overrides {
+      Name: "cs:ResetOnRoundStart:tooltip"
+      String: "Returns the door to its initial state if a script calls Game.StartRound()"
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Folder {
+    IsGroup: true
+  }
+  InstanceHistory {
+    SelfId: 9703679723038516458
+    SubobjectId: 4124952048568365037
+    InstanceId: 4301160878278222659
+    TemplateId: 13710265138944986238
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 12030075335954322646
+  Name: "SetSoundsHere"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 9703679723038516458
+  ChildIds: 6771978653065527902
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceoff"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  NetworkContext {
+    MinDetailLevel {
+      Value: "mc:edetaillevel:low"
+    }
+    MaxDetailLevel {
+      Value: "mc:edetaillevel:ultra"
+    }
+  }
+  InstanceHistory {
+    SelfId: 12030075335954322646
+    SubobjectId: 1830654444368175057
+    InstanceId: 4301160878278222659
+    TemplateId: 13710265138944986238
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 6771978653065527902
+  Name: "DoorControllerClient"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 0.307692319
+      Y: 0.307692319
+      Z: 0.307692319
+    }
+  }
+  ParentId: 12030075335954322646
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:DoorController"
+      ObjectReference {
+        SelfId: 9703679723038516458
+      }
+    }
+    Overrides {
+      Name: "cs:ServerScript"
+      ObjectReference {
+        SelfId: 10116703611012276637
+      }
+    }
+    Overrides {
+      Name: "cs:OpeningSFX"
+      ObjectReference {
+        SelfId: 3789794378599521485
+      }
+    }
+    Overrides {
+      Name: "cs:FullyOpenSFX"
+      ObjectReference {
+      }
+    }
+    Overrides {
+      Name: "cs:ClosingSFX"
+      ObjectReference {
+        SelfId: 15950097098045827348
+      }
+    }
+    Overrides {
+      Name: "cs:FullyClosedSFX"
+      ObjectReference {
+        SelfId: 3734305937295337156
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Script {
+    ScriptAsset {
+      Id: 17269355720156759727
+    }
+  }
+  InstanceHistory {
+    SelfId: 6771978653065527902
+    SubobjectId: 16316055429883824473
+    InstanceId: 4301160878278222659
+    TemplateId: 13710265138944986238
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 10116703611012276637
+  Name: "DoorControllerServer"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 0.307692319
+      Y: 0.307692319
+      Z: 0.307692319
+    }
+  }
+  ParentId: 9703679723038516458
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:DoorController"
+      ObjectReference {
+        SelfId: 9703679723038516458
+      }
+    }
+    Overrides {
+      Name: "cs:OpenPosition"
+      Vector {
+      }
+    }
+    Overrides {
+      Name: "cs:ClosedPosition"
+      Vector {
+      }
+    }
+    Overrides {
+      Name: "cs:OpenRotation"
+      Rotator {
+      }
+    }
+    Overrides {
+      Name: "cs:ClosedRotation"
+      Rotator {
+      }
+    }
+    Overrides {
+      Name: "cs:ReversedOpenRotation"
+      Rotator {
+      }
+    }
+    Overrides {
+      Name: "cs:OpenPosition:isrep"
+      Bool: true
+    }
+    Overrides {
+      Name: "cs:OpenRotation:isrep"
+      Bool: true
+    }
+    Overrides {
+      Name: "cs:ClosedRotation:isrep"
+      Bool: true
+    }
+    Overrides {
+      Name: "cs:ClosedPosition:isrep"
+      Bool: true
+    }
+    Overrides {
+      Name: "cs:ReversedOpenRotation:isrep"
+      Bool: true
+    }
+    Overrides {
+      Name: "cs:OpenPosition:tooltip"
+      String: "Used to ensure proper client-server communication. Safe to ignore."
+    }
+    Overrides {
+      Name: "cs:ClosedPosition:tooltip"
+      String: "Used to ensure proper client-server communication. Safe to ignore."
+    }
+    Overrides {
+      Name: "cs:OpenRotation:tooltip"
+      String: "Used to ensure proper client-server communication. Safe to ignore."
+    }
+    Overrides {
+      Name: "cs:ClosedRotation:tooltip"
+      String: "Used to ensure proper client-server communication. Safe to ignore."
+    }
+    Overrides {
+      Name: "cs:ReversedOpenRotation:tooltip"
+      String: "Used to ensure proper client-server communication. Safe to ignore."
+    }
+  }
+  WantsNetworking: true
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Script {
+    ScriptAsset {
+      Id: 3259739974738216130
+    }
+  }
+  InstanceHistory {
+    SelfId: 10116703611012276637
+    SubobjectId: 3742881712871090842
+    InstanceId: 4301160878278222659
+    TemplateId: 13710265138944986238
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 13486106397310745155
+  Name: "Japanese Temple Wall Interior 01 - Doorway 01 Half"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 3991417245438289248
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6548996511167555593
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  InstanceHistory {
+    SelfId: 13486106397310745155
+    SubobjectId: 341399545389035844
+    InstanceId: 4301160878278222659
+    TemplateId: 13710265138944986238
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 10388199286102451577
+  Name: "Japanese Temple Wall Interior 01 - Shoji Sliding Door 01 Half Template"
+  Transform {
+    Location {
+      X: -212.093292
+      Y: 4831.30664
+      Z: 9.04888916
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  ChildIds: 2046418397662132826
+  ChildIds: 3249523281027984422
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Folder {
+    IsGroup: true
+  }
+  InstanceHistory {
+    SelfId: 10388199286102451577
+    SubobjectId: 9867667800645398119
+    InstanceId: 5988955303366538147
+    TemplateId: 13710265138944986238
+    WasRoot: true
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 3249523281027984422
+  Name: "Sliding Door"
+  Transform {
+    Location {
+      X: 100
+      Z: 30
+    }
+    Rotation {
+      Yaw: 89.999939
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10388199286102451577
+  ChildIds: 2442206278755476723
+  ChildIds: 18205941974834523145
+  ChildIds: 8709481982706702012
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+  InstanceHistory {
+    SelfId: 3249523281027984422
+    SubobjectId: 3873680165600356152
+    InstanceId: 5988955303366538147
+    TemplateId: 13710265138944986238
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 8709481982706702012
+  Name: "DoorRoot"
+  Transform {
+    Location {
+    }
+    Rotation {
+      Yaw: -179.999954
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 3249523281027984422
+  ChildIds: 6256298240104362183
+  UnregisteredParameters {
+  }
+  WantsNetworking: true
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+  InstanceHistory {
+    SelfId: 8709481982706702012
+    SubobjectId: 6918927695551716770
+    InstanceId: 5988955303366538147
+    TemplateId: 13710265138944986238
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 6256298240104362183
+  Name: "Geo_StaticContext"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 8709481982706702012
+  ChildIds: 7383001375010280239
+  UnregisteredParameters {
+  }
+  WantsNetworking: true
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  NetworkContext {
+    Type: RuntimeStatic
+  }
+  InstanceHistory {
+    SelfId: 6256298240104362183
+    SubobjectId: 5622855981916453849
+    InstanceId: 5988955303366538147
+    TemplateId: 13710265138944986238
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 7383001375010280239
+  Name: "Japanese Temple Door Shoji 01"
+  Transform {
+    Location {
+      X: 3.81471182e-06
+      Y: 0.000244140596
+    }
+    Rotation {
+      Yaw: 89.9999924
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 6256298240104362183
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_Detail1:id"
+      AssetReference {
+        Id: 10501982238198954996
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 13653543951252471024
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  InstanceHistory {
+    SelfId: 7383001375010280239
+    SubobjectId: 9128518274389661745
+    InstanceId: 5988955303366538147
+    TemplateId: 13710265138944986238
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 18205941974834523145
+  Name: "Sounds (ClientContext)"
+  Transform {
+    Location {
+      X: 15.0001068
+      Y: -99.9999771
+      Z: 175
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 3249523281027984422
+  ChildIds: 10708710638121854685
+  ChildIds: 10652733889134435540
+  ChildIds: 8796708945326467341
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  NetworkContext {
+    MinDetailLevel {
+      Value: "mc:edetaillevel:low"
+    }
+    MaxDetailLevel {
+      Value: "mc:edetaillevel:ultra"
+    }
+  }
+  InstanceHistory {
+    SelfId: 18205941974834523145
+    SubobjectId: 16461444330754647831
+    InstanceId: 5988955303366538147
+    TemplateId: 13710265138944986238
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 8796708945326467341
+  Name: "Object On Carpet Floor Slide 01 SFX"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 18205941974834523145
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  AudioInstance {
+    AudioAsset {
+      Id: 11527968405242309736
+    }
+    Pitch: -500
+    Volume: 1
+    Falloff: 3600
+    Radius: 400
+    EnableOcclusion: true
+    IsSpatializationEnabled: true
+    IsAttenuationEnabled: true
+  }
+  InstanceHistory {
+    SelfId: 8796708945326467341
+    SubobjectId: 7119772709339423251
+    InstanceId: 5988955303366538147
+    TemplateId: 13710265138944986238
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 10652733889134435540
+  Name: "Object On Carpet Floor Slide 02 SFX"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 18205941974834523145
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  AudioInstance {
+    AudioAsset {
+      Id: 8172299360702839483
+    }
+    Pitch: 200
+    Volume: 1
+    Falloff: 3600
+    Radius: 400
+    EnableOcclusion: true
+    IsSpatializationEnabled: true
+    IsAttenuationEnabled: true
+  }
+  InstanceHistory {
+    SelfId: 10652733889134435540
+    SubobjectId: 10019575321654892490
+    InstanceId: 5988955303366538147
+    TemplateId: 13710265138944986238
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 10708710638121854685
+  Name: "ShojiScreenClose"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 18205941974834523145
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  AudioInstance {
+    AudioAsset {
+      Id: 17199255624527690609
+    }
+    Pitch: 2400
+    Volume: 1
+    Falloff: 3600
+    Radius: 400
+    EnableOcclusion: true
+    IsSpatializationEnabled: true
+    IsAttenuationEnabled: true
+  }
+  InstanceHistory {
+    SelfId: 10708710638121854685
+    SubobjectId: 10107845809382763971
+    InstanceId: 5988955303366538147
+    TemplateId: 13710265138944986238
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 2442206278755476723
+  Name: "AdvancedDoorController"
+  Transform {
+    Scale {
+      X: 3.25
+      Y: 3.25
+      Z: 3.25
+    }
+  }
+  ParentId: 3249523281027984422
+  ChildIds: 3110809443451904388
+  ChildIds: 125389576336512207
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:OpenOffset"
+      Vector {
+        Y: 180
+      }
+    }
+    Overrides {
+      Name: "cs:OpenRotation"
+      Rotator {
+      }
+    }
+    Overrides {
+      Name: "cs:TimeToOpen"
+      Float: 0.6
+    }
+    Overrides {
+      Name: "cs:StartOpen"
+      Bool: false
+    }
+    Overrides {
+      Name: "cs:FlipRotationBasedOnSide"
+      Bool: false
+    }
+    Overrides {
+      Name: "cs:RequireInteraction"
+      Bool: false
+    }
+    Overrides {
+      Name: "cs:TriggerCanCloseDoor"
+      Bool: false
+    }
+    Overrides {
+      Name: "cs:OpenInteractionLabel"
+      String: "Open Door"
+    }
+    Overrides {
+      Name: "cs:CloseInteractionLabel"
+      String: "Close Door"
+    }
+    Overrides {
+      Name: "cs:AutoCloseTime"
+      Float: 3
+    }
+    Overrides {
+      Name: "cs:DoorGeometry"
+      ObjectReference {
+        SelfId: 8709481982706702012
+      }
+    }
+    Overrides {
+      Name: "cs:DoorTrigger"
+      ObjectReference {
+        SelfId: 841534158063459245
+      }
+    }
+    Overrides {
+      Name: "cs:ResetOnRoundStart"
+      Bool: true
+    }
+    Overrides {
+      Name: "cs:FlipRotationBasedOnSide:tooltip"
+      String: "If checked, direction door will rotate is determined by player\'s approach angle."
+    }
+    Overrides {
+      Name: "cs:RequireInteraction:tooltip"
+      String: "Checked = requires player interaction (keypress) to open. Unchecked = door opens automatically when player enters trigger volume."
+    }
+    Overrides {
+      Name: "cs:TriggerCanCloseDoor:tooltip"
+      String: "Entering the trigger volume closes the door. Recommended if the trigger is attached to the door and \"RequireInteraction\" is unchecked. Useful in situations where door would block a path when open."
+    }
+    Overrides {
+      Name: "cs:AutoCloseTime:tooltip"
+      String: "Time in seconds before door automatically closes. Set to 0 or negative to force door to stay open (unless triggered)."
+    }
+    Overrides {
+      Name: "cs:OpenOffset:tooltip"
+      String: "Move DoorGeometry to this (relative local) position when opened."
+    }
+    Overrides {
+      Name: "cs:OpenRotation:tooltip"
+      String: "Rotate DoorGeometry by this amount when opened."
+    }
+    Overrides {
+      Name: "cs:TimeToOpen:tooltip"
+      String: "Time in seconds it takes for door to move completely."
+    }
+    Overrides {
+      Name: "cs:StartOpen:tooltip"
+      String: "Door will start in open position. If RequireInteraction or TriggerCanCloseDoor is checked it can be closed."
+    }
+    Overrides {
+      Name: "cs:DoorTrigger:tooltip"
+      String: "Trigger that triggers this door."
+    }
+    Overrides {
+      Name: "cs:DoorGeometry:tooltip"
+      String: "This is what will actually get moved! Must be networked, Static Context recommended."
+    }
+    Overrides {
+      Name: "cs:ResetOnRoundStart:tooltip"
+      String: "Returns the door to its initial state if a script calls Game.StartRound()"
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Folder {
+    IsGroup: true
+  }
+  InstanceHistory {
+    SelfId: 2442206278755476723
+    SubobjectId: 4124952048568365037
+    InstanceId: 5988955303366538147
+    TemplateId: 13710265138944986238
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 125389576336512207
+  Name: "SetSoundsHere"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 2442206278755476723
+  ChildIds: 18065334850001437255
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceoff"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  NetworkContext {
+    MinDetailLevel {
+      Value: "mc:edetaillevel:low"
+    }
+    MaxDetailLevel {
+      Value: "mc:edetaillevel:ultra"
+    }
+  }
+  InstanceHistory {
+    SelfId: 125389576336512207
+    SubobjectId: 1830654444368175057
+    InstanceId: 5988955303366538147
+    TemplateId: 13710265138944986238
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 18065334850001437255
+  Name: "DoorControllerClient"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 0.307692319
+      Y: 0.307692319
+      Z: 0.307692319
+    }
+  }
+  ParentId: 125389576336512207
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:DoorController"
+      ObjectReference {
+        SelfId: 2442206278755476723
+      }
+    }
+    Overrides {
+      Name: "cs:ServerScript"
+      ObjectReference {
+        SelfId: 3110809443451904388
+      }
+    }
+    Overrides {
+      Name: "cs:OpeningSFX"
+      ObjectReference {
+        SelfId: 10652733889134435540
+      }
+    }
+    Overrides {
+      Name: "cs:FullyOpenSFX"
+      ObjectReference {
+      }
+    }
+    Overrides {
+      Name: "cs:ClosingSFX"
+      ObjectReference {
+        SelfId: 8796708945326467341
+      }
+    }
+    Overrides {
+      Name: "cs:FullyClosedSFX"
+      ObjectReference {
+        SelfId: 10708710638121854685
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Script {
+    ScriptAsset {
+      Id: 17269355720156759727
+    }
+  }
+  InstanceHistory {
+    SelfId: 18065334850001437255
+    SubobjectId: 16316055429883824473
+    InstanceId: 5988955303366538147
+    TemplateId: 13710265138944986238
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 3110809443451904388
+  Name: "DoorControllerServer"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 0.307692319
+      Y: 0.307692319
+      Z: 0.307692319
+    }
+  }
+  ParentId: 2442206278755476723
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:DoorController"
+      ObjectReference {
+        SelfId: 2442206278755476723
+      }
+    }
+    Overrides {
+      Name: "cs:OpenPosition"
+      Vector {
+      }
+    }
+    Overrides {
+      Name: "cs:ClosedPosition"
+      Vector {
+      }
+    }
+    Overrides {
+      Name: "cs:OpenRotation"
+      Rotator {
+      }
+    }
+    Overrides {
+      Name: "cs:ClosedRotation"
+      Rotator {
+      }
+    }
+    Overrides {
+      Name: "cs:ReversedOpenRotation"
+      Rotator {
+      }
+    }
+    Overrides {
+      Name: "cs:OpenPosition:isrep"
+      Bool: true
+    }
+    Overrides {
+      Name: "cs:OpenRotation:isrep"
+      Bool: true
+    }
+    Overrides {
+      Name: "cs:ClosedRotation:isrep"
+      Bool: true
+    }
+    Overrides {
+      Name: "cs:ClosedPosition:isrep"
+      Bool: true
+    }
+    Overrides {
+      Name: "cs:ReversedOpenRotation:isrep"
+      Bool: true
+    }
+    Overrides {
+      Name: "cs:OpenPosition:tooltip"
+      String: "Used to ensure proper client-server communication. Safe to ignore."
+    }
+    Overrides {
+      Name: "cs:ClosedPosition:tooltip"
+      String: "Used to ensure proper client-server communication. Safe to ignore."
+    }
+    Overrides {
+      Name: "cs:OpenRotation:tooltip"
+      String: "Used to ensure proper client-server communication. Safe to ignore."
+    }
+    Overrides {
+      Name: "cs:ClosedRotation:tooltip"
+      String: "Used to ensure proper client-server communication. Safe to ignore."
+    }
+    Overrides {
+      Name: "cs:ReversedOpenRotation:tooltip"
+      String: "Used to ensure proper client-server communication. Safe to ignore."
+    }
+  }
+  WantsNetworking: true
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Script {
+    ScriptAsset {
+      Id: 3259739974738216130
+    }
+  }
+  InstanceHistory {
+    SelfId: 3110809443451904388
+    SubobjectId: 3742881712871090842
+    InstanceId: 5988955303366538147
+    TemplateId: 13710265138944986238
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 2046418397662132826
+  Name: "Japanese Temple Wall Interior 01 - Doorway 01 Half"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10388199286102451577
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6548996511167555593
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  InstanceHistory {
+    SelfId: 2046418397662132826
+    SubobjectId: 341399545389035844
+    InstanceId: 5988955303366538147
+    TemplateId: 13710265138944986238
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 6240768017642285278
+  Name: "Japanese Temple Wall Interior 01 - Shoji Sliding Door 01 Half Template"
+  Transform {
+    Location {
+      X: 4562.41553
+      Y: 4824.94775
+    }
+    Rotation {
+      Yaw: -45
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  ChildIds: 15769270484963440637
+  ChildIds: 16981180223057650049
+  ChildIds: 3772233334917442298
+  ChildIds: 786931839207852237
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Folder {
+    IsGroup: true
+  }
+  InstanceHistory {
+    SelfId: 6240768017642285278
+    SubobjectId: 9867667800645398119
+    InstanceId: 1308443824609777383
+    TemplateId: 13710265138944986238
+    WasRoot: true
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 786931839207852237
+  Name: "Japanese Temple Wall Interior 01 - Doorway 01 Half"
+  Transform {
+    Location {
+      X: -6452.78857
+      Y: -6844.34473
+    }
+    Rotation {
+      Yaw: 90
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 6240768017642285278
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6548996511167555593
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 3772233334917442298
+  Name: "Japanese Temple Door Shoji 01"
+  Transform {
+    Location {
+      X: -6439.24561
+      Y: -6748.19092
+      Z: 30
+    }
+    Rotation {
+      Yaw: 90
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 6240768017642285278
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_Detail1:id"
+      AssetReference {
+        Id: 10501982238198954996
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 13653543951252471024
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 16981180223057650049
+  Name: "Sliding Door"
+  Transform {
+    Location {
+      X: 100
+      Z: 30
+    }
+    Rotation {
+      Yaw: 89.999939
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 6240768017642285278
+  ChildIds: 16669388954373941588
+  ChildIds: 4186547203471778222
+  ChildIds: 13722378951237589787
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+  InstanceHistory {
+    SelfId: 16981180223057650049
+    SubobjectId: 3873680165600356152
+    InstanceId: 1308443824609777383
+    TemplateId: 13710265138944986238
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 13722378951237589787
+  Name: "DoorRoot"
+  Transform {
+    Location {
+    }
+    Rotation {
+      Yaw: -179.999954
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 16981180223057650049
+  ChildIds: 10404216044643679584
+  UnregisteredParameters {
+  }
+  WantsNetworking: true
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+  InstanceHistory {
+    SelfId: 13722378951237589787
+    SubobjectId: 6918927695551716770
+    InstanceId: 1308443824609777383
+    TemplateId: 13710265138944986238
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 10404216044643679584
+  Name: "Geo_StaticContext"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 13722378951237589787
+  ChildIds: 11584478589923417736
+  UnregisteredParameters {
+  }
+  WantsNetworking: true
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  NetworkContext {
+    Type: RuntimeStatic
+  }
+  InstanceHistory {
+    SelfId: 10404216044643679584
+    SubobjectId: 5622855981916453849
+    InstanceId: 1308443824609777383
+    TemplateId: 13710265138944986238
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 11584478589923417736
+  Name: "Japanese Temple Door Shoji 01"
+  Transform {
+    Location {
+      X: 3.81471182e-06
+      Y: 0.000244140596
+    }
+    Rotation {
+      Yaw: 89.9999924
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10404216044643679584
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_Detail1:id"
+      AssetReference {
+        Id: 10501982238198954996
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 13653543951252471024
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  InstanceHistory {
+    SelfId: 11584478589923417736
+    SubobjectId: 9128518274389661745
+    InstanceId: 1308443824609777383
+    TemplateId: 13710265138944986238
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 4186547203471778222
+  Name: "Sounds (ClientContext)"
+  Transform {
+    Location {
+      X: 15.0001068
+      Y: -99.9999771
+      Z: 175
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 16981180223057650049
+  ChildIds: 5921422975886076794
+  ChildIds: 6154160422563484019
+  ChildIds: 13593505699511067818
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  NetworkContext {
+    MinDetailLevel {
+      Value: "mc:edetaillevel:low"
+    }
+    MaxDetailLevel {
+      Value: "mc:edetaillevel:ultra"
+    }
+  }
+  InstanceHistory {
+    SelfId: 4186547203471778222
+    SubobjectId: 16461444330754647831
+    InstanceId: 1308443824609777383
+    TemplateId: 13710265138944986238
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 13593505699511067818
+  Name: "Object On Carpet Floor Slide 01 SFX"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4186547203471778222
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  AudioInstance {
+    AudioAsset {
+      Id: 11527968405242309736
+    }
+    Pitch: -500
+    Volume: 1
+    Falloff: 3600
+    Radius: 400
+    EnableOcclusion: true
+    IsSpatializationEnabled: true
+    IsAttenuationEnabled: true
+  }
+  InstanceHistory {
+    SelfId: 13593505699511067818
+    SubobjectId: 7119772709339423251
+    InstanceId: 1308443824609777383
+    TemplateId: 13710265138944986238
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 6154160422563484019
+  Name: "Object On Carpet Floor Slide 02 SFX"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4186547203471778222
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  AudioInstance {
+    AudioAsset {
+      Id: 8172299360702839483
+    }
+    Pitch: 200
+    Volume: 1
+    Falloff: 3600
+    Radius: 400
+    EnableOcclusion: true
+    IsSpatializationEnabled: true
+    IsAttenuationEnabled: true
+  }
+  InstanceHistory {
+    SelfId: 6154160422563484019
+    SubobjectId: 10019575321654892490
+    InstanceId: 1308443824609777383
+    TemplateId: 13710265138944986238
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 5921422975886076794
+  Name: "ShojiScreenClose"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4186547203471778222
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  AudioInstance {
+    AudioAsset {
+      Id: 17199255624527690609
+    }
+    Pitch: 2400
+    Volume: 1
+    Falloff: 3600
+    Radius: 400
+    EnableOcclusion: true
+    IsSpatializationEnabled: true
+    IsAttenuationEnabled: true
+  }
+  InstanceHistory {
+    SelfId: 5921422975886076794
+    SubobjectId: 10107845809382763971
+    InstanceId: 1308443824609777383
+    TemplateId: 13710265138944986238
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 16669388954373941588
+  Name: "AdvancedDoorController"
+  Transform {
+    Scale {
+      X: 3.25
+      Y: 3.25
+      Z: 3.25
+    }
+  }
+  ParentId: 16981180223057650049
+  ChildIds: 17121056243710176291
+  ChildIds: 14343010864517781864
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:OpenOffset"
+      Vector {
+        Y: 180
+      }
+    }
+    Overrides {
+      Name: "cs:OpenRotation"
+      Rotator {
+      }
+    }
+    Overrides {
+      Name: "cs:TimeToOpen"
+      Float: 0.6
+    }
+    Overrides {
+      Name: "cs:StartOpen"
+      Bool: false
+    }
+    Overrides {
+      Name: "cs:FlipRotationBasedOnSide"
+      Bool: false
+    }
+    Overrides {
+      Name: "cs:RequireInteraction"
+      Bool: false
+    }
+    Overrides {
+      Name: "cs:TriggerCanCloseDoor"
+      Bool: false
+    }
+    Overrides {
+      Name: "cs:OpenInteractionLabel"
+      String: "Open Door"
+    }
+    Overrides {
+      Name: "cs:CloseInteractionLabel"
+      String: "Close Door"
+    }
+    Overrides {
+      Name: "cs:AutoCloseTime"
+      Float: 3
+    }
+    Overrides {
+      Name: "cs:DoorGeometry"
+      ObjectReference {
+        SelfId: 13722378951237589787
+      }
+    }
+    Overrides {
+      Name: "cs:DoorTrigger"
+      ObjectReference {
+        SelfId: 841534158063459245
+      }
+    }
+    Overrides {
+      Name: "cs:ResetOnRoundStart"
+      Bool: true
+    }
+    Overrides {
+      Name: "cs:FlipRotationBasedOnSide:tooltip"
+      String: "If checked, direction door will rotate is determined by player\'s approach angle."
+    }
+    Overrides {
+      Name: "cs:RequireInteraction:tooltip"
+      String: "Checked = requires player interaction (keypress) to open. Unchecked = door opens automatically when player enters trigger volume."
+    }
+    Overrides {
+      Name: "cs:TriggerCanCloseDoor:tooltip"
+      String: "Entering the trigger volume closes the door. Recommended if the trigger is attached to the door and \"RequireInteraction\" is unchecked. Useful in situations where door would block a path when open."
+    }
+    Overrides {
+      Name: "cs:AutoCloseTime:tooltip"
+      String: "Time in seconds before door automatically closes. Set to 0 or negative to force door to stay open (unless triggered)."
+    }
+    Overrides {
+      Name: "cs:OpenOffset:tooltip"
+      String: "Move DoorGeometry to this (relative local) position when opened."
+    }
+    Overrides {
+      Name: "cs:OpenRotation:tooltip"
+      String: "Rotate DoorGeometry by this amount when opened."
+    }
+    Overrides {
+      Name: "cs:TimeToOpen:tooltip"
+      String: "Time in seconds it takes for door to move completely."
+    }
+    Overrides {
+      Name: "cs:StartOpen:tooltip"
+      String: "Door will start in open position. If RequireInteraction or TriggerCanCloseDoor is checked it can be closed."
+    }
+    Overrides {
+      Name: "cs:DoorTrigger:tooltip"
+      String: "Trigger that triggers this door."
+    }
+    Overrides {
+      Name: "cs:DoorGeometry:tooltip"
+      String: "This is what will actually get moved! Must be networked, Static Context recommended."
+    }
+    Overrides {
+      Name: "cs:ResetOnRoundStart:tooltip"
+      String: "Returns the door to its initial state if a script calls Game.StartRound()"
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Folder {
+    IsGroup: true
+  }
+  InstanceHistory {
+    SelfId: 16669388954373941588
+    SubobjectId: 4124952048568365037
+    InstanceId: 1308443824609777383
+    TemplateId: 13710265138944986238
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 14343010864517781864
+  Name: "SetSoundsHere"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 16669388954373941588
+  ChildIds: 4324883979617931232
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceoff"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  NetworkContext {
+    MinDetailLevel {
+      Value: "mc:edetaillevel:low"
+    }
+    MaxDetailLevel {
+      Value: "mc:edetaillevel:ultra"
+    }
+  }
+  InstanceHistory {
+    SelfId: 14343010864517781864
+    SubobjectId: 1830654444368175057
+    InstanceId: 1308443824609777383
+    TemplateId: 13710265138944986238
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 4324883979617931232
+  Name: "DoorControllerClient"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 0.307692319
+      Y: 0.307692319
+      Z: 0.307692319
+    }
+  }
+  ParentId: 14343010864517781864
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:DoorController"
+      ObjectReference {
+        SelfId: 16669388954373941588
+      }
+    }
+    Overrides {
+      Name: "cs:ServerScript"
+      ObjectReference {
+        SelfId: 17121056243710176291
+      }
+    }
+    Overrides {
+      Name: "cs:OpeningSFX"
+      ObjectReference {
+        SelfId: 6154160422563484019
+      }
+    }
+    Overrides {
+      Name: "cs:FullyOpenSFX"
+      ObjectReference {
+      }
+    }
+    Overrides {
+      Name: "cs:ClosingSFX"
+      ObjectReference {
+        SelfId: 13593505699511067818
+      }
+    }
+    Overrides {
+      Name: "cs:FullyClosedSFX"
+      ObjectReference {
+        SelfId: 5921422975886076794
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Script {
+    ScriptAsset {
+      Id: 17269355720156759727
+    }
+  }
+  InstanceHistory {
+    SelfId: 4324883979617931232
+    SubobjectId: 16316055429883824473
+    InstanceId: 1308443824609777383
+    TemplateId: 13710265138944986238
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 17121056243710176291
+  Name: "DoorControllerServer"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 0.307692319
+      Y: 0.307692319
+      Z: 0.307692319
+    }
+  }
+  ParentId: 16669388954373941588
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:DoorController"
+      ObjectReference {
+        SelfId: 16669388954373941588
+      }
+    }
+    Overrides {
+      Name: "cs:OpenPosition"
+      Vector {
+      }
+    }
+    Overrides {
+      Name: "cs:ClosedPosition"
+      Vector {
+      }
+    }
+    Overrides {
+      Name: "cs:OpenRotation"
+      Rotator {
+      }
+    }
+    Overrides {
+      Name: "cs:ClosedRotation"
+      Rotator {
+      }
+    }
+    Overrides {
+      Name: "cs:ReversedOpenRotation"
+      Rotator {
+      }
+    }
+    Overrides {
+      Name: "cs:OpenPosition:isrep"
+      Bool: true
+    }
+    Overrides {
+      Name: "cs:OpenRotation:isrep"
+      Bool: true
+    }
+    Overrides {
+      Name: "cs:ClosedRotation:isrep"
+      Bool: true
+    }
+    Overrides {
+      Name: "cs:ClosedPosition:isrep"
+      Bool: true
+    }
+    Overrides {
+      Name: "cs:ReversedOpenRotation:isrep"
+      Bool: true
+    }
+    Overrides {
+      Name: "cs:OpenPosition:tooltip"
+      String: "Used to ensure proper client-server communication. Safe to ignore."
+    }
+    Overrides {
+      Name: "cs:ClosedPosition:tooltip"
+      String: "Used to ensure proper client-server communication. Safe to ignore."
+    }
+    Overrides {
+      Name: "cs:OpenRotation:tooltip"
+      String: "Used to ensure proper client-server communication. Safe to ignore."
+    }
+    Overrides {
+      Name: "cs:ClosedRotation:tooltip"
+      String: "Used to ensure proper client-server communication. Safe to ignore."
+    }
+    Overrides {
+      Name: "cs:ReversedOpenRotation:tooltip"
+      String: "Used to ensure proper client-server communication. Safe to ignore."
+    }
+  }
+  WantsNetworking: true
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Script {
+    ScriptAsset {
+      Id: 3259739974738216130
+    }
+  }
+  InstanceHistory {
+    SelfId: 17121056243710176291
+    SubobjectId: 3742881712871090842
+    InstanceId: 1308443824609777383
+    TemplateId: 13710265138944986238
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 15769270484963440637
+  Name: "Japanese Temple Wall Interior 01 - Doorway 01 Half"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 6240768017642285278
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6548996511167555593
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  InstanceHistory {
+    SelfId: 15769270484963440637
+    SubobjectId: 341399545389035844
+    InstanceId: 1308443824609777383
+    TemplateId: 13710265138944986238
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
@@ -186242,9 +191020,11 @@ Objects {
   Name: "Japanese Temple Wall Large 02"
   Transform {
     Location {
+      X: 1.90734863e-06
+      Y: -4.59912062
     }
     Rotation {
-      Yaw: -89.9999924
+      Yaw: -90
     }
     Scale {
       X: 1
@@ -188372,6 +193152,7 @@ Objects {
   PlayerSpawnPoint {
     TeamInt: 1
     PlayerScaleMultiplier: 1
+    SpawnKey: "map3tomap4"
     SpawnEffectsTemplate {
       Id: 841534158063459245
     }

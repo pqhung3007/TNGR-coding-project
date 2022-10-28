@@ -88,6 +88,9 @@ Objects {
   ChildIds: 1801549244786852698
   ChildIds: 9915464619191017600
   ChildIds: 999398586154800333
+  ChildIds: 240271193212317052
+  ChildIds: 5969535267231282565
+  ChildIds: 17324858114758863234
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -100,6 +103,206 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Folder {
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 17324858114758863234
+  Name: "Trigger"
+  Transform {
+    Location {
+      X: 2475.28125
+      Y: -2242.18799
+      Z: 299.160797
+    }
+    Rotation {
+    }
+    Scale {
+      X: 2.03778863
+      Y: 3.2554369
+      Z: 2.03778863
+    }
+  }
+  ParentId: 4781671109827199097
+  ChildIds: 817704822134212014
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Trigger {
+    Interactable: true
+    InteractionLabel: "Interact!"
+    TeamSettings {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    TriggerShape_v2 {
+      Value: "mc:etriggershape:box"
+    }
+    InteractionTemplate {
+      Id: 841534158063459245
+    }
+    BreadcrumbTemplate {
+      Id: 841534158063459245
+    }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 817704822134212014
+  Name: "map2tomap3"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 0.490728021
+      Y: 0.307178438
+      Z: 0.490728021
+    }
+  }
+  ParentId: 17324858114758863234
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Script {
+    ScriptAsset {
+      Id: 11182998164668345967
+    }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 5969535267231282565
+  Name: "Sci-fi Base Door 02"
+  Transform {
+    Location {
+      X: 2480.9917
+      Y: -2343.43604
+      Z: 121.953064
+    }
+    Rotation {
+      Yaw: 90
+    }
+    Scale {
+      X: 1.24611592
+      Y: 1.24611592
+      Z: 1.24611592
+    }
+  }
+  ParentId: 4781671109827199097
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 18105158013125412176
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 240271193212317052
+  Name: "Sci-fi Base Wall Interior 01 Half - Doorway 02"
+  Transform {
+    Location {
+      X: 2500
+      Y: -2000
+      Z: 74.9997559
+    }
+    Rotation {
+      Yaw: -90
+    }
+    Scale {
+      X: 1.19856846
+      Y: 1.19856846
+      Z: 1.19856846
+    }
+  }
+  ParentId: 4781671109827199097
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 502748734764283331
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
@@ -4243,9 +4446,9 @@ Objects {
   Name: "Spawn Point"
   Transform {
     Location {
-      X: -10000
-      Y: 9000
-      Z: 1734.73828
+      X: -9975.62
+      Y: 9020.625
+      Z: 1774.12781
     }
     Rotation {
     }
@@ -4273,6 +4476,7 @@ Objects {
   PlayerSpawnPoint {
     TeamInt: 1
     PlayerScaleMultiplier: 1
+    SpawnKey: "map1tomap2"
     SpawnEffectsTemplate {
       Id: 841534158063459245
     }

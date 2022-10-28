@@ -1,6 +1,114 @@
 Name: "square floor_1"
 RootId: 17910184742199376823
 Objects {
+  Id: 4302047350115899155
+  Name: "Sci-fi Base Wall Interior 01 Half"
+  Transform {
+    Location {
+      X: -2500
+      Y: -2500
+      Z: 47.2357178
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1.25
+      Y: 1.25
+      Z: 1
+    }
+  }
+  ParentId: 17910184742199376823
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 12502684501118640964
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 9721738375358084636
+  Name: "Sci-fi Base Wall Interior 01 Half"
+  Transform {
+    Location {
+      X: 2000
+      Y: 2500
+      Z: 47.2357178
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1.25
+      Y: 1.25
+      Z: 1
+    }
+  }
+  ParentId: 17910184742199376823
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 12502684501118640964
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
   Id: 9567204027691913412
   Name: "Sci-fi Base Wall Interior 01 Half"
   Transform {
