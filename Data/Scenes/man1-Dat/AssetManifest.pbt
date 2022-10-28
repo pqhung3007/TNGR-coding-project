@@ -26,6 +26,15 @@ Assets {
   }
 }
 Assets {
+  Id: 17454602997626929349
+  Name: "Terrain - Grass"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_terrain_rock-grass-001_wa"
+  }
+}
+Assets {
   Id: 17189330346149627205
   Name: "Sci-fi Ship Blaster 03"
   PlatformAssetType: 1
@@ -122,6 +131,33 @@ Assets {
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "mi_stainless-steel_001_uv"
+  }
+}
+Assets {
+  Id: 15339202924385207836
+  Name: "Sci-fi Base Floor 01 - 4-Way"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ts_scf_base_floor_001_X_ref"
+  }
+}
+Assets {
+  Id: 15037079276558165674
+  Name: "Additive Soft Edge"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "fxma_additive_edgefade"
+  }
+}
+Assets {
+  Id: 14930404121609448095
+  Name: "Terrain - Grass Cliffs"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_terrain_cliff-grass-001_wa"
   }
 }
 Assets {
@@ -242,6 +278,15 @@ Assets {
   }
 }
 Assets {
+  Id: 12165358693130596626
+  Name: "Text 03: 1"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "F5_Text_027"
+  }
+}
+Assets {
   Id: 12095835209017042614
   Name: "Cube"
   PlatformAssetType: 1
@@ -311,6 +356,15 @@ Assets {
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "mi_metal_iron_001"
+  }
+}
+Assets {
+  Id: 9522218801527862812
+  Name: "Sci-fi Base Wall Interior 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ts_scf_base_wall_int_001_ref"
   }
 }
 Assets {
@@ -503,6 +557,15 @@ Assets {
   }
 }
 Assets {
+  Id: 3770687677054390381
+  Name: "Sci-fi Base Roof 01 - 8m"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ts_scf_base_roof_001_ref"
+  }
+}
+Assets {
   Id: 3747705493860143674
   Name: "Pipe - 8-Sided Thick"
   PlatformAssetType: 1
@@ -527,6 +590,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_half_hexagon_001"
+  }
+}
+Assets {
+  Id: 3547230406067218560
+  Name: "Reinforced Crate 150cm"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_crate_reinforced_150cm_001"
   }
 }
 Assets {
@@ -572,6 +644,15 @@ Assets {
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "mi_metal_basic_001"
+  }
+}
+Assets {
+  Id: 2377542930761245932
+  Name: "Text 03: !"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "F5_Text_037"
   }
 }
 Assets {
