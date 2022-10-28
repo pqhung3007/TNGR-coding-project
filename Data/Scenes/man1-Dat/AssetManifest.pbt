@@ -575,15 +575,6 @@ Assets {
   }
 }
 Assets {
-  Id: 1235261894908198881
-  Name: "Text 01: J"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "F1_Text_009"
-  }
-}
-Assets {
   Id: 890442874131206195
   Name: "Office Cubicle Desk Leg 01"
   PlatformAssetType: 1

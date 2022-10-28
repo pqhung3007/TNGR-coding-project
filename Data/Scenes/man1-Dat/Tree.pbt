@@ -45,7 +45,6 @@ Objects {
   ChildIds: 9831034047953295274
   ChildIds: 5651732776159640090
   ChildIds: 15450246167385594017
-  ChildIds: 1740762176910812824
   ChildIds: 2963459984892254531
   ChildIds: 12552687822735608400
   ChildIds: 5568587982548339957
@@ -1511,81 +1510,6 @@ Objects {
       Id: 5815814445835127423
     }
   }
-}
-Objects {
-  Id: 1740762176910812824
-  Name: "Text 01: J"
-  Transform {
-    Location {
-      X: -9400
-      Y: -4163
-      Z: 229
-    }
-    Rotation {
-      Yaw: 90
-    }
-    Scale {
-      X: 3
-      Y: 1
-      Z: 2.5
-    }
-  }
-  ParentId: 4781671109827199097
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Font.Bevel:id"
-      AssetReference {
-        Id: 3702191406046426907
-      }
-    }
-    Overrides {
-      Name: "ma:Font.Faces:id"
-      AssetReference {
-        Id: 13679493068599210497
-      }
-    }
-    Overrides {
-      Name: "ma:Font.Sides:id"
-      AssetReference {
-        Id: 3702191406046426907
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 1235261894908198881
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-      BoundsScale: 1
-    }
-  }
-  Relevance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  IsReplicationEnabledByDefault: true
 }
 Objects {
   Id: 15450246167385594017
