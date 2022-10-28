@@ -3479,6 +3479,7 @@ Objects {
   Name: "Humanoid 1 Rig"
   Transform {
     Location {
+      Z: 2.18292236
     }
     Rotation {
       Yaw: 1.02452832e-05

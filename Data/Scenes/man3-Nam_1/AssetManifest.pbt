@@ -485,6 +485,15 @@ Assets {
   }
 }
 Assets {
+  Id: 4419548930729283208
+  Name: "Text 06: 9"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "F8_Text_035"
+  }
+}
+Assets {
   Id: 4191189716791684405
   Name: "Pipe - Thick"
   PlatformAssetType: 1
@@ -563,6 +572,15 @@ Assets {
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "mi_wood_planks_dark_001_uv"
+  }
+}
+Assets {
+  Id: 2250163380546082098
+  Name: "Text 06: 1"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "F8_Text_027"
   }
 }
 Assets {

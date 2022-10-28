@@ -51,6 +51,8 @@ Objects {
   ChildIds: 13020579285436653700
   ChildIds: 1587377449273299583
   ChildIds: 17373999372510765145
+  ChildIds: 7237275281669994143
+  ChildIds: 16821486381905223898
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -63,6 +65,132 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Folder {
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 16821486381905223898
+  Name: "Text 06: 1"
+  Transform {
+    Location {
+      X: 6775.05029
+      Y: -1710.47705
+      Z: 1165.47388
+    }
+    Rotation {
+      Yaw: -90
+    }
+    Scale {
+      X: 1.07551873
+      Y: 1.07551873
+      Z: 1.07551873
+    }
+  }
+  ParentId: 4781671109827199097
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Font.Faces:id"
+      AssetReference {
+        Id: 3702191406046426907
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 2250163380546082098
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 7237275281669994143
+  Name: "Text 06: 9"
+  Transform {
+    Location {
+      X: 6775.05029
+      Y: -1804.8761
+      Z: 1171.69946
+    }
+    Rotation {
+      Yaw: -90
+    }
+    Scale {
+      X: 1.07551873
+      Y: 1.07551873
+      Z: 1.07551873
+    }
+  }
+  ParentId: 4781671109827199097
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Font.Faces:id"
+      AssetReference {
+        Id: 3702191406046426907
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 4419548930729283208
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
@@ -127,7 +255,7 @@ Objects {
   Transform {
     Location {
       X: 7300
-      Y: -1150
+      Y: -1145.12561
       Z: 1300
     }
     Rotation {
@@ -144,7 +272,7 @@ Objects {
       Name: "ma:Font_Sides:color"
       Color {
         R: 0.874000072
-        G: 0.874
+        G: 0.874000072
         A: 1
       }
     }
@@ -190,11 +318,12 @@ Objects {
   Name: "Sign Font 1: J"
   Transform {
     Location {
-      X: 7350
-      Y: -1150
+      X: 7446.69
+      Y: -1099.54285
       Z: 1282.17371
     }
     Rotation {
+      Yaw: 180
     }
     Scale {
       X: 1
@@ -206,6 +335,24 @@ Objects {
   UnregisteredParameters {
     Overrides {
       Name: "ma:Font_Sides:color"
+      Color {
+        R: 1
+        G: 0.904952288
+        B: 0.00200003386
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Font_Faces:color"
+      Color {
+        R: 1
+        G: 0.904952288
+        B: 0.00200003386
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Font_Insides:color"
       Color {
         R: 1
         G: 0.904952288
@@ -3187,7 +3334,7 @@ Objects {
   Transform {
     Location {
       X: -2250.17676
-      Y: -3968.06934
+      Y: -3772.84961
     }
     Rotation {
     }
@@ -74072,6 +74219,25 @@ Objects {
   }
   ParentId: 4781671109827199097
   TemplateInstance {
+    ParameterOverrideMap {
+      key: 7755524131369243127
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -25.0009766
+            Y: 0.0009765625
+            Z: -389.999817
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: -3.05175781e-05
+          }
+        }
+      }
+    }
     ParameterOverrideMap {
       key: 10161332027385195471
       value {

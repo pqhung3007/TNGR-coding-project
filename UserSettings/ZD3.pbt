@@ -21,4 +21,4 @@ ObjectSettings {
     }
   }
 }
-LastSavedScene: "man2-Hung"
+LastSavedScene: "Ending2"
