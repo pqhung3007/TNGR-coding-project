@@ -62,6 +62,15 @@ Assets {
   }
 }
 Assets {
+  Id: 16083030615302796480
+  Name: "Sign Font 1: J"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "CollegeInset_01_Text_009_ref"
+  }
+}
+Assets {
   Id: 15986320784133630650
   Name: "Modern Weapon - Sight 02"
   PlatformAssetType: 1
@@ -251,6 +260,15 @@ Assets {
   }
 }
 Assets {
+  Id: 11388223346588738741
+  Name: "Sign Font 1: S"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "CollegeInset_01_Text_018_ref"
+  }
+}
+Assets {
   Id: 11145422096035986435
   Name: "Metal Iron Rusted 01"
   PlatformAssetType: 2
@@ -374,6 +392,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_weap_modern_gas_cylinder_001"
+  }
+}
+Assets {
+  Id: 6971758480598238825
+  Name: "Text 01: 9"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "F1_Text_035"
   }
 }
 Assets {

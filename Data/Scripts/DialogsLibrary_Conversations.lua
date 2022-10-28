@@ -47,7 +47,15 @@ function Dialogs.RegisterDialogue()
      
      id = "NPC6"
     API.RegisterDialogueId(id)
-    API.AddText(id, "Nghe này")
+    API.AddText(id, "Xin chào chỉ còn 1 màn nữa thôi là bạn đã giành chiến thắng rồi")
+    API.AddText(id, "Giới thiệu với bạn đây là map Dust 2 - map đấu được ưa thích nhất của CS-GO ")
+    API.AddText(id, "Nhiệm vụ của bạn là tìm được cánh cửa dẫn đến ngôi nhà JS")
+    API.AddText(id, "Trên đường đi sẽ có những quái vật tấn công bạn , hãy lấy vũ khí nhưng cẩn thận vì không phải súng nào cũng có đạn.")
+    API.AddText(id, "Sau đây là những gợi ý dành cho bạn")
+    API.AddText(id, "1.Gần ngay trước mắt xa tận chân trời")
+    API.AddText(id, "2.Câu lạc bộ kỹ sư nhật bản")
+    API.AddText(id, "3.Chú ý những con số ")
+    API.AddText(id, "Chúc bạn may mắn ")
     
     id = "NPC7"
     API.RegisterDialogueId(id)

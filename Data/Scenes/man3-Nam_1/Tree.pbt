@@ -25,7 +25,6 @@ Objects {
   ChildIds: 13153405309070367334
   ChildIds: 16281894943743148422
   ChildIds: 5975494323854520937
-  ChildIds: 17157769356519577482
   ChildIds: 2633421043813445477
   ChildIds: 16891183098971448525
   ChildIds: 7132096697904950329
@@ -44,6 +43,14 @@ Objects {
   ChildIds: 11993065202268022835
   ChildIds: 17800337694011017938
   ChildIds: 4486819885478690785
+  ChildIds: 2602594865581464401
+  ChildIds: 8719130730476580135
+  ChildIds: 5062586293010562628
+  ChildIds: 11025619627028322727
+  ChildIds: 12264040985247850235
+  ChildIds: 13020579285436653700
+  ChildIds: 1587377449273299583
+  ChildIds: 17373999372510765145
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -61,6 +68,337 @@ Objects {
     Value: "mc:eproxyrelevance:critical"
   }
   IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 17373999372510765145
+  Name: "CountdownAnimated"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 9078098281749868396
+      value {
+        Overrides {
+          Name: "Name"
+          String: "CountdownAnimated"
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 11391296758927490886
+    }
+  }
+}
+Objects {
+  Id: 1587377449273299583
+  Name: "RespawnAfterDeath - Grizzly Mods"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 2551123420649754446
+      value {
+        Overrides {
+          Name: "Name"
+          String: "RespawnAfterDeath - Grizzly Mods"
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 7574651520800786277
+    }
+  }
+}
+Objects {
+  Id: 13020579285436653700
+  Name: "Sign Font 1: S"
+  Transform {
+    Location {
+      X: 7300
+      Y: -1150
+      Z: 1300
+    }
+    Rotation {
+    }
+    Scale {
+      X: -1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Font_Sides:color"
+      Color {
+        R: 0.874000072
+        G: 0.874
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 11388223346588738741
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 12264040985247850235
+  Name: "Sign Font 1: J"
+  Transform {
+    Location {
+      X: 7350
+      Y: -1150
+      Z: 1282.17371
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Font_Sides:color"
+      Color {
+        R: 1
+        G: 0.904952288
+        B: 0.00200003386
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 16083030615302796480
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 11025619627028322727
+  Name: "Text 01: 9"
+  Transform {
+    Location {
+      X: 7350
+      Y: 550
+      Z: 1200
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Font.Bevel:color"
+      Color {
+        R: 0.818000078
+        G: 0.740095198
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6971758480598238825
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 5062586293010562628
+  Name: "Round Survivor Victory"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 8266501221334044612
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Round Survivor Victory"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 6550
+            Y: 1250
+            Z: 700
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 5023975722728189087
+    }
+  }
+}
+Objects {
+  Id: 8719130730476580135
+  Name: "CountdownAnimated"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 9078098281749868396
+      value {
+        Overrides {
+          Name: "Name"
+          String: "CountdownAnimated"
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 3806246989815664230
+    }
+  }
+}
+Objects {
+  Id: 2602594865581464401
+  Name: "RespawnAfterDeath - Grizzly Mods"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 2551123420649754446
+      value {
+        Overrides {
+          Name: "Name"
+          String: "RespawnAfterDeath - Grizzly Mods"
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 10760623215513638166
+    }
+  }
 }
 Objects {
   Id: 4486819885478690785
@@ -801,6 +1139,32 @@ Objects {
         }
       }
     }
+    ParameterOverrideMap {
+      key: 12008148521164696710
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 800
+            Y: -600
+            Z: -100
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 12891624575461664903
+      value {
+        Overrides {
+          Name: "UIX"
+          Float: 650
+        }
+        Overrides {
+          Name: "UIY"
+          Float: 300
+        }
+      }
+    }
     TemplateAsset {
       Id: 12262797601932170877
     }
@@ -961,224 +1325,6 @@ Objects {
       Id: 9540496414167045528
     }
   }
-}
-Objects {
-  Id: 17157769356519577482
-  Name: "GamePlay"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  ChildIds: 2896327496681884134
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  Folder {
-    IsGroup: true
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  IsReplicationEnabledByDefault: true
-}
-Objects {
-  Id: 2896327496681884134
-  Name: "ServerContext"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 17157769356519577482
-  ChildIds: 7751879831924058581
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  NetworkContext {
-    Type: Server
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  IsReplicationEnabledByDefault: true
-}
-Objects {
-  Id: 7751879831924058581
-  Name: "UI Container"
-  Transform {
-    Location {
-      X: -150
-      Y: 2000
-      Z: 1750
-    }
-    Rotation {
-      Yaw: -70
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 2896327496681884134
-  ChildIds: 17741554585716235544
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  Control {
-    RenderTransformPivot {
-      Anchor {
-        Value: "mc:euianchor:middlecenter"
-      }
-    }
-    Canvas {
-      ContentType {
-        Value: "mc:ecanvascontenttype:dynamic"
-      }
-      Opacity: 1
-      IsHUD: true
-      CanvasWorldSize {
-        X: 1024
-        Y: 1024
-      }
-      RedrawTime: 30
-      UseSafeZoneAdjustment: true
-    }
-    AnchorLayout {
-      SelfAnchor {
-        Anchor {
-          Value: "mc:euianchor:topleft"
-        }
-      }
-      TargetAnchor {
-        Anchor {
-          Value: "mc:euianchor:topleft"
-        }
-      }
-    }
-  }
-  IsReplicationEnabledByDefault: true
-}
-Objects {
-  Id: 17741554585716235544
-  Name: "State Time"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 7751879831924058581
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  Control {
-    Width: 600
-    Height: 150
-    UIX: 1500
-    UIY: 150
-    RenderTransformPivot {
-      Anchor {
-        Value: "mc:euianchor:middlecenter"
-      }
-    }
-    Text {
-      Label: "Time Left :"
-      Color {
-        R: 1
-        G: 1
-        B: 1
-        A: 1
-      }
-      Size: 40
-      Justification {
-        Value: "mc:etextjustify:left"
-      }
-      AutoWrapText: true
-      Font {
-        Id: 841534158063459245
-      }
-      VerticalJustification {
-        Value: "mc:everticaljustification:top"
-      }
-      ShadowColor {
-        A: 1
-      }
-      ShadowOffset {
-      }
-      OutlineColor {
-        A: 1
-      }
-    }
-    AnchorLayout {
-      SelfAnchor {
-        Anchor {
-          Value: "mc:euianchor:topleft"
-        }
-      }
-      TargetAnchor {
-        Anchor {
-          Value: "mc:euianchor:topleft"
-        }
-      }
-    }
-  }
-  IsReplicationEnabledByDefault: true
 }
 Objects {
   Id: 5975494323854520937
