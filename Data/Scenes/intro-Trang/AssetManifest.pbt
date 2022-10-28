@@ -26,6 +26,33 @@ Assets {
   }
 }
 Assets {
+  Id: 17021895185786148007
+  Name: "Urban Bottle Sports Water 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_prop_gen_bottle_009_ref"
+  }
+}
+Assets {
+  Id: 16712897589694930655
+  Name: "Asphalt 01"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_gen_asphault_001"
+  }
+}
+Assets {
+  Id: 16434661043498877519
+  Name: "Curtains Tied"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_curtain_01"
+  }
+}
+Assets {
   Id: 14496299100101296819
   Name: "Craftsman Part - Wall 01"
   PlatformAssetType: 1
@@ -80,6 +107,24 @@ Assets {
   }
 }
 Assets {
+  Id: 6332244346646212931
+  Name: "Urban Bottle Water 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_prop_gen_bottle_011_ref"
+  }
+}
+Assets {
+  Id: 5880459317880926892
+  Name: "Curtains Straight"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_curtain_02"
+  }
+}
+Assets {
   Id: 5549616407826269488
   Name: "Whitebox Floor 01 4m x 4m"
   PlatformAssetType: 1
@@ -95,6 +140,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_urb_sub_craftsman_floor_001_4x4"
+  }
+}
+Assets {
+  Id: 3998592366905403415
+  Name: "Glass 01"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_basic_glass_refrac_001"
   }
 }
 Assets {
